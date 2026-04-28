@@ -1,5 +1,5 @@
 """
-Morning Market Brief — Analysis Engine
+Morning Market Brief — Analysis Engine  --prueba
 ========================================
 Calcula indicadores técnicos y estructura de mercado SMC/ICT.
 """
@@ -58,7 +58,7 @@ def detect_swing_points(df: pd.DataFrame, lookback: int = 5) -> Tuple[List, List
 def detect_market_structure(df: pd.DataFrame, lookback: int = 5) -> Dict:
     """
     Detect BOS (Break of Structure) and CHOCH (Change of Character).
-    
+
     BOS = price breaks a previous swing high (bullish) or swing low (bearish)
           in the DIRECTION of the existing trend.
     CHOCH = price breaks structure in the OPPOSITE direction of the existing trend,
@@ -126,10 +126,10 @@ def detect_market_structure(df: pd.DataFrame, lookback: int = 5) -> Dict:
 def detect_order_blocks(df: pd.DataFrame, lookback: int = 50) -> Dict:
     """
     Detect Order Blocks (OB) — ICT concept.
-    
+
     Bullish OB = last bearish candle before a strong bullish move (impulse up).
     Bearish OB = last bullish candle before a strong bearish move (impulse down).
-    
+
     We look for:
     1. A candle that is opposite to the subsequent impulse
     2. The impulse must be strong (> 1.5x ATR)
@@ -291,7 +291,8 @@ def analyze_asset(name: str, df: pd.DataFrame, is_crypto: bool = False,
     # EMAs
     ema21 = float(calc_ema(close, 21).iloc[-1])
     ema50 = float(calc_ema(close, 50).iloc[-1])
-    ema200 = float(calc_ema(close, 200).iloc[-1]) if len(close) >= 200 else None
+    ema200 = float(
+        calc_ema(close, 200).iloc[-1]) if len(close) >= 200 else None
 
     # RSI
     rsi = float(calc_rsi(close, config.RSI_PERIOD).iloc[-1])
