@@ -1,0 +1,33 @@
+2026-05-10 17:04:49 [INFO] __main__: Log activo: C:\Users\luimo\Projects\morning-brief\logs\morning_brief_2026-05-10.log
+2026-05-10 17:04:49 [INFO] data_fetcher: Recopilando datos del mercado...
+2026-05-10 17:04:49 [INFO] data_fetcher:   → Crypto: BTCUSDT
+2026-05-10 17:04:54 [INFO] data_fetcher:   → Crypto: ETHUSDT
+2026-05-10 17:04:58 [INFO] data_fetcher:   → Index: S&P 500
+2026-05-10 17:05:00 [INFO] data_fetcher:   → Index: NASDAQ
+2026-05-10 17:05:00 [INFO] data_fetcher:   → Index: DOW
+2026-05-10 17:05:01 [INFO] data_fetcher:   → Stock: AAPL
+2026-05-10 17:05:01 [INFO] data_fetcher:   → Stock: MSFT
+2026-05-10 17:05:02 [INFO] data_fetcher:   → Stock: NVDA
+2026-05-10 17:05:02 [INFO] data_fetcher:   → Stock: GOOGL
+2026-05-10 17:05:02 [INFO] data_fetcher:   → Stock: AMZN
+2026-05-10 17:05:03 [INFO] data_fetcher:   → Commodity: GOLD
+2026-05-10 17:05:03 [INFO] data_fetcher:   → Commodity: SILVER
+2026-05-10 17:05:03 [INFO] data_fetcher:   → Commodity: OIL (WTI)
+2026-05-10 17:05:04 [INFO] data_fetcher:   → ETF: SPY
+2026-05-10 17:05:04 [INFO] data_fetcher:   → ETF: QQQ
+2026-05-10 17:05:04 [INFO] data_fetcher:   → ETF: GLD
+2026-05-10 17:05:05 [INFO] data_fetcher:   → ETF: SLV
+2026-05-10 17:05:05 [INFO] data_fetcher:   → ETF: USO
+2026-05-10 17:05:06 [INFO] data_fetcher:   → Macro indicators...
+2026-05-10 17:05:10 [INFO] data_fetcher: Datos recopilados exitosamente.
+2026-05-10 17:05:10 [INFO] market_cache: Datos cacheados en market_data_2026-05-10.pkl
+2026-05-10 17:05:10 [INFO] brief_generator: Generando brief con Claude API...
+2026-05-10 17:06:05 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-10 17:06:05 [INFO] brief_generator: Brief generado. Tokens: in=4671 out=2800 cache_read=0 cache_create=0
+2026-05-10 17:06:10 [INFO] discord_delivery: DISCORD_WEBHOOK_URL no configurado; salto Discord delivery.
+2026-05-10 23:44:23 [INFO] __main__: Log activo: C:\Users\luimo\Projects\morning-brief\logs\morning_brief_2026-05-10.log
+2026-05-10 23:44:23 [INFO] market_cache: Datos cacheados leídos desde market_data_2026-05-10.pkl
+2026-05-10 23:44:24 [INFO] brief_generator: Generando brief con Claude API...
+2026-05-10 23:45:47 [INFO] httpx: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-05-10 23:45:47 [INFO] brief_generator: Brief generado. stop_reason=end_turn Tokens: in=4671 out=4781 cache_read=0 cache_create=0
+2026-05-10 23:45:53 [INFO] discord_delivery: DISCORD_WEBHOOK_URL no configurado; salto Discord delivery.

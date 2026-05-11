@@ -25,6 +25,7 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID")
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "")  # Opcional: newsapi.org free tier
 
 # ── Activos a analizar ──
+# Defaults — sobrescritos por watchlist.yaml si existe.
 CRYPTO_SYMBOLS = ["BTCUSDT", "ETHUSDT"]
 
 STOCK_SYMBOLS = ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN"]  # Top 5 Tech
@@ -49,6 +50,30 @@ ETF_SYMBOLS = {
     "USO": "USO",
 }
 
+ECONOMIC_EVENTS_MANUAL: list = []
+
+# ── Watchlist YAML override ──
+_watchlist_path = BASE_DIR / "watchlist.yaml"
+if _watchlist_path.exists():
+    try:
+        import yaml  # type: ignore
+        with _watchlist_path.open("r", encoding="utf-8") as _f:
+            _wl = yaml.safe_load(_f) or {}
+        if isinstance(_wl.get("crypto"), list):
+            CRYPTO_SYMBOLS = list(_wl["crypto"])
+        if isinstance(_wl.get("stocks"), list):
+            STOCK_SYMBOLS = list(_wl["stocks"])
+        if isinstance(_wl.get("indexes"), dict):
+            INDEX_SYMBOLS = dict(_wl["indexes"])
+        if isinstance(_wl.get("commodities"), dict):
+            COMMODITY_SYMBOLS = dict(_wl["commodities"])
+        if isinstance(_wl.get("etfs"), dict):
+            ETF_SYMBOLS = dict(_wl["etfs"])
+        if isinstance(_wl.get("economic_events"), list):
+            ECONOMIC_EVENTS_MANUAL = list(_wl["economic_events"])
+    except Exception as _e:
+        print(f"[WARN] No pude leer watchlist.yaml ({_e}); usando defaults.")
+
 # ── Configuración de análisis técnico ──
 EMA_PERIODS = [21, 50, 200]
 RSI_PERIOD = 14
@@ -64,4 +89,4 @@ HTML_OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ── Claude API ──
 CLAUDE_MODEL = "claude-sonnet-4-6"
-CLAUDE_MAX_TOKENS = 2800
+CLAUDE_MAX_TOKENS = 8192

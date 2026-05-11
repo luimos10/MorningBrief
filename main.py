@@ -11,6 +11,7 @@ USO:
 import sys
 import time
 import signal
+import logging
 import webbrowser
 import argparse
 from datetime import datetime, timedelta
@@ -22,9 +23,15 @@ from analysis import run_full_analysis
 from brief_generator import generate_brief, markdown_to_plain
 from html_renderer import brief_to_html
 from telegram_delivery import deliver_to_telegram
+from discord_delivery import deliver_to_discord
+from market_cache import collect_with_cache
+from logging_setup import configure_logging
+
+logger = logging.getLogger(__name__)
 
 
-def run_brief(open_browser: bool = True, send_telegram: bool = True) -> None:
+def run_brief(open_browser: bool = True, send_telegram: bool = True,
+              use_cache: bool = True) -> None:
     """Execute the full morning brief pipeline."""
     start_time = time.time()
     now = datetime.now()
@@ -34,9 +41,9 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True) -> None:
     print("=" * 60)
 
     try:
-        # Step 1: Collect data
+        # Step 1: Collect data (cached por día salvo --fresh)
         print("\n[1/4] Recopilando datos del mercado...")
-        market_data = collect_all_data()
+        market_data = collect_with_cache(collect_all_data, use_cache=use_cache)
 
         # Step 2: Run analysis
         print("\n[2/4] Ejecutando análisis técnico...")
@@ -62,6 +69,9 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True) -> None:
         if send_telegram:
             deliver_to_telegram(brief_text, html_path)
 
+        # Send to Discord (no-op if DISCORD_WEBHOOK_URL not set)
+        deliver_to_discord(brief_text, html_path)
+
         # Save plain text backup
         txt_path = config.HTML_OUTPUT_DIR / f"brief_{now.strftime('%Y-%m-%d')}.txt"
         txt_path.write_text(brief_text, encoding="utf-8")
@@ -75,19 +85,18 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True) -> None:
         print(f"{'=' * 60}")
 
     except Exception as e:
+        logger.exception(f"Error en el pipeline: {e}")
         print(f"\n[ERROR] Error en el pipeline: {e}")
-        import traceback
-        traceback.print_exc()
 
 
-def run_test() -> None:
+def run_test(use_cache: bool = True) -> None:
     """Run data collection + analysis without Claude API (for testing)."""
     print("=" * 60)
     print("  🧪 TEST MODE — Solo datos + análisis (sin Claude API)")
     print("=" * 60)
 
     try:
-        market_data = collect_all_data()
+        market_data = collect_with_cache(collect_all_data, use_cache=use_cache)
         analysis = run_full_analysis(market_data)
 
         # Print analysis summary
@@ -120,9 +129,8 @@ def run_test() -> None:
         print(f"\n✅ Test completado. Datos OK para generación del brief.")
 
     except Exception as e:
+        logger.exception(f"Error en run_test: {e}")
         print(f"\n[ERROR] {e}")
-        import traceback
-        traceback.print_exc()
 
 
 def schedule_daily():
@@ -240,19 +248,27 @@ Ejemplos:
     parser.add_argument("--setup", action="store_true", help="Mostrar setup Task Scheduler")
     parser.add_argument("--no-telegram", action="store_true", help="No enviar a Telegram")
     parser.add_argument("--no-browser", action="store_true", help="No abrir browser")
+    parser.add_argument("--fresh", action="store_true",
+                        help="Ignorar caché de datos del día y bajar todo de nuevo")
 
     args = parser.parse_args()
+
+    log_path = configure_logging()
+    logger.info(f"Log activo: {log_path}")
+
+    use_cache = not args.fresh
 
     if args.setup:
         setup_windows_task()
     elif args.test:
-        run_test()
+        run_test(use_cache=use_cache)
     elif args.schedule:
         schedule_daily()
     else:
         run_brief(
             open_browser=not args.no_browser,
             send_telegram=not args.no_telegram,
+            use_cache=use_cache,
         )
 
 

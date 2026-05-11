@@ -1,0 +1,23 @@
+2026-05-11 00:04:02 [INFO] __main__: Log activo: C:\Users\luimo\Projects\morning-brief\logs\morning_brief_2026-05-11.log
+2026-05-11 00:04:02 [INFO] data_fetcher: Recopilando datos del mercado...
+2026-05-11 00:04:02 [INFO] data_fetcher:   → Crypto: BTCUSDT
+2026-05-11 00:04:06 [INFO] data_fetcher:   → Crypto: ETHUSDT
+2026-05-11 00:04:11 [INFO] data_fetcher:   → Index: S&P 500
+2026-05-11 00:04:12 [INFO] data_fetcher:   → Index: NASDAQ
+2026-05-11 00:04:12 [INFO] data_fetcher:   → Index: DOW
+2026-05-11 00:04:12 [INFO] data_fetcher:   → Stock: AAPL
+2026-05-11 00:04:12 [INFO] data_fetcher:   → Stock: MSFT
+2026-05-11 00:04:13 [INFO] data_fetcher:   → Stock: NVDA
+2026-05-11 00:04:13 [INFO] data_fetcher:   → Stock: GOOGL
+2026-05-11 00:04:13 [INFO] data_fetcher:   → Stock: AMZN
+2026-05-11 00:04:14 [INFO] data_fetcher:   → Commodity: GOLD
+2026-05-11 00:04:14 [INFO] data_fetcher:   → Commodity: SILVER
+2026-05-11 00:04:14 [INFO] data_fetcher:   → Commodity: OIL (WTI)
+2026-05-11 00:04:15 [INFO] data_fetcher:   → ETF: SPY
+2026-05-11 00:04:15 [INFO] data_fetcher:   → ETF: QQQ
+2026-05-11 00:04:15 [INFO] data_fetcher:   → ETF: GLD
+2026-05-11 00:04:15 [INFO] data_fetcher:   → ETF: SLV
+2026-05-11 00:04:16 [INFO] data_fetcher:   → ETF: USO
+2026-05-11 00:04:16 [INFO] data_fetcher:   → Macro indicators...
+2026-05-11 00:04:19 [INFO] data_fetcher: Datos recopilados exitosamente.
+2026-05-11 00:04:19 [INFO] market_cache: Datos cacheados en market_data_2026-05-11.pkl

@@ -3,12 +3,16 @@ Morning Market Brief — Brief Generator
 ========================================
 Usa Claude API para generar el brief final profesional.
 """
+import logging
 import re
 from typing import Dict, Any
 
 import anthropic
 
 import config
+from performance_tracker import build_previous_context, summarize_current_prices
+
+logger = logging.getLogger(__name__)
 
 
 def _fmt_price(v: Any) -> str:
@@ -73,6 +77,36 @@ def format_analysis_for_prompt(analysis: Dict) -> str:
                 b = ob["bearish_ob"]
                 out.append(f"  Bear OB: {b['low']}–{b['high']} ({b['time']})")
 
+            fvg = a.get("fvg", {})
+            for f in fvg.get("bullish_fvg", []) or []:
+                state = "mitigado" if f.get("mitigated") else "ACTIVO"
+                out.append(f"  Bull FVG: {f['low']}–{f['high']} ({state})")
+            for f in fvg.get("bearish_fvg", []) or []:
+                state = "mitigado" if f.get("mitigated") else "ACTIVO"
+                out.append(f"  Bear FVG: {f['low']}–{f['high']} ({state})")
+
+            liq = a.get("liquidity", {})
+            if liq.get("equal_highs"):
+                eqh = ", ".join(str(x["level"]) for x in liq["equal_highs"])
+                out.append(f"  EQH (liquidez sell-side): {eqh}")
+            if liq.get("equal_lows"):
+                eql = ", ".join(str(x["level"]) for x in liq["equal_lows"])
+                out.append(f"  EQL (liquidez buy-side): {eql}")
+            for s in liq.get("sweeps", []) or []:
+                out.append(f"  ⚠ Sweep reciente: {s['type']} en {s['level']}")
+
+            ltf = a.get("ltf")
+            if ltf:
+                out.append(f"  LTF (1h): {ltf.get('structure','—')} / {ltf.get('trend','—')}")
+                if ltf.get("events"):
+                    out.append(f"    Eventos LTF: {', '.join(ltf['events'])}")
+                for f in (ltf.get("bullish_fvg") or []):
+                    if not f.get("mitigated"):
+                        out.append(f"    LTF Bull FVG activo: {f['low']}–{f['high']}")
+                for f in (ltf.get("bearish_fvg") or []):
+                    if not f.get("mitigated"):
+                        out.append(f"    LTF Bear FVG activo: {f['low']}–{f['high']}")
+
             if not _is_empty(a.get("funding_rate")):
                 out.append(f"  Funding: {a['funding_rate']} ({a.get('funding_sentiment','')})")
             if not _is_empty(a.get("open_interest")):
@@ -106,6 +140,18 @@ def format_analysis_for_prompt(analysis: Dict) -> str:
             lv = a.get("levels", {})
             if lv.get("support") or lv.get("resistance"):
                 out.append(f"  S/R: {lv.get('support','—')} / {lv.get('resistance','—')}")
+            fvg = a.get("fvg", {})
+            active_bull = [f for f in (fvg.get("bullish_fvg") or []) if not f.get("mitigated")]
+            active_bear = [f for f in (fvg.get("bearish_fvg") or []) if not f.get("mitigated")]
+            if active_bull:
+                f = active_bull[-1]
+                out.append(f"  FVG↑ activo: {f['low']}–{f['high']}")
+            if active_bear:
+                f = active_bear[-1]
+                out.append(f"  FVG↓ activo: {f['low']}–{f['high']}")
+            liq = a.get("liquidity", {})
+            for s in liq.get("sweeps", []) or []:
+                out.append(f"  ⚠ {s['type']} en {s['level']}")
 
     _compact_section("INDEXES", analysis.get("indexes", []))
     _compact_section("TOP 5 TECH", analysis.get("stocks", []))
@@ -171,11 +217,20 @@ ESTRUCTURA DEL BRIEF:
 Para la sección CRYPTO, incluye análisis detallado SMC:
 - Estructura del mercado (BOS/CHOCH detectados)
 - Order Blocks activos (zonas de demanda/oferta)
+- Fair Value Gaps activos (no mitigados) — son targets de magnetismo de precio
+- Equal Highs / Equal Lows como pools de liquidez y SWEEPS recientes (señal SMC clave)
 - CVD divergence si existe
 - Funding rate y su implicación
 - Open Interest y cambios
 - Ratio Long/Short
+- Si hay datos LTF (1h), úsalos para refinar la entrada (no para cambiar el sesgo HTF)
 - Niveles exactos de entrada/invalidación si hay setup
+
+SI EL PROMPT INCLUYE "CONTEXTO DEL BRIEF ANTERIOR":
+- Abre cada activo crypto con una línea breve de SEGUIMIENTO comparando los setups
+  de ayer con el precio de hoy: ¿se activó la entrada? ¿saltó el SL? ¿llegó al target?
+  ¿sigue vigente?
+- Mantén continuidad narrativa: el trader está siguiendo la misma idea día a día.
 
 Para las demás secciones, sé más conciso pero incluye:
 - Tendencia (EMAs)
@@ -188,23 +243,35 @@ def generate_brief(analysis: Dict) -> str:
     Send analysis data to Claude API and generate the professional brief in markdown.
     Returns markdown string (used for both HTML rendering and Telegram/txt delivery).
     """
-    print("[INFO] Generando brief con Claude API...")
+    logger.info("Generando brief con Claude API...")
 
     formatted_data = format_analysis_for_prompt(analysis)
+    previous_context = build_previous_context()
+    current_prices = summarize_current_prices(analysis)
+
+    follow_up_block = ""
+    if previous_context:
+        follow_up_block = f"\n\n{previous_context}\n\n{current_prices}\n"
 
     client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
 
     message = client.messages.create(
         model=config.CLAUDE_MODEL,
         max_tokens=config.CLAUDE_MAX_TOKENS,
-        system=SYSTEM_PROMPT,
+        system=[
+            {
+                "type": "text",
+                "text": SYSTEM_PROMPT,
+                "cache_control": {"type": "ephemeral"},
+            }
+        ],
         messages=[
             {
                 "role": "user",
                 "content": f"""Genera el Morning Market Brief en markdown basado en estos datos de mercado recopilados hoy:
 
 {formatted_data}
-
+{follow_up_block}
 Fecha del brief: {analysis['timestamp']}
 
 Recuerda: sé directo, conciso y accionable. Enfócate en los setups más claros
@@ -215,7 +282,22 @@ en máximo 10 minutos y saber exactamente qué vigilar.""",
     )
 
     brief_md = message.content[0].text
-    print("[OK] Brief generado exitosamente.")
+    stop_reason = getattr(message, "stop_reason", "unknown")
+    if stop_reason == "max_tokens":
+        logger.warning(
+            f"Brief truncado: alcanzó max_tokens={config.CLAUDE_MAX_TOKENS}. "
+            f"Considera subir el cap."
+        )
+    usage = getattr(message, "usage", None)
+    if usage is not None:
+        cache_read = getattr(usage, "cache_read_input_tokens", 0) or 0
+        cache_create = getattr(usage, "cache_creation_input_tokens", 0) or 0
+        logger.info(
+            f"Brief generado. stop_reason={stop_reason} Tokens: in={usage.input_tokens} "
+            f"out={usage.output_tokens} cache_read={cache_read} cache_create={cache_create}"
+        )
+    else:
+        logger.info(f"Brief generado exitosamente. stop_reason={stop_reason}")
     return brief_md
 
 

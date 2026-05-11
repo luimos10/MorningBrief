@@ -1,5 +1,5 @@
 """
-Morning Market Brief — Analysis Engine  --prueba
+Morning Market Brief — Analysis Engine
 ========================================
 Calcula indicadores técnicos y estructura de mercado SMC/ICT.
 """
@@ -189,6 +189,148 @@ def detect_order_blocks(df: pd.DataFrame, lookback: int = 50) -> Dict:
     return {"bullish_ob": bullish_ob, "bearish_ob": bearish_ob}
 
 
+def detect_fvg(df: pd.DataFrame, lookback: int = 50, max_results: int = 3) -> Dict:
+    """
+    Detect Fair Value Gaps (ICT concept) in the most recent candles.
+
+    Bullish FVG: candle[i+1].low > candle[i-1].high (gap exists between them).
+    Bearish FVG: candle[i+1].high < candle[i-1].low.
+
+    A FVG is "mitigated" once price has traded back into the gap range
+    on any later candle. Returns the most recent up to `max_results` of each side.
+    """
+    high_col = "high" if "high" in df.columns else "High"
+    low_col = "low" if "low" in df.columns else "Low"
+
+    recent = df.iloc[-lookback:]
+    if len(recent) < 3:
+        return {"bullish_fvg": [], "bearish_fvg": []}
+
+    highs = recent[high_col].values
+    lows = recent[low_col].values
+    times = recent.index
+
+    bullish: List[Dict] = []
+    bearish: List[Dict] = []
+
+    # i is the middle (impulsive) candle; gap is between i-1 and i+1.
+    for i in range(1, len(recent) - 1):
+        prev_high = highs[i - 1]
+        prev_low = lows[i - 1]
+        next_high = highs[i + 1]
+        next_low = lows[i + 1]
+
+        # Bullish FVG
+        if next_low > prev_high:
+            gap_low = float(prev_high)
+            gap_high = float(next_low)
+            future_lows = lows[i + 2:]
+            mitigated = bool(len(future_lows) and future_lows.min() <= gap_low)
+            bullish.append({
+                "high": round(gap_high, 2),
+                "low": round(gap_low, 2),
+                "time": str(times[i]),
+                "mitigated": mitigated,
+            })
+
+        # Bearish FVG
+        if next_high < prev_low:
+            gap_high = float(prev_low)
+            gap_low = float(next_high)
+            future_highs = highs[i + 2:]
+            mitigated = bool(len(future_highs) and future_highs.max() >= gap_high)
+            bearish.append({
+                "high": round(gap_high, 2),
+                "low": round(gap_low, 2),
+                "time": str(times[i]),
+                "mitigated": mitigated,
+            })
+
+    return {
+        "bullish_fvg": bullish[-max_results:],
+        "bearish_fvg": bearish[-max_results:],
+    }
+
+
+def detect_liquidity_pools(df: pd.DataFrame, swing_lookback: int = 5,
+                           tolerance: float = 0.001, max_results: int = 3) -> Dict:
+    """
+    Detect Equal Highs / Equal Lows (liquidity pools) and recent sweeps.
+
+    EQH/EQL: pairs of swing points within `tolerance` (default 0.1%) of each other.
+    Sweep: a candle whose wick crosses the EQH/EQL level but closes back inside.
+    """
+    high_col = "high" if "high" in df.columns else "High"
+    low_col = "low" if "low" in df.columns else "Low"
+    close_col = "close" if "close" in df.columns else "Close"
+
+    swing_highs, swing_lows = detect_swing_points(df, swing_lookback)
+
+    eq_highs: List[Dict] = []
+    eq_lows: List[Dict] = []
+
+    # Compare each swing against any of the previous N swings, not only its
+    # immediate neighbor — flat zones produce dense neighbor pairs that crowd
+    # out genuine equal levels far apart in time.
+    pairing_window = 8
+
+    for j in range(1, len(swing_highs)):
+        b = swing_highs[j]["price"]
+        for k in range(max(0, j - pairing_window), j):
+            a = swing_highs[k]["price"]
+            if a <= 0:
+                continue
+            if abs(b - a) / a <= tolerance and abs(b - a) > 1e-9:
+                eq_highs.append({
+                    "level": round((a + b) / 2, 2),
+                    "time": str(swing_highs[j]["time"]),
+                })
+                break
+
+    for j in range(1, len(swing_lows)):
+        b = swing_lows[j]["price"]
+        for k in range(max(0, j - pairing_window), j):
+            a = swing_lows[k]["price"]
+            if a <= 0:
+                continue
+            if abs(b - a) / a <= tolerance and abs(b - a) > 1e-9:
+                eq_lows.append({
+                    "level": round((a + b) / 2, 2),
+                    "time": str(swing_lows[j]["time"]),
+                })
+                break
+
+    # Detect sweeps in the last N candles against any EQH/EQL.
+    sweeps: List[Dict] = []
+    sweep_window = df.iloc[-20:]
+    for level_info in eq_highs[-max_results:]:
+        lvl = level_info["level"]
+        for ts, row in sweep_window.iterrows():
+            if row[high_col] > lvl and row[close_col] < lvl:
+                sweeps.append({
+                    "type": "Sell-side sweep",
+                    "level": lvl,
+                    "time": str(ts),
+                })
+                break
+    for level_info in eq_lows[-max_results:]:
+        lvl = level_info["level"]
+        for ts, row in sweep_window.iterrows():
+            if row[low_col] < lvl and row[close_col] > lvl:
+                sweeps.append({
+                    "type": "Buy-side sweep",
+                    "level": lvl,
+                    "time": str(ts),
+                })
+                break
+
+    return {
+        "equal_highs": eq_highs[-max_results:],
+        "equal_lows": eq_lows[-max_results:],
+        "sweeps": sweeps[-max_results:],
+    }
+
+
 def calc_support_resistance(df: pd.DataFrame, n_levels: int = 3) -> Dict:
     """Calculate key support and resistance levels from recent price action."""
     high_col = "high" if "high" in df.columns else "High"
@@ -303,6 +445,12 @@ def analyze_asset(name: str, df: pd.DataFrame, is_crypto: bool = False,
     # Order Blocks
     obs = detect_order_blocks(df)
 
+    # Fair Value Gaps
+    fvg = detect_fvg(df)
+
+    # Liquidity pools (EQH/EQL + sweeps)
+    liquidity = detect_liquidity_pools(df)
+
     # Support / Resistance
     levels = calc_support_resistance(df)
 
@@ -326,9 +474,31 @@ def analyze_asset(name: str, df: pd.DataFrame, is_crypto: bool = False,
         "rsi": round(rsi, 1),
         "structure": structure,
         "order_blocks": obs,
+        "fvg": fvg,
+        "liquidity": liquidity,
         "levels": levels,
         "bias": bias,
     }
+
+    # Multi-timeframe refinement: if a lower-timeframe df is provided
+    # (e.g. 1h klines for a 4h asset), surface its most recent FVG and swings
+    # so the brief can suggest entry refinement.
+    df_ltf = None
+    if extra_data:
+        df_ltf = extra_data.get("df_ltf") or extra_data.get("klines_1h")
+    if isinstance(df_ltf, pd.DataFrame):
+        if not df_ltf.empty and len(df_ltf) >= 10:
+            ltf_struct = detect_market_structure(df_ltf)
+            ltf_fvg = detect_fvg(df_ltf, lookback=40, max_results=2)
+            result["ltf"] = {
+                "structure": ltf_struct.get("structure"),
+                "trend": ltf_struct.get("trend"),
+                "events": ltf_struct.get("events", []),
+                "last_swing_high": ltf_struct.get("last_swing_high"),
+                "last_swing_low": ltf_struct.get("last_swing_low"),
+                "bullish_fvg": ltf_fvg.get("bullish_fvg", []),
+                "bearish_fvg": ltf_fvg.get("bearish_fvg", []),
+            }
 
     # Extra crypto data
     if is_crypto and extra_data:

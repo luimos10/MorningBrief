@@ -1,0 +1,37 @@
+# Morning Brief — Watchlist configurable
+# Edita estos símbolos sin tocar código. Si quitas o añades activos,
+# el siguiente brief los reflejará automáticamente.
+
+crypto:
+  - BTCUSDT
+  - ETHUSDT
+
+stocks:
+  - AAPL
+  - MSFT
+  - NVDA
+  - GOOGL
+  - AMZN
+
+indexes:
+  "S&P 500": "^GSPC"
+  "NASDAQ": "^IXIC"
+  "DOW": "^DJI"
+
+commodities:
+  "GOLD": "GC=F"
+  "SILVER": "SI=F"
+  "OIL (WTI)": "CL=F"
+
+etfs:
+  "SPY": "SPY"
+  "QQQ": "QQQ"
+  "GLD": "GLD"
+  "SLV": "SLV"
+  "USO": "USO"
+
+# Eventos económicos manuales del mes (formato YYYY-MM-DD HH:MM TZ).
+# Útil mientras no hay un fetch automático de calendario económico real.
+economic_events: []
+  # - {date: "2026-05-14 14:00 UTC", title: "FOMC Minutes", importance: 3}
+  # - {date: "2026-05-15 12:30 UTC", title: "US CPI YoY", importance: 3}
