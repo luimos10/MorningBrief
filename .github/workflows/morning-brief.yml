@@ -29,16 +29,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Guard DST: solo continua si en Nueva York son ~9 AM (08:30-09:30 ET).
+      # Guard DST: en cron solo continua si en NY son ~9 AM (08:30-09:30 ET).
+      # En disparo manual (workflow_dispatch) ignora la ventana para poder probar.
       - name: Check NY market window
         id: guard
         run: |
           python - <<'PY'
           import os, datetime
           from zoneinfo import ZoneInfo
+          event = os.environ.get("GITHUB_EVENT_NAME", "")
           now = datetime.datetime.now(ZoneInfo("America/New_York"))
-          ok = (now.hour == 9 and now.minute < 30) or (now.hour == 8 and now.minute >= 30)
-          print(f"Hora ET: {now:%Y-%m-%d %H:%M %Z} -> run={ok}")
+          in_window = (now.hour == 9 and now.minute < 30) or (now.hour == 8 and now.minute >= 30)
+          ok = in_window or event == "workflow_dispatch"
+          print(f"Hora ET: {now:%Y-%m-%d %H:%M %Z} | evento={event} | ventana={in_window} -> run={ok}")
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
               f.write(f"run={'true' if ok else 'false'}\n")
           PY
