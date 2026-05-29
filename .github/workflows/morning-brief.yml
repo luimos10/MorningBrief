@@ -1,0 +1,63 @@
+name: Morning Market Brief
+
+on:
+  schedule:
+    # GitHub cron es UTC. Disparamos 13:00 y 14:00 UTC, Lun-Vie.
+    # El guard descarta el que no corresponda segun DST -> siempre ~9:00 ET.
+    - cron: "0 13 * * 1-5"
+    - cron: "0 14 * * 1-5"
+  workflow_dispatch:        # permite correrlo a mano desde la pestana Actions
+
+concurrency:
+  group: morning-brief
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # para commitear el brief de vuelta
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Guard DST: solo continua si en Nueva York son ~9 AM (08:30-09:30 ET).
+      - name: Check NY market window
+        id: guard
+        run: |
+          python - <<'PY'
+          import os, datetime
+          from zoneinfo import ZoneInfo
+          now = datetime.datetime.now(ZoneInfo("America/New_York"))
+          ok = (now.hour == 9 and now.minute < 30) or (now.hour == 8 and now.minute >= 30)
+          print(f"Hora ET: {now:%Y-%m-%d %H:%M %Z} -> run={ok}")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"run={'true' if ok else 'false'}\n")
+          PY
+
+      - name: Generate & deliver brief
+        if: steps.guard.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+          NEWSAPI_KEY:         ${{ secrets.NEWSAPI_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python main.py --no-browser --fresh
+
+      - name: Commit brief for next-day continuity
+        if: steps.guard.outputs.run == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/brief_*.txt 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "brief: $(date -u +%F) [skip ci]"
+          git push

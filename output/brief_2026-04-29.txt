@@ -1,0 +1,115 @@
+📊 MORNING BRIEF — Miércoles 29 de Abril, 2026
+Hora de generación: 09:00 hrs
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| Fear & Greed | 26 | Miedo — mercado defensivo |
+| VIX | 18.05 | Contenido, sin pánico extremo |
+| DXY | 98.74 (+0.12%) | Leve fortaleza del dólar |
+
+Contexto rápido: El mercado abre en modo risk-off moderado. El F&G en 26 indica que el dinero inteligente sigue cauteloso, pero el VIX bajo 20 sugiere que no hay capitulación inminente. La noticia clave del día: UAE saliendo de la OPEC efectivo 1 de Mayo — esto explica el rally brutal del petróleo (+3.91%) y la debilidad en metales preciosos. OpenAI perdiendo targets de ingresos pesa sobre el sector tech/chips (ver NVDA). Sin eventos Fed programados hoy, el mercado se mueve por flujo y catalizadores sectoriales.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+🟡 BITCOIN (BTC/USDT) — $77,132 | Sesgo: NEUTRO-BAJISTA
+
+Estructura de mercado:
+Estructura mixta en transición. El precio opera en un rango comprimido entre 75,666 y 79,485. La EMA 21 ($77,148) actúa como resistencia dinámica inmediata — el precio está por debajo de la EMA 21 tras el retroceso, lo que es señal de debilidad de corto plazo. EMA 200 en $73,553 es el soporte macro más relevante.
+
+Order Blocks activos:
+• 🔴 Bear OB: $78,400 – $79,485 (formado 27-Apr). Zona de oferta activa. Cualquier expansión hacia este rango es oportunidad de short con confluencia.
+
+Niveles clave:
+• Resistencias: $77,885 → $78,333 → $78,400–$79,485 (Bear OB)
+• Soportes: $76,960 → $75,666 (swing low crítico) → $74,821
+
+CVD & Flujo:
+• ✅ CVD bajista alineado con precio — vendedores reales empujando, no solo liquidaciones
+• Funding -0.0028% → Shorts pagan lightly. Mercado no está sobreextendido en ninguna dirección, pero la presión short sugiere expectativa bajista
+
+OI & Ratio:
+• OI subió +1.17% con precio cayendo → se están abriendo posiciones short nuevas, no cerrando longs. Bearish.
+• L/S ratio: 42.5% Longs / 57.5% Shorts — mayoría short, cuidado con un squeeze si price toca liquidez por encima
+
+⚠ Setup del día — BTC:
+> Short Setup (condicional): Esperar retest del Bear OB en $78,400–$78,662. Entrada en H1 con CHoCH bajista o vela de rechazo. SL por encima de $79,485. Target: $76,960 y $75,666.
+> Invalidación: Cierre 4H por encima de $79,485 → sesgo pasa a neutral/alcista.
+
+────────────────────────────────────────
+🔴 ETHEREUM (ETH/USDT) — $2,317 | Sesgo: BAJISTA
+
+Estructura de mercado:
+Más claro que BTC — LH + LL confirmado en 4H = downtrend activo. Price está atrapado entre EMAs con la 50 ($2,318) actuando como resistencia. RSI en 50.5 desde territorio bajista = rebote técnico, no reversión.
+
+Order Blocks activos:
+• 🔴 Bear OB: $2,309 – $2,325 (27-Apr 08:00). Price está dentro de esta zona ahora mismo — zona de oferta activa en tiempo real.
+
+Niveles clave:
+• Resistencias: $2,309–$2,325 (Bear OB activo) → $2,346 → $2,385 → $2,404 (swing high)
+• Soportes: $2,302 → $2,285 → $2,258 (swing low estructural)
+
+CVD & Flujo:
+• ✅ CVD bajista confirmado — presión vendedora genuina
+• Funding +0.0047% → Longs pagan, mayoría del mercado está long (55%) mientras el precio baja. Esto es combustible para más caída (long squeeze pendiente)
+
+⚠ Setup del día — ETH:
+> Short activo/inminente: Price en Bear OB ahora. Entry posible en rechazo de $2,318–$2,325. SL sobre $2,346. Targets: $2,285 → $2,258.
+> Este es el mejor setup crypto del día — estructura bajista clara, OB activo, funding long crowded, CVD bajista.
+> Invalidación: Cierre 4H sobre $2,346 → estructura en transición.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+⚠️ Nota importante: Los tres índices muestran sesgo alcista por EMAs pero estructura de precio LH+LL (bajista). Esta divergencia indica mercado en distribución — los rebotes son fuertes pero la estructura macro sigue deteriorándose. Operar con precaución.
+
+| Índice | Precio | Sesgo EMA | Estructura | RSI | Soporte Clave | Resistencia Clave |
+|--------|--------|-----------|------------|-----|---------------|-------------------|
+| S&P 500 | $7,139 | 🟢 EMA alcista | 🔴 LH+LL | 66.9 | 7,046 | 7,147 |
+| NASDAQ | $24,664 | 🟢 EMA alcista | 🔴 LH+LL | 68.2 | 23,119 | Sin R clara |
+| DOW | $49,142 | 🟢 EMA alcista | 🟡 Mixta | 61.9 | 49,084 | 49,633 |
+
+Lectura rápida:
+• SPX/NDX: RSI en zona de sobrecompra (66-68) con estructura bajista = momento ideal para distribución. El SPX tiene resistencia inmediata en $7,147 — si no rompe hoy, riesgo de pullback hacia $7,046.
+• DOW: El más sólido de los tres. Estructura mixta (no bajista puro), RSI más moderado. Primer soporte $49,084.
+• Apertura en rojo leve esta mañana. Vigilar si hay BOS bajista en SPX por debajo de $7,046.
+
+────────────────────────────────────────
+4. 💻 TOP TECH STOCKS
+
+⚠️ Sesgo general del sector: Todos muestran EMA alcista pero estructura LH+LL — igual que los índices. RSI elevado en varios (NVDA, GOOGL, AMZN sobre 71-73). El miss de ingresos de OpenAI pesa sobre el sector AI/chips.
+
+| Ticker | Precio | % | RSI | Sesgo | Nivel a Vigilar |
+|--------|--------|---|-----|-------|-----------------|
+| AAPL | $270.71 | +1.16% | 58.3 | 🟢 | Resistencia $275–$276 |
+| MSFT | $429.25 | +1.04% | 65.4 | 🟢 | Resistencia $433.70 |
+| NVDA | $213.17 | -1.59% | 71.0 | 🟡 | Soporte $197.22 crítico |
+| GOOGL | $349.78 | -0.16% | 71.1 | 🟡 | Soporte $331.35 |
+| AMZN | $259.70 | -0.54% | 73.7 | 🟡 | RSI sobrecomprado — cuidado |
+
+Notas accionables:
+• 🔴 NVDA: Cae -1.59% con RSI en 71 — narrativa AI bajo presión (OpenAI miss). Si rompe $197.22 hay espacio hasta $179. No perseguir shorts sin confirmación.
+• 🟢 AAPL/MSFT: Los únicos dos en verde hoy. AAPL tiene resistencia relevante en $275–$276, zona de oferta potencial para scalp short.
+• 🟡 AMZN: RSI 73.7 es el más sobrecomprado del grupo con estructura bajista. Divergencia peligrosa.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🟢 OIL (WTI) — $103.84 | +3.91% — MOVER DEL DÍA
+
+El catalizador es claro: UAE sale de OPEC el 1 de Mayo = reducción percibida en coordinación de producción = precio al alza. EMA 21 en $95.68, el precio está muy por encima. RSI 59.4 — aún tiene recorrido.
+• Soporte: $91.05 (primer pullback significativo si corrige)
+• Resistencia: $117.63 (lejana pero es el próximo nivel estructural)
+• Sesgo: 🟢 Alcista momentum — no perseguir, buscar pullback a $98–$100 si corrige.
+
+🔴 GOLD — $4,568 | -0.52% | Bajista
+
+EMA 21 ($4,715) y EMA 50 ($4,754) muy por encima del precio — estructura claramente rota. RSI 39.5, acercándose a zona de sobreventa pero sin señal de reversión. Estructura mixta sugiere consolidación en zona de $4,400.
+• Soporte inmediato: $4,400 → $4,285
+• Resistencia: $4,789 (EMA zone) — zona de oferta para shorts en rebote
+• Sesgo: 🔴 No comprar el dip todavía. Esperar estructura y señal en zonas de demanda más bajas.
+
+🔴 SILVER — $72.76

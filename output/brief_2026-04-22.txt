@@ -1,0 +1,121 @@
+📊 MORNING BRIEF — Miércoles 22 de Abril, 2026
+09:43 hrs | "Rally en riesgo de sobreextensión — selectividad ante todo"
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.44 (+0.03%) | Dólar débil — favorable para risk assets y commodities |
+| VIX | 19.02 | Volatilidad moderada, mercado no en pánico |
+| Fear & Greed | 32 (Fear) | Sesgo de capitulación aún presente — fuel para el rally |
+
+Contexto narrativo: El mercado rebota con fuerza a pesar de que el F&G indica miedo. Esto es clásico de una recuperación post-sell-off donde el dinero institucional acumula mientras el retail sigue temeroso. El DXY débil (~98) es el catalizador principal del movimiento en metales y crypto.
+
+⚠️ Ruido político: Audiencia de Kevin Warsh (nominado a la Fed por Trump) en el Senado hoy. Cualquier declaración sobre política monetaria puede mover mercados intraday. Cambio de CEO en Apple (John Ternus reemplaza a Cook) añade volatilidad específica al ticker.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+BITCOIN (BTC/USDT) — $78,586 | 🟢 Sesgo: Alcista
+
+Estructura de mercado:
+• EMAs apiladas alcistamente: precio > EMA21 (76,433) > EMA50 (75,369) > EMA200 (72,208) ✅
+• Estructura transitional/mixed — no es tendencia limpia, hay compresión post-swing
+• CHOCH potencial en desarrollo: el mercado está en un rango de consolidación entre ~74,821 y ~78,586
+• RSI en 67 — espacio antes de sobrecompra, sin divergencia bajista aún
+
+Order Blocks & Liquidez:
+• OB Demanda clave: 74,821 – 75,369 (zona del swing low + EMA50) — primer punto de interés para pullback
+• OB Demanda secundario: 73,514 – 73,724 (soporte estructural más profundo)
+• Zona de oferta/resistencia: No hay resistencia clara mapeada arriba — mercado en price discovery relativo → buscar liquidez en highs previos ~80,000
+
+CVD & Derivados:
+• ✅ CVD confirmando alcista — precio y volumen alineados, compras reales detrás del movimiento
+• Funding: 0.0036% (longs pagan, pero es bajo) — no hay apalancamiento excesivo, setup saludable
+• OI: +0.96% → nuevas posiciones abriéndose en la subida (bullish confirmation)
+• L/S Ratio: 38.5% longs vs 61.5% shorts → mayoría short = combustible para squeeze al alza
+
+🎯 Setup BTC:
+• Sesgo del día: Long en pullback
+• Entrada ideal: 75,800 – 76,433 (retesteo EMA21 + OB demanda)
+• Objetivo 1: 78,000 | Objetivo 2: 80,000 (liquidez sobre máximos)
+• Invalidación: Cierre 4H bajo 74,821 (swing low)
+
+────────────────────────────────────────
+ETHEREUM (ETH/USDT) — $2,412 | 🟡 Sesgo: Alcista con precaución
+
+Estructura de mercado:
+• EMAs alcistas: precio > EMA21 (2,344) > EMA50 (2,324) > EMA200 (2,222) ✅
+• Estructura transitional/mixed, compresión similar a BTC
+• CHOCH potencial — rango entre 2,284 y 2,415
+• RSI 66.7 — similar a BTC, pero con una diferencia crítica:
+
+⚠️ ALERTA CVD — Divergencia Bajista:
+• Precio sube a 2,412 pero CVD baja → el movimiento alcista no está siendo confirmado por volumen real
+• Esto sugiere que la subida puede estar siendo empujada por cierre de shorts más que por compras genuinas
+• Funding alto: 0.0100% → longs pagando más que en BTC → apalancamiento largo presente
+
+Order Blocks & Liquidez:
+• OB Demanda primario: 2,284 – 2,302 (confluencia swing low + soporte)
+• OB Demanda secundario: 2,222 (EMA200 — soporte macro)
+• Resistencias activas: 2,415 (techo del rango actual) → 2,464 (siguiente nivel de liquidez)
+
+🎯 Setup ETH:
+• Sesgo del día: Neutral-cauteloso. NO perseguir longs aquí
+• Esperar: Pullback a 2,302 – 2,344 para evaluar long con confirmación de CVD positivo
+• O bien: Si rompe y cierra 4H sobre 2,415 con CVD alcista → long hacia 2,464
+• Invalidación: Cierre bajo 2,284
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+> ⚠️ Nota estructural importante: Los 3 índices muestran LH + LL (estructura de downtrend) en timeframes altos, pero precio cotiza sobre todas las EMAs principales con RSI elevado. Esto es un counter-trend rally — operar con stops ajustados.
+
+| Índice | Precio | RSI | EMA21 | Soporte Clave | Resistencia Clave |
+|--------|--------|-----|-------|---------------|-------------------|
+| S&P 500 | 7,113 | 69.4 🟢 | 6,870 | 6,824 / 6,815 | 7,147 |
+| NASDAQ | 24,452 | 72.1 🟢⚠ | 23,220 | 23,119 / 22,916 | Abierto arriba |
+| DOW JONES | 49,477 | 66.9 🟢 | 48,073 | 49,084 / 48,731 | 49,633 / 49,815 |
+• SPX: RSI en 69.4, acercándose a 70 — vigilar 7,147 como resistencia inmediata. Cierre sobre ese nivel confirmaría continuación.
+• NDX: RSI en 72.1 — sobrecomprado en el corto plazo. No perseguir. Esperar pullback a 23,220 (EMA21) para evaluar.
+• DJI: El más "sano" del grupo en RSI. Zona 49,084 actúa como primer soporte ante cualquier retroceso.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | RSI | Sesgo | Nivel Clave a Vigilar |
+|--------|--------|-----|-------|-----------------------|
+| AAPL | $268.42 | 58.9 | 🟢 | 🔔 CEO cambio → volatilidad. Soporte 266.70, resist. 275.17 |
+| MSFT | $428.50 | 71.6⚠ | 🟢 | RSI sobrecomprado. Resist. 431.58 — break o rechazo decisivo |
+| NVDA | $200.42 | 68.1 | 🟢 | Sin resistencia clara arriba. Soporte en 189.75 (EMA21) |
+| GOOGL | $335.98 | 65.0 | 🟢 | Setup limpio. Nivel clave 340.25 como resistencia próxima |
+| AMZN | $251.30 | 74.8⚠ | 🟢 | RSI más sobrecomprado del grupo. Resistencia 256.18 — tomar con cautela |
+
+Destacados:
+• 🔴 AAPL: Ruido máximo hoy por cambio de CEO. Evitar operar en apertura, esperar que el mercado "digiera" la noticia.
+• 🟢 GOOGL: El setup más limpio del grupo — RSI con espacio, soporte claro en 326, resistencia definida en 340.
+• ⚠️ AMZN + MSFT: RSI en zona de peligro (>71). No son candidatos para nuevos longs sin pullback.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+GOLD — $4,763 (+1.37%) | 🟡 Neutro
+• EMAs mixtas: EMA21 (4,760) ≈ precio, pero EMA50 (4,779) sobre el precio — señal de resistencia dinámica
+• RSI 49.7 — zona neutral, ni sobrecomprado ni sobrevendido
+• Estructura LH + LL — downtrend en marcos altos
+• Soporte: 4,704 / 4,655 | Resistencia inmediata: 4,789 (EMA50) → 4,851
+• Lectura: El +1.37% de hoy choca contra la EMA50 como techo. Si no cierra sobre 4,779, es un rechazo en resistencia dinámica. DXY débil es el soporte del rally.
+
+SILVER — $77.82 (+1.84%) | 🟡 Neutro
+• Precio entre EMA21 (77.04) y EMA50 (77.53) — compresión
+• RSI 51.2 — neutral
+• Soporte: 73.17 | Resistencia: 79.70
+• Seguir al oro para dirección. SLV subiendo +3.16% sugiere flujo especulativo en plata — mayor volatilidad.
+
+OIL (WTI) — $91.77 (-0.39%) | 🟡 Neutro
+• EMA21 (93.85) sobre precio — presión bajista
+• RSI 49 — neutral
+• Estructura mixta — sin tendencia clara
+• Soporte inmediato: 91.05 (¡muy cerca del precio actual!) | Resistencia: 101.67
+• ⚠️ Noticias: Incertidumbre sobre Irán mencionada en titulares → catalizador potencial de gap

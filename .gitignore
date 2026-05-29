@@ -1,5 +1,7 @@
 venv/
-output/
+output/*.html
+cache/
+logs/
 .env
 __pycache__/
 *.pyc

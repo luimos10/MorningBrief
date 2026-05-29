@@ -1,0 +1,126 @@
+📊 MORNING BRIEF — Sábado 18 de Abril, 2026
+Generado: 22:54 UTC | Sesión: Asia en curso / Europa pre-apertura
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.1 (-0.12%) | 🔴 Debilidad USD — tailwind para risk-on y metales |
+| VIX | 17.48 | 🟡 Moderado — mercado sin pánico pero sin euforia |
+| Fear & Greed | 27 (Fear) | ⚠️ Sentimiento aún deprimido — contrarian alcista |
+| Fed Events | Sin eventos hoy | ✅ Sin catalizadores de volatilidad macro programados |
+
+Lectura macro clave: DXY debilitándose con F&G en 27 es una combinación históricamente favorable para activos de riesgo y metales preciosos. El rally de ayer en índices (+1.2% a +1.8%) y el spike de plata (+4%) sugieren reposicionamiento institucional. La noticia de Hormuz impacta petróleo (inverso) y actúa como catalizador para el oro. El contexto macro favorece largos en equities/metales, cautela en oil.
+
+────────────────────────────────────────
+₿ 2. CRYPTO — Análisis SMC Detallado
+
+BTCUSDT — $75,568 🟡
+
+Estructura: Transicional/Mixta — crítica. Precio por debajo de EMA21 ($75,601) pero encima de EMA50 ($74,242). Esto indica indecisión institucional post-rango.
+
+Swings clave:
+• Swing High: $78,333
+• Swing Low: $73,309
+• Precio actual está en el 50% del rango reciente — zona de equilibrio
+
+Order Blocks activos:
+• 🟢 OB Demanda: $73,309–$73,514 — zona de liquidez barrida previamente, alta probabilidad de reacción si se testea
+• 🔴 OB Oferta: $76,038–$78,333 — resistencia estructural donde se espera distribución
+
+FVGs a vigilar:
+• Buscar FVG en 4H entre $73,500–$74,200 como zona de mitigation antes de impulso
+
+Señales de flujo:
+• Funding: -0.0084% → Shorts pagando a longs. Implica pressure de cierre de shorts si precio sube = potencial squeeze hacia $76,038+
+• OI: 97,823 (-0.64%) → OI bajando levemente con precio casi flat = desapalancamiento neutral, no señal de dirección fuerte
+• L/S Ratio: 45.7% / 54.3% → Mayoría corta = combustible para squeeze alcista
+• CVD: ✅ Alcista — precio y CVD alineados = presión compradora real en el tape
+
+⚠️ CHOCH Potencial: Estructura mixta. Para confirmar bullish, necesita BOS sobre $76,038. Fallo en ese nivel = regreso a OB demanda en $73,309–$73,514.
+
+Setup del día:
+• 🎯 Entrada Long: Retroceso a $74,200–$74,500 (mitad de estructura + EMA50 confluencia)
+• Target 1: $76,038 | Target 2: $78,333
+• Invalidación: Cierre 4H por debajo de $73,309
+• Sesgo: 🟡 Neutro con ligero bias alcista por funding/CVD/L-S ratio
+
+────────────────────────────────────────
+ETHUSDT — $2,340 🟡
+
+Estructura: HH + HL confirmado en 4H = Uptrend estructural. Precio bajo EMA21 ($2,358) — pullback dentro de tendencia alcista.
+
+Swings clave:
+• Swing High: $2,464
+• Swing Low: $2,285
+• Precio actual: cerca del 62% del rango — zona de valor
+
+Order Blocks activos:
+• 🟢 OB Demanda Premium: $2,285–$2,302 — zona de máxima reacción alcista
+• 🟢 OB Demanda inmediato: $2,302–$2,313 (confluencia con EMA50)
+• 🔴 OB Oferta: $2,385–$2,415
+
+Señales de flujo:
+• Funding: -0.0104% → Shorts pagando fuertemente. El mercado está posicionado en contra de la tendencia = squeeze risk alto
+• OI: -0.18% → Ligera reducción, no alarma
+• L/S Ratio: 57.6% / 42.4% → ⚠️ Mayoría longa — inusual con precio bajando. Longs aguantando pullback
+• CVD: ✅ Bajista — divergencia con L/S ratio. CVD bajando con más longs = longs atrapados posiblemente
+
+Lectura de conflicto: CVD bajista + mayoría longa = riesgo de flush hacia $2,285–$2,302 antes de reversión. No perseguir longos aquí sin retest del OB.
+
+Setup del día:
+• 🎯 Entrada Long: Testeo de $2,285–$2,302 con absorción (vela hammer/engulfing en 1H)
+• Target 1: $2,385 | Target 2: $2,415
+• Invalidación: Cierre 4H por debajo de $2,285
+• Sesgo: 🟡 Estructura bullish pero esperar flush antes de entrada
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> ⚠️ Nota estructural importante: Los tres índices muestran estructura técnica de LH+LL (Downtrend) en marco macro, pero han tenido rips violentos al alza. Esto sugiere que estamos en Bear Market Rally o en proceso de CHOCH mayor. Los RSIs extendidos (73–75) advierten de posible agotamiento a corto plazo.
+
+| Índice | Precio | Cambio | RSI | Sesgo hoy | Soporte clave | Resistencia |
+|--------|--------|--------|-----|-----------|---------------|-------------|
+| SPX | 7,126 | +1.20% | 73.2 | 🟢 Alcista ST | 6,824 | Sin datos claros |
+| NDX | 24,468 | +1.52% | 74.9 | 🟢 Alcista ST | 23,119 | Sin datos claros |
+| DJI | 49,447 | +1.79% | 68.7 | 🟢 Alcista ST | 49,084 | 49,633 / 49,815 |
+
+Lectura: Rally impulsivo en todos los frentes. EMAs muy por debajo del precio (SPX cotiza 330 pts sobre EMA21). RSI sobre 70 = zona de sobrecompra. No es momento de iniciar nuevos largos agresivos en índices. Vigilar retroceso a EMAs como oportunidad. El DOW tiene resistencia visible en $49,633–$49,815 — zona a monitorear.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel crítico |
+|--------|--------|--------|-----|-------|---------------|
+| AAPL | $270.23 | +2.59% | 64.2 | 🟢 | S: $266.70 / R: $275.17 |
+| MSFT | $422.79 | +0.60% | 71.7 | 🟢 | S: $393.63 / R: $482.64 |
+| NVDA | $201.68 | +1.68% | 71.4 | 🟢 | S: $179.94 / R: N/D |
+| GOOGL | $341.68 | +1.68% | 72.6 | 🟢 | S: $326.31 / R: $348.75 |
+| AMZN | $250.56 | +0.34% | 76.6 | 🟢⚠ | S: $226.88 / R: N/D |
+
+Destacados:
+• AAPL (+2.59%): El momentum más fuerte del día. RSI aún no sobrecomprado. Gap entre precio y EMA21 ($259) es amplio — esperar pullback a $266–$267 para oportunidad.
+• AMZN: RSI 76.6 = zona de agotamiento extremo. Cuidado con posiciones largas nuevas. Potencial setup corto si hay estructura de distribución en 1H.
+• GOOGL: Resistencia inmediata en $348.75 — nivel clave a vigilar para BOS o rechazo.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD — $4,858 🟡
+• RSI 54.7 — Neutro, con espacio para subir
+• Estructura macro LH+LL pero breaking out al alza con noticias de Hormuz
+• S: $4,847 (soporte inmediato, muy cerca del precio) | R: $5,111
+• ⚠️ Soporte débil en $4,847 — si pierde este nivel, siguiente en $4,704
+• Sesgo: Alcista por geopolítica + DXY débil. Vigilar consolidación sobre $4,847 para continuar
+
+SILVER — $81.74 🟢
+• +3.98% — el activo más fuerte del día
+• RSI 58.8 — alcista sin sobrecompra, tiene recorrido
+• S: $79.50 | R: $84.47 → Target siguiente: $89.59
+• Setup: Pullback a $79.50–$80.00 = entrada con excelente R:R hacia $84.47
+
+OIL (WTI) — $83.85 🔴
+• -11.45% — caída masiva y única señal bajista del día
+• RSI 41.9 — bajista, con espacio hacia oversold
+• Estructura mixta — desplome probablemente ligado a contexto Hormuz (paradoja: oro sube, petróleo cae = reducción de tráfico o

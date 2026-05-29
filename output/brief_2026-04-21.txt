@@ -1,0 +1,126 @@
+📊 MORNING BRIEF — Martes 21 de Abril 2026 | 09:00 UTC
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.28 (+0.23%) | Dólar leve fortaleza — presión sobre commodities y crypto |
+| VIX | 18.92 | Volatilidad moderada, no hay pánico pero tampoco complacencia |
+| Fear & Greed | 33 — Fear | Mercado temeroso → posibles oportunidades de compra en retrocesos |
+| Fed / Macro | Sin eventos de alto impacto confirmados hoy | Sesión relativamente limpia |
+
+Lectura rápida: DXY subiendo levemente presiona activos de riesgo. El F&G en 33 (Fear) sugiere que el mercado sigue en modo defensivo tras recientes caídas. VIX en ~19 es manejable — no hay señal de capitulación ni de euforia. Contexto favorable para setups de compra en retrocesos con confluencia SMC.
+
+📰 Noticia relevante: "$33 billion stock market buying spree is now winding down" (MarketWatch) — confirma presión vendedora institucional en equities. Ojo con extensiones largas en índices.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+🟡 BITCOIN (BTC/USDT) — $76,036 | -0.55%
+
+Estructura de mercado:
+• Estructura transitional/mixta en 4H — ni alcista ni bajista confirmado
+• CHOCH potencial en compresión: precio lateral entre $73,724 – $76,240
+• EMAs apiladas alcistas (21 > 50 > 200): $75,641 / $74,832 / $71,821 → precio por encima de todas → bias alcista de fondo
+• RSI 54.5 — territorio neutro-alcista, sin sobrecompra
+
+Niveles clave:
+
+| Tipo | Nivel | Importancia |
+|------|-------|-------------|
+| Resistencia inmediata | $76,038 – $76,240 | Techo del rango actual — zona de oferta |
+| Swing High | $76,240 | BOS alcista si se rompe con cierre 4H |
+| Resistencia mayor | $78,333 | Target si hay expansión alcista |
+| Soporte inmediato | $75,641 (EMA 21) | Primera defensa |
+| OB Demanda | $73,724 – $73,514 | Swing Low + zona de reacción |
+| Invalidación bajista | < $73,309 | Cierre 4H bajo este nivel = CHOCH bajista confirmado |
+
+CVD: ⚠️ Divergencia alcista — precio bajando pero CVD subiendo. Compradores absorbiendo distribución. Señal de acumulación silenciosa.
+
+Funding & OI:
+• Funding -0.0058% → Shorts pagando a longs → mercado sobre-posicionado en corto = combustible para squeeze
+• OI +1.81% con precio lateral → posiciones acumulándose en el rango
+• L/S ratio: 45.1% longs / 54.9% shorts → mayoría corta → setup squeeze alcista latente
+
+🎯 Setup BTC:
+• Escenario primario (alcista): Retroceso a $75,200 – $75,641 (EMA 21 + zona de rebalanceo FVG), buscar rechazo y entrada long con target $76,240 → $78,333
+• Condición de entrada: Vela de rechazo + RSI no rompe 45 + CVD mantiene divergencia
+• Invalidación: Cierre 4H bajo $73,724 (Swing Low)
+• Escenario alternativo: Ruptura de $76,240 con volumen → entrada en pullback al nivel roto → target $78,333
+
+────────────────────────────────────────
+🔴 ETHEREUM (ETH/USDT) — $2,308 | -0.52%
+
+Estructura de mercado:
+• Estructura mixta/transitional — precio por debajo de EMA 21 ($2,322) → señal de debilidad relativa vs BTC
+• CHOCH potencial bajista activo
+• RSI 46 — en zona de debilidad, sin rebote confirmado
+
+Niveles clave:
+
+| Tipo | Nivel | Importancia |
+|------|-------|-------------|
+| Resistencia EMA 21 | $2,322 | Debe recuperar para cambiar sesgo |
+| Resistencia EMA 50 | $2,312 | Confluencia — zona de oferta activa |
+| Resistencia | $2,330 – $2,347 | OB de oferta + estructura previa |
+| Soporte inmediato | $2,302 | Primer soporte |
+| OB Demanda | $2,285 – $2,252 | Zona de interés institucional |
+| Invalidación alcista | < $2,252 | Nuevo LL confirma bajista |
+
+CVD: ✅ Confirmación bajista — precio y CVD alineados a la baja → sin divergencia, presión vendedora real
+
+Funding & OI:
+• Funding -0.0037% → moderado, shorts pagando
+• L/S: 59.2% longs / 40.8% shorts → mayoría larga en un activo bajista → riesgo de liquidaciones long si cae
+• OI prácticamente plano (+0.18%)
+
+⚠️ ETH sesgo: BAJISTA/NEUTRO hoy. No hay setup claro de compra hasta recuperar $2,322 con cierre 4H. Vigilar $2,285 como zona de posible rebote técnico.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+> ⚠️ Nota crítica: Los 3 índices muestran EMAs alcistas pero estructura de precio con LH + LL (Lower Highs + Lower Lows) → divergencia entre EMAs y price action. Máxima cautela en extensiones.
+
+| Índice | Precio | RSI | EMA 21 | Soporte clave | Sesgo |
+|--------|--------|-----|--------|---------------|-------|
+| S&P 500 | $7,109 | 71.6 | 6,824 | $6,824 / $6,789 | 🟡 Precaución |
+| NASDAQ | $24,404 | 73.6 | 22,981 | $23,119 / $22,916 | 🟡 Precaución |
+| DOW JONES | $49,443 | 68.7 | 47,811 | $49,084 / $48,731 | 🟡 Neutro |
+
+Lectura: RSI en zona de sobrecompra (71-73) + estructura de LH+LL = riesgo de corrección latente. El reciente rally llevó precios muy lejos de EMAs (SPX ~4% sobre EMA 21). Cualquier catalizador negativo puede iniciar pullback hacia EMAs. No perseguir longs en índices aquí.
+• SPX: Resistencia crítica en zona actual. Soporte a vigilar: $6,824 (EMA 21)
+• NDX: RSI 73.6 — sobrecomprado. Soporte: $23,119
+• DOW: Más equilibrado, resistencia en $49,633 – $49,815
+
+────────────────────────────────────────
+4. 💻 TOP TECH STOCKS
+
+> Mismo patrón que índices: EMAs alcistas pero estructura de precio bajista (LH+LL). Todos muy extendidos sobre EMAs.
+
+| Stock | Precio | RSI | Sesgo | Nivel crítico | Setup |
+|-------|--------|-----|-------|---------------|-------|
+| AAPL 🟢 | $273.05 (+1.04%) | 66.5 | Alcista | R: $275 – $277 | Único en verde hoy — momentum. Short-term target $275-277, luego evaluar |
+| MSFT 🔴 | $418.07 (-1.12%) | 67.4 | Precaución | S: $393 – $391 | Caída con volumen — OB en $393. Esperar retroceso |
+| NVDA 🟢 | $202.06 (+0.19%) | 71.6 | Alcista | S: $187 – $184 (EMAs) | Sobrecomprado, sin resistencias marcadas — momentum, cuidado con RSI |
+| GOOGL 🔴 | $337.42 (-1.25%) | 68.1 | Precaución | R: $340 / S: $326 | Rechazo en $340 posible — OB de oferta en zona actual |
+| AMZN 🔴 | $248.28 (-0.91%) | 73.1 | Precaución | R: $248.94 | RSI 73 + precio en resistencia $248.94 → riesgo de rechazo |
+
+Top pick tech: AAPL es la más fuerte hoy (+1%). Las demás muestran debilidad intraday.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🟡 GOLD — $4,796 | -0.22%
+• EMAs: $4,769 / $4,783 — precio sobre ambas, pero estructura LH+LL
+• RSI 51.2 — neutro, sin dirección clara
+• Soporte clave: $4,704 → $4,655 (zonas de demanda)
+• Resistencia: $4,851 → target alcista si recupera momentum
+• Sesgo: Consolidación. DXY subiendo presiona. Esperar definición en $4,704 o $4,851
+
+🟡 SILVER — $78.62 | -1.66%
+• Caída fuerte hoy (-1.66%), más débil que Gold → ratio Gold/Silver ampliándose
+• EMAs: $77.17 / $77.60 — precio sobre EMAs pero cayendo hacia ellas
+• Soporte inmediato: $77.17 (EMA 21) — zona crítica
+• Resistencia: $79.70 — techo a recuperar
+• Sesgo: 🔴 Débil intraday. Si pierde $77, buscar $

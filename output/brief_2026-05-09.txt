@@ -1,0 +1,110 @@
+📊 MORNING BRIEF — Sábado 9 de Mayo 2026
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 97.84 | 🔴 -0.42% — Dólar débil, favorable para risk-on y metales |
+| VIX | 17.19 | 🟡 Compresión de volatilidad — mercado relajado |
+| Fear & Greed | 38 | 🔴 Fear — mercado aún nervioso pese al rally |
+| Funding BTC | 0.0036% | 🟡 Longs pagan, pero neutro |
+| Funding ETH | 0.0088% | ⚠️ Longs sobrecargados en ETH |
+
+Lectura macro: DXY debilitándose apoya BTC, oro y equities. VIX en 17 sugiere que el mercado no espera volatilidad inmediata. El Fear & Greed en 38 crea una divergencia interesante: precios subiendo pero el sentimiento sigue siendo miedoso → potencial combustible si se rompen resistencias clave. 
+
+Noticias clave: AAPL-Intel acuerdo de chips (catalizador positivo para AAPL). Alerta sobre gasolina a $5 → presión inflacionaria → ojo con Oil y su impacto en Fed. Trump podría cambiar al comisionado de FDA (ruido político, no accionable hoy).
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN (BTC/USDT) — $80,840
+
+> 📌 SEGUIMIENTO vs. ayer ($80,022): El setup alcista de ayer con entrada en $78,500–$79,000 no se activó — el precio nunca retrocedió hasta esa zona. En cambio, BTC avanzó ~+818$ desde el brief de ayer. Target 1 ($80,353) fue alcanzado y superado. Target 2 ($82,850) sigue vigente. Setup original validado en dirección, aunque la entrada nunca se dio. Ajustamos niveles a la estructura actual.
+
+Estructura HTF (4H): HH + HL confirmado — uptrend intacto. Las EMAs 21/50/200 en $80,441 / $79,863 / $76,707 están en alineación alcista perfecta. Precio por encima de todas. RSI en 56 — no sobrecomprado, tiene recorrido.
+
+Order Blocks:
+• 🟢 Bull OB activo: $81,060–$81,650 (zona de oferta institucional revertida — si rompe, es combustible para $82,850)
+• ⚠️ Este OB está por encima del precio actual → actúa como resistencia inmediata
+
+Fair Value Gaps activos:
+• 🟢 FVG Bull $80,452–$80,487 (ACTIVO — soporte magnético, precio lo está rozando)
+• 🟢 FVG Bull $80,600–$80,840 (ACTIVO — precio dentro del gap, zona de soporte)
+• ➡️ Estos FVGs actúan como imán de soporte — mientras precio los respete, el sesgo es alcista
+
+LTF (1H): BOS Bullish confirmado. FVG 1H activo en $80,600–$80,625 refuerza el soporte inmediato. Estructura intradía alineada con HTF.
+
+Liquidez:
+• 🔴 EQH sell-side (target arriba): $79,479 — YA BARRIDO (sweep completado ayer)
+• 🔴 Liquidez objetivo: $82,850 — siguiente pool de sell-side
+• 🟢 EQL buy-side: $70,485 — muy lejos, no relevante hoy
+
+CVD: ⚠️ Divergencia alcista — precio ligeramente bajando en el tick pero CVD sube. Compradores absorbiendo → señal de acumulación. Bullish.
+
+Funding / OI:
+• Funding 0.0036% — longs pagan pero muy bajo, mercado no sobreextendido
+• OI +0.02% — prácticamente flat, sin señal de exceso
+
+Ratio L/S: 41.9% longs / 58.1% shorts → mayoría posicionada bajista = fuel para squeeze alcista si rompe $81,650
+
+🎯 Setup BTC hoy:
+> Sesgo: 🟢 Alcista
+> Escenario A (continuación): Mantener mientras precio esté sobre $80,600. Ruptura y cierre 4H sobre $81,650 → entrada en pullback al OB → Target: $82,850
+> Escenario B (pullback a FVG): Retroceso a $80,452–$80,600 (FVGs activos) → entrada long desde esa zona | SL: Cierre 4H bajo $79,862 (EMA50) | T1: $81,650 | T2: $82,850
+> Invalidación: Pérdida del swing low $79,181 → estructura rota
+
+────────────────────────────────────────
+ETHEREUM (ETH/USDT) — $2,328
+
+> 📌 SEGUIMIENTO vs. ayer ($2,284): El setup short de ayer tenía entrada en $2,365–$2,390. El precio no llegó a esa zona — ETH subió desde $2,284 hasta $2,328 (+$44). Sin embargo, los sweeps de buy-side en $2,284–$2,285 se confirmaron como suelo temporal. El setup short sigue vigente pero no activado. La zona de entrada $2,365–$2,390 (Bear OB) aún no fue tocada.
+
+Estructura HTF (4H): Mixed / Transitional — CHOCH potencial. Señal de advertencia: estructura no confirmada ni alcista ni bajista. Máxima precaución.
+
+Order Blocks:
+• 🟢 Bull OB: $2,355–$2,379 — resistencia inmediata (precio está $27 debajo)
+• 🔴 Bear OB: $2,369–$2,423 — zona de oferta institucional fuerte
+
+Fair Value Gaps activos:
+• 🟢 FVG Bull $2,318–$2,328 (ACTIVO — precio está justo dentro/encima → soporte)
+• 🟢 FVG Bull 1H $2,317–$2,320 y $2,325–$2,329 — confluencia de soportes LTF
+• 🔴 FVG Bear $2,367–$2,369 (ACTIVO — resistencia arriba)
+
+Liquidez:
+• 🔴 EQH sell-side: $2,346 y $2,423 — targets si rompe al alza
+• 🟢 EQL buy-side ya barrida: $2,265–$2,285 (triple sweep confirmado ayer) → señal de posible reversal alcista desde esos niveles ya consumado
+
+CVD: ✅ Confirmación bajista — precio y CVD alineados a la baja. Esto contradice el bounce. Cautela.
+
+Funding / OI:
+• Funding 0.0088% — longs pagando más que BTC → riesgo de liquidación longs
+• OI -1.85% — OI bajando = desapalancamiento, señal de debilidad
+
+Ratio L/S: 63.6% longs / 36.4% shorts → mercado sobrecargado de longs → riesgo de flush si pierde soportes
+
+🎯 Setup ETH hoy:
+> Sesgo: 🟡 Neutro (sin dirección clara — esperar confirmación)
+> Escenario Bajista (prioridad): Rebote a $2,355–$2,390 (Bull OB + Bear OB + Bear FVG) → entrada short | SL: Cierre 4H sobre $2,424 | T1: $2,285 | T2: $2,265
+> Escenario Alcista: Solo si cierra 4H sobre $2,390 con volumen → busca $2,423
+> No operar en el medio — zona $2,328–$2,355 es tierra de nadie
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+⚠️ Nota importante: RSI de SPX (74.6), NDX (80.0) y QQQ (82.8) están en zona de sobrecompra. La estructura técnica señala downtrend (LH+LL) pero el precio está por encima de EMAs. Divergencia estructura vs. precio → rally puede estar agotándose.
+
+| Índice | Precio | Sesgo | Soporte Clave | Resistencia | FVG Activo |
+|--------|--------|-------|---------------|-------------|------------|
+| S&P 500 | $7,399 | 🟢 Alcista | $7,107 / $7,047 | — | $7,273–$7,321 ✅ superado |
+| NASDAQ | $26,247 | 🟢 Alcista | $24,492 / $23,119 | — | $25,850–$25,944 ✅ superado |
+| DOW | $49,609 | 🟢 Alcista | $49,084 / $48,861 | $49,633 / $49,815 | $49,365–$49,487 ✅ superado |
+
+Lectura: Los tres índices rompieron sus FVGs al alza (señal de momentum). DOW tiene sweep de sell-side en $49,831 reciente — puede haber sido una cacería de liquidez. Vigilar si el DOW rechaza $49,633–$49,815 (zona de resistencia densa). NDX con RSI 80 sugiere extensión sobrecomprada — posible consolidación/corrección inminente. No perseguir longs aquí sin retroceso.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | Sesgo | Nivel Clave | Nota |
+|-------|--------|-------|-------------|------|
+| AAPL | $293.32 | 🟢 +2.05% | Soporte $288–$290 (FVG) | Catalizador acuerdo Intel. RSI 72.9 — extendido |
+| MSFT | $415.12 | 🟡 -1.34% | Soporte $411 / Res.

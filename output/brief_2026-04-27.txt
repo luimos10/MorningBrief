@@ -1,0 +1,114 @@
+📊 MORNING BRIEF — Lunes 27 de Abril 2026
+Generado: 22:51 UTC | Sesión: Asia cerrando / Europa pre-apertura
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.58 (+0.07%) | Dólar débil estructuralmente, rebote técnico menor |
+| VIX | 18.02 | Zona de calma relativa — mercado sin pánico |
+| Fear & Greed | 33 (Fear) | Sentiment negativo, favorece cautela |
+| Fed | Sin movimiento esperado | Transición Powell → Warsh en el radar |
+
+Lectura macro: El mercado vive una dicotomía: índices en RSI extendido (70+) mientras el sentiment sigue en miedo. DXY deprimido históricamente favorece al oro y crypto, pero ambos están mostrando debilidad técnica hoy. La narrativa Powell/Warsh genera incertidumbre de política monetaria — no es el momento de apalancar largo en activos de riesgo sin confirmación.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+BTCUSDT — $76,848 (-0.68%) 🔴
+
+Estructura del mercado:
+• Venía en uptrend (HH + HL) pero ⚠ CHOCH Bearish confirmado — rompió el swing low relevante en $77,140. Esto invalida la estructura alcista de corto plazo en 4H.
+• La estructura ahora apunta a búsqueda de liquidez en zonas inferiores.
+
+Order Blocks activos:
+• 🔴 Bear OB: $78,400 – $79,485 (zona de distribución, formado 27-Abr). Cualquier rechazo aquí es sell.
+• 🟢 Demand zones / Soportes: $74,821 → $73,724 → $73,514 (zona premium de demanda HTF)
+
+Niveles clave:
+
+
+Confluencias SMC:
+• CVD: ✅ Confirmación bajista — precio y CVD alineados a la baja. Sin divergencia, la presión vendedora es real.
+• Funding: -0.0040% — Shorts pagando. Ligeramente contrarian (puede generar squeeze), pero no es extremo, no cambia el sesgo.
+• OI: +0.37% con precio cayendo → apertura de shorts. Confirma momentum bajista.
+• L/S Ratio: 49% / 51% — prácticamente equilibrado, sin exceso de longs que liquidar. El mercado no está "cargado" para un squeeze agresivo.
+
+Sesgo del día: 🔴 BAJISTA — bias short mientras esté bajo $77,885
+
+Setup accionable:
+> SHORT en retesteo del Bear OB: esperar bounce hacia $77,885 – $78,333, buscar rechazo con vela de 1H/4H bajista + CVD divergente. Target: $74,821. Stop: cierre 4H sobre $79,500.
+> ⚠ Si pierde $74,821 directamente sin bounce, siguiente target $73,514.
+
+────────────────────────────────────────
+ETHUSDT — $2,288 (-0.69%) 🔴
+
+Estructura del mercado:
+• Estructura mixta / transicional. CHOCH potencial pero no confirmado — ETH está en compresión/rango entre $2,285 y $2,404.
+• EMAs 21 ($2,321) y 50 ($2,324) prácticamente alineadas y por encima del precio → presión bajista de corto plazo.
+
+Order Blocks activos:
+• 🔴 Bear OB: $2,359 – $2,404 (zona de oferta activa)
+• 🟢 Soporte cluster: $2,284 – $2,285 (triple soporte confluente, zona de interés)
+
+Niveles clave:
+
+
+Confluencias SMC:
+• CVD: ✅ Bajista confirmado — alineado con precio.
+• Funding: -0.0161% (más negativo que BTC) — shorts pagando más, mayor riesgo de squeeze pero tampoco extremo.
+• OI: -0.08% — OI bajando levemente con precio cayendo → cierre de posiciones, no agresividad vendedora nueva.
+• L/S: 66% Longs / 34% Shorts — ⚠ Mayoría longs atrapados. Si rompe el soporte cluster $2,284, liquidación en cascada posible.
+
+Sesgo del día: 🔴 BAJISTA — el cluster $2,284-$2,285 es la línea en la arena.
+
+Setup accionable:
+> Escenario A (Short): Bounce hacia $2,346 – $2,359 con rechazo → short. Target: $2,285. Stop: $2,405.
+> Escenario B (Capitulación): Pérdida del cluster $2,284 con volumen → short agresivo, targets $2,200 y $2,150. Cuidado con los 66% de longs que se van a liquidar — movimiento puede ser rápido.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+⚠ Nota estructural: Los tres índices muestran LH + LL (estructura bajista en macro) pero con EMAs y RSI alcistas en el corto plazo. El precio está por encima de EMAs — rebote dentro de downtrend mayor. RSI extendido sugiere cautela en longs nuevos.
+
+| Índice | Precio | RSI | Sesgo CP | Nivel Soporte Clave | Zona de Riesgo |
+|--------|--------|-----|----------|-------------------|----------------|
+| SPX | 7,174 (+0.12%) | 70.4 | 🟡 Sobreextendido | 6,942 (EMA21) | RSI en zona de reversión |
+| NDX | 24,887 (+0.20%) | 72.9 | 🟡 Sobreextendido | 23,611 (EMA21) | RSI más extendido del grupo |
+| DJI | 49,168 (-0.13%) | 62.3 | 🟢 Alcista moderado | 49,084 | Resistencia: 49,633 – 49,848 |
+
+Lectura: El Dow mostrando debilidad relativa (-0.13%) mientras SPX y NDX aún empujan. Con RSI de NDX en 72.9, cualquier catalizador negativo puede provocar corrección. No perseguir longs en índices aquí — esperar pullback a EMAs si quieres participar al alza.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Stock | Precio | RSI | Sesgo | Nivel Clave | Nota |
+|-------|--------|-----|-------|-------------|------|
+| AAPL | $267.61 (-1.27%) | 55.2 | 🟡 Neutral | Soporte $266.70 | Debilidad, bajo EMAs en estructura bajista macro |
+| MSFT | $424.82 (+0.05%) | 63.6 | 🟢 Alcista | Resistencia $433.70 | Consolidando sobre EMAs, setup bull si rompe $433 |
+| NVDA | $216.61 (+4.00%) | 76.3 | 🟢 🔥 Fuerte | Sin resistencia cercana | RSI sobreextendido — momentum real pero peligroso entrar |
+| GOOGL | $350.34 (+1.72%) | 71.7 | 🟢 Alcista | EMA21 $326 como soporte | Buena fuerza relativa post-earnings presumiblemente |
+| AMZN | $261.12 (-1.09%) | 75.9 | 🟡 Sobreextendido | Soporte $240 (EMA21) | RSI elevado con precio cayendo — atención |
+
+Destacado del día: 🔥 NVDA +4% es el mover principal. Noticias mencionan nuevo price target street-high para INTC — puede haber rotación en semiconductores. AAPL y AMZN mostrando debilidad relativa mientras NDX sube — divergencia a vigilar.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+GOLD — $4,686 (-0.77%) 🔴
+• Bajo EMA21 ($4,744) y EMA50 ($4,769) — ambas como resistencia.
+• RSI 45.6, estructura mixta.
+• Soporte inmediato: $4,655 | Si cede: $4,400 (zona de vacío importante)
+• Resistencia: $4,789 → $4,851
+• Sesgo: 🔴 Bajista de corto plazo. El oro sigue en corrección tras el rally extremo. Buscar bounces para shorts o esperar demanda en $4,655.
+
+SILVER — $74.59 (-2.35%) 🔴
+• Caída mayor que oro — plata mostrando más debilidad relativa (ratio oro/plata expandiéndose).
+• RSI 45.7, LH + LL confirmado.
+• Soporte: $73.17 → $72.79 | Resistencia: $75.87 → $77.45
+• Sesgo: 🔴 Bajista. No tocar largo hasta ver demanda en $72-$73.
+
+OIL WTI — $97.40 (+3.18%) 🟢
+• Fuerte rally intraday +3.18%. Sobre EMA21 ($94.45) y EMA50 ($88.38).
+• RSI 53.9 — tiene rec

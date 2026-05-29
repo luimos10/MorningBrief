@@ -1,0 +1,203 @@
+📊 MORNING BRIEF — Miércoles 20 Mayo 2026
+Generado: 23:23 UTC | Lectura estimada: ~8 min
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| Fear & Greed | 29 | Miedo |
+| VIX | 17.44 | Normalizado, pero alerta |
+| DXY | 99.19 (-0.11%) | Débil → Soporte relativo para crypto/commodities |
+
+⚠ Narrativa del día: FED HAWKISH + YIELDS AL ALZA
+
+El ruido más importante hoy viene de la Fed: múltiples titulares apuntan a posibles subidas de tipos por presión inflacionaria y yields en máximos desde 2007. Esto es contradictorio con el rally de equities — o el mercado no cree en las subidas, o hay squeeze de cortos en curso. Los índices suben +1% mientras bonds se venden. Divergencia peligrosa a monitorear.
+
+NVDA reporta earnings hoy → catalizador directo para NDX/QQQ. Meta anuncia despidos masivos. Ambiente de riesgo elevado con un mercado que aparentemente lo ignora.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟡 BITCOIN — $78,034 (+0.62%)
+
+📌 Seguimiento (vs brief del 19/05): Ayer BTC cerró en $76,694. El nivel de alerta bajista era $76,051 (swing low HTF). No se rompió — precio rebotó y hoy sube +1.4% desde ese cierre. Setup bajista HTF no se activó. La idea larga LTF toma fuerza transitoriamente.
+
+Estructura HTF (4H): LH + LL — Downtrend vigente. El precio cotiza en $78,034, atrapado entre la EMA50 ($78,242) y la EMA21 ($77,492). Zona de compresión.
+
+Estructura LTF (1H): HH + HL → BOS Bullish confirmado. Divergencia estructural HTF vs LTF activa.
+
+Order Blocks & FVGs clave:
+• 🔴 Bear FVG activo $78,530–$79,010 → Primera resistencia. Precio ya casi toca este rango. Alta probabilidad de rechazo aquí.
+• 🔴 Bear FVG activo $79,561–$80,369 → Segunda resistencia si rompe el primero
+• 🟢 LTF Bull FVG $77,559–$77,800 → Soporte inmediato (1H, no mitigado)
+• 🟢 LTF Bull FVG $77,504–$77,525 → Soporte secundario LTF
+
+Liquidez:
+• 🎯 EQH en $79,479 → Pool de liquidez sell-side. Target natural de un sweep antes de reversal bajista HTF
+
+Señales de mercado:
+• ⚠ CVD divergencia bajista: precio sube, CVD baja → distribución silenciosa
+• Funding: +0.0019% (longs pagan, leve — no extremo)
+• OI: -0.51% → OI baja con precio subiendo → señal débil, posible short squeeze parcial
+• L/S: 55.7% longs → mercado cargado de longs
+
+Sesgo del día: 🟡 Neutro con inclinación bajista en HTF
+
+Setup: Esperar sweep de EQH $79,479 con rechazo en Bear FVG $78,530–$79,010 para buscar short hacia $77,640–$77,500. Invalidación: cierre 4H limpio sobre $79,561. Si el precio cae sin llegar al EQH, vigilar defensa del LTF FVG $77,559 como long scalp hacia $78,500.
+
+────────────────────────────────────────
+🟡 ETHEREUM — $2,146 (+0.77%)
+
+📌 Seguimiento (vs brief del 19/05): Ayer el nivel crítico era $2,077 (soporte HTF final antes de $2,000). No tocado — precio rebotó desde zona ~$2,120 y hoy cotiza en $2,146. Setup bajista de cascada no se activó. L/S sigue extremo en longs.
+
+Estructura HTF (4H): LH + LL — Downtrend. EMAs todas bajistas (21: $2,141 / 50: $2,184 / 200: $2,281). Precio apenas sobre EMA21.
+
+Estructura LTF (1H): HH + HL → Bullish (igual que BTC, misma divergencia)
+
+Zonas críticas:
+• 🔴 Bear OB $2,176–$2,193 (formado 17/05) → Resistencia clave inmediata. Precio a solo +1.4% de aquí
+• 🔴 Bear FVG activo $2,196–$2,223 → Confluencia sobre el OB
+• 🔴 Bear FVG activo $2,132–$2,176 → Precio cotiza dentro de este rango actualmente
+• 🟢 LTF Bull FVG $2,130–$2,139 → Soporte LTF
+• 🎯 EQL $2,265–$2,285 → Liquidez buy-side como target de un posible sweep alcista antes de reversal
+
+Señales de mercado:
+• ⚠ CVD divergencia bajista (igual que BTC — sincronizada)
+• Funding: +0.0059% → Más elevado que BTC, longs más cargados
+• L/S: 73.6% longs → ⚠ Extremo. Señal de squeeze bajista potente si bajan los niveles
+• OI: -0.32% (bajando levemente)
+
+Sesgo del día: 🔴 Bajista HTF con rebote LTF temporal
+
+Setup: ETH cotiza dentro de un Bear FVG ($2,132–$2,176) y se acerca al Bear OB ($2,176–$2,193). Short en $2,176–$2,193 con SL sobre $2,198. Target: $2,094 (soporte HTF). El 73.6% de longs atrapados hace este setup especialmente limpio. Invalidación: BOS alcista 4H sobre $2,198.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📌 Seguimiento: Ayer SPX -0.67%, NDX -0.84%, DOW -0.65%. Hoy rebotan todos con fuerza (+1.0% a +1.5%). El sesgo 🟢→🟡 de ayer se revierte. Rally de un día — confirmar si es continuación o trampa.
+
+| Índice | Precio | Sesgo | Resistencia clave | Soporte clave |
+|--------|--------|-------|-------------------|---------------|
+| SPX | $7,433 | 🟢 Alcista | $7,517 / FVG↓ $7,434–7,454 | $7,273–7,321 (FVG↑) |
+| NDX | $26,270 | 🟢 Alcista | $26,707 / FVG↓ $26,310–26,423 | $24,491 |
+| DOW | $50,009 | 🟢 Alcista | $50,130 / $50,512 | $49,307 |
+
+Notas:
+• SPX: Precio ya dentro del Bear FVG $7,434–$7,454. Zona de oferta activa — posible rechazo o pausa aquí
+• NDX: Precio dentro del Bear FVG $26,310–$26,423. Mismo escenario. NVDA earnings son el pivot hoy
+• DOW: ⚠ Sweep de sell-side en $49,831 detectado ayer. Estructura HH+HL es la más limpia de los tres
+• 📊 Estructura macro sigue siendo LH+LL (downtrend) en SPX y NDX — rebotes dentro de tendencia bajista mayor
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | RSI | Sesgo | Nivel a vigilar |
+|--------|--------|-----|-------|-----------------|
+| AAPL | $302.25 | 74.7 | 🟢 Alcista | RSI sobrecomprado. Resistencia $303.2. Cuidado con reversión |
+| MSFT | $421.06 | 56.4 | 🟢 Alcista | FVG↑ $406–412 como pullback sano. Res: $422.72 |
+| NVDA | $223.47 | 61.9 | 🟢 Alcista | 🎯 Earnings hoy. Resistencia $236.54. Gap FVG↑ $208–212 como soporte post-earnings |
+| GOOGL | $388.91 | 62.7 | 🟢 Alcista | Bear FVG↓ $393.86–394.53 como resistencia inmediata |
+| AMZN | $265.01 | 57.7 | 🟢 Alcista | Mejor momentum del grupo (+2.19%). Res: $278.56 |
+
+⚠ NVDA es el activo más importante del día para tech. Un beat → NDX/QQQ continúan. Un miss → posible corrección violenta en todo el sector. Definir posición antes del reporte.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🔴 GOLD — $4,540 (+0.75%)
+Sesgo bajista. EMAs $4,636/$4,693 por encima del precio → presión vendedora. RSI 41.2. Bear FVG activo $4,570–$4,650 como resistencia inmediata. Soportes: $4,512 → $4,400. No buscar longs hasta recuperar $4,570 con volumen.
+
+🟡 SILVER — $75.86 (+1.39%)
+Estructura HH+HL (alcista) pero cotiza bajo ambas EMAs ($78.35/$77.88). Bear FVG $78.06–$84.9 como resistencia mayor. Soporte clave $73.17. Neutralizado por las EMAs — esperar.
+
+🟡 OIL (WTI) — $99.12 (-8.03%) ⚠
+📌 Seguimiento: Ayer ya alertamos -4.5%. Hoy suma -8%. Caída acumulada brutal en 2 días. Verificar catalizador OPEC+/macro urgente. A pesar de la caída, RSI en 49 y cotiza sobre EMA50 ($95.04) — posible soporte. Bear FVG $100.11–$102.65 como primera resistencia al alza. Soporte inmediato $91.05. Movimiento inusual — evitar operar sin claridad del catalizador.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | RSI | Sesgo | Nota |
+|-----|--------|-----|-------|------|
+| SPY | $741.25 | 66.5 | 🟢 Alcista | Bear FVG $741.42–743.56 → precio dentro. Resistencia $749.53 |
+| QQQ | $713.15 | 69.9 | 🟢 Alcista | RSI cerca de sobrecompra. FVG↓ $712.07–714.22 activo. Pivot: NVDA earnings |
+| GLD | $417.40 | 42.4 | 🔴 Bajista | Soporta en $417.04 justo. Bear FVG $420.93–427.1. Frágil |
+| SLV | $68.73 | 46.8 | 🟡 Neutro | Resistencia $68.91 inmediata, luego $69.93 |
+| USO | $144.27 | 55.5 | 🟢 Alcista | ⚠ Contradicción: USO sube en sesgo pero OIL -8%. Revisar divergencia |
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — ETH SHORT ⭐ Setup más limpio del día
+
+Activo: ETHUSDT Perpetual
+Dirección: 🔴 SHORT
+Zona de entrada: $2,176–$2,193 (Bear OB 4H + Bear FVG confluencia)
+Stop Loss: $2,200 (cierre 4H sobre OB)
+Targets: T1: $2,130 | T2: $2,094 | T3: $2,077
+R:R estimado: ~1:3 (T2)
+
+Por qué es el mejor setup:
+• Bear OB 4H intacto + dos Bear FVGs apilados como oferta
+• 73.6% longs atrapados = combustible para squeeze bajista
+• CVD divergencia bajista confirmada
+• HTF estructura LH+LL con rebote LTF llegando a zona de oferta
+• Funding elevado (0.0059%) = longs pagan, presión a sostener posición
+
+────────────────────────────────────────
+🥇 Setup #2 — BTC SHORT / EQH Sweep
+
+Activo: BTCUSDT Perpetual
+Dirección: 🔴 SHORT (tras sweep de liquidez)
+Zona de entrada: $79,400–$79,479 (sweep EQH + rechazo Bear FVG $78,530–79,010)
+Stop Loss: $79,600 (sobre Bear FVG superior)
+Targets: T1: $78,242 (EMA50) | T2: $77,640 | T3: $77,500
+R:R estimado: ~1:2.5 (T2)
+
+Por qué es bueno:
+• EQH como imán de liquidez clásico ICT — precio busca ese pool
+• CVD bajista + OI bajando = distribución
+• 55.7% longs a limpiar en movimiento hacia abajo
+• Divergencia HTF/LTF típica de trampa alcista antes de continuación bajista
+
+────────────────────────────────────────
+🥇 Setup #3 — AMZN LONG (Equities)
+
+Activo: AMZN
+Dirección: 🟢 LONG
+Zona de entrada: Pullback a $256–$261 (EMA21 + FVG↑ $250 como soporte)
+Stop Loss: Cierre bajo $255
+Target: $278.56 (resistencia mayor)
+R:R estimado: ~1:3
+
+Por qué es bueno:
+• Mayor momentum del grupo tech hoy (+2.19%)
+• EMA21 y EMA50 en estructura de soporte escalonada
+• Estructura mixta pero momentum confirma dirección
+• Si NVDA earnings positivo → AMZN se beneficia por correlación sector
+• RSI 57.7 → no sobrecomprado, tiene recorrido
+
+────────────────────────────────────────
+⚠ 8. RIESGOS Y ALERTAS
+
+🔴 NVDA Earnings (hoy) — Catalizador binario. Define la dirección de QQQ/NDX/AAPL para el resto de la semana. Definir exposición tech ANTES del reporte.
+
+🔴 Narrativa Fed Hawkish + Yields máximos 2007 — Si el mercado empieza a creer en subidas de tipos, el rally de hoy en equities puede ser una trampa. Vigilar comportamiento de SPY en Bear FVG $741.42–743.56.
+
+⚠ OIL -8% acumulado en 2 días — Movimiento sin precedente reciente. Puede indicar demanda global debilitándose (señal macro negativa) o decisión OPEC+. Confirmar catalizador. USO mostrando divergencia extraña vs spot.
+
+⚠ CVD divergencia bajista en BTC y ETH simultaneamente — Distribución coordinada. No operar longs crypto sin confirmación de estructura LTF aguantando.
+
+⚠ ETH L/S 73.6% longs — Nivel extremo histórico. Si cualquier news negativa rompe $2,130, el movimiento hacia $2,077–$2,000 puede ser rápido y violento.
+
+🟡 DXY 99.19 — Dólar débil favorece commodities y crypto en teoría, pero la narrativa hawkish de Fed puede revertir esto intradía.
+
+🟡 Meta despidos masivos — Señal de cautela en tech de alto crecimiento. Monitorear si contagia sentimiento al sector.
+
+────────────────────────────────────────
+⏰ Próximos eventos a vigilar: NVDA earnings post-market | Declaraciones Fed | Datos de inflación pendientes
+📌 Recuerda: Los setups crypto son más limpios hoy. Los índices dependen de NVDA. Gestión de riesgo estricta en día de earnings.
+
+────────────────────────────────────────
+Brief generado con datos al 20/05/2026 23:23 UTC. No es asesoramiento financiero.

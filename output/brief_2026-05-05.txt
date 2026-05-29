@@ -1,0 +1,133 @@
+📊 MORNING BRIEF — Martes 05 de Mayo, 2026
+Generado: 23:04 UTC | Sesión: Asia cerrando / Europa abriendo
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.31 (-0.16%) | 🔴 Dólar débil → favorable crypto y commodities |
+| VIX | 17.38 | 🟢 Baja volatilidad, mercado en modo risk-on |
+| Fear & Greed | 46 (Fear) | ⚠️ Sentimiento aún cauteloso pese al rally |
+
+Contexto clave: El mercado opera en una narrativa confusa: índices rompiendo al alza con RSI en sobrecompra, mientras el sentimiento sigue en "miedo". Esto sugiere short-covering y posicionamiento reactivo, no convicción real. La nota más relevante del día es la especulación de mercado sobre una posible subida de tasas de la Fed — si esto gana tracción, puede actuar como catalizador bajista de corto plazo.
+
+⚠️ Alerta Fed: Rumores de hike en el horizonte de 12 meses. No es base case, pero el mercado lo está comenzando a pricear. Mantén gestión de riesgo ajustada.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN (BTC/USDT) — $81,409 (+0.62%)
+🟢 Sesgo del día: ALCISTA con cautela
+
+Estructura de mercado:
+• Tendencia en HH + HL confirmado en 4H → uptrend intacto
+• BOS Bullish reciente: rompió swing high previo, estructura sana
+• Precio por encima de EMA 21 (79,981), EMA 50 (78,796) y EMA 200 (75,232) → alineación alcista completa
+
+Order Blocks activos:
+• 🟢 Bull OB: $78,484 – $79,447 (formado 03-May 20:00 UTC) → zona de demanda primaria, primera defensa en pullback
+
+Niveles clave:
+| Tipo | Nivel |
+|------|-------|
+| Soporte inmediato | $79,199 (swing low) |
+| OB Bullish (demand) | $78,484 – $79,447 |
+| Soporte crítico | $78,202 |
+| Invalidación alcista | Cierre 4H < $78,084 |
+| Target alcista 1 | $83,000–$84,000 (liquidez premium) |
+
+Funding & OI:
+• Funding -0.0092% → shorts pagando a longs. Mercado posicionado corto mientras el precio sube. Fuel para short squeeze.
+• OI bajó -0.55% → posibles liquidaciones de shorts en el rally, no entrada masiva de longs. Movimiento más limpio.
+• L/S Ratio: 34.3% longs / 65.7% shorts → posicionamiento mayoritariamente corto. Liquidez de shorts por encima.
+
+CVD: ✅ Alineado con precio → compradores genuinos defendiendo la subida.
+
+Setup: Pullback al OB $78,484–$79,447 con vela de confirmación (engulfing/pinbar) en 4H = entrada long. SL debajo de $78,084. TP1: $83,000.
+
+────────────────────────────────────────
+ETHEREUM (ETH/USDT) — $2,371 (+0.43%)
+🟡 Sesgo del día: ALCISTA CONDICIONADO
+
+Estructura de mercado:
+• HH + HL en 4H → estructura alcista pero menos momentum que BTC
+• Precio entre EMA 21 (2,350) y resistencia de swings ($2,398–$2,404)
+• RSI 58.5 → espacio hacia arriba, no sobrecomprado
+
+Order Block activo:
+• 🟢 Bull OB: $2,315 – $2,356 → zona de demanda, coincide cerca de EMA 21
+
+Niveles clave:
+| Tipo | Nivel |
+|------|-------|
+| Resistencia cluster | $2,398 – $2,404 |
+| OB Bullish (demand) | $2,315 – $2,356 |
+| Soporte crítico | $2,297 |
+| Invalidación alcista | Cierre 4H < $2,297 |
+| Target si rompe $2,404 | $2,500+ |
+
+Funding & OI:
+• Funding -0.0020% → neutral/ligeramente short
+• OI -0.97% → reducción de posiciones, cautela
+• L/S: 52.3% longs / 47.7% shorts → más equilibrado que BTC, menos squeeze fuel
+
+⚠️ CVD Divergencia bajista: Precio sube pero CVD baja → vendedores absorbiendo el rally en ETH. Señal de alerta. Requiere confirmación antes de entrar long agresivo.
+
+Setup: ETH solo si regresa al OB $2,315–$2,356 Y el CVD revierte alcista. Sin esa confirmación, esperar. Romper $2,404 con volumen = reconsiderar entrada en momentum.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+⚠️ Nota estructural importante: SPX y NDX muestran estructura bajista de largo plazo (LH + LL) a pesar de que el precio cotiza por encima de EMAs y RSI está elevado. Esto indica rally dentro de un downtrend mayor — posible trampa alcista o corrección en proceso de completarse.
+
+| Índice | Precio | RSI | Sesgo | Soporte clave | Nivel a vigilar |
+|--------|--------|-----|-------|---------------|-----------------|
+| S&P 500 | 7,259 (+0.81%) | 70.8 ⚠️ | 🟢 Rally en downtrend | 7,107 | RSI en sobrecompra — risk de reversión |
+| NASDAQ | 25,326 (+1.03%) | 73.8 ⚠️ | 🟢 Rally en downtrend | 24,491 | Sobrecomprado — cuidado con fade |
+| DOW | 49,298 (+0.73%) | 58.5 | 🟢 Estructura mixta | 49,084 | Resistencias en 49,633–49,848 |
+
+Lectura rápida: El rally en índices es real pero con RSI en zona de peligro (NDX 73.8, SPX 70.8). No perseguir longs aquí. Esperar pullback o setup de continuación en soporte. DOW es el más sano estructuralmente con RSI más moderado.
+
+────────────────────────────────────────
+💻 4. TOP TECH STOCKS
+
+| Ticker | Precio | RSI | Sesgo | Niveles clave | Nota |
+|--------|--------|-----|-------|---------------|------|
+| AAPL | $284.18 (+2.66%) | 67.3 | 🟢 Alcista | Soporte: $266.70 | Fuerte impulso, extendido |
+| MSFT | $411.38 (-0.54%) | 52.6 | 🟢 Alcista | R: $413.05 / S: $398 | Lateral, sin convicción — esperar |
+| NVDA | $196.50 (-1.00%) | 50.8 | 🟡 Neutro | S: $179.94 / R: $197.62 | Cotiza bajo EMA 21, sin sesgo claro |
+| GOOGL | $388.43 (+1.35%) | 81.3 ⚠️ | 🟢 Alcista | S: $331.35 | RSI extremo — extendido, riesgo alto |
+| AMZN | $273.55 (+0.55%) | 80.5 ⚠️ | 🟢 Alcista | S: $256.16 | RSI extremo — sin setup válido ahora |
+
+Destacados: AAPL lidera con +2.66%, confirmando posible re-rating. MSFT y NVDA son los más interesantes para setup en pullback. GOOGL y AMZN con RSI >80 → no entrar long ahora, esperar reset.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD — $4,648 (+2.85%)
+🔴 Sesgo: BAJISTA / Estructura mixta
+• Precio debajo de EMA 21 (4,678) y EMA 50 (4,731) → presión bajista en EMAs
+• RSI 47.3 → neutral/bajista
+• A pesar del +2.85% diario, la tendencia de fondo sigue siendo vendedora en las EMAs
+• Soporte: $4,400 | Resistencias clave: $4,789 – $4,851
+• 📌 El rebote de hoy puede ser una visita al OB de oferta en $4,789–$4,851 antes de continuar bajando. Zona a vigilar para posibles shorts.
+
+SILVER — $75.73 (+3.64%)
+🟡 Sesgo: NEUTRO / LH + LL (Downtrend)
+• EMA 21 (75.52) ≈ precio actual → en zona de decisión
+• Resistencia inmediata: $75.87 → romper con cierre = cambio de sesgo
+• Soporte: $73.17 | Target bajista si falla: $72.79
+• El +3.64% es notable pero cotiza en estructura bajista. Requiere romper $75.87 para sesgo alcista.
+
+OIL (WTI) — $100.63 (-5.44%)
+🟢 Sesgo técnico alcista / Pero caída intradía severa
+⚠️ Caída del -5.44% es significativa. Precio en estructura bajista de largo plazo.
+• Resistencia inmediata y crítica: $101.67 – $102.44 (zona a reconquistar)
+• Soporte: $91.05 | Invalidación: $91.05
+• El headline de guerra con Irán (BofA) puede ser catalizador de volatilidad extrema en petróleo. Alta precaución.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+|

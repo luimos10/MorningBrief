@@ -1,0 +1,133 @@
+📊 MORNING BRIEF — Jueves 30 de Abril 2026
+Generado: 09:00 AM | Timeframe base: 4H
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.48 | 🔴 Débil (-0.44%) — tailwind para BTC/Gold |
+| VIX | 17.95 | 🟡 Moderado — risk-on presente pero no euférico |
+| Fear & Greed | 29 | 🔴 Fear — mercado aún defensivo |
+| Sesgo General | Mixto | Equities alcistas, crypto neutral/bajista, metals correctivos |
+
+Notas macro clave:
+• DXY cayendo → favorece activos denominados en USD (commodities, crypto). Monitorear si rompe 98.00
+• VIX en 17.95 → compresión de volatilidad, no hay pánico sistémico. Zona "saludable" para continuación alcista en equities
+• Earnings activos hoy: Seagate, Bloom Energy, Teradyne moviéndose — ruido sectorial posible
+• Gas prices en máximos históricos → presión inflacionaria → Fed vigilante
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN — BTCUSDT | $76,324 (+0.35%)
+Sesgo del día: 🟡 NEUTRAL / Bearish Bias
+
+Estructura de mercado:
+• Estructura 4H confirma LH + LL → Downtrend activo
+• Precio cotiza bajo EMA21 (76,589) y EMA50 (76,753) — ambas actuando como resistencia dinámica
+• EMA200 en 73,634 → soporte macro si hay extensión bajista
+
+Order Blocks activos:
+• 🔴 Bear OB: 76,972 – 77,905 (formado 29-Abr 08:00) → zona de distribución activa. Cualquier rally hacia aquí es oportunidad short
+• Primera resistencia estructural: 76,927 (confluencia con Bear OB inferior)
+
+Niveles clave:
+| Tipo | Nivel | Importancia |
+|------|-------|-------------|
+| Bear OB High | 77,905 | Invalidación short |
+| Bear OB Low | 76,972 | Entrada short zona |
+| Precio actual | 76,324 | — |
+| Soporte 1 | 75,667 | Swing interno |
+| Soporte 2 | 74,938 | Swing Low — Liquidez objetivo |
+| Soporte 3 | 74,822 | FVG/estructura previa |
+
+CVD / Funding / OI:
+• ⚠️ CVD: Divergencia ALCISTA — precio baja pero CVD sube → acumulación silenciosa de contratos largos. Cuidado con short squeeze táctico
+• Funding: -0.0018% → Shorts pagando (leve). Mercado ligeramente sesgado a shorts, lo que alimenta el riesgo de squeeze
+• OI: +0.50% → OI aumentando con precio lateral = posible trampa en preparación
+• L/S: 49.3% / 50.7% → prácticamente equilibrado, sin convicción direccional
+
+L/S Ratio: Retail ligeramente short → liquidez al alza existe en rango 77,905-78,500
+
+Setup accionable BTC:
+> 🎯 Short condicional: Rally al Bear OB 76,972–77,905 con rechazo en 4H (vela bearish engulf o pin bar). Target primario: 75,667. Target secundario: 74,938. Invalidación: cierre 4H sobre 77,905
+>
+> ⚠️ Ojo con CVD divergente — si precio rompe y cierra sobre 77,905 con volumen, el escenario cambia a long hacia 79,500+
+
+────────────────────────────────────────
+ETHEREUM — ETHUSDT | $2,267 (+0.38%)
+Sesgo del día: 🔴 BAJISTA
+
+Estructura de mercado:
+• LH + LL confirmado en 4H — estructura más débil que BTC
+• Precio bajo EMA21 (2,286) y EMA50 (2,303) — doble resistencia dinámica
+• RSI 44.0 → momentum bajista sin sobreventa extrema aún
+
+Order Blocks activos:
+• 🔴 Bear OB: 2,321 – 2,347 → zona de oferta premium. Rally a este rango = distribución probable
+
+Niveles clave:
+| Tipo | Nivel | Importancia |
+|------|-------|-------------|
+| Bear OB | 2,321 – 2,347 | Short zone óptima |
+| Resistencia EMA50 | 2,303 | Confluencia bajista |
+| Precio actual | 2,267 | — |
+| Soporte cluster | 2,252 – 2,266 | Zona de demanda micro |
+| Swing Low | 2,220 | Objetivo bajista principal |
+
+CVD / Funding / OI:
+• ✅ CVD: Confirmación bajista — precio y CVD alineados = distribución genuina
+• Funding: -0.0046% → Shorts pagando más que BTC → posición short más "cara" pero estructura justifica
+• L/S: 63.7% / 36.3% → ALTO porcentaje long — hay combustible para un flush bajista si se pierden soportes
+• OI: +0.14% → estable, no hay expansión agresiva
+
+Setup accionable ETH:
+> 🎯 Short primario: Rechazo desde Bear OB 2,321–2,347 con confirmación 4H. Target: 2,220 (Swing Low — zona de liquidez sell-side). Invalidación: cierre sobre 2,347
+>
+> 📊 El ratio 63.7% longs hace a ETH más vulnerable a liquidaciones en cascada si BTC cae hacia 74,938
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+Lectura rápida:
+
+| Índice | Precio | Sesgo EMA | RSI | Estructura | Nivel clave a vigilar |
+|--------|--------|-----------|-----|------------|----------------------|
+| S&P 500 | 7,136 | 🟢 Alcista | 66.6 | LH+LL (mixto) | Resistencia 7,147 → breakout o rechazo |
+| NASDAQ | 24,673 | 🟢 Alcista | 68.3 | LH+LL (mixto) | Sin resistencia inmediata — momentum fuerte |
+| DOW | 48,862 | 🟢 Alcista | 57.5 | Mixta | Soporte/resistencia twin: 48,862/48,887 |
+
+Notas índices:
+• SPX pegado a resistencia 7,147 — cierre diario sobre este nivel confirma continuación alcista hacia 7,200+. Fallo = pullback a 7,047
+• NDX el más fuerte del trío (RSI 68.3, sin resistencias visibles en data) — liderazgo tech vigente. AMZN y GOOGL tirando del carro
+• DOW rezagado (RSI 57.5 vs NDX 68.3) y operando literal sobre soporte 48,862 — zona de decisión. Pérdida de 48,460 = debilidad relativa
+• ⚠️ Anomalía: Estructura macro muestra LH+LL en los tres índices, pero EMAs y RSI dicen alcista → rebote técnico fuerte dentro de tendencia bajista mayor. No confundir rally con reversión
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | Cambio | RSI | Sesgo | Setup rápido |
+|-------|--------|--------|-----|-------|-------------|
+| AAPL | $270.17 | -0.20% | 57.5 | 🟢 | Pulback sano. Soporte 266.70 → entrada largo si mantiene. Resistencia 275–276 |
+| MSFT | $424.46 | -1.12% | 61.8 | 🟢 | Corrección dentro de alcista. OB potencial 411–408. Resistencia 433.70 = target |
+| NVDA | $209.25 | -1.84% | 65.4 | 🟢 | Corrección en tendencia alcista fuerte. EMA21 en 197.47 = soporte clave a vigilar |
+| GOOGL | $349.94 | +0.05% | 71.2 | 🟢⚠️ | RSI en sobrecompra (71.2) — motor del rally. Cuidado con extensión |
+| AMZN | $263.04 | +1.29% | 75.5 | 🟢⚠️ | RSI 75.5 = zona de sobreextensión. Fuerte pero cercano a agotamiento. No perseguir |
+
+Lectura tech: AMZN y GOOGL liderando pero con RSI extendido. MSFT y NVDA en pull-back sano → mejor R/R en MSFT y NVDA si consolidan sobre EMAs.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD | $4,640 (+2.07%) 🔴
+• Sesgo EMA: Bajista (precio bajo EMA21: 4,706 y EMA50: 4,749)
+• RSI: 45.0 → momentum bajista moderado
+• Rebote de +2.07% HOY pero dentro de estructura bajista → posible dead-cat bounce
+• Resistencia inmediata: 4,706 (EMA21) → si no supera, confirma continuación bajista
+• Soporte: 4,400 → 4,285 → 4,101 (objetivo bajista escalonado)
+• 🔴 Sesgo: Short en rally hacia 4,706–4,749 con rechazo
+
+SILVER | $73.86 (+3.20%) 🔴
+• Sesgo EMA: Bajista (bajo EMA21: 75.75 y EMA50: 76.82)
+• RSI: 45.7 →

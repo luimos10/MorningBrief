@@ -1,0 +1,121 @@
+📊 MORNING BRIEF — Domingo 26 de Abril 2026
+🕙 Generado a las 22:35 | Apertura de semana en foco
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.49 (-0.02%) | Dólar débil → favorable para risk-on y crypto |
+| VIX | 18.71 | Volatilidad controlada, mercado sin pánico |
+| Fear & Greed | 47 — Neutral | Sin euforia, espacio para continuar upside |
+
+Contexto clave:
+• El Senado avanza con Warsh como nominado a Fed (abandona investigación a Powell) → posible señal de política monetaria más hawkish en el horizonte. Vigilar declaraciones esta semana.
+• Costos de jet fuel al alza → presión sobre aerolíneas y ETFs de transporte.
+• Trump Crypto Luncheon: su token sigue cerca de mínimos a pesar del evento. Narrativa crypto institucional mixta.
+• DXY débil + VIX bajo = entorno macro favorable para equity y crypto de corto plazo. No hay catalizador negativo inmediato visible.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+🟠 BTC/USDT — $79,082 (+0.54%)
+
+Estructura de mercado:
+• Tendencia 4H: HH + HL confirmados → Uptrend intacto
+• Precio por encima de EMA 21 ($77,910) y EMA 50 ($77,089) → estructura alcista sana
+• Swing High: $79,472 | Swing Low: $77,140
+• Sesgo del día: 🟢 ALCISTA
+
+Niveles clave:
+
+
+Métricas de mercado:
+| Métrica | Valor | Implicación |
+|---------|-------|-------------|
+| Funding | +0.0002% | Prácticamente neutral → sin sobrecalentamiento |
+| OI | 97,642 (-0.03%) | Estable, sin exceso de apalancamiento |
+| L/S Ratio | 42.5% / 57.5% | Mayoría en shorts → combustible para squeeze alcista |
+| CVD | ✅ Alcista | Precio y presión compradora alineados |
+
+Setup BTC:
+• Escenario preferido: Pullback a zona $77,140–$77,900 (OB + EMA 21) → entrada long con stop bajo $76,960
+• Trigger de continuación: Cierre 4H sobre $79,472 → BOS confirmado, targets $81,000–$82,500
+• Invalidación: Cierre bajo $76,960 → neutralizar longs
+
+> ⚠️ El ratio L/S con mayoría corta es el dato más interesante: si BTC rompe $79,472, hay liquidez de shorts apilada arriba. Short squeeze posible.
+
+────────────────────────────────────────
+🔵 ETH/USDT — $2,393 (+0.98%)
+
+Estructura de mercado:
+• Tendencia 4H: HH + HL → Uptrend, pero con señal de alerta
+• Precio sobre EMA 21 ($2,339) y EMA 50 ($2,331) — margen estrecho sobre ambas
+• Swing High: $2,423.75 | Swing Low: $2,300.55
+• Sesgo del día: 🟡 ALCISTA CON PRECAUCIÓN
+
+Niveles clave:
+
+
+Métricas de mercado:
+| Métrica | Valor | Implicación |
+|---------|-------|-------------|
+| Funding | -0.0066% | Shorts pagando → sesgo del mercado es bajista en derivados |
+| OI | 2,062,089 (-0.81%) | OI bajando mientras precio sube → advertencia |
+| L/S Ratio | 54% / 46% | Mayoría en longs |
+| CVD | ⚠️ Divergencia bajista | Precio sube pero presión vendedora acumula |
+
+Setup ETH:
+• Alerta activa: CVD divergente + OI cayendo = rally posiblemente no sustentado por volumen real
+• Escenario long: Solo si mantiene $2,300 y CVD recupera → entrada conservadora cerca de $2,330–$2,345 (zona EMA 21/50)
+• Escenario corto (contrarian): Fallo en $2,415–$2,424 con vela de rechazo + CVD negativo → short hacia $2,300
+• Invalidación long: Cierre 4H bajo $2,285
+
+> ⚠️ ETH muestra la divergencia más clara del día. No perseguir el precio aquí. Esperar reacción en extremos.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+> ⚠️ Nota estructural importante: Los 3 índices muestran LH + LL en timeframe mayor (downtrend macro) pero cotizan por encima de EMAs con RSI alcista. Esto es un rally dentro de tendencia bajista mayor — operar con precaución en longs de largo plazo.
+
+| Índice | Precio | Sesgo | RSI | Soporte clave | Resistencia |
+|--------|--------|-------|-----|---------------|-------------|
+| S&P 500 | $7,165 (+0.80%) | 🟢 Alcista CT | 70.1 ⚠️ | 6,824 / 6,789 | — (en máximos) |
+| NASDAQ | $24,837 (+1.63%) | 🟢 Alcista CT | 72.5 ⚠️ | 23,119 / 22,916 | — (en máximos) |
+| DOW | $49,231 (-0.16%) | 🟡 Neutral | 63.3 | 49,084 / 48,731 | 49,633 / 49,815 |
+
+Lectura rápida:
+• SPX y NDX con RSI en zona de sobrecompra (70+ y 72.5) en contratendencia → rally puede extenderse pero el riesgo de reversión aumenta
+• DOW mostrando debilidad relativa (-0.16%) mientras NDX sube +1.63% → rotación hacia tech
+• El DOW tiene resistencias definidas en $49,633–$49,848 que serán el primer obstáculo esta semana
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Stock | Precio | Cambio | RSI | Sesgo | Nivel clave a vigilar |
+|-------|--------|--------|-----|-------|----------------------|
+| AAPL | $271.06 | -0.87% | 59.7 | 🟡 Mixto | Soporte $266.70 / Resistencia $275–$277 |
+| MSFT | $424.62 | +2.13% | 63.5 | 🟢 Alcista | Soporte $393 / Espacio limpio hasta $482 |
+| NVDA | $208.27 | +4.32% | 71.5 ⚠️ | 🟢 Alcista | Soporte $192 (EMA21) / RSI sobrecomprado |
+| GOOGL | $344.40 | +1.63% | 69.0 | 🟢 Alcista | Resistencia $348.75 inmediata — crítica |
+| AMZN | $263.99 | +3.49% | 80.4 ⚠️⚠️ | 🟢 Alcista | RSI extremo — sin resistencia visible, cuidado |
+
+Destacados:
+• NVDA +4.32%: El movimiento más fuerte del grupo. RSI 71.5 sugiere posible consolidación corto plazo. Zona EMA21 ($192) es el OB de demanda si retrocede.
+• AMZN RSI 80.4: Señal de sobreextensión significativa. No perseguir. Esperar pullback a zona $238–$240 (EMA21) para setup de continuación.
+• GOOGL: La resistencia de $348.75 es el nivel binario. Ruptura → BOS y nuevos máximos. Rechazo → pullback a $331.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🥇 GOLD — $4,720 (-0.06%)
+• Sesgo: 🔴 Bajista | RSI: 47.5 (zona neutral-bajista)
+• Precio por debajo de EMA21 ($4,747) y EMA50 ($4,770) → estructura de distribución
+• Estructura mixta: sin tendencia clara definida
+• Soporte clave: $4,704 (perder = caída hacia $4,655 y posiblemente $4,400)
+• Resistencia: $4,789 (EMA50) → debe recuperar para cambiar sesgo
+• Setup: Sin trade hasta que precio cierre sobre $4,789 o defienda $4,704 con vela de reversión
+
+🥈 SILVER — $75.26 (-1.46%)
+• Sesgo: 🔴 Bajista | RSI: 46.9 | Estructura: LH + LL
+• Precio bajo EMAs ($76.71 / $77.32) → bearish

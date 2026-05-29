@@ -1,0 +1,134 @@
+📊 MORNING BRIEF — Viernes 1 de Mayo, 2026
+11:40 UTC | Generado para Perpetual Futures / Stocks / Commodities
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Implicación |
+|-----------|-------|-------------|
+| DXY | 97.89 (-0.19%) | Dólar débil → tailwind para BTC, Gold, Risk-on |
+| VIX | 16.68 | Volatilidad controlada, mercado en modo expansión |
+| Fear & Greed | 26 (Fear) | Mercado sube en miedo → fuerza relativa importante |
+| Macro News | Tensión Irán/geopolítica | Oil en máximos de 4 años, bid en metales |
+
+Lectura rápida: DXY en zona de debilidad sostenida, lo cual favorece activos de riesgo y metales. El dato de inflación de ayer fue digerido positivamente. La tensión geopolítica con Irán está siendo el driver principal en Oil y Gold. El Fear & Greed en 26 mientras índices rebotan fuerte es una señal clásica de rally en sentimiento contrario — los shorts están siendo apretados en todo el board.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN (BTC) — $78,719 (+1.62%)
+
+🟢 Sesgo del día: ALCISTA — Setup activo
+
+Estructura de mercado:
+• Venía en downtrend (LH + LL) pero CHOCH Bullish confirmado — rompió el swing high del downtrend en $77,904. Esto es la señal más importante del día en BTC.
+• Precio operando por encima de EMA21 ($76,915), EMA50 ($76,864) y EMA200 ($73,908) — stack bullish completo en 4H.
+• RSI en 66.6 — fuerza, pero sin sobrecompra aún. Tiene recorrido.
+
+Order Blocks activos:
+• 🟢 Bear OB mitigado parcialmente: $76,972–$77,904 (zona de interés si hay pullback)
+• Esta zona es ahora el OB de demanda clave — cualquier retest aquí es el setup de entrada para longs
+
+CVD & Funding:
+• ✅ CVD alcista alineado con precio — no hay divergencia, la compra es real
+• Funding: -0.0018% → los shorts están pagando. Con OI subiendo +1.93%, significa que se están abriendo posiciones nuevas en dirección alcista mientras shorts liquidan. Setup poderoso.
+• L/S: 44%/56% — mayoría sigue short. Squeeze en curso o inminente.
+
+Niveles clave:
+
+| Zona | Precio | Tipo |
+|------|--------|------|
+| 🎯 Soporte inmediato | $77,264–$77,140 | Estructura + EMA21 |
+| 🎯 OB Demanda | $76,972–$77,904 | Bear OB + CHOCH level |
+| 🔴 Resistencia 1 | $79,472–$79,485 | Resistencia clave |
+| ⚠ Invalidación | < $76,960 | Cierre 4H bajo EMA21 |
+
+Setup: Pullback a zona $77,140–$77,264 para long con SL por debajo de $76,960. Target primario $79,472. R/R estimado ~1:3. Si rompe $79,485 con volumen, siguiente movimiento apunta a $81,000+ (liquidez buy-side).
+
+────────────────────────────────────────
+ETHEREUM (ETH) — $2,315 (+1.24%)
+
+🟡 Sesgo del día: ALCISTA CON PRECAUCIÓN
+
+Estructura de mercado:
+• Estructura técnica sigue marcando LH + LL (downtrend) — sin CHOCH confirmado aún, a diferencia de BTC. ETH sigue rezagado.
+• EMAs alcistas apiladas: precio > EMA21 ($2,284) y EMA50 ($2,299) ✅
+• RSI 57 — espacio para subir pero sin la convicción de BTC
+
+Order Blocks:
+• 🔴 Bear OB activo: $2,321–$2,346 — el precio está empujando hacia esta zona ahora mismo. Esta es la zona de decisión.
+• Si el Bear OB rechaza → posible short de scalp hacia $2,285
+• Si lo rompe con cierre 4H limpio → confirma estructura bullish y CHOCH
+
+CVD & Funding:
+• ✅ CVD alineado alcista
+• Funding: -0.0019% — shorts pagando, similar a BTC
+• L/S: 59.2%/40.8% — mayoría LONG, diferente a BTC. Menos squeeze power, más vulnerable a dips.
+
+Niveles clave:
+
+| Zona | Precio | Tipo |
+|------|--------|------|
+| 🔴 Bear OB / Resistencia | $2,321–$2,347 | Zona de decisión CRÍTICA |
+| 🎯 Soporte | $2,285–$2,300 | EMA21 + soporte estructural |
+| 🎯 Target si rompe OB | $2,385 | Siguiente resistencia |
+| ⚠ Invalidación longs | < $2,220 | LL previo |
+
+Setup: Esperar reacción al Bear OB $2,321–$2,346. Si hay rechazo con vela bearish en 1H → scalp short a $2,285. Si cierra 4H por encima de $2,347 → long hacia $2,385+. No perseguir precio aquí.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+🟢 S&P 500 — $7,262 (+0.74%)
+• Por encima de EMA21 ($7,021) y EMA50 ($6,901) — momentum fuerte
+• RSI 72.5 — territorio de sobrecompra, posible consolidación intraday
+• Soporte clave: $7,046. Nivel a vigilar: sin resistencias definidas en data — precio en extensión
+• ⚠ Estructura técnica aún muestra LH+LL en timeframe mayor — este rally es un pullback en tendencia bajista macro. Operar con cautela en posiciones largas overnight.
+
+🟢 NASDAQ — $25,202 (+1.24%)
+• El más fuerte de los tres. Big Tech earnings (AMZN, GOOGL) dando impulso
+• RSI 73.2 — sobrecomprado. Rally real pero cerca de zona de digestión
+• Soporte: $23,119. El nivel que no debe perder para mantener sesgo alcista de corto plazo
+
+🟢 DOW JONES — $49,713 (+0.12%)
+• El más rezagado. RSI 65.6, estructura mixta
+• Resistencia clave: $49,815–$49,848 — está testeando este nivel ahora
+• Soporte: $49,084. Caterpillar (CAT) fue el driver según noticias.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | RSI | Sesgo | Nivel clave a vigilar |
+|--------|--------|-----|-------|-----------------------|
+| AAPL 🟢 | $284.51 (+4.85%) | 69.3 | Fuerte | Soporte pullback: $266–$267 |
+| MSFT 🟢 | $416.37 (+2.11%) | 55.4 | Moderado | Resistencia: $422–$430 — zona de OB |
+| NVDA 🟡 | $199.24 (-0.17%) | 53.8 | Neutro | Resistencia crítica: $216.83 |
+| GOOGL 🔴 | $385.97 (+0.30%) | 82.6 | RSI extremo | RSI en 82.6 — peligro de reversión |
+| AMZN 🟢 | $270.34 (+1.99%) | 79.0 | Fuerte | RSI elevado, soporte: $226–$248 |
+
+Notas rápidas:
+• AAPL +4.85% — movimiento post-earnings masivo. No perseguir, esperar pullback a $266–$267
+• GOOGL & AMZN outperforming Meta en AI según earnings — narrativa alcista para ambas pero RSI extremo en GOOGL (82.6) sugiere consolidación inminente
+• NVDA sin participación hoy — divergencia bajista respecto al sector. Ojo si NDX corrige.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD — $4,649 (+0.75%) 🔴
+• Sesgo bajista en EMAs (precio bajo EMA21 $4,699 y EMA50 $4,744) — rebote dentro de tendencia bajista
+• RSI 45.8 — zona neutra/débil
+• Resistencia inmediata: $4,789 (EMA21). Soporte: $4,400
+• Driver geopolítico (Irán) dando bid pero estructura técnica no acompaña. Cuidado con longs.
+• 📊 Setup: Short oportunista si precio alcanza y rechaza $4,789–$4,851 (OB + EMA resistencia)
+
+SILVER — $76.32 (+3.80%) 🟡
+• Movimiento explosivo hoy. Precio entre EMA21 ($75.77) y EMA50 ($76.78)
+• RSI 50.5 — neutro, tiene recorrido
+• Resistencia key: $77.45, luego $79.70
+• El rebote de +3.8% con RSI no sobrecomprado es setup interesante. Soporte pullback: $73.17–$72.79
+
+OIL (WTI) — $101.78 (-3.13%) ⚠
+• Noticias de guerra Irán llevaron oil a máximos de 4 años pero HOY cae -3.13% — posible fakeout/bull trap o toma de ganancias agresiva
+• RSI 55.8, precio sobre EMAs pero cayendo
+• Resistencia: $102.44 (techo reciente). Soporte: $97.24 (EMA21)
+• ⚠ La divergencia noticia-precio (rally ge

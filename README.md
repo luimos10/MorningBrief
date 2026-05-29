@@ -1,26 +1,42 @@
 # Morning Market Brief
 
-Brief matutino de mercados financieros generado automáticamente con Claude AI. Analiza crypto, índices, acciones, commodities y ETFs usando análisis técnico SMC/ICT (BOS/CHOCH, Order Blocks, **Fair Value Gaps**, **liquidity sweeps**, multi-timeframe), incorpora el contexto del brief del día anterior y entrega el resultado vía Telegram, Discord y HTML.
+Brief matutino de mercados financieros generado automáticamente con Claude AI y **desplegado en la nube con GitHub Actions**. Cada día laborable, antes de la apertura de Wall Street, analiza crypto, índices, acciones, commodities y ETFs con análisis técnico SMC/ICT (BOS/CHOCH, Order Blocks, **Fair Value Gaps**, **liquidity sweeps**, multi-timeframe), incorpora el contexto del brief del día anterior y entrega el resultado vía Telegram, Discord y HTML.
 
 ---
 
-## Qué hace
+## 1. Objetivo
 
-Cada mañana a las 9:00 AM ejecuta un pipeline de 4 pasos:
+Tener cada mañana, **sin encender la computadora ni intervención manual**, un informe profesional de mercados listo en el teléfono (Telegram) antes de que abra la bolsa de Nueva York (9:30 AM ET).
 
-1. **Recopila datos** de múltiples fuentes (Binance 4h+1h, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco
-2. **Calcula indicadores SMC/ICT**: EMAs, RSI, BOS/CHOCH, Order Blocks, FVG (con flag de mitigación), Equal Highs/Lows + sweeps de liquidez, niveles S/R, refinamiento multi-timeframe (1h dentro de 4h)
-3. **Genera el brief** con Claude Sonnet 4.6 — el system prompt va con `cache_control: ephemeral` para reducir coste
-4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local en navegador, y backup `.txt` en disco
+El proyecto resuelve tres cosas:
+
+1. **Análisis técnico automatizado** de calidad institucional (metodología SMC/ICT) sobre ~20 activos.
+2. **Redacción del brief** con Claude, con un tono consistente y continuidad narrativa día a día (cada brief "recuerda" los setups del anterior y les da SEGUIMIENTO).
+3. **Ejecución 100% en la nube**: GitHub Actions lo corre solo, de lunes a viernes, ~9:00 AM ET, sin depender de tu PC.
+
+El único costo es la Claude API (~$0.90/mes). Todas las demás fuentes de datos son gratuitas.
+
+---
+
+## 2. Cómo funciona (el pipeline de 4 pasos)
+
+Cada ejecución corre `main.py`, que orquesta:
+
+1. **Recopila datos** de múltiples fuentes (Binance 4h+1h, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco.
+2. **Calcula indicadores SMC/ICT**: EMAs, RSI, BOS/CHOCH, Order Blocks, FVG (con flag de mitigación), Equal Highs/Lows + sweeps de liquidez, niveles S/R, refinamiento multi-timeframe (1h dentro de 4h).
+3. **Genera el brief** con Claude Sonnet 4.6 — el system prompt va con `cache_control: ephemeral` para reducir coste.
+4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local, y backup `.txt` en disco.
 
 Cada brief incluye una línea de **SEGUIMIENTO** que compara los setups del día anterior con los precios actuales (¿se activó la entrada? ¿saltó el SL? ¿llegó al target?), dando continuidad narrativa día a día.
 
 ---
 
-## Estructura del proyecto
+## 3. Arquitectura del proyecto
 
 ```
 morning-brief/
+├── .github/workflows/
+│   └── morning-brief.yml   # ★ Despliegue en la nube (GitHub Actions)
 ├── main.py                 # Orquestador principal (CLI)
 ├── config.py               # Configuración + carga de watchlist.yaml
 ├── watchlist.yaml          # Símbolos editables sin tocar código
@@ -36,26 +52,23 @@ morning-brief/
 ├── setup_brief.py          # Setup interactivo
 ├── tests/                  # Tests pytest de analysis.py
 ├── requirements.txt
-├── .env                    # API keys (NO commitear)
-├── cache/                  # Cachés diarios de market data (.pkl)
-├── logs/                   # Logs diarios
-└── output/                 # Briefs generados (HTML + TXT)
+├── .env.example            # Plantilla de variables (copiar a .env en local)
+├── cache/                  # Cachés diarios (ignorado por git)
+├── logs/                   # Logs diarios (ignorado por git)
+└── output/                 # Briefs generados — solo los .txt se versionan
 ```
+
+> **Nota git:** `cache/`, `logs/`, `.env` y `output/*.html` están en `.gitignore`. Los `output/brief_*.txt` **sí** se versionan: son livianos y son los que dan continuidad día a día en la nube (ver sección 6).
 
 ---
 
-## Módulos paso a paso
+## 4. Módulos paso a paso
 
-### 1. `config.py` — Configuración central
-Carga variables de entorno desde `.env` y, si existe, sobrescribe los símbolos de activos con `watchlist.yaml`. Define:
-- API keys (Anthropic, Telegram, NewsAPI, opcional Discord)
-- Activos por defecto (cryptos, índices, stocks, commodities, ETFs)
-- Eventos económicos manuales (`ECONOMIC_EVENTS_MANUAL`) cargados del YAML
-- Parámetros técnicos: EMAs (21/50/200), RSI (14), timeframe crypto (4h), lookback (100 días)
-- Modelo Claude, max tokens, hora de ejecución
+### `config.py` — Configuración central
+Carga variables de entorno (desde `.env` en local, o desde el entorno en la nube) y, si existe, sobrescribe los símbolos con `watchlist.yaml`. Define API keys, activos por defecto, parámetros técnicos (EMAs 21/50/200, RSI 14, timeframe crypto 4h, lookback 100 días), modelo Claude (`claude-sonnet-4-6`), max tokens (8192) y hora de ejecución (`BRIEF_HOUR = 9`).
 
-### 2. `watchlist.yaml` — Watchlist configurable
-Editar este archivo para añadir/quitar tickers sin tocar código. Estructura:
+### `watchlist.yaml` — Watchlist configurable
+Editar para añadir/quitar tickers sin tocar código:
 ```yaml
 crypto: [BTCUSDT, ETHUSDT]
 stocks: [AAPL, MSFT, NVDA, GOOGL, AMZN]
@@ -66,138 +79,140 @@ economic_events:
   - {date: "2026-05-14 14:00 UTC", title: "FOMC Minutes", importance: 3}
 ```
 
-### 3. `data_fetcher.py` — Recopilación de datos (con retries)
+### `data_fetcher.py` — Recopilación de datos (con retries)
 
 | Fuente | Datos |
 |---|---|
 | Binance API (pública) | OHLCV 4h **y 1h** para BTC/ETH, funding rate, open interest, long/short ratio |
-| Yahoo Finance (`yfinance`) | OHLCV diario para índices, stocks, commodities y ETFs |
+| Yahoo Finance (`yfinance`) | OHLCV diario para índices, stocks, commodities y ETFs; VIX y DXY |
 | alternative.me | Fear & Greed Index |
 | NewsAPI | Noticias de mercado del día (opcional) |
-| Yahoo Finance | VIX, DXY |
 
-Todas las llamadas HTTP pasan por `_http_get_json()` decorado con **tenacity** (3 intentos, backoff exponencial 1–8s) para sobrevivir a fallos transitorios. El calendario económico combina eventos manuales del YAML del día actual con keywords de NewsAPI.
+Todas las llamadas HTTP pasan por `_http_get_json()` decorado con **tenacity** (3 intentos, backoff exponencial 1–8s). Función principal: `collect_all_data()`.
 
-Función principal: `collect_all_data()` → dict con todos los datos crudos (incluye `klines_1h` para crypto).
+### `analysis.py` — Motor técnico SMC/ICT
+Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH (`detect_market_structure`), Order Blocks, Fair Value Gaps (con flag `mitigated`), liquidity pools + sweeps (EQH/EQL con tolerancia 0.1%), CVD divergence (crypto), niveles S/R, y refinamiento multi-timeframe (1h dentro de 4h). Función principal: `run_full_analysis(market_data)`.
 
-### 4. `analysis.py` — Motor técnico SMC/ICT
-Detectores:
-- **EMAs** (21, 50, 200) → `determine_trend_bias()`
-- **RSI(14)**
-- **Swing points** (`detect_swing_points`)
-- **Estructura de mercado** (`detect_market_structure`): BOS y CHOCH
-- **Order Blocks** (`detect_order_blocks`): zonas de demanda/oferta
-- **Fair Value Gaps** (`detect_fvg`): bullish/bearish con flag `mitigated`
-- **Liquidity pools + sweeps** (`detect_liquidity_pools`): EQH/EQL detectadas con tolerancia 0.1%, sweeps detectados cuando el wick perfora un EQH/EQL pero el cierre vuelve dentro del rango
-- **CVD Divergence** (crypto)
-- **Niveles S/R** (`calc_support_resistance`)
-- **Multi-timeframe**: cuando `extra_data["klines_1h"]` está disponible, `analyze_asset` añade un bloque `ltf` con estructura, eventos y FVGs activos del 1h para refinar entradas
+### `performance_tracker.py` — Continuidad día a día
+- `build_previous_context()`: localiza el brief de ayer en `output/brief_<fecha>.txt`, extrae líneas relevantes (Sesgo, Setup, Entrada, SL, Target, Invalidación) y arma el bloque `=== CONTEXTO DEL BRIEF ANTERIOR ===`.
+- `summarize_current_prices(analysis)`: resumen compacto precio/sesgo/RSI de hoy.
 
-Función principal: `run_full_analysis(market_data)`.
+> Este módulo es la razón por la que versionamos `output/brief_*.txt`: en la nube cada ejecución arranca en una VM limpia, así que el brief de ayer tiene que venir del repositorio (ver sección 6).
 
-### 5. `performance_tracker.py` — Continuidad día a día
-- `build_previous_context()`: localiza el brief de ayer en `output/brief_<fecha>.txt`, extrae líneas relevantes (Sesgo, Setup, Entrada, SL, Target, Invalidación) y construye un bloque `=== CONTEXTO DEL BRIEF ANTERIOR ===` con instrucción para Claude de abrir cada activo con una línea de SEGUIMIENTO
-- `summarize_current_prices(analysis)`: resumen compacto precio/sesgo/RSI de hoy
+### `brief_generator.py` — Generación con Claude
+`format_analysis_for_prompt()` serializa el análisis a texto compacto. `generate_brief()` llama a Claude Sonnet 4.6 con el `SYSTEM_PROMPT` envuelto en `cache_control: {"type": "ephemeral"}` y loguea `cache_read_input_tokens` para medir el ahorro. `markdown_to_plain()` convierte a texto plano para `.txt` y Telegram.
 
-Esto convierte el brief en una serie con memoria, no en piezas sueltas.
+### `html_renderer.py`, `telegram_delivery.py`, `discord_delivery.py` — Entrega
+- HTML: tema oscuro, JetBrains Mono + Inter, tabla de contenidos → `output/brief_YYYY-MM-DD.html`.
+- Telegram: texto en HTML, split a 4096 chars, HTML adjunto como documento.
+- Discord: webhook, split a 1900 chars, adjunto HTML. No-op silencioso si `DISCORD_WEBHOOK_URL` no está.
 
-### 6. `brief_generator.py` — Generación con Claude
-- `format_analysis_for_prompt(analysis)`: serializa el análisis a texto compacto. Para crypto incluye OB, FVG (activos vs mitigados), EQH/EQL, sweeps, bloque LTF (1h). Para los demás surface el FVG activo más reciente y sweeps relevantes.
-- `generate_brief(analysis)`: llama a Claude Sonnet 4.6 con el `SYSTEM_PROMPT` envuelto en `cache_control: {"type": "ephemeral"}`. Loguea `cache_read_input_tokens` / `cache_creation_input_tokens` para medir el ahorro.
-- `markdown_to_plain(md)`: convierte el markdown a texto plano para `.txt` y Telegram.
+### `market_cache.py`, `logging_setup.py`, `tests/`
+- Caché diario del dict de `collect_all_data()` en `cache/market_data_<fecha>.pkl` (bypass con `--fresh`).
+- Logging a `logs/morning_brief_<fecha>.log` + stdout en UTF-8.
+- 10 tests pytest sobre los detectores SMC/ICT (`pytest tests/`).
 
-Estructura del brief generado:
-1. Panorama Macro (DXY, VIX, Fear & Greed, eventos económicos)
-2. Crypto (BTC y ETH — análisis SMC detallado, incluye seguimiento del brief anterior)
-3. Índices, 4. Top 5 Tech, 5. Commodities & Metals, 6. ETFs
-7. Watchlist del día (top 3 setups), 8. Riesgos y alertas
-
-### 7. `html_renderer.py` — Renderizado HTML
-Markdown → HTML con JetBrains Mono + Inter, tema oscuro, tabla de contenidos. Guardado en `output/brief_YYYY-MM-DD.html`.
-
-### 8. `telegram_delivery.py` y `discord_delivery.py` — Entrega
-- **Telegram**: texto formateado en HTML (`<b>`, `<i>`, `<code>`), split a chunks de 4096 chars, HTML adjunto como documento.
-- **Discord**: webhook con split a 1900 chars y adjunto HTML. No-op silencioso si `DISCORD_WEBHOOK_URL` no está configurado.
-
-### 9. `market_cache.py` — Caché diario
-Persiste el dict completo de `collect_all_data()` en `cache/market_data_<YYYY-MM-DD>.pkl`. Permite re-ejecutar el brief el mismo día sin volver a pegar a las APIs (debug, regeneración tras un fix). Bypass con `--fresh`.
-
-### 10. `logging_setup.py` — Logging estructurado
-Configura logging a archivo `logs/morning_brief_<fecha>.log` y stdout (forzando UTF-8 para evitar el `UnicodeEncodeError cp1252` típico de Windows). Sustituye los `print` previos.
-
-### 11. `tests/test_analysis.py` — Tests pytest
-10 tests sobre los detectores críticos (EMAs, RSI, swing points, market structure, order blocks, FVG activo y mitigado, liquidity pools + sweeps, trend bias). `pytest tests/` debe pasar antes de cualquier cambio en `analysis.py`.
-
-### 12. `main.py` — Orquestador
+### `main.py` — Orquestador (CLI)
 ```
 python main.py              → Ejecuta el brief ahora (con caché del día si existe)
 python main.py --fresh      → Ignora la caché y baja todo de las APIs
-python main.py --schedule   → Scheduler interno (polling cada 30s hasta las 9:00)
+python main.py --schedule   → Scheduler interno por polling (uso local)
 python main.py --test       → Solo datos + análisis, sin llamar a Claude
-python main.py --setup      → Muestra comando para Windows Task Scheduler
 python main.py --no-telegram
-python main.py --no-browser
+python main.py --no-browser → No abre el navegador (obligatorio en la nube)
 ```
 
 ---
 
-## Instalación
+## 5. Instalación y uso en local
 
 ```bash
 git clone <repo>
 cd morning-brief
 python -m venv venv
-venv\Scripts\activate       # Windows
-# source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate          # Windows
+# source venv/bin/activate     # Mac/Linux
 
 pip install -r requirements.txt
 
-copy .env.example .env
+copy .env.example .env         # Windows  (cp en Mac/Linux)
 # Editar .env con tus API keys
 
-python main.py --test       # Probar sin Claude API
-python main.py              # Ejecutar brief completo
-pytest tests/               # Verificar detectores SMC/ICT
+python main.py --test          # Probar sin gastar Claude API
+python main.py                 # Ejecutar brief completo
+pytest tests/                  # Verificar detectores SMC/ICT
 ```
 
----
-
-## Variables de entorno
+### Variables de entorno
 
 | Variable | Descripción | Requerido |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | Claude API key (console.anthropic.com) | Sí |
-| `TELEGRAM_BOT_TOKEN` | Token del bot de Telegram (@BotFather) | Recomendado |
-| `TELEGRAM_CHAT_ID` | ID del chat donde entregar el brief | Recomendado |
-| `DISCORD_WEBHOOK_URL` | Webhook de canal Discord (Server Settings → Integrations) | No |
-| `NEWSAPI_KEY` | Noticias del día (newsapi.org — free tier) | No |
+| `TELEGRAM_BOT_TOKEN` | Token del bot (@BotFather) | Recomendado |
+| `TELEGRAM_CHAT_ID` | Chat donde entregar el brief | Recomendado |
+| `DISCORD_WEBHOOK_URL` | Webhook de canal Discord | No |
+| `NEWSAPI_KEY` | Noticias del día (newsapi.org free tier) | No |
+
+En local estas variables viven en `.env` (que **nunca** se commitea). En la nube se configuran como GitHub Secrets (sección 6).
 
 ---
 
-## Costo estimado
+## 6. Despliegue en la nube con GitHub Actions (paso a paso)
 
-Solo Claude API tiene costo. Todas las demás fuentes de datos son gratuitas.
+El objetivo: que GitHub corra el brief solo, de **lunes a viernes ~9:00 AM ET** (antes de la apertura), sin tu PC.
 
-| Periodo | Costo (Sonnet 4.6) | Notas |
-|---|---|---|
-| Por ejecución | ~$0.04 | El system prompt va cacheado (`cache_read_input_tokens` ~10% del precio normal) |
-| Mensual | ~$1.20 | |
-| Anual | ~$14.60 | |
+### Cómo está resuelto
 
----
+- **Horario / DST:** el cron de GitHub es UTC y no respeta el horario de verano de EE.UU. (ET = UTC-4 en verano, UTC-5 en invierno). Por eso el workflow dispara **dos crons** (13:00 y 14:00 UTC) y un paso *guard* en Python usa `zoneinfo("America/New_York")` para continuar solo si en Nueva York son ~9 AM. El run "equivocado" aborta en segundos sin gastar API. Resultado: **9:00 ET exacto todo el año, sin mantenimiento**.
+- **Continuidad:** como cada ejecución corre en una VM nueva, el último paso del workflow hace `commit` del `output/brief_<fecha>.txt` de vuelta al repo. Al día siguiente el `checkout` lo trae y `performance_tracker.py` lo encuentra → el SEGUIMIENTO funciona en la nube.
+- **Sin navegador:** se ejecuta con `--no-browser` (el `webbrowser.open()` no aplica en CI).
+- **Secretos:** se inyectan como variables de entorno desde GitHub Secrets; `config.py` los lee directamente, sin necesidad de `.env`.
 
-## Programación automática (Windows)
+### Paso 1 — Configurar los Secrets
+
+En GitHub: **Settings → Secrets and variables → Actions → New repository secret**. Crear:
+
+| Secret | Requerido |
+|---|---|
+| `ANTHROPIC_API_KEY` | Sí |
+| `TELEGRAM_BOT_TOKEN` | Recomendado |
+| `TELEGRAM_CHAT_ID` | Recomendado |
+| `NEWSAPI_KEY` | Opcional |
+| `DISCORD_WEBHOOK_URL` | Opcional |
+
+### Paso 2 — Subir el repo
 
 ```bash
-python main.py --setup
+git add .
+git commit -m "Deploy: GitHub Actions + limpieza de artefactos"
+git push
 ```
-Imprime el comando PowerShell para registrar una tarea en Windows Task Scheduler que ejecuta el brief diariamente a las 9:00 AM.
+
+El workflow ya vive en `.github/workflows/morning-brief.yml`, así que GitHub lo detecta automáticamente al hacer push.
+
+### Paso 3 — Probar manualmente
+
+En la pestaña **Actions** → workflow **"Morning Market Brief"** → botón **Run workflow** (`workflow_dispatch`). Esto permite probar sin esperar a las 9 ET.
+
+> En disparo manual fuera de la ventana 8:30–9:30 ET el *guard* abortará el run (es lo esperado). Para una prueba real de extremo a extremo, córrelo dentro de esa franja o ajusta temporalmente el guard.
+
+### Paso 4 — Verificar
+
+- En **Actions** revisa que el job termine en verde y mira los logs del paso "Generate & deliver brief".
+- Confirma que llegó el mensaje a **Telegram** (y Discord si lo configuraste).
+- Verifica que aparece un commit automático `brief: <fecha>` con el `.txt` del día.
+
+A partir de ahí, el brief llega solo cada mañana laborable.
+
+### Costo
+
+~22 ejecuciones/mes × ~$0.04 ≈ **$0.90/mes** (solo Claude API). Los runs que aborta el guard son gratis. GitHub Actions entra dentro del free tier (ilimitado en repos públicos; 2000 min/mes en privados).
 
 ---
 
-## Tests
+## 7. Tests
 
 ```bash
 pytest tests/ -v
 ```
-Cubre los detectores SMC/ICT con OHLCV sintético: EMAs, RSI, swings, BOS/CHOCH, Order Blocks, FVG (activo + mitigado), Equal Highs/Lows + sweeps, sesgo de tendencia. Diez tests, ejecutan en <1s.
+Cubre los detectores SMC/ICT con OHLCV sintético: EMAs, RSI, swings, BOS/CHOCH, Order Blocks, FVG (activo + mitigado), Equal Highs/Lows + sweeps, sesgo de tendencia. Diez tests, ejecutan en <1s. Deben pasar antes de cualquier cambio en `analysis.py`.

@@ -1,0 +1,122 @@
+📊 MORNING BRIEF — Sábado 2 de Mayo, 2026
+Generado: 20:03 UTC | Sesión: Pre-Weekend / Asia Open
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.21 (+0.13%) | Leve fortaleza del dólar — neutro para crypto/commodities |
+| VIX | 16.99 | Complacencia moderada — mercado sin miedo |
+| Fear & Greed | 47 — Neutral | Sin extremos, mercado en espera |
+
+Contexto clave:
+• S&P 500 y Nasdaq cerraron en nuevos máximos históricos el 1 de Mayo. El Dow quedó rezagado (-0.31%) → rotación de valor a growth.
+• Apple (+3.24%) fue el gran catalizador de la sesión. Resultados o guía positiva mueve todo el sector.
+• Oil cayendo -3% alivia presión inflacionaria → potencialmente bullish para equities a mediano plazo.
+• Spirit Airlines en riesgo de cierre inminente — evento idiosincrático, no sistémico.
+• DXY por debajo de 99 sigue siendo tailwind para BTC y Gold estructuralmente.
+
+⚠ Sin eventos macro críticos hoy (sábado). Sesión de baja liquidez. Cuidado con fakeouts en crypto.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN (BTC/USDT) — $78,722
+Timeframe: 4H
+
+🟢 Sesgo del día: Alcista con cautela
+
+Estructura del Mercado:
+• Estructura mixta/transicional — posible CHOCH en desarrollo. BTC rompió por encima de los swings anteriores pero aún no confirma BOS limpio en 4H.
+• Las 3 EMAs (21/50/200) están ordenadas alcistamente: 77,790 / 77,330 / 74,290 — precio cotiza por encima de todas. Estructura macro sana.
+• Rango actual: entre swing high 78,914 y swing low 74,937.
+
+Order Blocks & Zonas Clave:
+• 🔴 Bear OB activo: 76,972 – 77,904 (formado 29-Abr) → Esta zona es el nivel de retest más importante. Si precio retrocede aquí y mantiene, es OB de demanda reconvertido.
+• Resistencia inmediata: 78,914 (swing high) → romper y cerrar vela 4H por encima activa BOS y proyecta hacia 79,472 – 79,485.
+• Soporte dinámico: EMA 21 en 77,790 actuando como primer piso.
+
+CVD / Funding / OI:
+• ✅ CVD alcista confirmado — precio y volumen delta alineados. Sin divergencia. Señal de continuación.
+• Funding: +0.0023% — longs pagan, pero nivel muy bajo. No hay euforia de apalancamiento. Saludable.
+• OI: +0.09% — prácticamente plano. No hay acumulación agresiva de posiciones. Consolidación real.
+• L/S Ratio: 38.2% Longs / 61.8% Shorts → Mayoría del mercado está corto. Esto es combustible para short squeeze si BTC rompe 78,914.
+
+Setup potencial:
+> 📌 Long en retest del Bear OB / EMA21 (77,790 – 77,904) con vela de confirmación en 4H. Target: 78,914 → 79,472. Stop: cierre 4H por debajo de 76,960. RR estimado: 1:2.5+
+
+| Nivel | Tipo |
+|-------|------|
+| 79,472 – 79,485 | Resistencia / Target 2 |
+| 78,914 | Resistencia inmediata / BOS trigger |
+| 77,790 – 77,904 | OB + EMA21 — zona de entrada ideal |
+| 76,960 – 77,140 | Soporte fuerte — invalidación parcial |
+| 74,937 | Swing Low — invalidación total |
+
+────────────────────────────────────────
+ETHEREUM (ETH/USDT) — $2,318
+Timeframe: 4H
+
+🟡 Sesgo del día: Cauto / Esperar confirmación
+
+Estructura del Mercado:
+• Estructura bajista (LH + LL) — esto es una alerta importante. ETH no está confirmando la fuerza de BTC.
+• EMAs ordenadas pero muy comprimidas: 2,298 / 2,301 / 2,250 — precio apenas por encima, margen mínimo.
+• El precio está empujando contra el Bear OB: 2,321 – 2,346 formado el 29-Abr. Zona de alta probabilidad de rechazo.
+
+Señales de Alerta:
+• ⚠ CVD divergencia bajista — precio subiendo pero CVD bajando. Vendedores absorbiendo el rally. Señal de distribución.
+• Funding: +0.0035% — más alto que BTC. Longs más agresivos en ETH a pesar de estructura débil. Riesgo de flush.
+• L/S: 55% Longs / 45% Shorts — mayoría long en un activo con divergencia bajista. Setup peligroso.
+• RSI 58.3 — no sobrecomprado, pero sin momentum contundente.
+
+Niveles clave:
+• 🔴 Zona de rechazo: 2,321 – 2,346 (Bear OB) — si hay rechazo aquí con vela bajista, es setup short.
+• Soporte: 2,285 – 2,300 — primera línea de defensa.
+• Target bajista si rompe soportes: 2,220 (swing low).
+
+> 📌 Sin trade long en ETH hasta ver CHOCH confirmado y CVD realinearse. Posible short especulativo en rechazo del Bear OB 2,321–2,346 con stop por encima de 2,350.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> ⚠ Nota: Estructuras muestran LH+LL (bearish) en SPX y NDX — pero esto contrasta con los nuevos ATH reportados. Posiblemente estructura en timeframe más corto que ya fue superada.
+
+| Índice | Precio | Sesgo | R/S Clave | Nota |
+|--------|--------|-------|-----------|------|
+| S&P 500 | 7,230 (+0.29%) | 🟢 Alcista | S: 7,046 / 6,824 | RSI 71.2 — zona sobrecompra. ATH. Precaución long fresh. |
+| NASDAQ | 25,114 (+0.89%) | 🟢 Alcista | S: 23,119 / 22,916 | RSI 72.5 — más extendido. Liderado por mega-caps. |
+| DOW | 49,499 (-0.31%) | 🟢 Alcista | S: 49,084 / R: 49,633 | Rezagado. Estructura mixta. Divergencia vs SPX/NDX. |
+
+Lectura: El mercado celebra resultados tech fuertes (Apple, Amazon, Google). RSI alto en SPX/NDX sugiere posible consolidación o pullback a corto plazo. Los soportes relevantes están muy lejos (~3-5% abajo) — sin setup de entrada inmediato en índices.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel a vigilar |
+|--------|--------|--------|-----|-------|-----------------|
+| AAPL | $280.14 | +3.24% | 66.4 | 🟢 | R: $280.65 — si cierra por encima, continuación posible |
+| MSFT | $414.44 | +1.63% | 54.5 | 🟢 | S: $411.41 (EMA21 zone). R: $422.72 — espacio de recorrido |
+| NVDA | $198.45 | -0.56% | 53.0 | 🟢 | S clave: $197.22 (EMA21). R: $216.83 — underperforming peers |
+| GOOGL | $385.69 | +0.23% | 82.5 | 🟢 | ⚠ RSI 82 — sobreextendido. Esperar pullback a $339 (EMA21) |
+| AMZN | $268.26 | +1.21% | 78.1 | 🟢 | ⚠ RSI 78 — extendido. Soporte lejano en $247 (EMA21) |
+
+Picks rápidos:
+• 🟢 MSFT es el más balanceado — RSI no extendido, estructura alcista, target visible en $422.
+• ⚠ GOOGL y AMZN demasiado extendidos en RSI para entrada nueva hoy.
+• 👀 NVDA underperformando — si mantiene $197.22, setup de compra en debilidad para rally a $216.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD — $4,630 (+0.33%)
+• 🔴 Sesgo Bajista — cotiza por debajo de EMA21 ($4,697) y EMA50 ($4,743). Ambas actuando como resistencia.
+• RSI 44.5 — debilitado pero sin sobreventa.
+• Zona de resistencia clave: $4,697 – $4,743 (EMAs). Si no recupera, siguiente soporte en $4,400.
+• DXY (+0.13%) presionando levemente contra Gold.
+• 📌 Sesgo: esperar rechazo en EMAs para posible short o esperar soporte en $4,400 para evaluar long.
+
+SILVER — $75.95 (+3.29%)
+• 🟡 Neutro — gran vela verde hoy pero cotiza en zona de resistencia (EMA21 $75.74, EMA50 $76.77).
+• RSI 49.8 — neutro. El rebote de +3.29% puede ser tram

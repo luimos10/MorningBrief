@@ -1,0 +1,125 @@
+📊 MORNING BRIEF — Viernes 24 de Abril, 2026
+Generado: 09:11 | Sesión: Apertura NY
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Nivel | Señal |
+|-----------|-------|-------|
+| DXY | 98.62 (-0.18%) | 🟢 Dólar débil → favorable cripto/commodities |
+| VIX | 19.07 | 🟡 Miedo moderado, no en zona de pánico |
+| Fear & Greed | 39 (Fear) | 🔴 Sentimiento negativo, mercado defensivo |
+
+Lectura rápida: El DXY sigue cediendo terreno, lo que da soporte técnico a BTC y al oro. Sin embargo, el F&G en 39 y un VIX que no termina de ceder al 15 indican que el dinero institucional aún no ha vuelto con convicción. El ruido del estrecho de Ormuz (noticias WSJ) es el factor macro más relevante hoy: explica el +4.11% de USO y presión latente en toda la curva de energía. Vigilar cualquier escalada.
+
+Eventos a tener en cuenta: No hay Fed speakers programados identificados, pero el contexto geopolítico en commodities domina la narrativa de apertura.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+🟠 BITCOIN — $78,387 (+0.19%)
+
+Estructura (4H): HH + HL confirmado → uptrend intacto. Precio operando por encima de las tres EMAs (21: 77,563 / 50: 76,413 / 200: 72,577). Estructura de libro de texto alcista en timeframe intermedio.
+
+⚠ ALERTA CRÍTICA — CVD Divergencia Bajista:
+Precio sube pero el CVD cae → la presión compradora real es débil. Este tipo de divergencia en 4H suele preceder una corrección a retest de demanda antes de continuar. No es señal de reversión estructural, pero sí de cautela para compras en zona alta.
+
+Order Blocks y Niveles Clave:
+
+| Zona | Precio | Tipo | Acción |
+|------|--------|------|--------|
+| 🔴 Resistencia inmediata | $78,662 | Swing High / Oferta | TP parcial / evitar compras aquí |
+| 🔴 Resistencia mayor | $79,472 | Swing High previo | Zona de distribución potencial |
+| 🟢 Soporte / OB demanda | $76,960 | HL + EMA 21 confluence | Zona de compra con confirmación |
+| 🟢 OB demanda fuerte | $74,821 | Soporte estructural | Reacumulación si hay barrida |
+
+Funding Rate: -0.0079% → Shorts pagan longs. Mercado ligeramente sesgado a cortos, lo que crea combustible para un short squeeze si se supera $79,472.
+
+Open Interest: 97,069 (-1.05%) → OI bajando mientras precio sube = posiciones cerrándose, no nueva convicción compradora. Confirma la narrativa de la divergencia CVD.
+
+Ratio L/S: 41.9% Longs / 58.1% Shorts → Mayoría short. Zona de $79,472–$80,000 es una trampa de liquidez hacia arriba muy probable.
+
+Sesgo del día: 🟡 Alcista con cautela
+• Si mantiene $76,960 → buscar long hacia $79,472
+• Si rompe $79,472 con volumen real → setup de continuación a $81K+
+• Invalidación: Cierre 4H por debajo de $76,413 (EMA 50) activa escenario de CHOCH bajista
+
+Setup potencial: Esperar pullback a $76,960–$77,563 (confluencia HL + EMA 21 + posible FVG), buscar BOS alcista en 15M/1H para entrada long con TP1 en $78,662 y TP2 en $79,472. SL por debajo de $76,413.
+
+────────────────────────────────────────
+🔵 ETHEREUM — $2,329 (+0.05%)
+
+Estructura (4H): HH + HL técnicamente en uptrend, pero precio operando por debajo de la EMA 21 ($2,335) — señal de debilidad relativa vs BTC.
+
+⚠ DOBLE SEÑAL DE ALERTA:
+• CVD divergencia bajista (igual que BTC)
+• RSI en 48.3 = zona neutra, sin convicción
+
+Niveles Clave:
+
+| Zona | Precio | Nota |
+|------|--------|------|
+| 🔴 Resistencia inmediata | $2,329–$2,346 | EMA 21 + Swing resistance |
+| 🔴 Oferta mayor | $2,385 | Objetivo si hay breakout |
+| 🟢 Soporte clave | $2,302–$2,285 | Zona de demanda doble confluencia |
+
+Funding: -0.0070% / L/S: 60.4% Longs → Mayoría long pero con CVD cayendo = longs atrapados. Riesgo de flush hacia $2,285.
+
+OI: +0.52% (subiendo levemente) → Posiciones abriéndose, pero sin dirección clara todavía.
+
+Sesgo del día: 🔴 Neutro-Bajista a corto plazo
+• ETH necesita cerrar por encima de $2,346 en 4H para activar setup alcista
+• Por debajo de $2,302 → flush hacia $2,285 con posible OB de demanda ahí
+• Evitar longs agresivos hasta que EMA 21 sea recuperada con cierre de vela
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+> ⚠ Nota estructural importante: Los tres índices muestran una contradicción técnica: RSI alto (alcista) pero estructura de LH + LL (Downtrend). Esto indica un rebote dentro de un downtrend mayor. Cuidado con perseguir largos aquí.
+
+S&P 500 — $7,108 (-0.41%)
+• Tendencia: Rebote en downtrend macro. EMAs 6,894 / 6,824 como soporte dinámico
+• RSI: 67.6 → sobrecomprado en contexto de downtrend = peligroso
+• Niveles: Soporte $6,824 | Resistencia $7,147 (TP y posible techo de rango)
+• Sesgo: 🟡 Neutral — En zona de oferta potencial. Sin catalizador, el riesgo es a la baja
+
+NASDAQ — $24,438 (-0.89%)
+• Tendencia: LH + LL — El más débil de los tres hoy (-0.89%)
+• RSI: 69.2 → máximo de sobrecompra en downtrend. Señal de reversión potencial
+• Niveles: Soporte $23,119 / $22,916 | Sin resistencia identificada arriba (espacio libre = peligro)
+• Sesgo: 🔴 Bajista intradía — Tecnología liderando las caídas (ver MSFT -3.97%)
+
+DOW JONES — $49,310 (-0.36%)
+• Tendencia: Más resiliente que NDX. Soporte $49,084
+• RSI: 64.4 → El menos sobrecomprado de los tres
+• Niveles: Soporte $49,084 | Resistencia $49,633 / $50,512
+• Sesgo: 🟡 Neutral — El índice más defensivo hoy
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel Clave |
+|--------|--------|--------|-----|-------|-------------|
+| AAPL | $273.43 | +0.10% | 62.9 | 🟡 Neutral | Resistencia $275–$277 inmediata |
+| MSFT | $415.75 | -3.97% | 59.8 | 🔴 Bajista hoy | Soporte crítico $393 / ¿Earnings? |
+| NVDA | $199.64 | -1.41% | 64.6 | 🟡 Neutral | Sin resistencia clara arriba, soporte $179 |
+| GOOGL | $338.89 | -0.13% | 66.3 | 🟡 Neutral | Resistencia $340–$342 encima |
+| AMZN | $255.08 | -0.11% | 76.4 | ⚠ Sobrecomprado | Resistencia $256 — RSI extremo en downtrend |
+
+🔴 MSFT alerta: Caída del -3.97% es inusual. Vigilar si hay noticias de earnings o guidance. El soporte $393 es crítico — pérdida de ese nivel abre $381.
+⚠ AMZN: RSI 76.4 en estructura de downtrend = zona de alto riesgo para longs. Posible setup short si rechaza $256.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🥇 GOLD — $4,719 (+0.29%)
+• Sesgo: 🔴 Bajista — Precio por debajo de EMAs 21/50 ($4,749 / $4,773). El oro sube hoy pero lucha contra sus propias medias
+• RSI: 47.5 → neutral-bajo
+• Estructura: Mixta — no hay dirección clara confirmada
+• Niveles: Soporte $4,704 / $4,655 | Resistencia $4,789 (EMA 21) → ese es el nivel a recuperar para cambiar sesgo
+• Setup: Sin setup claro hasta recuperar $4,789. Si cae $4,704 → flush hacia $4,655
+
+🥈 SILVER — $75.44 (-0.03%)
+• Sesgo: 🔴 Bajista — LH + LL confirmado, EMAs bajistas
+• Niveles: Soporte $73.17 | Resistencia $75.87 / $77.45
+• Nota: Debilidad relativa vs oro (underperformance = risk-off)

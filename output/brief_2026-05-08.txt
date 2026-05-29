@@ -1,0 +1,128 @@
+📊 MORNING BRIEF — Viernes, 08 Mayo 2026
+Generado a las 09:00 | Perpetual Futures + Equities + Commodities
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 97.91 (-0.34%) | 🔴 Dólar débil → favorable para risk assets y metales |
+| VIX | 16.87 | 🟢 Miedo controlado, mercado en modo "risk-on" moderado |
+| Fear & Greed | 38 (Fear) | ⚠️ Sentimiento aún precavido pese a rally en índices |
+| Fed | Sin eventos hoy | 🟡 Agenda limpia |
+
+Contexto clave: La noticia más relevante del día es la reapertura potencial del Estrecho de Hormuz, lo que está empujando acciones globales al alza pero presionando el petróleo a la baja en el margen. El DXY débil soporta metales y crypto. Divergencia notable: Fear & Greed en 38 mientras SPX/NDX marcan máximos históricos — señal de que el rally no está ampliamente creído todavía.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟡 BITCOIN (BTCUSDT) — $80,022
+
+Estructura: HH + HL en 4H confirma uptrend intacto. Precio cotiza por debajo de EMA21 ($80,353) pero por encima de EMA50 ($79,626) — zona de compresión. Sin BOS ni CHOCH activo.
+
+Order Blocks activos:
+• 🟢 Bull OB: $78,484 – $79,447 ← zona de demanda activa, formada el 03/05
+
+Niveles clave:
+
+| Nivel | Tipo | Importancia |
+|-------|------|-------------|
+| $82,850 | Swing High / Resistencia | Objetivo alcista principal |
+| $80,353 | EMA21 | Resistencia dinámica inmediata |
+| $79,447 | Techo Bull OB | Primera defensa compradora |
+| $78,484 – $79,447 | Bull OB | Zona de entrada óptima |
+| $78,202 | Swing Low | Invalidación del uptrend |
+
+CVD: ⚠️ Divergencia alcista activa — precio bajando pero CVD subiendo. Smart money acumulando mientras precio retrocede. Señal de posible reversión o continuación alcista.
+
+Funding: +0.0024% (longs pagan, muy bajo) → No hay overheating. Mercado equilibrado, sin señal de liquidación inminente.
+
+OI: 102,999 (-0.05%) → OI relativamente estable, no hay capitulación ni acumulación agresiva.
+
+L/S Ratio: 43.3% / 56.7% → Mayoría corta. Combustible para short squeeze si precio regresa sobre $80,353.
+
+🎯 Setup BTC:
+> Sesgo: 🟢 Alcista (con cautela)
+> Buscar reacción long desde Bull OB $78,484–$79,447 si precio llega a ese nivel.
+> Entrada: $78,500–$79,000 | SL: Cierre 4H bajo $78,202 | Target 1: $80,353 | Target 2: $82,850
+> Invalidación: pérdida del Swing Low $78,202 = estructura rota → CHOCH bajista.
+
+────────────────────────────────────────
+🔴 ETHEREUM (ETHUSDT) — $2,284
+
+Estructura: ⚠️ CHOCH Bajista confirmado — rompió swing low en uptrend previo. Esto es un cambio de carácter significativo. Estructura ahora bajista en 4H.
+
+Order Blocks activos:
+• 🔴 Bear OB: $2,369 – $2,423 ← zona de oferta, formada el 06/05 (fresco y activo)
+• 🟢 Bull OB: $2,315 – $2,356 ← ya actuando como resistencia post-CHOCH
+
+Niveles clave:
+
+| Nivel | Tipo | Importancia |
+|-------|------|-------------|
+| $2,369 – $2,423 | Bear OB | Zona de venta óptima |
+| $2,325 – $2,346 | Resistencias / Bull OB invertido | Primera barrera alcista |
+| $2,266 – $2,258 | Zona de soportes | Targets bajistas |
+| $2,297 | Swing Low reciente | Si rompe = continuación bajista |
+
+CVD: ✅ Confirmación bajista — precio y CVD alineados a la baja. Sin divergencia, presión vendedora real.
+
+Funding: -0.0028% (shorts pagan) → Mercado en corto pero pagando. Si se extiende, riesgo de short squeeze. Vigilar.
+
+OI: 2,292,546 (-0.16%) → Posiciones cerrándose levemente, no hay pánico pero sí desacumulación.
+
+L/S Ratio: 68.7% / 31.3% → Alta concentración de longs. Con CHOCH bajista activo, estos longs son liquidez pendiente a la baja.
+
+🎯 Setup ETH:
+> Sesgo: 🔴 Bajista
+> Buscar short en retesteo del Bear OB $2,369–$2,390 o rechazo en zona $2,325–$2,346.
+> Entrada short: $2,365–$2,390 | SL: Cierre 4H sobre $2,423 | Target 1: $2,266 | Target 2: $2,258
+> ⚠️ Con funding negativo, sizing conservador. No perseguir short en precio actual.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> ⚠️ Nota de estructura: SPX y NDX muestran estructura técnica de LH+LL (downtrend en swing) pero cotizan muy por encima de sus EMAs con RSI extendido — posible estructura de timeframe mayor en acumulación. Priorizar niveles sobre estructura.
+
+| Índice | Precio | Sesgo | RSI | Soporte clave | Nivel a vigilar |
+|--------|--------|-------|-----|---------------|-----------------|
+| S&P 500 | $7,337 (-0.38%) | 🟢 Alcista | 72.1 ⚠️ Sobrecomprado | $7,107 (EMA21) | $7,046 si hay corrección |
+| NASDAQ | $25,806 (-0.13%) | 🟢 Alcista | 77.0 🔴 Muy sobrecomprado | $24,492 (EMA21) | $23,683 EMA50 soporte mayor |
+| DOW | $49,597 (-0.63%) | 🟢 Alcista | 59.6 Sano | $49,084 (EMA21) | Resistencias $49,633–$49,848 |
+
+Lectura rápida: RSI de NDX en 77 y SPX en 72 indican extensión. No es momento de perseguir largos en índices — esperar pullback a EMAs. DOW es el más sano estructuralmente (HH+HL, RSI moderado).
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | Cambio | Sesgo | Setup rápido |
+|-------|--------|--------|-------|--------------|
+| AAPL | $287.44 | -0.02% | 🟢 Alcista | RSI 69.3, cerca de sobrecompra. Sin setup claro hoy. |
+| MSFT | $420.77 | +1.65% | 🟢 Alcista | ✅ HH+HL confirmado. Momentum fuerte. Resistencia en $422.72 — breakout watch. |
+| NVDA | $211.50 | +1.77% | 🟢 Alcista | ✅ RSI 63.4, recorrido. Resistencia $216.83 — si rompe, momentum play. |
+| GOOGL | $397.99 | -0.01% | 🟢 Alcista | RSI 83.4 🔴 Extremadamente sobrecomprado. Riesgo de corrección a $356. |
+| AMZN | $271.17 | -1.39% | 🟢 Alcista | RSI 74.2, caída intraday. Soporte en $256. Sin entrada clara hoy. |
+
+Destacados del día: MSFT y NVDA muestran momentum real. GOOGL con RSI en 83 es candidato a fade en intradía.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🥇 Gold — $4,735 (+0.74%)
+• Sesgo: 🟡 Neutro — EMA21 ($4,679) < precio < EMA50 ($4,726). Compresión entre medias.
+• RSI: 52.7 — espacio para subir
+• Resistencias: $4,789 → $4,851 → $4,879
+• Soportes: $4,704 → $4,655
+• Setup: DXY débil soporta al oro. Buscar continuación alcista sobre $4,789. Sin entrada activa hasta que precio supere EMA50 con convicción.
+
+🥈 Silver — $81.82 (+2.66%) 🔥
+• Sesgo: 🟢 Alcista fuerte — rebote notable, cotizando sobre ambas EMAs
+• RSI: 59.9 — con recorrido todavía
+• Resistencia inmediata: $82.83 → $84.47
+• Soporte: $79.50 (primer soporte válido)
+• Setup: La plata está outperforming al oro hoy. Si mantiene sobre $81, próximo target $82.83–$84.47. Momentum activo.
+
+🛢️ Oil (WTI) — $95.09 (+0.30%)
+• Sesgo: 🟡 Neutro/Bajista — estructura LH+LL, precio bajo EMA21 ($97.60)
+• RSI: 48.2 — neutral
+• Contexto: Noticias de
