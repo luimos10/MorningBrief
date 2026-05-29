@@ -1,0 +1,199 @@
+📊 MORNING BRIEF — Viernes 29 de Mayo 2026
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.07 (+0.06%) | Dólar débil estructuralmente, sin impulso real |
+| VIX | 15.87 | Complacencia elevada — riesgo asimétrico latente |
+| Fear & Greed | 23 — Extreme Fear | Divergencia brutal con precio (índices en ATH) |
+| Fed | Sin eventos hoy | Risk-on continúa por defecto |
+
+⚠️ La lectura más importante del día: El F&G en 23 (Extreme Fear) mientras SPX/NDX cotizan en máximos históricos es una divergencia de sentimiento extrema. Esto típicamente señala una de dos cosas: o el rally no es creído por el mercado minorista (señal contraria alcista) o hay fragilidad escondida bajo la superficie. Operar con stops ajustados hoy.
+
+Noticias relevantes:
+• China exportando fábricas globalmente → presión competitiva estructural, bearish industriales largoplacistas
+• Meta inicia suscripciones FB/Instagram → monetización defensiva, sesgo positivo para META
+• Insider trading en Polymarket usando info de Google → ruido regulatorio tech, vigilar GOOGL
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+> ⚠️ Sin datos de mercado disponibles para BTC y ETH hoy (4H). Análisis basado en contexto del brief anterior (28-may).
+
+SEGUIMIENTO vs Brief Anterior:
+
+BTC — Ayer: $73,180 | RSI 23.6 (Oversold)
+Sin datos de precio actual confirmados. El setup de ayer indicaba RSI en sobreventa extrema con potencial rebote técnico. Acción: No operar BTC hoy sin datos confirmados. Vigilar si BTC recuperó la zona $74,000–75,000 para evaluar continuidad. Si sigue por debajo de $73,000, la presión vendedora se mantiene.
+
+ETH — Ayer: $1,982 | RSI 25.4 (Oversold)
+Igualmente sin confirmación de precio. La zona $1,980–2,000 era soporte crítico. Acción: Sin datos = sin setup. Esperar confirmación de precio antes de cualquier posición. Si ETH perdió $1,950, próximo soporte estructural en $1,800.
+
+> 🟡 SESGO CRYPTO HOY: NEUTRAL/CAUTELA — Sin datos 4H no hay setup accionable. El entorno macro (F&G=23, VIX bajo, riesgo-on en equities) es contradictorio. Esperar datos o migrar foco a equities hoy.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+🟢 S&P 500 — $7,563 (+0.58%)
+SEGUIMIENTO: Sin setup previo específico en brief anterior. Rally continúa.
+• Estructura: HH + HL confirmado. BOS alcista vigente. EMAs 7,370/7,171 muy por debajo → tendencia sólida
+• RSI: 72.7 — Zona de sobrecompra. No reversión, pero limita upside inmediato
+• FVG alcista activo: 7,465–7,501 → ya mitigado (precio en 7,563 encima). Era soporte — ahora es piso
+• Niveles clave:
+• Soporte 1: 7,465–7,501 (FVG + antiguo resistencia)
+• Soporte 2: 7,333 (S/R estructural)
+• Resistencia: Sin niveles de oferta identificados arriba → precio en territorio libre
+• Sesgo hoy: 🟢 Alcista. Solo operar longs en pullbacks a 7,465–7,501
+
+────────────────────────────────────────
+🟢 NASDAQ — $26,917 (+0.91%)
+• Estructura: HH + HL. El más fuerte de los tres índices hoy (+0.91%)
+• RSI: 73.4 — Sobrecompra leve, momentum intacto
+• FVG alcista: 26,504–26,538 → mitigado (precio encima en 26,917)
+• Niveles clave:
+• Soporte: 26,504–26,538 (FVG como nuevo piso)
+• Soporte 2: 25,701
+• Resistencia: Sin oferta identificada arriba
+• Sesgo hoy: 🟢 Alcista. Tech tirando del índice (MSFT +3.47%). Pullback a 26,538 = oportunidad long
+
+────────────────────────────────────────
+🟢 DOW JONES — $50,669 (+0.05%)
+• Estructura: HH + HL, pero el más rezagado hoy (+0.05%)
+• RSI: 64.9 — Menos extendido, más recorrido potencial
+• FVG alcista: 50,067–50,434 → precio encima, sirve de soporte
+• ⚠️ Sell-side sweep en 49,831 → liquidez barrida ayer/reciente. Señal SMC: el sweep está hecho, posible continuación alcista
+• Niveles clave:
+• Soporte: 50,067–50,434 (FVG + sweep completo)
+• Resistencia: 51,000 (psicológico)
+• Sesgo hoy: 🟢 Alcista con menor convicción. El sweep bajista completado es señal positiva para longs
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | RSI | Sesgo | Nivel Clave a Vigilar |
+|--------|--------|-----|-------|-----------------------|
+| AAPL | $312.51 (+0.53%) | 80.0 | 🟢 Alcista | RSI extremo — no perseguir. Soporte: FVG 305–307 |
+| MSFT | $426.99 (+3.47%) | 59.9 | 🟢 Alcista ⭐ | Mejor setup del día — ver abajo |
+| NVDA | $214.25 (+0.78%) | 52.6 | 🟢 Alcista | FVG 208–212 como soporte. Resistencia: 216.83 |
+| GOOGL | $390.13 (+0.33%) | 61.8 | 🟢 Alcista | FVG bajista 393–394 activo encima — zona de oferta corto plazo |
+| AMZN | $274.00 (+0.79%) | 64.4 | 🟢 Alcista | Resistencia: 278.56. Soporte: 256–264 |
+
+🔍 MSFT — Setup destacado
+• Movimiento de +3.47% con RSI en 59.9 (no sobrecomprado aún) = momentum con recorrido
+• FVG alcista 405–412 muy por debajo → bien mitigado. Precio libre hasta 431–432
+• Resistencia inmediata: 427–431 (zona de oferta identificada)
+• Setup: Si consolida sobre 426 sin reversión → long hacia 431–432. SL bajo 421.
+
+🔍 GOOGL — Cuidado con FVG bajista
+• FVG bajista activo en 393.86–394.53 con precio en 390 → precio se acerca a zona de oferta
+• Si precio sube a 393–394 y muestra rechazo → short scalp con SL sobre 395. Target: 382–381
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🔴 GOLD — $4,554 (+1.23%)
+
+SEGUIMIENTO: Brief anterior tenía setup short en rebote a $4,447–4,519 con SL sobre $4,520. El precio hoy está en $4,554 → SL activado. El setup short se invalidó. Gold rebotó con fuerza desde la zona de soporte. Narrativa cambia: el $4,400 aguantó, el movimiento fue alcista.
+• Estructura: Mixed. EMAs en 4,581/4,655 → precio cotiza bajo ambas EMAs (bajista estructura)
+• RSI: 46 — Neutral, sin momentum claro
+• FVG bajista activo: 4,570–4,650 → zona de oferta crítica. Precio se aproxima desde abajo
+• FVG alcista activo: 4,447–4,519 → actuó como soporte. Mitigado
+• Niveles clave:
+• Resistencia: 4,570–4,650 (FVG bajista + EMAs) ← NIVEL DEL DÍA
+• Soporte: 4,512 → 4,465 → 4,400
+• Sesgo hoy: 🔴 Bajista estructural. El rebote de hoy (+1.23%) se acerca a zona de oferta ideal
+• Setup: Rebote a 4,570–4,620 con señal de rechazo (wick + cierre bajista) → short. SL sobre 4,660. Target: 4,465–4,447
+
+────────────────────────────────────────
+🔴 SILVER — $75.81 (+0.21%)
+
+SEGUIMIENTO: Ayer bajista en $72.21. Hoy en $75.81 (+5% desde entonces). Setup bajista de ayer invalidado por el movimiento. Silver subió significativamente.
+• Estructura: HH+HL en precio, pero EMAs bajistas (77.21/77.48 encima del precio)
+• RSI: 46.8 — Neutral
+• FVG bajista activo: 78.06–84.90 → resistencia importante arriba
+• FVG alcista: 74.75–75.47 → precio justo encima. Actúa como soporte inmediato
+• Resistencia: 75.87 → 77.45–77.50 (EMAs + S/R)
+• Soporte: 74.75–75.47 (FVG) → 73.79
+• Sesgo hoy: 🟡 Neutral. Atrapado entre FVG alcista abajo y EMAs/FVG bajista arriba
+• Setup: Sin setup claro. Esperar definición: rompe 77.50 → long hacia 78. Pierde 74.75 → short hacia 73.79
+
+────────────────────────────────────────
+🔴 OIL (WTI) — $88.78 (-0.13%)
+
+SEGUIMIENTO: Ayer en $92.24 con sesgo rebote técnico. Hoy en $88.78 → caída de ~$3.50. El rebote técnico fracasó. Tendencia bajista confirmada con fuerza.
+• Estructura: Mixed. EMAs en 96.69/94.36 muy por encima → precio bien por debajo de medias
+• RSI: 39.3 — Zona de debilidad sin oversold aún
+• FVG bajista activo: 93.69–94.73 → resistencia clave
+• Soporte inmediato: 88.66 (casi tocando ahora mismo)
+• Si pierde 88.66: próximo soporte en 84.37
+• Sesgo hoy: 🔴 Bajista. El rebote de ayer fue vendido agresivamente
+• Setup: Cualquier rebote a 90–91 sin recuperar las EMAs = short. SL sobre 94.80
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | RSI | Sesgo | Nivel Clave |
+|-----|--------|-----|-------|-------------|
+| SPY | $754.60 (+0.55%) | 73.3 | 🟢 Alcista | Soporte FVG: 744–748. Sin resistencia arriba |
+| QQQ | $735.60 (+0.84%) | 76.4 | 🟢 Alcista ⚠️ | RSI 76 — extendido. Soporte FVG: 722–725 |
+| GLD | $412.77 (+1.05%) | 41.0 | 🔴 Bajista | Resistencia FVG↓: 420–427. No perseguir long |
+| SLV | $68.36 (+1.27%) | 46.7 | 🔴 Bajista | Resistencia FVG↓: 70.77–75.39. Techo cercano |
+| USO | $130.78 (-0.19%) | 43.3 | 🟡 Neutro | Resistencia: 133.53. Soporte: 127.38 |
+
+> QQQ: RSI 76.4 en zona de sobrecompra notable. Si NDX/QQQ no hace nuevos máximos intraday, vigilar distribución. Soporte FVG 722–725 es el nivel de pullback sano para long.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — GOLD SHORT | Setup de alta convicción
+> Tipo: Short en zona de oferta
+> Activo: GOLD / GLD
+• Tesis: Rebote post-soporte ($4,400 aguantó) lleva precio hacia FVG bajista 4,570–4,650 que coincide con ambas EMAs (resistencia dinámica). Estructura HTF sigue bajista.
+• Entrada: 4,570–4,620 con señal de rechazo en vela (wick superior + cierre bajista en 1H)
+• SL: Cierre sobre 4,660
+• Target 1: 4,512 | Target 2: 4,447–4,465
+• R:R estimado: ~1:2.5
+• GLD equivalente: Entrada 420–424, SL 428, Target 409–410
+
+────────────────────────────────────────
+🥈 #2 — MSFT LONG | Momentum con estructura
+> Tipo: Long en continuación
+> Activo: MSFT
+• Tesis: +3.47% con RSI 59.9 (no sobrecomprado). Precio rompió resistencias previas. Zona de oferta en 427–431 es el primer target, no el techo. EMAs bien por debajo soportan.
+• Entrada: Consolidación sobre 425–426 en apertura sin rechazo inmediato
+• SL: Cierre bajo 421 (bajo del FVG zona)
+• Target 1: 431 | Target 2: 438–440
+• R:R estimado: ~1:2
+• Invalidación: Si el mercado abre y MSFT retrocede inmediatamente a 420 → skip
+
+────────────────────────────────────────
+🥉 #3 — GOOGL SHORT SCALP | FVG bajista como techo
+> Tipo: Short de precisión en FVG
+> Activo: GOOGL
+• Tesis: Precio en $390 con FVG bajista activo en 393.86–394.53 apenas $4 arriba. Zona de oferta no mitigada = imán de precio + potencial rechazo. Confluencia con S/R en 382–381 como target.
+• Entrada: Precio toca 393–394 + señal de rechazo en 15min/1H
+• SL: Cierre sobre 395.50
+• Target: 382–381 (soporte estructural)
+• R:R estimado: ~1:3 si entrada precisa en 394
+• Nota: Setup intraday/scalp. No swing.
+
+────────────────────────────────────────
+8. ⚠️ RIESGOS Y ALERTAS
+
+| Riesgo | Nivel | Descripción |
+|--------|-------|-------------|
+| F&G vs Precio | 🔴 Alto | F&G=23 con índices en ATH es divergencia histórica. Cuidado con reversión violenta |
+| RSI Sobrecompra Índices | 🟡 Medio | SPX 72.7, NDX 73.4, QQQ 76.4 — sin momentum bajista pero sin margen de error |
+| AAPL RSI 80 | 🟡 Medio | No perseguir. Esperar pullback a FVG 305–307 para entry long seguro |
+| Oil rompiendo soporte | 🔴 Alto | $88.66 es soporte crítico HOY. Si cierra bajo → acelera hacia $84.37 |
+| Crypto sin datos | ⚠️ Info | Sin datos 4H de BTC/ETH — no operar crypto hasta tener confirmación de precio |
+| Viernes = liquidez baja | 🟡 Medio | Fin de semana puede traer movimientos erráticos de cierre de posiciones |
+| DXY bajo 100 | 🟡 Medio | DXY débil favorece commodities y riesgo, pero rebote del dólar puede presionar Gold/Silver |
+
+────────────────────────────────────────
+> 📌 Resumen ejecutivo del día: Equities en modo risk-on total, pero en zona extendida y con sentimiento extremo de miedo que no cuadra con los precios. Los mejores setups están en GOLD short en resistencia y MSFT long momentum. Crypto sin datos = sin trades. Oil quebrando soporte = vigilar el cierre de hoy. No perseguir, esperar que el precio llegue a los niveles marcados.
+
+────────────────────────────────────────
+Brief generado: 29-05-2026 08:06 | Próxima actualización: Lunes pre-market
