@@ -1,12 +1,12 @@
 name: Morning Market Brief
 
+# Disparo confiable y puntual via servicio cron EXTERNO (cron-job.org) que llama
+# a la API de GitHub con workflow_dispatch a las ~8:45 America/New_York (DST lo
+# resuelve el servicio externo). Ya NO usamos el scheduler de GitHub porque es
+# best-effort: disparaba con horas de retraso o descartaba el run, y el guard de
+# ventana horaria terminaba salteando el envio (job en verde, brief sin enviar).
 on:
-  schedule:
-    # GitHub cron es UTC. Disparamos 13:00 y 14:00 UTC, Lun-Vie.
-    # El guard descarta el que no corresponda segun DST -> siempre ~9:00 ET.
-    - cron: "0 13 * * 1-5"
-    - cron: "0 14 * * 1-5"
-  workflow_dispatch:        # permite correrlo a mano desde la pestana Actions
+  workflow_dispatch:        # disparado por el cron externo y tambien a mano
 
 concurrency:
   group: morning-brief
@@ -29,25 +29,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # Guard DST: en cron solo continua si en NY son ~9 AM (08:30-09:30 ET).
-      # En disparo manual (workflow_dispatch) ignora la ventana para poder probar.
-      - name: Check NY market window
-        id: guard
-        run: |
-          python - <<'PY'
-          import os, datetime
-          from zoneinfo import ZoneInfo
-          event = os.environ.get("GITHUB_EVENT_NAME", "")
-          now = datetime.datetime.now(ZoneInfo("America/New_York"))
-          in_window = (now.hour == 9 and now.minute < 30) or (now.hour == 8 and now.minute >= 30)
-          ok = in_window or event == "workflow_dispatch"
-          print(f"Hora ET: {now:%Y-%m-%d %H:%M %Z} | evento={event} | ventana={in_window} -> run={ok}")
-          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-              f.write(f"run={'true' if ok else 'false'}\n")
-          PY
-
       - name: Generate & deliver brief
-        if: steps.guard.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY:   ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -57,7 +39,6 @@ jobs:
         run: python main.py --no-browser --fresh
 
       - name: Commit brief for next-day continuity
-        if: steps.guard.outputs.run == 'true'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
