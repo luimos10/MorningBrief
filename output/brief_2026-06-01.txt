@@ -1,0 +1,231 @@
+📊 MORNING BRIEF — Lunes 1 de Junio, 2026
+Generado: 21:19 UTC | Apertura de Junio con mercados en zona de euforia
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.18 (+0.28%) | Dólar recuperando — presión sobre commodities |
+| VIX | 16.05 | Complacencia moderada, no hay pánico |
+| Fear & Greed | 29 — Fear | Divergencia curiosa: mercado en ATH pero F&G en miedo |
+| Fed Events | Sin datos de catalizador inmediato | Sesgo neutral/esperar datos esta semana |
+
+Lectura macro clave: El mercado abre Junio en zona de máximos históricos (SPX, NDX alcistas sostenidos), pero el F&G en 29 (Fear) mientras los índices están en RSI 74-78 es una divergencia de sentimiento importante. El dinero institucional está comprando pero el retail tiene miedo — clásico entorno de distribución potencial o continuación. DXY al alza es el viento en contra para metales y crypto. Noticias del día son ruido menor (Berkshire/Taylor Morrison es el único movimiento relevante en real estate).
+
+⚠️ Nota Junio: Primer día del mes históricamente con rebalanceos de portafolios. Volumen a vigilar en apertura de NY.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+> ⚠️ Sin datos de mercado disponibles hoy para BTC y ETH (4H). Análisis basado en contexto del brief anterior (29-Mayo).
+
+🔄 SEGUIMIENTO vs Brief del 29-Mayo
+
+BTC — Ayer: $73,180 | RSI 23.6 (Oversold extremo)
+ETH — Ayer: $1,982 | RSI 25.4 (Oversold extremo)
+
+El brief anterior señalaba condición de oversold extremo en ambos activos, territorio de posible rebote técnico. Sin datos actualizados de hoy, no es posible confirmar si el setup se activó o invalidó. Prioridad #1 esta mañana: verificar precio actual de BTC/ETH antes de operar.
+
+₿ BITCOIN — Sesgo: 🟡 EN OBSERVACIÓN
+
+Contexto estructural (último dato disponible: $73,180):
+• RSI 23.6 sugería agotamiento vendedor extremo → zona de potencial CHOCH en LTF
+• Niveles críticos a recuperar para sesgo alcista: necesita reconquistar estructura HTF
+• Con DXY subiendo (+0.28%), presión bajista adicional sobre BTC
+
+Zonas clave a vigilar (sin datos actualizados):
+• Demanda crítica: ~$70,000–$71,500 (zona psicológica + posibles OBs de HTF)
+• Para sesgo alcista: BTC necesita un BOS claro por encima de la última estructura bajista
+• Invalidación bajista continuada: Pérdida de $68,000 abriría targets más profundos
+
+> 🚨 ACCIÓN INMEDIATA: Verificar precio actual en exchange antes de cualquier posición. Los datos de hoy están ausentes — operar sin ese dato es operar ciego.
+
+Ξ ETHEREUM — Sesgo: 🟡 EN OBSERVACIÓN
+• Último dato: $1,982 | RSI 25.4 — zona de capitulación
+• ETH/BTC ratio a vigilar: si BTC rebota y ETH no sigue, señal de debilidad relativa
+• Soporte psicológico clave: $2,000 (nivel de alta liquidez, muchos SLs clusters)
+• Zona de OB de demanda probable: $1,850–$1,950
+
+Sin datos actualizados: No hay setup accionable confirmado hoy en crypto.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+🔄 Seguimiento vs 29-Mayo
+SPX: $7,563 → $7,600 ✅ Continuó al alza | NDX: $26,917 → $27,087 ✅ Continuó | DOW: $50,669 → $51,079 ✅ Continuó
+Los tres índices extendieron ganancias. No hubo reversión. Tendencia alcista intacta.
+
+────────────────────────────────────────
+📊 S&P 500 — $7,600 | 🟢 Alcista
+• Estructura: HH + HL confirmado | EMAs 7,408/7,203 muy por debajo — trend fuerte
+• RSI 74.5: Sobrecomprado. No es señal de venta per se, pero reduce R:R en longs nuevos
+• FVG↑ activo: 7,530–7,563 → ya fue mitigado parcialmente (precio cerró en 7,600 por encima)
+• Niveles clave:
+• Soporte inmediato: 7,530–7,563 (ex-FVG, ahora OB de demanda potencial)
+• Soporte fuerte: 7,334 (S/R flip mayor)
+• Sin resistencia visible en datos → precio en territorio de price discovery
+
+Sesgo del día: Alcista con cautela. En RSI 74+ sin catalizador nuevo, probabilidad de consolidación o pullback a FVG (7,530–7,563) antes de continuar.
+
+────────────────────────────────────────
+📊 NASDAQ — $27,087 | 🟢 Alcista
+• Estructura: HH + HL | EMAs 26,106/25,010 — separación significativa
+• RSI 75.0: Más extendido que SPX
+• FVG↑ activo: 26,715–26,859 → precio ya está por encima (FVG actuó como soporte/trampolín)
+• Niveles clave:
+• Soporte/OB: 26,715–26,859 (FVG previo)
+• Soporte mayor: 25,701
+
+Sesgo del día: Alcista. NVDA +6.26% es el driver hoy. Cualquier pullback a 26,850–27,000 es zona de interés compradora.
+
+────────────────────────────────────────
+📊 DOW JONES — $51,079 | 🟢 Alcista (más débil)
+• RSI 68.6: El más "sano" de los tres índices — menos sobreextendido
+• FVG↑ activo: 50,764–50,767 → mitigado (precio superó esa zona)
+• ⚠️ Sell-side sweep en 49,831: Ocurrió sweep de liquidez bajista — señal de que institucionales acumularon antes del rally
+• Niveles clave:
+• Soporte inmediato: 50,764 (ex-FVG)
+• Soporte mayor: 49,307–49,235 (cluster S/R)
+
+Sesgo del día: Alcista moderado. DOW lidera en salud estructural (RSI más bajo = más recorrido posible).
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Stock | Precio | Cambio | Sesgo | Nivel Clave | Nota |
+|-------|--------|--------|-------|-------------|------|
+| AAPL | $306.31 | -1.84% | 🟢 Alcista | FVG: 302.80–305.84 | Pullback al FVG — zona de entrada potencial |
+| MSFT | $460.52 | +2.28% | 🟢 Alcista | Resistencia: 481.60 | FVG 429–458 masivo ya mitigado — extendido |
+| NVDA | $224.36 | +6.26% | 🟢 Alcista | Resistencia: 236.54 | Driver del día, target inmediato 236.54 |
+| GOOGL | $376.37 | -1.04% | 🟡 Neutro | FVGs solapados: 355.79–385.16 | Estructura conflictiva, evitar hoy |
+| AMZN | $261.26 | -3.47% | 🟡 Neutro | FVG↓: 266.63–267.44 | Pullback vendedor — vigilar rechazo en 266–267 |
+
+Highlights:
+• 🟢 NVDA es el activo del día — earnings o catalizador implícito. Target corto plazo: $236.54 (resistencia clave). Entrada en dips hacia $215–216 (FVG activo abajo).
+• 🟡 AAPL pullback de -1.84% dentro de uptrend — el FVG $302.80–$305.84 es zona de demanda válida. Si mantiene, posible rebote.
+• 🔴 AMZN -3.47% es la mayor caída del grupo. El FVG bajista $266.63–$267.44 actúa como resistencia — posible short de recuperación si precio retoca esa zona.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🔄 Seguimiento vs 29-Mayo
+Gold: $4,554 → $4,515 (-0.87%) 🔴 Setup bajista activado, continúa bajando
+Silver: $75.81 → $75.15 🔴 Continuó débil
+Oil: $88.78 → $92.47 ✅ Reversión alcista fuerte (+5.85%) — movimiento inesperado
+
+────────────────────────────────────────
+🥇 GOLD — $4,515 | 🔴 Bajista
+• EMAs: Precio por debajo de EMA21 (4,575) y EMA50 (4,650) — bearish alignment
+• RSI 43.1: Espacio para continuar bajando antes de oversold
+• FVG↓ activo: 4,570–4,650 → zona de oferta. Cualquier bounce hacia ahí es oportunidad short
+• FVG↑ activo: 4,447–4,488 → target bajista inmediato si pierde 4,512
+• Niveles clave:
+• Soporte inmediato: 4,512 (S/R histórico — ojo hoy)
+• Target bajista: 4,447–4,488 (FVG de demanda abajo)
+• Resistencia/Short: 4,570–4,650
+
+Sesgo: Bajista. DXY al alza refuerza presión. Short en rally a 4,570–4,600 con SL sobre 4,655.
+
+────────────────────────────────────────
+🥈 SILVER — $75.15 | 🔴 Bajista
+• EMAs: Precio bajo las dos EMAs (77.01/77.38) — bearish
+• RSI 45.5: Neutro-bajo, sin oversold
+• FVG↓ activo: 78.06–84.90 → resistencia de largo plazo
+• Soporte inmediato: 73.79 | Target extendido: 72.79–72.00
+
+Sesgo: Bajista. No hay setup long claro. Evitar compras hasta ver RSI bajo 35 o bounce con volumen.
+
+────────────────────────────────────────
+🛢️ OIL (WTI) — $92.47 | 🟡 Neutro (rebote fuerte)
+• +5.85% hoy — movimiento significativo, posiblemente geopolítico o dato de inventarios
+• EMAs: Precio aún bajo EMA21 (96.19) y EMA50 (94.23) — las EMAs actúan como resistencia
+• RSI 45.2: No sobrecomprado pese al rally — tiene recorrido
+• FVG↓ activo: 94.70–95.76 → zona crítica de resistencia justo donde las EMAs también convergen
+• Soporte: 91.05 | Resistencias: 94.70–96.19 (FVG + EMAs)
+
+Sesgo: Rebote dentro de estructura bajista mayor. El área 94.70–96.20 es la zona donde institucionales pueden vender. Cautela con longs nuevos a estos precios.
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | Cambio | RSI | Sesgo | Nivel a vigilar |
+|-----|--------|--------|-----|-------|-----------------|
+| SPY | $758.54 | +0.27% | 75.2 | 🟢 | Soporte: 751.38–754.69 (FVG) |
+| QQQ | $742.74 | +0.60% | 78.4 | 🟢 | RSI extremo, soporte: 733–735 |
+| GLD | $411.26 | -1.40% | 41.0 | 🔴 | Resistencia: 420.93–427.10 (FVG↓) |
+| SLV | $67.67 | -0.97% | 45.4 | 🔴 | Resistencia: 70.77–75.39 (FVG↓) |
+| USO | $135.50 | +4.97% | 48.8 | 🟡 | Resistencia: 138.70–140.23 (FVG↓) |
+
+Notas ETFs:
+• QQQ RSI 78.4 — el más extendido de todos los activos monitoreados. Riesgo de reversión sharp si hay catalizador negativo. No perseguir longs.
+• GLD/SLV confirman el sesgo bajista de metales. FVGs bajistas activos son zonas de short en rally.
+• USO +4.97% — refleja el movimiento de Oil. Vigilar rechazo en 138.70–140.23.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — NVDA LONG (Continuación)
+Activo: NVDA | Sesgo: 🟢 Fuertemente alcista
+
+| Parámetro | Nivel |
+|-----------|-------|
+| Entrada | Pullback a $215.52–$216 (FVG activo) |
+| SL | Por debajo de $208.78 |
+| Target 1 | $224–$225 (precio actual) |
+| Target 2 | $236.54 (resistencia clave) |
+| R:R estimado | ~1:3 desde FVG |
+
+Lógica: NVDA lidera el mercado hoy con +6.26%. Si hay retroceso intraday al FVG $215.52–$215.70, es zona de demanda institucional no mitigada. Catalizador en tendencia, estructura HH+HL intacta. Este es el trade más limpio del día si el mercado da el pullback.
+
+────────────────────────────────────────
+🥈 Setup #2 — GOLD SHORT (Rally al OB de oferta)
+Activo: GOLD | Sesgo: 🔴 Bajista
+
+| Parámetro | Nivel |
+|-----------|-------|
+| Entrada | Rally a zona FVG/OB: $4,570–$4,610 |
+| SL | Por encima de $4,655 |
+| Target 1 | $4,515 (precio actual) |
+| Target 2 | $4,447–$4,488 (FVG de demanda) |
+| R:R estimado | ~1:2.5 |
+
+Lógica: Gold bajó de $4,554 (ayer) a $4,515. Precio está debajo de ambas EMAs, DXY al alza presiona metales. El FVG bajista 4,570–4,650 es la zona de oferta premium. Si hay bounce, vender ahí con SL definido. Setup de alta probabilidad mientras DXY sostenga.
+
+────────────────────────────────────────
+🥉 Setup #3 — AAPL LONG (Pullback al FVG)
+Activo: AAPL | Sesgo: 🟢 Alcista con dip comprável
+
+| Parámetro | Nivel |
+|-----------|-------|
+| Entrada | Toque del FVG: $302.80–$305.84 |
+| SL | Por debajo de $299 |
+| Target 1 | $310–$312 |
+| Target 2 | Extensión hacia $315+ |
+| R:R estimado | ~1:2 |
+
+Lógica: AAPL cayó -1.84% hoy, pero estructura mayor alcista intacta (EMAs 297/284 por debajo del precio). El FVG $302.80–$305.84 es zona de imbalance activa — precio ya está prácticamente encima (~$306.31). Vigilar si hay continuación del dip intraday hacia ese rango. Si el mercado general sigue alcista, AAPL tiene probabilidad de rebote desde ahí.
+
+────────────────────────────────────────
+8. ⚠️ RIESGOS Y ALERTAS
+
+🔴 RSI extremos en índices: SPY 75.2, QQQ 78.4, NDX 75.0 — mercado sobreextendido. Una noticia negativa puede generar corrección rápida de 1-2% en horas.
+
+🔴 Divergencia F&G vs Precio: Fear & Greed en 29 (miedo) mientras índices en máximos históricos. Históricamente esto precede ya sea a una continuación agresiva (short squeeze) o a una corrección súbita.
+
+🟡 DXY al alza (+0.28%): Presión sobre metales y potencialmente crypto. Vigilar si supera 99.50 — aceleraría la caída en Gold/Silver.
+
+🟡 Oil +5.85% sin catalizador claro en noticias: Movimiento inusual. Si es geopolítico, puede revertir igual de rápido. No perseguir USO/Oil a estos precios.
+
+🟡 AMZN y GOOGL débiles vs mercado: Dos de los 7 Magníficos lateralizan/bajan mientras el resto sube. Divergencia interna del sector tech a monitorear — puede ser rotación sectorial o señal temprana de techo.
+
+⚠️ CRYPTO sin datos: No operar BTC/ETH hasta tener precio y estructura actualizados. El contexto de ayer (oversold extremo) puede haber generado un rebote violento — o una continuación bajista. Verificar antes de cualquier posición.
+
+📅 Primer día de Junio: Rebalanceos institucionales pueden generar volatilidad atípica en apertura. Esperar primeros 30-60 minutos antes de entrar en posiciones nuevas.
+
+────────────────────────────────────────
+📌 Próximos catalizadores a vigilar esta semana: datos de empleo (NFP viernes), comentarios de Fed, inventarios de petróleo (miércoles)
+
+────────────────────────────────────────
+Brief generado el 01/06/2026 — 21:19 UTC. Niveles orientativos, no constituyen asesoramiento financiero. Verificar precios en tiempo real antes de operar.
