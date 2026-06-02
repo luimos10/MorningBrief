@@ -1,0 +1,176 @@
+📊 MORNING BRIEF — Martes 2 de Junio, 2026 | 12:45 UTC
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.06 (-0.15%) | 🔴 Dólar débil → favorable para risk-on y metales |
+| VIX | 16.18 | 🟢 Baja volatilidad, mercado complaciente |
+| Fear & Greed | 23 — Extreme Fear | ⚠️ Divergencia extrema con precio en ATH |
+| Fed / Eventos | Sin catalizadores inmediatos | 🟡 Monitorear discursos Fed esta semana |
+
+Narrativa macro del día: El mercado está en territorio técnicamente extendido — índices en RSI >74 mientras el F&G marca Extreme Fear (23). Esta divergencia sentimiento/precio es una bandera amarilla importante. El DXY débil sigue empujando activos de riesgo y metales preciosos al alza. La noticia de SoftBank comparando la IA con "50x el dotcom boom" alimenta el narrative AI trade (NVDA +6%).
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+> ⚠️ SEGUIMIENTO: Sin datos 4H disponibles hoy para BTC ni ETH. Contexto: Ayer BTC cotizaba ~$73,180 con RSI 23.6 en oversold extremo y ETH ~$1,982 con RSI 25.4. Sin datos actualizados, los sesgos de ayer se mantienen como referencia pero no se pueden confirmar setups nuevos.
+
+BTC — Sin datos disponibles hoy
+• Sesgo HTF: Indeterminado (último dato: potencial zona de acumulación por RSI oversold extremo)
+• Niveles a recordar del brief anterior: $73,180 era soporte clave. Cualquier BOS alcista desde oversold extremo sería señal de reversión.
+• ⚠️ Sin datos actualizados — No operar crypto hoy sin confirmar precio en tiempo real.
+
+ETH — Sin datos disponibles hoy
+• Sesgo HTF: Indeterminado (último dato: RSI 25.4, zona de demanda potencial)
+• ⚠️ Sin datos actualizados — Verificar precio antes de cualquier entrada.
+
+> 💡 Nota operativa: Si BTC ha rebotado desde los ~$73K con ese RSI oversold, puede estar formando un CHOCH en LTF. Verificar en exchange directamente antes de ejecutar cualquier perpetual.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+S&P 500 — $7,600 🟢
+Sesgo: Alcista con señales de extensión
+• Seguimiento: Ayer sin setup específico en S&P. Hoy +0.26% — tendencia intacta.
+• Estructura: HH + HL confirmado | EMAs 7,408 / 7,203 muy por debajo del precio
+• RSI 74.5 → Territorio sobrecomprado
+• FVG activo al alza: 7,530–7,563 ← precio ya por encima, FVG mitigado parcialmente
+• Soporte clave: 7,333 (primer nivel de reacción si hay pullback)
+• Setup: No entrar largo aquí. Esperar retroceso a 7,333–7,408 (zona EMA + soporte) para long de continuación.
+
+NASDAQ — $27,087 🟢
+Sesgo: Alcista (liderado por NVDA hoy)
+• Estructura: HH + HL | EMAs 26,106 / 25,010
+• RSI 75.0 → Más extendido que SPX
+• FVG activo: 26,715–26,859 ← soporte de corto plazo si pullback
+• Setup: NVDA llevando al índice. RSI sobrecomprado — no perseguir. Pullback a 26,700–26,860 = zona de interés para long.
+
+DOW JONES — $51,079 🟢
+Sesgo: Alcista, más moderado
+• RSI 68.6 — menos extendido que SPX/NDX
+• FVG alcista: 50,764–50,767 (zona muy estrecha, actúa como soporte inmediato)
+• ⚠️ Sweep sell-side en 49,831 — barrió liquidez bajista, señal alcista confirmada
+• Soporte clave: 49,307 / 49,235
+• Setup: El más "sano" de los tres índices en RSI. Pullback a 50,764 = OB/FVG de interés.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel Clave |
+|--------|--------|--------|-----|-------|-------------|
+| AAPL | $306.31 | -1.84% | 67.2 | 🟢 Técnico alcista / 🔴 Día bajista | FVG $302.8–305.84 (rellena hoy) |
+| MSFT | $460.52 | +2.28% | 73.3 | 🟢 Fuerte | Resistencia $481.60 próximo target |
+| NVDA | $224.36 | +6.26% | 60.4 | 🟢 Líder del día | Resistencia $236.54 |
+| GOOGL | $376.37 | -1.04% | 49.8 | 🟡 Débil | FVG bajista $378–385 como techo |
+| AMZN | $261.26 | -3.47% | 48.9 | 🟡 Débil | Soporte $256–255 crítico |
+
+Narrativa Tech:
+• NVDA 🚀 — El movimiento del día. Narrative IA impulsado por declaraciones de SoftBank (+50x dotcom). RSI en 60 — aún tiene recorrido. Target: $236.54 (resistencia marcada).
+• MSFT sólido, FVG entre $429–458 ya cubierto. Próximo nivel: $481.60.
+• AAPL — Retroceso intraday llenando el FVG $302.80–$305.84. Si mantiene ese rango al cierre, estructura intacta.
+• ⚠️ GOOGL + AMZN — Seguimiento del brief anterior: La divergencia interna señalada ayer se confirma y amplía hoy. AMZN -3.47% es una caída significativa vs el mercado. RSI ambas por debajo de 50 mientras el resto del sector vuela. Esto es una señal real de rotación o distribución selectiva. Cuidado con largos en estas dos.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🥇 GOLD — $4,562 🔴
+Seguimiento: Ayer el setup bajista se "activó" pero hoy rebota +1.95%. Setup bajista parcialmente invalidado a corto plazo.
+• EMAs: $4,571 / $4,644 — precio por debajo de ambas EMAs → estructura bajista en HTF
+• RSI 47.9 — zona neutral, rebote técnico posible
+• FVG bajista activo: $4,570–$4,650 ← zona de oferta clave. El precio rebota hacia ella.
+• FVG alcista: $4,447–$4,487 (zona de demanda abajo)
+• Setup: El rebote de hoy (+1.95%) lo lleva directo al FVG bajista $4,570–4,650. Esta es la zona de venta/short ideal si aparece reacción bajista con confirmación. Invalidación: cierre por encima de $4,650.
+
+🥈 SILVER — $76.96 🔴
+Seguimiento: Ayer débil, hoy rebota +2.60% — pero sigue en estructura bajista según EMAs.
+• EMAs: $76.99 / $77.36 — precio prácticamente en las EMAs, zona de decisión
+• RSI 49.7 — neutral
+• Resistencia inmediata: $77.45 / $77.50 (doble techo potencial)
+• FVG bajista activo: $78.06–$84.90 — zona de oferta amplia arriba
+• Setup: Si falla en $77.45–$77.50, posible rechazo. Invalidación alcista: cierre sostenido >$77.50.
+
+🛢️ OIL (WTI) — $91.06 🔴
+Seguimiento: Ayer la reversión alcista +5.85% fue el movimiento más grande e inesperado. Hoy cede -1.19% — pullback sano tras el spike.
+• EMAs: $95.70 / $94.09 — precio bajo ambas EMAs → tendencia bajista de fondo
+• RSI 43.6 — débil
+• FVG alcista: $89.02–$90.12 — precio en este rango ahora mismo ← zona de demanda a vigilar
+• Soporte crítico: $91.05 (prácticamente el precio actual)
+• Setup: Si $91.05 aguanta, puede haber rebote técnico hacia $94–95. Ruptura de $91 = target $88.66.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | RSI | Sesgo | Nivel Clave |
+|-----|--------|-----|-------|-------------|
+| SPY | $758.54 | 75.2 | 🟢 Alcista extendido | FVG soporte: $751–754 |
+| QQQ | $742.74 | 78.4 | 🟢 Muy extendido ⚠️ | FVG soporte: $733–735 |
+| GLD | $411.26 | 41.0 | 🔴 Bajista | FVG bajista: $420–427 (oferta) |
+| SLV | $67.67 | 45.4 | 🔴 Bajista | FVG bajista: $70.77–75.39 |
+| USO | $135.50 | 48.8 | 🟡 Neutro | FVG bajista: $138.70–140.23 |
+
+Notas ETFs:
+• QQQ RSI 78.4 — el ETF más sobrecomprado del tablero. Peligroso perseguir largos aquí.
+• GLD confirma la narrativa bajista del oro físico. FVG $420–427 = zona de short en ETF.
+• USO +4.97% hoy a pesar de que WTI cae — revisar si hay divergencia o rezago de datos.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+────────────────────────────────────────
+🥇 SETUP #1 — NVDA LONG en pullback
+Tipo: Continuación alcista | Timeframe: 1H–4H
+• Contexto: +6.26% hoy impulsado por narrative IA. RSI en 60 (no sobrecomprado). FVG menor en $215.52–$215.70 como zona de demanda si hay retroceso.
+• Entrada ideal: Pullback a zona $216–$218 (mitigación FVG + area de valor)
+• Target: $236.54 (resistencia marcada)
+• Invalidación: Cierre 4H por debajo de $212
+• R:R estimado: ~3:1
+• ⚠️ No perseguir en el precio actual si ya subió. Esperar el retroceso.
+
+────────────────────────────────────────
+🥇 SETUP #2 — GOLD SHORT en FVG de oferta
+Tipo: Continuación bajista desde zona de oferta | Timeframe: 4H–Daily
+• Contexto: Estructura HTF bajista (precio bajo EMAs). El rebote de hoy +1.95% lleva el precio directo al FVG bajista $4,570–$4,650 — zona de oferta no mitigada.
+• Entrada: Reacción bajista con vela de rechazo en $4,570–$4,600
+• Target 1: $4,512 | Target 2: $4,465
+• Invalidación: Cierre diario por encima de $4,650
+• R:R estimado: ~2.5:1
+• 💡 Este es el trade más limpio del día desde perspectiva SMC.
+
+────────────────────────────────────────
+🥇 SETUP #3 — AMZN WATCH para short/largo según reacción en $255–$256
+Tipo: Estructura en decisión | Timeframe: Diario
+• Contexto: -3.47% hoy, RSI 48.9, debajo de EMA de corto plazo ($264.77). Caída sostenida dentro del sector tech fuerte. Divergencia interna Mag7 confirmada 2 días seguidos.
+• Escenario A (short): Si rompe y cierra por debajo de $256.16–$255.19 (zona de soporte doble), busca extensión hacia $226
+• Escenario B (long): Si defiende $255–$256 con volumen y forma vela de reversión, potencial rebote a $264–$267 (FVG bajista arriba)
+• Invalidación short: Recuperación por encima de EMA corto ($264.77)
+• 💡 Activo a monitorear de cerca — el mercado te dirá el lado en las próximas horas.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 Riesgo 1 — Divergencia F&G vs Precio
+El índice Fear & Greed en 23 (Extreme Fear) mientras SPX y NDX cotizan en RSIs de 74–78 es una de las mayores divergencias macro del ciclo. Históricamente esto precede a capitulaciones de corto plazo. No añadir exposición larga sin gestión de riesgo estricta.
+
+🔴 Riesgo 2 — RSI sobrecomprado generalizado en índices
+SPY (75.2), QQQ (78.4), SPX (74.5), NDX (75.0) — todos en zona de extensión. Un catalizador negativo puede generar corrección rápida de 2–3% sin avisar.
+
+🔴 Riesgo 3 — Divergencia interna Mag7 (AMZN + GOOGL)
+Dos de los siete magníficos muestran debilidad persistente (2 días consecutivos). Si esta divergencia se amplía o se contagia a AAPL, puede ser señal temprana de techo de mercado o rotación sectorial.
+
+🟡 Riesgo 4 — Gold en zona de decisión
+El rebote de hoy lo lleva al FVG bajista. Si rompe $4,650 al alza, se invalida toda la estructura bajista de corto plazo y puede haber squeeze significativo.
+
+🟡 Riesgo 5 — Crypto sin datos
+Sin información actualizada de BTC/ETH. Con el oversold extremo de ayer (RSI BTC 23.6, ETH 25.4), puede haber rebotes violentos en los perpetuals. Verificar precio real antes de cualquier operación.
+
+🟢 Oportunidad macro — DXY en 99.06
+Dólar débil + narrative IA + VIX bajo = entorno favorable para momentum en tech selectivo (NVDA, MSFT). Aprovechar mientras dure, pero con stops ajustados dado el F&G.
+
+────────────────────────────────────────
+> 📌 Resumen ejecutivo en 30 segundos:
+> Mercado en modo "riesgo on" técnico pero con señales de alerta (F&G extremo, RSIs extendidos). NVDA es el líder del día (narrative IA). GOLD regresa a zona de venta ideal. AMZN en soporte crítico — setup binario. Crypto sin datos: verificar antes de operar. No perseguir índices aquí — esperar pullbacks.
+
+────────────────────────────────────────
+Brief generado: 2026-06-02 12:45 | Próxima actualización: Mañana pre-market
