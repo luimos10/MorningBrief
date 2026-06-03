@@ -1,0 +1,167 @@
+📊 MORNING BRIEF — Miércoles 3 de Junio 2026
+Generado: 12:45 UTC | Sesión: NY Open
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|---|---|---|
+| DXY | 99.45 (+0.24%) | Rebote leve — dólar recuperando |
+| VIX | 16.13 | Complacencia moderada |
+| Fear & Greed | 11 — Extreme Fear | ⚠️ Divergencia severa vs precio |
+| Eventos | Sin Fed hoy | Mercado liderado por narrativa AI |
+
+🔴 Alerta macro clave: El F&G en 11 (Extreme Fear) mientras SPX/NDX cotiza en máximos históricos con RSI >75 es una divergencia psicológica extrema. El mercado sube pero el sentimiento no acompaña — señal clásica de distribución silenciosa o rotación sectorial. Nota: MSFT -4.17% y GOOGL -3.86% hoy sugieren rotación fuera de mega-cap hacia value/industrials (DOW +0.45%).
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+> ⚠️ Sin datos disponibles para BTC y ETH en sesión 4H hoy (segundo día consecutivo sin feed). No hay setup accionable en crypto. Mantente flat en crypto hasta recuperar datos HTF confiables. No operar a ciegas.
+
+Seguimiento brief anterior: Setup BTC/ETH sin activarse ayer por ausencia de datos — sigue sin información. Prioridad: restablecer feed de datos antes de re-entrar en cualquier perpetual.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+📊 S&P 500 — $7,610 (+0.13%)
+Seguimiento: Ayer setup pedía NO entrar largo y esperar 7,333–7,408. El precio NO retrocedió — sigue en extensión +$10 desde ayer. Setup de entrada largo no se activó. ✅ Decisión correcta esperar.
+• Sesgo: 🟢 Alcista estructuralmente, pero sobreextendido
+• EMAs: 7,427 / 7,219 — precio cotiza +183 pts sobre EMA rápida
+• RSI: 75.0 — zona de calentamiento
+• FVG↑ activo: 7,530–7,563 (ya fue alcanzado — posible mitigación parcial)
+• Soporte clave: 7,333 (EMA + S/R) → zona de interés para long de continuación
+• Setup: Sin entrada nueva. Si hay pullback a 7,333–7,408, buscar CHoCH en 1H para long. SL bajo 7,219. Invalidación si cierra bajo EMAs.
+
+────────────────────────────────────────
+📊 NASDAQ — $27,094 (+0.03%)
+Seguimiento: Ayer setup pedía pullback a 26,700–26,860 para long. Precio NO bajó — sigue en zona alta. Setup no activado.
+• Sesgo: 🟢 Alcista | RSI 75.1 — igual que ayer
+• FVG↑ activo: 26,715–26,859 — esta zona sigue siendo el imán de reentry si hay pullback
+• Soporte: 25,701 (siguiente nivel relevante)
+• Setup: Sin entrada. Monitorear si el índice cede por salida de MSFT/GOOGL. Pullback a 26,715–26,859 = zona de demanda valida. No perseguir longs aquí.
+
+────────────────────────────────────────
+📊 DOW JONES — $51,308 (+0.45%)
+Seguimiento: Ayer setup indicaba OB/FVG en 50,764. El DOW subió a 51,308 sin retroceder. Setup no activado — el índice fue el más fuerte del día como se anticipó.
+• Sesgo: 🟢 Alcista moderado — el más "sano" del trío (RSI 70.6 vs 75+ de SPX/NDX)
+• ⚠️ Sweep reciente: Sell-side sweep en 49,831 — limpieza completada, estructura alcista confirmada
+• FVG↑: 50,764–50,767 (zona ya cruzada al alza → ahora actúa como soporte)
+• Soporte inmediato: 50,314 / 50,150 (EMA)
+• Setup: 🟡 El más atractivo de los 3 índices para continuación. Si retrocede a 50,764–50,900, es OB/FVG de demanda. Entry en 1H BOS alcista. SL bajo 50,314.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | RSI | Sesgo | Nivel Clave | Nota |
+|---|---|---|---|---|---|
+| AAPL | $315.20 (+2.90%) | 73.7 | 🟢 Alcista | FVG: 302.8–305.84 | Fuerte momentum hoy — líder AI narrative |
+| MSFT | $441.31 (-4.17%) | 60.2 | 🟢 Alcista | OB: 429.49–458.27 | Gran vela bajista — posible distribución |
+| NVDA | $222.82 (-0.69%) | 58.8 | 🟢 Alcista | FVG: 217.86–221.35 | Pausa sana post-rally — RSI normalizado |
+| GOOGL | $361.85 (-3.86%) | 40.4 | 🟡 Neutro | FVG: 355.79–379.05 | Debilidad real — cotiza bajo EMA rápida |
+| AMZN | $256.52 (-1.81%) | 44.6 | 🟡 Neutro | FVG↓: 261.2–269.64 | Precio cerca de S/R doble (256/255) |
+
+Lectura rápida:
+• 🟢 AAPL es el toro del día — AI narrative + momentum. No perseguir; esperar FVG 302–305 en pullback.
+• 🔴 MSFT -4.17% rompe estructura intradía. El FVG 429–458 es zona amplia — esperar consolidación antes de cualquier long.
+• ⚠️ GOOGL bajo EMA rápida (379.48) con RSI 40.4 — estructura mixta. FVG bajista 373–378 activo como resistencia.
+• 🟡 AMZN en zona de soporte crítico 255–256. Un cierre bajo 255 activaría continuación bajista hacia 226.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🥇 Gold — $4,480 (-0.21%)
+• Sesgo: 🔴 Bajista — precio bajo ambas EMAs (4,557 / 4,635)
+• RSI: 41.2 — debilidad pero no oversold aún
+• FVG↑: 4,447–4,487 (activo — precio dentro de esta zona ahora mismo) ⚠️
+• FVG↓: 4,570–4,650 (resistencia superior)
+• Soporte: 4,465 / 4,400 / 4,363
+• Setup: 🔴 Sesgo bajista mientras cotice bajo EMAs. El precio está dentro del FVG alcista (4,447–4,487) — zona decisiva. Si rechaza aquí → short hacia 4,400. Si recupera y cierra sobre 4,490 → esperar, posible trampa bajista.
+
+────────────────────────────────────────
+🥈 Silver — $74.31 (-1.33%)
+• Sesgo: 🔴 Bajista (precio bajo EMAs 76.61/77.17)
+• RSI: 43.9 — bajista con espacio a caer
+• FVG↓: 76.0–76.1 (resistencia inmediata)
+• Soporte: 73.79 / 72.79 / 72.00
+• Setup: 🔴 Short en rebote a 76.0–76.1 (FVG + EMA). Target: 73.79. SL sobre 77.50.
+
+────────────────────────────────────────
+🛢️ Oil WTI — $96.41 (+2.83%)
+• Sesgo: 🟢 Alcista — fuerte +2.83% hoy
+• RSI: 50.3 — momentum activándose desde zona neutral
+• EMAs: 95.98 / 94.29 — precio rompió ambas al alza hoy (BOS)
+• FVG↓ activo: 102.66–106.76 (target potencial)
+• Soporte: 91.05 / EMA 95.98
+• Setup: 🟢 Interesante. BOS sobre EMAs hoy. Si consolida sobre 95.98–96.00, pullback a 94–96 = zona de OB/EMA para long de continuación. Target: 101.67. ⚠️ Nota: Oil a $96 con niveles previos de $88–90 implica rally significativo — revisar contexto geopolítico.
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | RSI | Sesgo | FVG / Soporte | Nota |
+|---|---|---|---|---|---|
+| SPY | $759.57 | 75.7 | 🟢 Alcista | FVG: 751–754 / S: 731 | RSI extremo — no perseguir |
+| QQQ | $746.16 | 79.4 | 🟢 Alcista | FVG: 733–735 / S: 695 | RSI más sobreextendido del mercado |
+| GLD | $411.95 | 41.7 | 🔴 Bajista | FVG↓: 414–415 / R: 437 | FVG bajista como resistencia inmediata |
+| SLV | $67.99 | 46.2 | 🔴 Bajista | FVG↓: 70.77–75.39 / S: 66 | Bajo EMAs — momentum bajista |
+| USO | $137.27 | 50.5 | 🟡 Neutro | FVG↑: 130–134 / FVG↓: 138–140 | Precio entre dos FVGs — decisión pendiente |
+
+⚠️ QQQ con RSI 79.4 es el activo más sobreextendido del brief. Un catalizador negativo (earnings miss, macro sorpresa) puede generar -3/5% en horas. SPY/QQQ: no longs nuevos aquí.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — 🛢️ OIL WTI | LONG de continuación
+> El setup más limpio del día
+• Sesgo: 🟢 Alcista
+• Contexto: BOS sobre EMAs hoy con vela +2.83%. Estructura cambiando de mixta a alcista.
+• Zona de entrada: Pullback a 95.50–96.00 (EMA 95.98 + zona de ruptura)
+• Invalidación: Cierre bajo 94.29 (EMA lenta)
+• Target 1: 101.67 | Target 2: 102.44
+• R/R estimado: ~1:3
+• Trigger LTF: BOS alcista en 1H sobre mínimo anterior tras el pullback
+
+────────────────────────────────────────
+🥈 Setup #2 — 🥈 SILVER | SHORT en rebote
+> Estructura bajista clara con FVG como resistencia
+• Sesgo: 🔴 Bajista
+• Contexto: Precio bajo ambas EMAs, RSI 43.9 con espacio a caer, FVG bajista overhead
+• Zona de entrada: Rebote a 76.00–76.10 (FVG↓ + EMA 76.61)
+• Invalidación: Cierre sobre 77.50
+• Target 1: 73.79 | Target 2: 72.79
+• R/R estimado: ~1:2.5
+• Trigger LTF: CHoCH bajista en 1H cerca de FVG
+
+────────────────────────────────────────
+🥉 Setup #3 — 📊 DOW JONES / DIA | LONG en pullback
+> El índice más sano — setup de continuación si da retroceso
+• Sesgo: 🟢 Alcista moderado (RSI más sano del trío en 70.6)
+• Contexto: Sweep de sell-side completado en 49,831. Estructura bullish confirmada. Rotación desde tech hacia value favorece DOW.
+• Zona de entrada: Pullback a 50,764–50,900 (FVG + zona de ruptura)
+• Invalidación: Cierre bajo 50,314
+• Target 1: 51,308 (recuperar máximos) | Target 2: ~52,000 (extensión)
+• R/R estimado: ~1:2
+• Trigger LTF: BOS alcista en 1H + vela de confirmación en la zona
+
+────────────────────────────────────────
+8. ⚠️ RIESGOS Y ALERTAS
+
+🔴 F&G = 11 (Extreme Fear) vs SPX en ATH — La mayor divergencia del brief. Sentimiento institucional no confía en esta subida. Escenario de distribución posible.
+
+🔴 MSFT -4.17% + GOOGL -3.86% — Dos mega-caps en rojo mientras el índice sube. Rotación o inicio de distribución en growth. Vigilar si se extiende mañana.
+
+⚠️ QQQ RSI 79.4 / SPY RSI 75.7 — Zona de reversión histórica. Un solo dato macro negativo puede desencadenar corrección de 2–4% sin estructura previa.
+
+⚠️ DXY +0.24% a 99.45 — Rebote del dólar presiona metales y cripto. Vigilar si DXY supera 100.00 → presión adicional en Gold/Silver.
+
+⚠️ Crypto sin datos (segundo día) — No operar BTC/ETH perpetuals hasta restablecer feed HTF. Riesgo de operar sin contexto estructural.
+
+🟡 Oil a $96.41 — Rally fuerte sin contexto macro claro en el brief. Verificar driver (¿OPEC? ¿geopolítica?) antes de escalar posición.
+
+📰 Andrew Left condenado por fraude — Puede generar nerviosismo en short sellers. Efecto secundario: posibles short squeezes en acciones con alto interés corto.
+
+────────────────────────────────────────
+> 💡 Resumen ejecutivo: Mercado de índices en zona de extensión extrema sin corrección — DOW es la excepción más sana. Rotación notable desde big tech (MSFT/GOOGL) hacia industrials/value. Oil rompe estructura con fuerza — mejor setup del día. Metales en tendencia bajista con niveles de resistencia claros para short. Crypto offline — sin operaciones. Sesgo general: selectivo, no perseguir tendencias, esperar retrocesos a zonas de demanda definidas.
+
+────────────────────────────────────────
+Brief generado: 03/06/2026 12:45 | Próxima revisión: cierre NY
