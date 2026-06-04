@@ -1,0 +1,205 @@
+📊 MORNING BRIEF — Jueves 4 de Junio, 2026 | 12:45 UTC
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|---|---|---|
+| DXY | 99.21 (-0.32%) | 🔴 Débil → Favorable para risk assets y metales |
+| VIX | 16.53 | 🟡 Moderado — sin pánico extremo en derivados |
+| Fear & Greed | 12 — Extreme Fear | ⚠ Capitulación en curso o cerca |
+| Fed / Eventos | Sin catalizadores inmediatos hoy | 🟡 Sesión sin drivers macro fuertes |
+
+Lectura rápida: DXY cediendo presión + F&G en 12 = mercado en zona de capitulación emocional. Históricamente, niveles sub-15 preceden rebotes técnicos, pero no son señal de reversión estructural. El índice S&P sigue en uptrend institucional mientras crypto colapsa — divergencia importante. El oil cae -3.33% desde $96.41 de ayer, lo que confirma que el rally previo no tenía driver sólido (sin noticias OPEC confirmadas). Esa posición corta o de cautela en oil era la correcta.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🔴 BITCOIN — $63,671 (+1.80% rebote técnico)
+
+📌 SEGUIMIENTO: Ayer el setup era continuación bajista con precio bajo EMAs. Hoy el precio rebotó +1.80% pero sigue completamente dentro de estructura bajista — este rebote es consistente con un retroceso hacia FVGs activos, no un cambio de estructura. Setup bajista sigue vigente.
+
+Estructura HTF (4H):
+• LH + LL confirmado | BOS Bearish activo
+• Precio: $63,671 vs EMA21 ($67,121) / EMA50 ($70,339) / EMA200 ($75,286)
+• Precio a un 5.4% de la EMA21 — fuertemente por debajo de todas las medias
+• RSI 4H: 25.7 — zona de sobreventa extrema ⚠ (posibles rebotes técnicos, no reversión)
+• CVD: ✅ Alineado bajista — sin divergencia, la presión vendedora es real
+
+Order Blocks / FVGs activos:
+| Zona | Tipo | Rango | Estado |
+|---|---|---|---|
+| Bear FVG 1 | 🔴 Resistencia | $66,373 – $66,656 | ACTIVO — primera zona de rechazo |
+| Bear FVG 2 | 🔴 Resistencia | $65,860 – $66,076 | ACTIVO — zona de rechazo inmediata |
+| Bear FVG 3 | 🔴 Resistencia | $64,540 – $65,251 | ACTIVO — techo sobre precio actual |
+| LTF Bear FVG | 🔴 1H Resistencia | $64,428 – $64,778 | ACTIVO — primer objetivo del rebote |
+
+Liquidez:
+• EQL Buy-side (targets para sweep): $72,547 / $76,079 — lejos
+• Soporte clave: $61,383 — único soporte visible antes de estructura mayor
+
+Setup del día:
+> 🔴 SESGO: BAJISTA | El rebote de +1.80% está llevando precio hacia el LTF Bear FVG $64,428–$64,778. Ese es el nivel para buscar short con confluencia: FVG mitigado + estructura LH en 1H + RSI saliendo de sobreventa en rechazo.
+>
+> - Entrada short: $64,428–$64,778 (mitigación LTF FVG)
+> - Target 1: $63,000 | Target 2: $61,383
+> - Invalidación: Cierre 4H por encima de $65,860 (base del Bear FVG 2)
+
+────────────────────────────────────────
+🔴 ETHEREUM — $1,774 (+1.28% rebote técnico)
+
+📌 SEGUIMIENTO: Estructura sigue igual de deteriorada. El rebote de hoy no cambia nada — mismo patrón que BTC, retroceso técnico hacia FVGs activos.
+
+Estructura HTF (4H):
+• LH + LL | BOS Bearish activo
+• Precio $1,774 vs EMA21 ($1,871) / EMA50 ($1,949) / EMA200 ($2,112)
+• RSI: 27.8 — sobreventa extrema, pero CVD bajista confirma presión
+• CVD: ✅ Alineado bajista
+
+FVGs / Zonas clave:
+| Zona | Rango | Estado |
+|---|---|---|
+| Bear FVG 1 | $1,943 – $1,966 | 🔴 ACTIVO — resistencia mayor |
+| Bear FVG 2 | $1,844 – $1,869 | 🔴 ACTIVO — resistencia intermedia |
+| LTF Bear FVG | $1,802 – $1,803 | 🔴 ACTIVO — primer techo en 1H |
+| Soporte | $1,717 | 🟡 Próximo nivel de demanda visible |
+
+Setup del día:
+> 🔴 SESGO: BAJISTA | Rebote hacia LTF FVG $1,802–$1,803 es la zona de entrada corta más cercana. Confluencia con estructura bajista 1H.
+>
+> - Entrada short: $1,802–$1,810 (mitigación LTF FVG + posible LH en 1H)
+> - Target 1: $1,750 | Target 2: $1,717
+> - Invalidación: Cierre 4H sobre $1,844
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+Contexto general: Los tres índices siguen en uptrend estructural (HH + HL), pero hoy todos cierran en rojo. Corrección sana dentro de tendencia alcista. FVGs activos al alza actúan como imanes de precio en pullback.
+
+| Índice | Precio | Sesgo | Nivel clave soporte | FVG activo |
+|---|---|---|---|---|
+| S&P 500 | $7,554 (-0.74%) | 🟢 Alcista | $7,333 | $7,530–$7,563 (precio dentro) |
+| NASDAQ | $26,854 (-0.89%) | 🟢 Alcista | $25,701 | $26,715–$26,859 (precio en borde) |
+| DOW | $50,687 (-1.21%) | 🟢 Alcista | $50,314 | $50,067–$50,434 |
+
+Notas rápidas:
+• SPX: Precio tocando el FVG alcista $7,530–$7,563 — zona de reacción. Si mantiene, setup largo de continuación.
+• NDX: RSI 68 + precio en borde superior del FVG $26,715–$26,859. Vigilar si cierra dentro o rechaza. QQQ RSI en 77.3 — sobrecomprado ⚠
+• DOW: ⚠ Sweep sell-side detectado en $49,831 — señal de que institucionales cazaron stops. Rebote posible desde $50,067 (FVG base).
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+📌 SEGUIMIENTO MSFT/GOOGL: Ayer -4.17% y -3.86% respectivamente. Hoy MSFT -3.17% adicional ($427), GOOGL -0.79% ($359). La rotación/distribución en growth se está extendiendo — no fue un día aislado. AMZN se suma con -2.53%. El patrón es rotación sectorial bajista en mega-caps growth.
+
+| Ticker | Precio | Sesgo | Clave | Setup |
+|---|---|---|---|---|
+| AAPL | $310.26 (-1.57%) | 🟢 Alcista | FVG↑ $302.80–$305.84 como soporte | Pullback a FVG = potencial largo |
+| MSFT | $427.34 (-3.17%) | 🟢/⚠ | FVG↑ $415.94–$432.36 | Precio en zona del FVG, 2 días bajando. Esperar estabilización |
+| NVDA | $214.75 (-3.62%) | 🟡 Neutro | Soporte $208.78 | Precio bajo EMA21 ($215.42) ⚠ — zona crítica |
+| GOOGL | $358.99 (-0.79%) | 🔴 Bajista | FVG↑ $355.79–$379 | RSI 38.8, bajo EMA21/50. Bear bias |
+| AMZN | $250.02 (-2.53%) | 🔴 Bajista | Resistencia $256.18 | FVG↓ $257–$260 como techo. Sin setup largo |
+
+⚠ Alerta tech: NVDA perforó su EMA21 hoy — si cierra bajo $215.42 confirma debilidad. MSFT lleva 2 jornadas de ventas fuertes acumulando -7.3% en 48h. Monitorear si SPX absorbe o se contagia.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🟡 GOLD — $4,529 (+2.07%)
+📌 SEGUIMIENTO: DXY bajando favorece el rebote de hoy. Pero estructura sigue bajista (LH+LL, bajo EMAs).
+• Sesgo: 🔴 Bajista estructural | Rebote técnico por DXY débil
+• Resistencia inmediata: $4,570–$4,650 (Bear FVG activo) — zona de venta
+• Soporte: $4,512 → $4,465 → $4,400
+• Setup: Rebote hacia FVG $4,570–$4,650 = zona de short. RSI 46.7 da margen de alza antes de rechazo.
+
+🔴 SILVER — $74.71 (+1.68%)
+• Sesgo: 🔴 Bajista | Estructura mixta, bajo EMAs
+• ⚠ Buy-side sweep en $71.99 detectado previamente — posible trampa ya ejecutada
+• Resistencia: $75.87 → $77.45 | Soporte: $73.79 → $72.79
+• Bear FVG $74.93–$75.31 activo como techo inmediato
+
+🟡 OIL (WTI) — $92.82 (-3.33%)
+📌 SEGUIMIENTO: Ayer $96.41 sin driver claro — la caída de hoy -3.33% confirma que el rally era especulativo. Correcto no escalar.
+• Sesgo: 🟡 Neutro | Estructura mixta, en zona entre EMAs
+• Soporte clave: $91.05 → $88.66 | FVG↑ $89.02–$90.12 como zona de demanda
+• Vigilar: Si rompe $91.05 con fuerza, próxima parada $88.66
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | Zona clave | Nota |
+|---|---|---|---|---|
+| SPY | $754.24 (-0.70%) | 🟢 Alcista | FVG↑ $751.38–$754.69 | Precio dentro del FVG — soporte |
+| QQQ | $744.21 (-0.26%) | 🟢 ⚠ Sobrecompra | $733–$735 (FVG soporte) | RSI 77.3 — riesgo corrección |
+| GLD | $407.87 (-0.99%) | 🔴 Bajista | $404.30 soporte | FVG↓ $414.40–$415.08 como resistencia |
+| SLV | $66.21 (-2.62%) | 🔴 Bajista | $66.11–$65.51 zona crítica | Muy cerca de soporte; FVG↓ lejano |
+| USO | $140.86 (+2.62%) | 🟢 Alcista | Resistencia $143.98 | Rebote desde soporte, ojo a $143.98 como techo |
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — 🔴 BTC SHORT | Mitigación LTF Bear FVG
+> Activo: BTCUSDT | Timeframe: 1H (entrada) / 4H (sesgo)
+>
+> El rebote de +1.80% está llevando precio directamente hacia el LTF Bear FVG $64,428–$64,778. Confluencia triple: FVG no mitigado + estructura bajista LH+LL en 1H + CVD bajista + BOS bearish activo en 4H.
+>
+> | Campo | Valor |
+> |---|---|
+> | Entrada | $64,428–$64,778 |
+> | Stop Loss | $65,860 (base Bear FVG 4H) |
+> | Target 1 | $63,000 |
+> | Target 2 | $61,383 |
+> | R:R estimado | ~1:2.5 |
+> | Invalidación | Cierre 4H sobre $65,860 |
+
+────────────────────────────────────────
+🥈 Setup #2 — 🔴 ETH SHORT | Rebote a LTF FVG
+> Activo: ETHUSDT | Timeframe: 1H / 4H
+>
+> Estructura idéntica a BTC con RSI en 27.8 pero CVD alineado bajista. El LTF FVG $1,802–$1,803 es el nivel más cercano para iniciar short con estructura.
+>
+> | Campo | Valor |
+> |---|---|
+> | Entrada | $1,802–$1,810 |
+> | Stop Loss | $1,844 |
+> | Target 1 | $1,750 |
+> | Target 2 | $1,717 |
+> | R:R estimado | ~1:2 |
+> | Invalidación | Cierre 4H sobre $1,844 |
+
+────────────────────────────────────────
+🥉 Setup #3 — 🟢 SPY LARGO | Reacción en FVG alcista
+> Activo: SPY | Timeframe: Diario / 4H
+>
+> SPY pullback a FVG alcista $751.38–$754.69 con precio actualmente dentro. Estructura uptrend intacta (HH+HL). DOW mostró sweep sell-side como señal de absorción. Si SPX no rompe $7,530, el setup de continuación alcista es válido.
+>
+> | Campo | Valor |
+> |---|---|
+> | Entrada | $751.50–$754.70 (ya dentro) |
+> | Stop Loss | $748 (bajo FVG) |
+> | Target 1 | $762 |
+> | Target 2 | $770+ |
+> | R:R estimado | ~1:2 |
+> | Invalidación | Cierre diario bajo $751.38 |
+
+────────────────────────────────────────
+⚠ 8. RIESGOS Y ALERTAS
+
+🔴 Divergencia Crypto vs Equities: BTC/ETH en colapso bajista mientras SPX sigue en ATH — señal de que el capital institucional no está rotando a crypto. El rebote de hoy es técnico, no estructural.
+
+🔴 Distribución en Mega-Caps Growth: MSFT -7.3% acumulado en 2 días, AMZN -2.53%, NVDA bajo EMA21. Si se contagia a AAPL y el SPX pierde $7,530, el setup SPY largo se invalida. Monitorear cierre de sesión NY.
+
+⚠ QQQ RSI 77.3 — Sobrecompra extrema: El índice puede corregir hacia $733–$735 sin romper estructura. No perseguir largos en NDX aquí.
+
+⚠ Gold y Silver rebotando con DXY débil: El rebote es técnico (DXY -0.32%). Mientras Gold no supere $4,650 en cierre, el sesgo bajista se mantiene. No confundir rebote con reversión.
+
+🟡 F&G en 12 — Extreme Fear: Niveles históricamente asociados a capitulaciones y rebotes violentos en crypto. No aumentar posición corta agresivamente sin confirmación LTF de rechazo en FVG. El riesgo de squeeze es real.
+
+🟡 Palo Alto Earnings (PANW): Caída post-earnings. Verificar si contagia a sector tech/cybersecurity hoy. NVDA ya muestra debilidad técnica.
+
+────────────────────────────────────────
+> 📌 RESUMEN EJECUTIVO: Sesión dominada por debilidad en crypto y tech mega-caps. El macro (DXY bajo, F&G=12) genera rebotes técnicos pero no cambia estructura bajista en BTC/ETH. Los mejores setups están en shorts de crypto en FVGs de resistencia y largo defensivo en SPY si aguanta el FVG alcista. Mantener tamaño de posición reducido hasta ver confirmación en cierre de velas 4H.
+
+────────────────────────────────────────
+Brief generado: 04/06/2026 12:45 | Próxima actualización: 05/06/2026 pre-market
