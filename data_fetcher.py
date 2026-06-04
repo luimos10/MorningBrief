@@ -47,29 +47,88 @@ def _yf_history(symbol: str, period: str = "6mo", interval: str = "1d") -> pd.Da
     return ticker.history(period=period, interval=interval)
 
 
+# Spot market-data bases tried in order. `api.binance.com` está geo-bloqueado
+# (HTTP 451) en IPs de EE.UU. como las de GitHub Actions; `data-api.binance.vision`
+# es el mirror público de datos de mercado y NO está bloqueado, sirviendo el mismo
+# JSON de /api/v3/klines (incluye taker_buy_base para el CVD).
+_SPOT_BASES = ["https://api.binance.com", "https://data-api.binance.vision"]
+
+# Mapeo de intervalos Binance → Bybit v5 (minutos como string; D/W/M para mayores).
+_BYBIT_INTERVAL = {
+    "1m": "1", "3m": "3", "5m": "5", "15m": "15", "30m": "30",
+    "1h": "60", "2h": "120", "4h": "240", "6h": "360", "12h": "720",
+    "1d": "D", "1w": "W", "1M": "M",
+}
+
+
 def fetch_binance_klines(symbol: str, interval: str = "4h", limit: int = 200) -> pd.DataFrame:
-    """Fetch OHLCV klines from Binance public API."""
-    url = "https://api.binance.com/api/v3/klines"
+    """Fetch OHLCV klines, probando los mirrors spot y con fallback a Bybit."""
     params = {"symbol": symbol, "interval": interval, "limit": limit}
+    columns = [
+        "open_time", "open", "high", "low", "close", "volume",
+        "close_time", "quote_volume", "trades", "taker_buy_base",
+        "taker_buy_quote", "ignore",
+    ]
+    num_cols = ["open", "high", "low", "close", "volume",
+                "taker_buy_base", "taker_buy_quote", "quote_volume"]
+
+    for base in _SPOT_BASES:
+        url = f"{base}/api/v3/klines"
+        try:
+            data = _http_get_json(url, params=params, timeout=15)
+            if not data:
+                continue
+            df = pd.DataFrame(data, columns=columns)
+            for col in num_cols:
+                df[col] = df[col].astype(float)
+            df["open_time"] = pd.to_datetime(df["open_time"], unit="ms")
+            df.set_index("open_time", inplace=True)
+            return df
+        except Exception as e:
+            logger.warning(f"Binance klines {symbol} via {base}: {e}")
+
+    # Fallback final: Bybit (no geo-bloqueado por API).
+    df = _fetch_bybit_klines(symbol, interval=interval, limit=limit)
+    if df.empty:
+        logger.error(f"Klines {symbol}: sin datos en ningún proveedor (spot ni Bybit)")
+    return df
+
+
+def _fetch_bybit_klines(symbol: str, interval: str = "4h", limit: int = 200) -> pd.DataFrame:
+    """
+    Fallback de klines vía Bybit v5 (linear perp). Devuelve el mismo esquema de
+    columnas que Binance; taker_buy_base no existe en Bybit, así que se aproxima
+    a la mitad del volumen (CVD≈0) para no romper compute_cvd_from_klines.
+    """
+    bybit_interval = _BYBIT_INTERVAL.get(interval, "240")
+    url = "https://api.bybit.com/v5/market/kline"
+    params = {"category": "linear", "symbol": symbol,
+              "interval": bybit_interval, "limit": min(limit, 1000)}
     try:
-        data = _http_get_json(url, params=params, timeout=15)
-        df = pd.DataFrame(data, columns=[
-            "open_time", "open", "high", "low", "close", "volume",
-            "close_time", "quote_volume", "trades", "taker_buy_base",
-            "taker_buy_quote", "ignore"
+        payload = _http_get_json(url, params=params, timeout=15)
+        rows = (payload.get("result") or {}).get("list") or []
+        if not rows:
+            return pd.DataFrame()
+        # Bybit devuelve [start, open, high, low, close, volume, turnover] en orden DESC.
+        rows = list(reversed(rows))
+        df = pd.DataFrame(rows, columns=[
+            "open_time", "open", "high", "low", "close", "volume", "quote_volume",
         ])
-        for col in ["open", "high", "low", "close", "volume", "taker_buy_base", "taker_buy_quote", "quote_volume"]:
+        for col in ["open", "high", "low", "close", "volume", "quote_volume"]:
             df[col] = df[col].astype(float)
-        df["open_time"] = pd.to_datetime(df["open_time"], unit="ms")
+        df["open_time"] = pd.to_datetime(df["open_time"].astype("int64"), unit="ms")
         df.set_index("open_time", inplace=True)
+        # Aproximación: sin desglose taker, CVD neutro.
+        df["taker_buy_base"] = df["volume"] / 2.0
+        df["taker_buy_quote"] = df["quote_volume"] / 2.0
         return df
     except Exception as e:
-        logger.error(f"Binance klines {symbol}: {e}")
+        logger.warning(f"Bybit klines {symbol}: {e}")
         return pd.DataFrame()
 
 
 def fetch_binance_funding_rate(symbol: str) -> Optional[Dict]:
-    """Fetch latest funding rate for a perpetual futures symbol."""
+    """Latest funding rate. Binance fapi → fallback Bybit (ambos geo-tolerantes)."""
     url = "https://fapi.binance.com/fapi/v1/fundingRate"
     params = {"symbol": symbol, "limit": 1}
     try:
@@ -80,12 +139,29 @@ def fetch_binance_funding_rate(symbol: str) -> Optional[Dict]:
                 "time": datetime.fromtimestamp(data[0]["fundingTime"] / 1000).strftime("%H:%M UTC"),
             }
     except Exception as e:
-        logger.error(f"Funding rate {symbol}: {e}")
+        logger.warning(f"Funding rate {symbol} (Binance): {e}")
+
+    # Fallback Bybit v5.
+    try:
+        payload = _http_get_json(
+            "https://api.bybit.com/v5/market/funding/history",
+            params={"category": "linear", "symbol": symbol, "limit": 1},
+            timeout=10,
+        )
+        rows = (payload.get("result") or {}).get("list") or []
+        if rows:
+            ts = int(rows[0]["fundingRateTimestamp"])
+            return {
+                "rate": float(rows[0]["fundingRate"]),
+                "time": datetime.fromtimestamp(ts / 1000).strftime("%H:%M UTC"),
+            }
+    except Exception as e:
+        logger.warning(f"Funding rate {symbol} (Bybit): {e}")
     return None
 
 
 def fetch_binance_open_interest(symbol: str) -> Optional[Dict]:
-    """Fetch open interest from Binance Futures."""
+    """Current open interest. Binance fapi → fallback Bybit."""
     url = "https://fapi.binance.com/fapi/v1/openInterest"
     params = {"symbol": symbol}
     try:
@@ -95,24 +171,48 @@ def fetch_binance_open_interest(symbol: str) -> Optional[Dict]:
             "symbol": data["symbol"],
         }
     except Exception as e:
-        logger.error(f"Open Interest {symbol}: {e}")
+        logger.warning(f"Open Interest {symbol} (Binance): {e}")
+
+    # Fallback Bybit: el más reciente del histórico 4h.
+    hist = _fetch_bybit_oi_history(symbol, limit=1)
+    if hist:
+        return {"oi": hist[-1], "symbol": symbol}
     return None
 
 
 def fetch_binance_oi_history(symbol: str, period: str = "4h", limit: int = 30) -> List[float]:
-    """Fetch OI history to detect changes."""
+    """OI history para detectar cambios. Binance fapi → fallback Bybit."""
     url = "https://fapi.binance.com/futures/data/openInterestHist"
     params = {"symbol": symbol, "period": period, "limit": limit}
     try:
         data = _http_get_json(url, params=params, timeout=10)
-        return [float(d["sumOpenInterest"]) for d in data]
+        if data:
+            return [float(d["sumOpenInterest"]) for d in data]
     except Exception as e:
-        logger.error(f"OI history {symbol}: {e}")
+        logger.warning(f"OI history {symbol} (Binance): {e}")
+
+    return _fetch_bybit_oi_history(symbol, period=period, limit=limit)
+
+
+def _fetch_bybit_oi_history(symbol: str, period: str = "4h", limit: int = 30) -> List[float]:
+    """OI history vía Bybit v5 (devuelto ASC para emparejar el orden de Binance)."""
+    interval_map = {"5m": "5min", "15m": "15min", "30m": "30min",
+                    "1h": "1h", "4h": "4h", "1d": "1d"}
+    url = "https://api.bybit.com/v5/market/open-interest"
+    params = {"category": "linear", "symbol": symbol,
+              "intervalTime": interval_map.get(period, "4h"), "limit": min(limit, 200)}
+    try:
+        payload = _http_get_json(url, params=params, timeout=10)
+        rows = (payload.get("result") or {}).get("list") or []
+        # Bybit devuelve DESC (más reciente primero); invertir a ASC.
+        return [float(r["openInterest"]) for r in reversed(rows)]
+    except Exception as e:
+        logger.warning(f"OI history {symbol} (Bybit): {e}")
     return []
 
 
 def fetch_binance_long_short_ratio(symbol: str, period: str = "4h") -> Optional[Dict]:
-    """Fetch top trader long/short ratio."""
+    """Top trader long/short ratio. Binance fapi → fallback Bybit."""
     url = "https://fapi.binance.com/futures/data/topLongShortAccountRatio"
     params = {"symbol": symbol, "period": period, "limit": 1}
     try:
@@ -124,7 +224,26 @@ def fetch_binance_long_short_ratio(symbol: str, period: str = "4h") -> Optional[
                 "ratio": float(data[0]["longShortRatio"]),
             }
     except Exception as e:
-        logger.error(f"Long/Short ratio {symbol}: {e}")
+        logger.warning(f"Long/Short ratio {symbol} (Binance): {e}")
+
+    # Fallback Bybit v5: account-ratio devuelve buyRatio/sellRatio.
+    try:
+        payload = _http_get_json(
+            "https://api.bybit.com/v5/market/account-ratio",
+            params={"category": "linear", "symbol": symbol, "period": period, "limit": 1},
+            timeout=10,
+        )
+        rows = (payload.get("result") or {}).get("list") or []
+        if rows:
+            longs = float(rows[0]["buyRatio"])
+            shorts = float(rows[0]["sellRatio"])
+            return {
+                "long_account": longs,
+                "short_account": shorts,
+                "ratio": round(longs / shorts, 4) if shorts else None,
+            }
+    except Exception as e:
+        logger.warning(f"Long/Short ratio {symbol} (Bybit): {e}")
     return None
 
 

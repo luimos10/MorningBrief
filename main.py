@@ -58,7 +58,7 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True,
         print("\n[4/4] Entregando brief...")
 
         # Save HTML
-        html_path = brief_to_html(brief_md)
+        html_path = brief_to_html(brief_md, model=config.CLAUDE_MODEL)
 
         # Open in browser
         if open_browser:
