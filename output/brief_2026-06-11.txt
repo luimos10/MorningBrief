@@ -1,0 +1,239 @@
+📊 MORNING BRIEF — Miércoles 11 de Junio, 2026
+Generado: 12:45 UTC
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| Fear & Greed | 12 — Extreme Fear | 🔴 Capitulación activa |
+| VIX | 21.45 | ⚠ Elevado, volatilidad persistente |
+| DXY | 100.16 (+0.21%) | 🟡 Dólar firme, presión sobre risk-on |
+
+El titular que lo mueve todo hoy: EE.UU. lanzó ataques militares contra Irán ("self-defense strikes"). Esto explica el spike de Oil (+0.57%), la caída generalizada en equities y el sentimiento de Extreme Fear. El mercado está en modo risk-off puro.
+
+Lectura macro: DXY firme + VIX 21+ + F&G en 12 = no es día de compras agresivas. Los shorts siguen siendo el trade de menor resistencia en equities y crypto hasta que haya claridad geopolítica. La única excepción es Oil.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BTC/USDT — $62,912 (-0.31%) 🟡
+
+📌 SEGUIMIENTO (vs. Brief 10-Jun): BTC se ha mantenido en rango. Sin movimiento decisivo. El sesgo neutro persiste — ningún setup se activó con claridad. La compresión continúa.
+
+Estructura HTF (4H):
+• Estructura mixta/transicional — ni tendencia clara alcista ni bajista
+• CHOCH potencial en desarrollo: rango entre 60,755 – 64,234
+• EMA 21 (62,433) está actuando como soporte dinámico; precio por encima ✅
+• EMA 50 (63,765) actúa como resistencia dinámica ⚠
+• EMA 200 en 71,000 — muy lejos, no relevante para hoy
+
+Order Blocks activos:
+• 🟢 Bull OB: 60,755 – 61,736 (zona de demanda principal, HTF)
+
+Fair Value Gaps:
+• 🟢 Bull FVG ACTIVO: 61,949 – 62,544 → precio actual operando DENTRO de este FVG. Es zona de soporte inmediata.
+• 🟢 LTF Bull FVG (1H): 62,304 – 62,546 (confluencia con FVG HTF)
+
+Liquidez (Equal Highs/Lows):
+• 🎯 EQH Buy-side: 76,079 / 72,547 — pools de liquidez superiores, targets HTF
+• 🎯 Swing Low: 60,755 — pool sell-side. Un barrido aquí sería la entrada ideal
+
+CVD: ✅ Confirmación bajista — precio y CVD alineados a la baja. Presión vendedora real.
+
+LTF (1H): BOS Bullish confirmado — estructura de corto plazo alcista (HH+HL). Esto crea divergencia HTF vs LTF: HTF neutral/bajista, LTF alcista. Señal de posible trampa alcista si no rompe 63,765.
+
+Sesgo del día: 🟡 NEUTRAL con ligero sesgo bajista mientras no rompa EMA 50 (63,765)
+
+| Nivel | Precio |
+|-------|--------|
+| Resistencia clave | 63,765 (EMA 50) |
+| Resistencia fuerte | 64,234 (Swing High) |
+| Soporte inmediato | 62,304 – 62,546 (FVG LTF) |
+| Zona de demanda HTF | 60,755 – 61,736 (Bull OB) |
+| Invalidación bajista | Cierre 4H > 64,235 |
+
+Setup: Sin posición ahora. Si hay barrido de sell-side hacia 60,755–61,736 con rechazo y BOS alcista en 1H → Long. Si rompe y cierra 4H sobre 64,234 → bias cambia a bullish. Esperar.
+
+────────────────────────────────────────
+ETH/USDT — $1,652 (-0.90%) 🔴
+
+📌 SEGUIMIENTO (vs. Brief 10-Jun): ETH sigue deteriorándose. La estructura bajista se mantiene y el precio no ha logrado defender zonas clave. La debilidad relativa vs BTC es notable.
+
+Estructura HTF (4H):
+• LH + LL — Downtrend confirmado 🔴
+• EMA 21 = 1,652 (precio cotizando EN la EMA, zona crítica)
+• EMA 50 = 1,702 (resistencia)
+• RSI 48.6 — ni sobrevendido, espacio para más caída
+
+Order Blocks & FVGs:
+• 🟢 Bull OB: 1,604 – 1,638 (zona de demanda — próximo target bajista)
+• 🟢 Bull FVG ACTIVO: 1,636 – 1,646 (confluencia con Bull OB)
+• 🟢 Bull FVG ACTIVO: 1,600 – 1,608 (soporte más profundo)
+• 🔴 Bear FVG ACTIVO: 1,690 – 1,722 → zona de oferta. Todo rebote hacia ahí es short.
+
+LTF (1H): Estructura mixta / CHOCH potencial — sin dirección clara en corto plazo.
+
+CVD: ✅ Confirmación bajista. Vendedores en control.
+
+Sesgo del día: 🔴 BAJISTA
+
+| Nivel | Precio |
+|-------|--------|
+| Resistencia (oferta) | 1,690 – 1,722 (Bear FVG) |
+| Resistencia media | 1,667 |
+| Target bajista 1 | 1,636 – 1,646 (Bull FVG) |
+| Target bajista 2 | 1,604 – 1,638 (Bull OB) |
+| Soporte profundo | 1,600 – 1,608 |
+
+Setup: 🔴 Short en rebotes hacia 1,667–1,690 con SL sobre 1,722. Target: 1,636 → 1,604. Si hay capitulación y toca 1,600–1,608 con divergencia en CVD y BOS alcista en 1H, considerar Long especulativo.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> ⚠ Contexto: ataques EE.UU.-Irán generan sell-off. Todos los índices están presionados aunque técnicamente la estructura HTF mayor sigue siendo HH+HL (uptrend). El pullback es profundo pero aún no hay cambio de estructura macro.
+
+S&P 500 — $7,267 (-1.62%) 🟡
+
+📌 SEGUIMIENTO: RSI cae a 40.6 desde niveles más altos. QQQ que ayer era el más fuerte ahora cede -2%. El optimismo previo se evaporó con el shock geopolítico.
+• Precio perforó EMA 21 (7,421) → ahora en EMA 50 (7,263). Nivel crítico: cierre sobre/bajo EMA 50
+• 🔴 Bear FVG activo: 7,466 – 7,516 → zona de oferta en rebotes
+• Soporte siguiente: 7,107 → 7,046
+• Sesgo: 🟡 Neutro/bajista. Sin señal de reversión. Aguardar.
+
+NASDAQ — $25,170 (-1.98%) 🔴
+• Debajo de EMA 21 (26,083) y testando EMA 50 (25,284)
+• RSI 38.7 — cerca de oversold pero con espacio
+• 🔴 Bear FVG: 25,726 – 25,872 → oferta
+• Soporte: 24,491
+• Sesgo: 🔴 Bajista. Chips (NVDA -3.73%) plomo el camino abajo.
+
+DOW — $49,919 (-1.87%) 🟡
+• ⚠ Sweep de sell-side en 49,831 — señal SMC: barrido de liquidez bajista. Vigilar reacción.
+• FVG alcista micro: 49,696 – 49,697 (muy angosto, poco relevante)
+• Soporte: 49,307 → 49,235
+• Sesgo: 🟡 Neutro. El sweep puede ser setup de reversión si hay BOS alcista en 1H.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel Clave |
+|--------|--------|--------|-----|-------|-------------|
+| AAPL | $291.58 | +0.35% | 43.8 | 🟡 Neutro | Relativa fortaleza hoy. Resistencia $303 |
+| MSFT | $397.36 | -1.50% | 39.6 | 🔴 Bajista | Soporte crítico $397.15 — ya lo toca |
+| NVDA | $200.42 | -3.73% | 41.2 | 🔴 Bajista | Líder bajista hoy. Soporte $196.99 |
+| GOOGL | $356.38 | -2.16% | 39.7 | 🔴 Bajista | Bear FVG $366–$373 = oferta en rebote |
+| AMZN | $238.00 | -2.53% | 32.5 | 🔴 Bajista | RSI más bajo del grupo. Soporte $246 perdido |
+
+Lectura rápida: AAPL es el único en verde — fortaleza relativa destacable. NVDA lidera caídas (-3.73%) arrastrando al sector semi. AMZN con RSI 32.5 se acerca a oversold pero sin señal de reversión. No comprar la caída en tech hoy salvo setup muy claro.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+Gold — $4,084 (-0.58%) 🔴
+• 📌 SEGUIMIENTO: GLD/Gold en oversold extremo ayer — hoy sigue cayendo. Sin señal de reversión. La paciencia era correcta.
+• Estructura: LH + LL — Downtrend. EMAs aplastadas (4,419 / 4,554) muy por encima.
+• RSI 23.9 — oversold extremo ⚠ pero el momentum bajista es fuerte
+• 🔴 Bear FVG activo: 4,138 – 4,240 → primera zona de oferta en rebote
+• Sin soporte técnico claro visible. No hay setup long todavía. Esperar capitulación o BOS en 1H.
+
+Silver — $63.12 (-2.30%) 🔴
+• RSI 27.0 — oversold pero sin señal
+• ⚠ Buy-side sweep en 71.99 (ocurrió antes) — precio barró liquidez arriba y ahora colapsa
+• Soporte: $61.09
+• 🔴 Bear FVG: 64.82 – 65.00 → resistencia inmediata
+• Sesgo: 🔴 Bajista. Seguir sin posición.
+
+WTI Oil — $90.54 (+0.57%) 🟡
+• El único commodity en verde — lógico dado el conflicto EE.UU.-Irán (riesgo de supply disruption)
+• Estructura: LH+LL (downtrend mayor) pero impulso alcista hoy
+• EMAs 93.57/93.47 actúan como resistencia
+• Soporte: $88.66
+• 🔴 Bear FVG lejano: 102.66 – 106.76
+• Sesgo: 🟡 Neutral/alcista de corto plazo por geopolítica. USO es el vehículo de acceso.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Cambio | RSI | Sesgo | Nota |
+|-----|--------|--------|-----|-------|------|
+| SPY | $725.43 | -1.58% | 40.7 | 🟡 Neutro | Testando EMA 50 ($724.33). Nivel crítico hoy |
+| QQQ | $693.69 | -2.00% | 43.4 | 🟡 Neutro | 📌 SEGUIMIENTO: ayer el más fuerte (RSI 53.6) — hoy cede -2%. Setup long invalidado |
+| GLD | $374.58 | -4.15% | 24.3 | 🔴 Bajista | Caída brutal -4.15%. RSI 24.3 extremo. Bear FVG $384–$396 = resistencia |
+| SLV | $57.66 | -2.29% | 29.8 | 🔴 Bajista | Sin soporte visible. RSI oversold sin señal |
+| USO | $134.30 | +2.28% | 48.1 | 🟡 Neutro | 🟢 Único en verde. FVG bajista 135.2–138.39 como resistencia |
+
+Nota QQQ: La fortaleza relativa de ayer se evaporó completamente con el shock geopolítico. El sesgo cambió de neutral-alcista a neutral-bajista. Zona de soporte: $685.63 (EMA 50).
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — ETH/USDT SHORT 🔴
+Timeframe: 4H entrada, confirmación 1H
+Dirección: Short
+Lógica: Estructura bajista confirmada (LH+LL), CVD bajista, Bear FVG de oferta intacto arriba, debilidad relativa vs BTC. Setup más limpio del día.
+
+| Zona de entrada | 1,667 – 1,690 (rebote a Bear FVG / oferta) |
+|---|---|
+| Stop Loss | 1,723 (sobre Bear FVG) |
+| Target 1 | 1,636 – 1,638 (Bull FVG + OB) |
+| Target 2 | 1,604 – 1,608 |
+| R:R aprox. | 1:2.5 |
+
+> Trigger: Esperar que precio rebote hacia 1,667–1,690 y mostrar rechazo (vela de reversión bajista en 1H). No entrar en caída libre.
+
+────────────────────────────────────────
+🥈 #2 — USO / WTI OIL LONG (geopolítico) 🟢
+Timeframe: Diario / 4H
+Dirección: Long
+Lógica: Único activo con catalizador alcista claro (conflicto Irán). Momentum positivo. RSI neutral con espacio. USO como vehículo.
+
+| Zona de entrada | $134.30 (precio actual) o pullback a $132–$133 |
+|---|---|
+| Stop Loss | $131.35 (EMA 50) o bajo $131 |
+| Target 1 | $138.39 (techo Bear FVG) |
+| Target 2 | $141.42 |
+| Invalidación | Desescalada geopolítica súbita |
+
+> ⚠ Este es un trade de catalizador — gestionar riesgo ajustado. Si hay noticias de cese al fuego, salir rápido.
+
+────────────────────────────────────────
+🥉 #3 — BTC LONG (condicional — barrido de sell-side) 🟡
+Timeframe: 4H entrada, 1H confirmación
+Dirección: Long (condicional)
+Lógica: Bull OB 60,755–61,736 es zona de demanda HTF sólida. Si el mercado barre liquidez sell-side hacia esa zona con rechazo, es el setup de mayor R:R disponible.
+
+| Zona de entrada | 60,755 – 61,736 (Bull OB HTF) |
+|---|---|
+| Confirmación | BOS alcista en 1H tras tocar la zona |
+| Stop Loss | Bajo 60,500 |
+| Target 1 | 63,765 (EMA 50 4H) |
+| Target 2 | 64,234 (Swing High) |
+| R:R aprox. | 1:3+ |
+
+> Status actual: Setup NO activo — precio en $62,912. Colocar alerta en $61,800 para empezar a monitorear. No perseguir.
+
+────────────────────────────────────────
+⚠ 8. RIESGOS Y ALERTAS
+
+🔴 Riesgo principal: Escalada militar EE.UU.-Irán. Cualquier noticia de expansión del conflicto = más risk-off, Oil spike, equities en colapso. Vigilar CNN/Bloomberg en tiempo real.
+
+⚠ Niveles críticos a no perder de vista:
+• SPY $724 — EMA 50. Cierre bajo = señal de mayor corrección en equities
+• BTC $60,755 — Si pierde el Bull OB sin reacción, siguiente soporte mayor en cuestión
+• ETH $1,604 — Pérdida de Bull OB = liquidez sell-side sin red visible
+• DXY 101 — Si el dólar acelera, presión adicional sobre crypto y commodities (excepto Oil)
+
+📊 Observaciones adicionales:
+• GLD cayendo -4.15% con F&G en 12 es anómalo (Gold normalmente sube en risk-off). Posible margin call / liquidación forzada de fondos. Vigilar para eventual reversión violenta.
+• AAPL +0.35% en día de caída generalizada = relativa fortaleza inusual. Puede ser candidato a long si el mercado estabiliza.
+• AMZN RSI 32.5 — territorio oversold. No hay señal aún, pero acercar el radar.
+• No operar contra el momentum hoy. El F&G en 12 históricamente precede a rebounds, pero el timing es impredecible — especialmente con catalizador geopolítico activo.
+
+────────────────────────────────────────
+📌 Resumen ejecutivo en 30 segundos:
+> Risk-off total por ataques EE.UU.-Irán. Equities y metals bajo presión. Oil es el único trade alcista claro (USO). ETH short en rebote es el setup crypto más limpio. BTC en rango — esperar barrido hacia 60,755-61,736 para la entrada long de alta convicción. No comprar la caída, operar los rebotes o esperar zonas de demanda clave.
+
+────────────────────────────────────────
+Brief generado con datos al 11-Jun-2026 12:45 UTC. No es asesoramiento financiero.
