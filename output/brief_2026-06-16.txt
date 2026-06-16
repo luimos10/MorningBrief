@@ -1,0 +1,210 @@
+📊 MORNING BRIEF — Lunes 16 de Junio 2026
+Generado: 12:45 UTC | Sesión: Londres/Nueva York
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.66 (-0.09%) | Dólar débil → favorable para risk-on y metales |
+| VIX | 16.12 | Zona de calma, no hay pánico sistémico |
+| Fear & Greed | 23 — Extreme Fear | ⚠️ Divergencia: VIX tranquilo pero mercado en miedo extremo |
+| Funding BTC | Ver abajo | — |
+
+📰 Titulares que mueven mercado hoy:
+• 🛢️ US-Iran deal → Petróleo desploma -5.49% (WTI $76.32). Impacto en USO, energéticas.
+• 📡 Fox Corp adquiere Roku → Catalizador sectorial en media/streaming.
+• 🚀 SpaceX comienza a cotizar → Ruido especulativo, no operable aún directamente.
+• 🏦 Warsh y posible señal Fed → Vigilar declaraciones; cualquier pivot-hint dispara índices.
+
+Sesgo macro del día: DXY débil + Oil en colapso = potencial rotación a equities y crypto. El F&G en Extreme Fear con VIX bajo sugiere que el miedo es "vendido" — suele ser zona de rebote, no de capitulación.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN — $66,458 (-0.04%) 🟢
+
+📌 SEGUIMIENTO vs Brief 15-Jun:
+Setup alcista sigue vigente. El nivel de invalidación era cierre 4H bajo $65,354 (base FVG) — precio nunca tocó esa zona. BTC consolidó lateralmente (+$20 desde ayer). La tesis no se activó con fuerza ni se invalidó: mercado en compresión/espera.
+
+────────────────────────────────────────
+Estructura 4H: Mixed/Transitional — BTC flota entre el swing high $67,292 y el swing low $63,678. Aún no hay BOS al alza limpio sobre $67,292.
+
+Order Blocks activos:
+• 🟢 Bull OB: $63,678 – $64,208 (zona fuerte de demanda, testeado el 14-Jun)
+
+Fair Value Gaps:
+• 🟢 Bull FVG ACTIVO 4H: $64,208 – $65,354 ← soporte inmediato si hay retroceso
+• 🟢 Bull FVG ACTIVO 1H (LTF): $66,150 – $66,300 ← zona de re-entry en pullback menor
+
+Liquidez (EQL):
+• 📍 Buy-side liquidity: $72,547 y $76,079 — targets de largo plazo si hay BOS sobre $67,292
+• ⚠️ Equal Highs en $67,292 = pool de liquidez inmediata. Precio probablemente va a barrer ese nivel antes de continuar o revertir.
+
+CVD: ✅ Alcista — precio y CVD alineados. Sin divergencia. Confirma sesgo long.
+
+Setup del día BTC:
+• Sesgo: 🟢 Alcista
+• Trigger: BOS sobre $67,292 con cierre 4H → target $72,547
+• Re-entry en pullback: FVG 1H en $66,150–$66,300 (entrada agresiva) o FVG 4H en $64,208–$65,354 (entrada conservadora)
+• Invalidación: Cierre 4H bajo $65,354
+
+────────────────────────────────────────
+ETHEREUM — $1,816 (+0.90%) 🟢
+
+📌 SEGUIMIENTO vs Brief 15-Jun:
+ETH cotizaba en $1,774 ayer. Setup planteaba entrada en retroceso a $1,748–$1,760. El precio NO retrocedió — en cambio se disparó +$42 (+2.4%) hacia $1,816, superando la resistencia de $1,849 en proceso. La tesis alcista se confirmó pero sin ofrecer la entrada ideal. Quien estaba largo desde antes: holding vigente.
+
+────────────────────────────────────────
+Estructura 4H: HH + HL confirmado — Uptrend limpio. Más bullish que BTC en estructura.
+
+Fair Value Gaps activos:
+• 🟢 Bull FVG 4H: $1,783–$1,796 ← soporte más cercano al precio actual
+• 🟢 Bull FVG 4H: $1,723–$1,760 ← zona de demanda profunda
+• 🟢 Bull FVG 1H: $1,776–$1,787 ← micro-retroceso ideal para LTF entry
+• 🟢 Bull FVG 1H: $1,766–$1,769 ← segundo soporte LTF
+
+Resistencia: $1,849 (swing high) → si hay BOS aquí, siguiente target $2,009
+
+CVD: ⚠️ Divergencia bajista — precio sube pero CVD baja. Señal de alerta. El movimiento puede ser engineered liquidity antes de un retroceso. No chase en estos niveles.
+
+Setup del día ETH:
+• Sesgo: 🟢 Alcista (con cautela por CVD divergente)
+• No entrar en breakout — esperar retroceso
+• Entrada óptima: FVG 1H $1,776–$1,787 o FVG 4H $1,783–$1,796
+• Target 1: $1,849 (sweep EQH) | Target 2: $2,009
+• Invalidación: Cierre 4H bajo $1,760
+• ⚠️ CVD divergence = reducir size o esperar confirmación 1H antes de entrar
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> ⚠️ Datos de precio actuales no disponibles (NaN) — análisis basado en EMAs, RSI y FVGs disponibles.
+
+S&P 500 🟡
+• Estructura: HH + HL — Uptrend de fondo intacto
+• EMAs: 7,420 / 7,274 — precio por encima de ambas (bullish)
+• RSI: 52.7 — zona media, sin sobrecompra
+• FVG bajista activo: 7,466–7,516 (potencial zona de oferta/rechazo)
+• FVG alcista activo: 7,530–7,563 (target si hay expansión)
+• Sesgo: 🟡 Neutro-Alcista | Vigilar reacción en 7,466–7,516
+
+NASDAQ 🟡
+• Estructura: HH + HL — Uptrend
+• RSI: 49.6 — en equilibrio, sin momentum claro
+• FVG bajista: 25,726–25,872 (soporte)
+• FVG alcista: 26,715–26,859 (target de imán)
+• Sesgo: 🟡 Neutro | QQQ alcista (+3.14%) sugiere posible recarga hacia FVG alto
+
+DOW JONES 🟡
+• RSI: 58.4 — el más fuerte de los tres índices hoy
+• FVG bajista: 49,761–49,843 (soporte clave)
+• FVG alcista: 50,769–50,827 (resistencia inmediata)
+• Sesgo: 🟡 Neutro-Alcista
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Sesgo | RSI | Estructura | Niveles clave |
+|--------|-------|-----|------------|---------------|
+| AAPL | 🔴 Bajista | 44.1 | HH+HL (divergencia sesgo/estructura) | Soporte FVG $294–$301 \| Resistencia $305–$307 |
+| MSFT | 🔴 Bajista | 37.2 | HH+HL | FVG bajista $391–$397 es zona de demanda. RSI cerca de oversold |
+| NVDA | 🟡 Neutro | 45.4 | Mixed | FVG estrecho $210.47–$210.97. Sin dirección clara |
+| GOOGL | 🔴 Bajista | 42.5 | HH+HL | FVG demanda $366–$373 \| Resistencia $388–$395 |
+| AMZN | 🔴 Bajista | 34.8 | Mixed | RSI en zona oversold. FVG $249–$251 como soporte. Watch reversal |
+
+Nota: Tech mayoritariamente bajista en sesgo pero con estructuras HH+HL — posible acumulación en FVGs de demanda. AMZN con RSI 34.8 es el más cercano a rebote técnico. MSFT idem.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🥇 GOLD — $4,364 (+0.84%) 🔴
+📌 SEGUIMIENTO: Ayer se alertó que metales chocaban contra zonas de distribución. Gold sube +0.84% hoy pero sigue en downtrend (LH+LL) con EMAs bajistas (4,392/4,526 por encima del precio).
+• Estructura: LH + LL — Downtrend confirmado
+• RSI: 46 — sin momentum comprador real
+• Bear FVG activo: $4,340–$4,447 ← el rebote de hoy está entrando en zona de oferta
+• Bull FVG activo: $4,225–$4,326 (soporte si cede)
+• Sesgo: 🔴 Bajista | El rebote de hoy es potencialmente una trampa en zona de oferta. Short opción si cierra 4H bajo $4,340 con rechazo.
+
+🥈 SILVER — $70.80 (+1.05%) 🔴
+📌 SEGUIMIENTO: El sweep de $71.99 alertado ayer fue señal. Silver sube +1.05% pero por debajo de las EMAs (71.69/74.44). Bear FVG activo $68.81–$73.09 — precio en medio de esa zona de oferta.
+• Estructura: Mixed — sin dirección clara
+• RSI: 46.2 — sin fuerza
+• ⚠️ Buy-side sweep $71.99 ya ejecutado = liquidez barrida. Posible reversión bajista.
+• Sesgo: 🔴 Bajista | Vigilar rechazo en $71.99–$73.09 para short hacia $68.71
+
+🛢️ OIL (WTI) — $76.32 (-5.49%) 🔴
+• Catalizador: Deal US-Iran → oferta potencial en mercado
+• Estructura: LH + LL — Downtrend acelerado
+• RSI: 30.3 — rozando oversold pero en downtrend fuerte
+• Bear FVG activo: $80.15–$83.20 (resistencia lejana)
+• Soportes: $63.60 / $61.87
+• Sesgo: 🔴 Bajista fuerte | No atrapar cuchillo. Cualquier rebote hacia $78–$80 es zona de short.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | RSI | Sesgo | Nivel clave |
+|-----|--------|-----|-------|-------------|
+| SPY | N/A | 53.0 | 🟡 Neutro | FVG demanda $745–$751 \| Resistencia $751–$754 |
+| QQQ | $744 (+3.14%) | 62.6 | 🟢 Alcista | Soporte $695–$686 \| Resistencia $748.65 |
+| GLD | N/A | 35.1 | 🔴 Bajista | RSI near oversold. FVG bajista $387–$388 es target |
+| SLV | N/A | 39.6 | 🔴 Bajista | FVG $59.47–$61.24 como target bajista |
+| USO | N/A | 40.2 | 🔴 Bajista | Oil -5.49% → USO continúa presionado. FVG $129–$132 target |
+
+QQQ es el standout del día: +3.14% con RSI 62.6 — la única señal alcista clara en equities hoy. Posible impacto del deal Iran + rotación desde commodities.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+🥇 #1 — BITCOIN LONG en FVG 1H $66,150–$66,300
+Tipo: Re-entry long en pullback | Timeframe: 1H / 4H
+• Entrada: $66,150–$66,300 (FVG 1H activo)
+• Stop Loss: Cierre 1H bajo $65,900 (~$250 de riesgo)
+• Target 1: $67,292 (EQH / sweep liquidez) — R:R ~4:1
+• Target 2: $69,000+ si hay BOS sobre $67,292
+• Condición: Esperar rechazo con wick o vela de reversión en la zona. No entrar market.
+• Por qué es el mejor setup: CVD alcista + estructura soportando + FVG no mitigado + liquidez clara arriba.
+
+────────────────────────────────────────
+🥈 #2 — ETHEREUM LONG en FVG 1H $1,776–$1,787
+Tipo: Pullback en uptrend | Timeframe: 1H
+• Entrada: $1,776–$1,787 (FVG 1H activo, confluencia con FVG 4H $1,783–$1,796)
+• Stop Loss: Cierre 4H bajo $1,760 (~$16-20 riesgo)
+• Target 1: $1,849 (swing high / sweep EQH)
+• Target 2: $2,009 si hay BOS limpio
+• Condición: ⚠️ CVD divergente — esperar confirmación en 1H (engulfing alcista o BOS en LTF) antes de entrar. No chase.
+• Por qué: Uptrend más limpio que BTC, múltiples FVGs como soporte, target claro y amplio.
+
+────────────────────────────────────────
+🥉 #3 — GOLD SHORT en zona Bear FVG $4,340–$4,447
+Tipo: Venta en zona de oferta en downtrend | Timeframe: 4H
+• Entrada: $4,380–$4,420 (interior del Bear FVG, esperar rechazo)
+• Stop Loss: Cierre 4H sobre $4,450
+• Target: $4,225–$4,326 (Bull FVG demanda / siguiente soporte)
+• Condición: Confirmar con vela de rechazo (shooting star / engulfing bajista) en 4H. No entrar a ciegas en zona.
+• Por qué: Downtrend estructural + rebote diario dentro de Bear FVG = trampa. DXY débil es el único riesgo contrario.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+1. 🛢️ Oil -5.49% → Monitorear efecto cascada en energéticas y fondos ligados a commodities. Posible deflación importada que complica narrativa macro.
+
+2. ⚠️ ETH CVD Divergente — El rally de ETH hoy puede ser una trampa de liquidez. Si no hay pullback limpio al FVG y el precio rompe directo, el setup se invalida. No FOMO.
+
+3. 📊 F&G en 23 (Extreme Fear) con VIX en 16 — Divergencia inusual. Suele resolver con squeeze alcista (short squeeze) o con VIX rompiendo al alza. Vigilar VIX sobre 18 como alerta de riesgo.
+
+4. 🏦 Declaraciones Warsh / Fed — Cualquier señal sobre tasas puede mover índices violentamente. Si hay discurso hoy, reducir exposición antes del evento.
+
+5. 📡 SpaceX IPO — Genera ruido especulativo y posible rotación de capital desde otros activos. No operable directamente hoy, pero puede afectar sentiment en tech y SPY.
+
+6. 🥈 Silver sweep $71.99 — Ya ejecutado. Si Silver no puede sostener por encima, confirma distribución en metales y posible reversal bajista que podría arrastrar Gold.
+
+7. 🔴 Tech mayoritariamente bajista (AAPL, MSFT, GOOGL, AMZN) con RSIs en 34–44 — Vigilar si hay capitulación o rebote técnico. AMZN RSI 34.8 es el más cerca de inflexión.
+
+────────────────────────────────────────
+📌 RESUMEN EJECUTIVO:
+> Día de contrastes: Crypto y QQQ con sesgo alcista, commodities y tech en presión. El deal US-Iran es el macro driver del día (Oil). BTC en compresión esperando catalizador — el sweep de $67,292 es la clave. ETH con uptrend más limpio pero CVD advierte cautela. Gold y Silver rebotando en zonas de oferta — potencial short de alta probabilidad. Prioridad hoy: setups #1 y #2 en crypto; vigilar rechazo en Gold.
+
+────────────────────────────────────────
+Brief generado el 16-Jun-2026 a las 12:45 UTC. Los niveles son orientativos. Gestiona siempre tu riesgo.
