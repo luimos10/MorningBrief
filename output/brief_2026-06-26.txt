@@ -1,0 +1,197 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 MORNING BRIEF — Viernes 26 de Junio, 2026 | 12:45
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| Fear & Greed | 13 — Extreme Fear | 🔴 Máximo pesimismo |
+| VIX | 19.88 | 🟡 Elevado pero controlado |
+| DXY | 101.23 (-0.20%) | 🟢 Dólar cediendo = leve alivio activos riesgo |
+| Noticias clave | Micron earnings → rebote tech | 🟡 Catalizador intraday |
+
+Lectura macro: El mercado está en modo Extreme Fear pero el DXY cediendo y el rebote post-Micron pueden generar un pull hacia arriba intraday. No confundir bounce técnico con reversión real. La estructura HTF sigue siendo bajista en casi todo. El DOW sigue siendo el único índice con uptrend confirmado — la rotación value/industriales vs tech es el tema macro dominante esta semana.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+🟠 BITCOIN — $59,186 (-0.38%)
+
+> 📌 SEGUIMIENTO: Ayer el brief marcaba el sweep en $59,116 como señal de liquidez limpiada y pedía un HH sobre $62,400 para confirmar CHOCH HTF. El precio no construyó ese HH — sigue lateralizando por debajo de $60K. El setup long no se activó. Sesgo bajista intacto.
+
+Estructura HTF (4H): LH + LL confirmado. Downtrend activo. Precio por debajo de las tres EMAs (21: $61,036 / 50: $62,313 / 200: $66,190). RSI en 34.8 — sobreventa incipiente pero sin divergencia alcista en CVD.
+
+Order Blocks:
+• 🔴 Bear OB activo: $62,318 – $63,239 (zona de rechazo esperada en cualquier pump)
+
+Fair Value Gaps activos (no mitigados = targets de precio):
+• 🔴 Bear FVG: $62,945 – $63,829 (por encima del OB — zona de oferta densa)
+• 🔴 Bear FVG: $60,678 – $62,319 (FVG inmediato sobre precio actual — imán bajista invertido, precio puede intentar rellenarlo al alza antes de continuar)
+• 🔴 Bear FVG: $60,067 – $61,066 (FVG crítico — zona donde se espera rechazo si hay bounce)
+
+Liquidez:
+• Buy-side pool (EQL): $72,547 — muy lejos, no relevante hoy
+• Soporte inmediato: $59,102 y swing low $58,115
+• ⚠ El precio ya hizo sweep en $59,116 ayer. Si rompe $58,115 con momentum, siguiente zona de interés bajista es $56,500–$57,000
+
+LTF (1H): Estructura en HH+HL = uptrend de corto plazo. Esto sugiere posible bounce correctivo hacia $60,283–$60,678 antes de reanudar bajada. LTF Bear FVGs en $59,858–$60,151 y $60,259–$60,283 son zonas donde el precio puede rebotar y ser rechazado.
+
+CVD: ✅ Alineado bajista. Sin divergencia — sin señal de acumulación real.
+
+Funding / OI: No hay datos explícitos pero con RSI en 34 y precio cerca de mínimos recientes, el funding probablemente está neutro-negativo = shorts dominan.
+
+🎯 Setup BTC:
+• Sesgo del día: 🔴 Bajista / Bounce posible hacia $60,300
+• Escenario A (continuación bajista): Si el precio testea $60,067–$60,678 y rechaza con vela bajista en 1H → Short. TP1: $58,800 | TP2: $58,115 | SL: $61,100
+• Escenario B (invalidación bajista): Cierre de vela 4H por encima de $62,400 = señal de CHOCH. Solo entonces considerar long HTF.
+
+────────────────────────────────────────
+🔷 ETHEREUM — $1,540 (-0.35%)
+
+> 📌 SEGUIMIENTO: ETH no aparecía como setup principal ayer. Hoy vemos un BOS bajista confirmado con precio rompiendo el swing low previo. La estructura se deterioró.
+
+Estructura HTF (4H): LH + LL + BOS Bearish confirmado (rompió último swing low). Precio bajo las tres EMAs (21: $1,614 / 50: $1,661 / 200: $1,782). RSI: 32.7.
+
+Fair Value Gaps:
+• 🔴 Bear FVG activo: $1,587 – $1,628 — zona de oferta inmediata sobre precio. Si rebota hacia aquí = oportunidad short.
+
+Liquidez:
+• EQH (sell-side): $1,693 — ya se hizo sweep reciente en ese nivel. Liquidez limpiada arriba.
+• Soporte: $1,512 — único soporte visible en HTF. Es el siguiente target.
+
+LTF (1H): Estructura mixta / CHOCH potencial = indecisión. Posible micro-bounce antes de continuar.
+
+CVD: ⚠ Divergencia alcista — precio baja pero CVD sube. Señal de posible absorción. No invertir el sesgo, pero sugiere que el bounce puede ser más violento que lo esperado.
+
+🎯 Setup ETH:
+• Sesgo del día: 🔴 Bajista con posible bounce técnico
+• Setup: Bounce hacia Bear FVG $1,587–$1,628 → Short reactivo. TP: $1,512 | SL: $1,640
+• ⚠ La divergencia CVD es una alerta — esperar confirmación bajista (rechazo + cierre bajo $1,570) antes de ejecutar.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+> 📌 SEGUIMIENTO: Setup short SPX en $7,420–$7,460 de ayer no se activó — precio cayó sin llegar a la zona. Sigue vigente como resistencia. NDX rebote post-Micron puede acercar precio al FVG de ayer ($25,600–$25,840). DOW confirmó uptrend.
+
+S&P 500 — $7,357 🟡
+• Estructura: LH + LL | EMAs: $7,425 / $7,320 | RSI: 46.3
+• Bear FVG activo: $7,428 – $7,460 (por encima — zona de short si precio sube)
+• Setup: 🔴 Short reactivo si toca $7,420–$7,460. SL: $7,480. TP: $7,333
+• Soporte clave: $7,237
+
+NASDAQ — $25,359 🔴
+• Estructura: LH + LL | EMAs: $25,983 / $25,508 | RSI: 42.9
+• Bear FVG activo: $25,840 – $26,125 (resistencia para el rebote Micron)
+• Setup: 🔴 Short en rebote hacia $25,600–$25,840. SL: $26,130. TP: $24,980
+• ⚠ Micron earnings pueden generar spike alcista — no perseguir el precio, esperar FVG
+
+DOW JONES — $51,921 🟢
+• Estructura: HH + HL | EMAs: $51,171 / $50,311 | RSI: 61.8
+• Bull FVG activo: $50,969 – $51,365 (soporte/demanda en pullback)
+• Sesgo: Único índice en uptrend. Long en pullbacks hacia $51,365–$51,500. SL: $50,900
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel clave | Setup |
+|--------|--------|--------|-----|-------|-------------|-------|
+| AAPL | $275.15 | -6.12% 🚨 | 32.2 | 🔴 | Soporte $264.83 | Caída violenta. FVG $288–$294 = resistencia. No long todavía. |
+| MSFT | $352.83 | -3.46% | 28.8 | 🔴 | Sin soporte claro | RSI más oversold del grupo. FVG $364–$370 = zona de short en rebote. |
+| NVDA | $195.74 | -1.64% | 39.7 | 🔴 | $194.51 crítico | ⚠ Si rompe $194.51, siguiente nivel: $179.73. Confirmó setup bajista de ayer. |
+| GOOGL | $343.71 | -0.46% | 36.3 | 🔴 | Soporte $331.15 | FVG $349–$358 = resistencia. Short en rebote. |
+| AMZN | $227.01 | -3.10% | 33.6 | 🔴 | $207–$206 zona fuerte | ⚠ Rompió soporte medio. Próxima zona: $207. Confirma alerta bajista NDX de ayer. |
+
+> ⚠ AAPL -6.12% en un día es movimiento extraordinario. Revisar si hay news específica (guidance, regulatorio). Con RSI 32 y lejos de soporte, riesgo de caída a $264. No atrapar cuchillo.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+> 📌 SEGUIMIENTO: Setup short Gold en $4,050–$4,118 de ayer se activó — precio llegó a $4,060 hoy. El precio está exactamente en zona de entrada. Silver rebotó desde $57.63 a $58.78.
+
+GOLD — $4,060 (+0.73%) 🔴
+• EMAs: $4,258 / $4,430 | RSI: 34.8 | Estructura LH+LL
+• 🎯 Setup activo: Precio dentro del FVG bajista $4,030–$4,118. Short reactivo con vela de confirmación bajista en 1H. SL: $4,125. TP: $4,000–$3,980
+• ⚠ Bounce del +0.73% puede ser técnico dentro del FVG antes de continuar bajada
+
+SILVER — $58.78 (+0.74%) 🔴
+• EMAs: $66.95 / $71.58 | RSI: 29.7 | Estructura LH+LL
+• FVG activo: $58.38 – $61.95
+• RSI más oversold del sector. Rebote posible hacia $60–$61.95 (techo del FVG). No hay setup long claro mientras estructura sea bajista.
+
+OIL (WTI) — $69.56 (-3.28%) 🔴
+• EMAs: $81.68 / $87.31 | RSI: 27.4 | Estructura LH+LL
+• FVG activo (resistencia): $73.18 – $74.45
+• RSI extremo (27.4). Cualquier bounce hacia $73–$74 = zona de short. Soportes: $63.60 y $61.87
+• Bloomberg confirma exceso de oferta → sesgo bajista fundamental y técnico alineados
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | RSI | Sesgo | FVG / Nivel clave | Nota |
+|-----|--------|-----|-------|-------------------|------|
+| SPY | $734.30 | 47.5 | 🟡 | FVG $739.95–$743.13 | Resistencia clave. Short si precio llega ahí. |
+| QQQ | $716.38 | 50.2 | 🟡 | FVG $719.93–$734.39 | RSI neutro — rebote Micron puede empujar a $721. Resistencia densa. |
+| GLD | $369.46 | 31.9 | 🔴 | FVG $371.04–$377.17 | Confirma lectura Gold. Dentro de FVG bajista. |
+| SLV | $52.36 | 28.8 | 🔴 | FVG $53.20–$55.47 | Rebota levemente. RSI en mínimos. Sin setup long claro. |
+| USO | $109.31 | 32.1 | 🔴 | FVG $110.05–$110.06 | Rebote del +2.84% pero casi toca FVG en $110. Zona de short rápido. |
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — GOLD / GLD Short Reactivo (SETUP ACTIVO HOY)
+Por qué es el mejor setup: El precio llegó exactamente a la zona señalada ayer ($4,050–$4,118). El FVG bajista está activo, estructura LH+LL, EMAs comprimidas arriba. Setup de alta probabilidad dentro de distribución institucional.
+• Activo: GOLD spot / GLD ETF
+• Zona de entrada: $4,050 – $4,118 (Gold) | $369.50 – $371 (GLD)
+• Condición: Vela bajista de rechazo en 1H dentro del FVG
+• SL: $4,125 / $372
+• TP1: $4,000 | TP2: $3,960
+• R:R: ~2.5:1
+• Sesgo macro: DXY cayendo puede dar resistencia al short — gestionar bien el SL
+
+────────────────────────────────────────
+🥈 #2 — BTC Short en Bear FVG $60,067–$60,678
+Por qué es el segundo mejor: LTF en uptrend sugiere bounce hacia esa zona. Bear FVG de 4H está fresco y no mitigado. CVD bajista confirma el sesgo. Estructura clara de distribuición.
+• Activo: BTC/USDT Perpetual
+• Zona de entrada: $60,067 – $60,678 (esperar que el precio llegue, no perseguir)
+• Condición: Rechazo en 1H con CHoCH bajista en LTF
+• SL: $61,100
+• TP1: $58,800 | TP2: $58,115
+• R:R: ~2:1
+• ⚠ Invalidación: Cierre 4H sobre $62,400 = setup cancelado
+
+────────────────────────────────────────
+🥉 #3 — NASDAQ Short en Rebote / QQQ Resistencia
+Por qué es el tercero: Earnings Micron pueden generar spike a FVG. La zona $25,600–$25,840 (NDX) y $719.93–$721 (QQQ) son resistencias limpias con FVG no mitigados. Estructura bajista HTF intacta.
+• Activo: NDX / QQQ
+• Zona de entrada: $25,600–$25,840 (NDX) | $719.93–$721 (QQQ)
+• Condición: Vela de rechazo tras spike post-Micron. Confirmar con AAPL/MSFT débiles.
+• SL: $26,130 (NDX) / $722 (QQQ)
+• TP1: $24,980 | TP2: $24,491
+• R:R: ~2.5:1
+
+────────────────────────────────────────
+8. ⚠ RIESGOS Y ALERTAS
+
+🔴 AAPL -6% sin rebote claro — Monitorear si hay catalizador específico (earnings, regulatory). Si no mantiene $264.83, puede arrastrar QQQ hacia $700.
+
+🔴 AMZN confirmó ruptura de soporte — Como alertó el brief de ayer, el soporte cedió. Próximo nivel: $207. Confirma presión bajista en NDX.
+
+⚠ CVD divergencia alcista en ETH — El precio baja pero hay absorción subyacente. Si BTC rompe $62,400 de sorpresa, ETH puede revertir violentamente hacia $1,600+. Gestionar stops ajustados en cualquier short de ETH.
+
+🟡 Rebote Micron / Tech intraday — Puede generar falsos optimismos en QQQ/NDX. Usar el spike como oportunidad de short, no como señal de reversión HTF.
+
+🔴 Oil -3.28% + supply glut (Bloomberg) — Sesgo bajista fundamental confirmado. No buscar longs en USO/Oil. El rebote del +2.84% de hoy en USO parece técnico dentro del FVG.
+
+🟢 DOW divergencia positiva — Sigue siendo el activo más fuerte. Si buscas largo, industriales/utilities > tech. Bull FVG en $50,969–$51,365 es zona de compra en pullback.
+
+⚠ Fear & Greed en 13 (Extreme Fear) — Históricamente zona de reversal de mediano plazo, pero no es señal de entrada — el mercado puede permanecer en fear extremo semanas. Usar para gestión de riesgo (reducir size en shorts nuevos en niveles muy extendidos).
+
+────────────────────────────────────────
+> 💡 Mantra del día: "El bounce es el enemigo del trader bajista impaciente. Deja que el precio llegue a tu zona — no persigas." El setup en Gold ya está en zona. BTC y NDX deben llegar a sus FVGs. Paciencia + confirmación = alto R:R.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Brief generado: 26/06/2026 12:45 | Próxima revisión: cierre NY / apertura Asia
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
