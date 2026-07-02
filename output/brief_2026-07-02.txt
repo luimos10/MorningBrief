@@ -1,0 +1,194 @@
+📊 MORNING BRIEF — Miércoles 2 de Julio, 2026
+⏰ 12:45 UTC | Generado con datos 4H + 1H LTF
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|---|---|---|
+| DXY | 100.68 | 🔴 -0.70% — Dólar débil, viento de cola para BTC y Gold |
+| VIX | 16.14 | 🟢 Bajo — No hay pánico institucional |
+| Fear & Greed | 19 | ⚠️ Extreme Fear — Contrarian bullish potencial |
+| Fed / Macro | — | Nike reporta earnings hoy post-cierre ⚠️ |
+
+Lectura macro rápida: DXY cediendo presión es positivo para risk assets y metales. VIX bajo indica que el sell-off de índices de ayer fue ordenado, no pánico. El F&G en 19 (Extreme Fear) con precio de BTC subiendo es una combinación clásica de acumulación silenciosa. Bessent presionando precios de gasolina a la baja → negativo para Oil a corto plazo.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟠 BITCOIN — $61,404 (+0.07%)
+
+> 📌 SEGUIMIENTO: Ayer BTC cotizaba a $58,390. Hoy está en $61,404. El sesgo alcista del contexto anterior se activó con fuerza — subió +$3,000 desde los niveles de soporte. El CHOCH bullish detectado en 4H era la señal clave. Quien operó long desde el OB $58,500–$59,092 está en +4.5% de profit. El setup fue válido.
+
+🏗️ Estructura HTF (4H):
+• Venía en downtrend (LH+LL), pero CHOCH Bullish confirmado — rompió swing high en $60,780 con fuerza
+• Precio sobre EMA21 ($60,066) y EMA50 ($60,501) ✅
+• EMA200 en $63,887 — esa es la zona objetivo macro
+
+📦 Order Blocks activos:
+• Bull OB demanda: $58,500–$59,092 — ya actuó, ahora es soporte dinámico clave
+
+🕳️ Fair Value Gaps:
+• FVG Alcista $59,092–$59,787 (ACTIVO) — soporte dinámico si hay retroceso
+• FVG Alcista $61,058–$61,147 (ACTIVO) — precio cotizando ENCIMA de él, ya lo atravesó; actúa como imán de retorno si cae
+
+💧 Liquidez:
+• Equal Highs / resistencia inmediata: $61,962 (siguiente pool buy-side)
+• Resistencias escalonadas: $63,239 → $64,588 (EMA200)
+• Soporte inmediato swing: $60,780 (anterior swing high — ahora debe ser soporte)
+
+📊 LTF (1H):
+• Estructura HH+HL en uptrend — BOS Bullish confirmado en LTF ✅
+• FVG LTF activo: $60,315–$60,376 y $60,555–$61,051 → zonas de re-entrada si pullback
+
+📈 CVD / Funding / OI:
+• CVD ✅ Alineado alcista — compras reales, no liquidaciones
+• Sesgo: 🟡 Neutro en RSI (60.3) — hay recorrido antes de sobrecompra
+
+🎯 Setup BTC hoy:
+• Sesgo: ALCISTA (CHOCH confirmado HTF + BOS 1H + DXY débil)
+• Entrada ideal: Pullback a FVG LTF $60,555–$61,051 o al nivel $60,780 (old resistance = new support)
+• Target 1: $61,962 (liquidez EQH) | Target 2: $63,239
+• Invalidación: Cierre 4H por debajo de $60,066 (EMA21)
+
+────────────────────────────────────────
+💎 ETHEREUM — $1,661 (+0.65%)
+
+> 📌 SEGUIMIENTO: ETH no tenía setup específico ayer pero la estructura HTF ya era bullish. Hoy confirma subida +0.65% con BOS en ambos timeframes. Setup alcista vigente y en desarrollo.
+
+🏗️ Estructura:
+• HTF 4H: HH+HL — uptrend limpio ✅ + BOS Bullish confirmado
+• LTF 1H: HH+HL — BOS Bullish también ✅ — confluencia total
+
+📦 OB + FVG:
+• Bull OB: $1,567–$1,585 (soporte profundo)
+• FVG Activo $1,585–$1,607 — zona de demanda si retrocede
+• FVG Activo $1,639–$1,647 — precio ya encima, pullback potencial aquí
+
+💧 Liquidez clave:
+• EQH en $1,693.63 ⚠️ — pool de liquidez sell-side claro. Precio va a buscar esa zona. Es el target del día
+• Resistencias: $1,693 → $1,749 → $1,779
+
+🎯 Setup ETH hoy:
+• Sesgo: ALCISTA
+• Entrada: Pullback a FVG LTF $1,626–$1,641 o $1,639–$1,647 HTF
+• Target primario: $1,693 (EQH — liquidez evidente)
+• Invalidación: Pérdida de $1,635 en 4H
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> 📌 SEGUIMIENTO DOW: Ayer se alertó de RSI 65 extendido y resistencia $52,655. Hoy DOW bajó a $52,305 (-0.03%). Setup correcto — no había urgencia de entrar long. La resistencia aguanta.
+
+| Índice | Precio | Sesgo | Soporte Clave | Resistencia Clave | FVG Activo |
+|---|---|---|---|---|---|
+| SPX | $7,483 | 🟡 Mixto | $7,444 / $7,333 | $7,517 → $7,578 | $7,444–$7,449 ↑ |
+| NDX | $26,040 | 🟡 Mixto | $25,834 / $25,701 | $26,707 → $26,788 | $25,834–$25,954 ↑ |
+| DOW | $52,305 | 🟢 Alcista | $51,301 / $50,968 | $52,655 | $50,968–$51,364 ↑ |
+
+> \ Nota: SPX y NDX tienen EMAs alcistas pero estructura de precio LH+LL — divergencia. El mercado está comprimido. DOW es el más limpio structuralmente (HH+HL).
+• SPX: Precio sobre FVG $7,444 — mientras aguante, sesgo intraday bullish
+• NDX: Cedió -0.66% ayer arrastrado por NVDA. FVG $25,834–$25,954 es zona de rebote
+• DOW: Resistencia $52,655 sigue siendo el nivel a romper para continuación
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Sesgo | Nivel Clave | Nota |
+|---|---|---|---|---|
+| AAPL | $294.38 | 🟢 Alcista | Soporte $287–$289 | Sobre EMA21, FVG $288–$289 como colchón |
+| MSFT | $384.28 | 🔴 Bajista | FVG Bajista $381–$390 | +3% pero bajo EMAs — ¿trampa alcista? |
+| NVDA | $197.58 | 🔴 Bajista | Soporte $196.99 | Bajo ambas EMAs, RSI 43, frágil |
+| GOOGL | $361.21 | 🟢 Alcista | FVG $354–$356 soporte | EMAs alineadas, estructura mixta pero momentum +1% |
+| AMZN | $241.70 | 🔴 Bajista | Resistencia $249.51 | Entre dos FVGs — zona de compresión |
+
+⚠️ MSFT alert: Subió +3% pero cotiza dentro de un FVG bajista ($381–$390). Las EMAs siguen bajistas. Puede ser un short de alta probabilidad si rechaza desde $390 con vela de distribución.
+
+⚠️ NVDA: Soporte crítico en $196.99. Si rompe, siguiente nivel $194.51. No buscar longs hasta recuperar $203 (EMA21).
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🟡 GOLD — $4,143 (+1.83%)
+
+> 📌 SEGUIMIENTO: Ayer no había setup activo en Gold. Hoy rebota +1.83% pero sigue bajo EMAs ($4,199 / $4,375) y en estructura LH+LL. Este rebote puede ser simplemente un retorno al FVG bajista antes de continuar la caída.
+• Sesgo: 🔴 Bajista (HTF) — rebote dentro de downtrend
+• Resistencia inmediata: $4,199 (EMA21) — zona de oferta
+• Soporte: $4,100 → $4,031
+• No perseguir el rebote. Esperar rechazo en EMA21 para posible short
+
+────────────────────────────────────────
+⚪ SILVER — $61.94 (+3.10%)
+
+> 📌 SEGUIMIENTO: Ayer SLV (ETF) cotizaba dentro del FVG bajista $53.20–$55.47 y se alertó como posible short. Hoy SLV está en $53.58 (+0.21%) — el setup short sigue vigente y activo. Silver al contado rebota +3.10% pero bajo EMAs.
+• Sesgo: 🔴 Bajista — bajo EMA21 ($64.79) y EMA50 ($69.84)
+• Soporte: $61.09 → $57.25
+• FVG Bajista activo: $59.51–$65.53 — resistencia zona
+• Rebote actual puede ser trampa antes de continuar hacia $57
+
+────────────────────────────────────────
+🛢️ OIL (WTI) — $67.35 (-1.79%)
+
+> 📌 SEGUIMIENTO: Ayer se alertó NO tomar shorts en Oil con RSI 28.6 y pidiendo catalizador. Hoy cae otro -1.79% a $67.35 con RSI 27.2. La alerta fue correcta — el rebote técnico no llegó. La presión de Bessent sobre precios de gasolina agrava el sesgo bajista.
+• Sesgo: 🔴 Bajista extremo — RSI 27.2, bajo todas las EMAs
+• Soporte: $63.60 → $61.87
+• FVG Bajista: $68.24–$69.22 — resistencia inmediata
+• ⚠️ RSI en sobreventa extrema: cualquier noticia positiva Irán/OPEC = rebote violento. Gestión de riesgo si estás short.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | FVG Clave | Nota |
+|---|---|---|---|---|
+| SPY | $745.76 | 🟢 Alcista | FVG↑ $741.56–$742.38 | Resistencia $747.60 — momentum frenado |
+| QQQ | $725.17 | 🟢 Alcista | FVG↑ $724.58 | Casi en FVG — puede ser zona de rebote |
+| GLD | $370.60 | 🔴 Bajista | FVG↓ $370.90–$382.64 | Precio toca borde inferior del FVG bajista |
+| SLV | $53.58 | 🔴 Bajista | FVG↓ $53.20–$55.47 | Short setup activo — ver Watchlist |
+| USO | $103.27 | 🔴 Bajista | FVG↓ $105.00–$106.19 | RSI 29.2 — sobreventa pero sin catalizador alcista |
+
+QQQ: Precio prácticamente sobre el FVG $724.58 — si aguanta esta zona en apertura NYC, es setup long con target $743.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+────────────────────────────────────────
+🥇 #1 — ETH LONG | Setup de Continuación Alcista
+
+
+
+Por qué: BOS confirmado en HTF y LTF. CVD alcista. EQH en $1,693 es una trampa de liquidez casi segura — el precio va a buscarla. DXY débil ayuda. Setup más limpio del día.
+
+────────────────────────────────────────
+🥈 #2 — SLV SHORT | Rechazo desde FVG Bajista
+
+
+
+Por qué: Setup vigente desde ayer. Precio atascado en FVG bajista. Estructura HTF bajista (LH+LL). RSI 33.5 — rebote débil dentro de tendencia bajista. No perseguir — esperar rechazo con vela bajista de confirmación.
+
+────────────────────────────────────────
+🥉 #3 — MSFT SHORT | Trampa Alcista en FVG Bajista
+
+
+
+Por qué: Subió +3% pero las EMAs siguen bajistas ($386 y $398). RSI 47. Precio dentro de un FVG de oferta. El momentum del día puede ser distribución institucional. Confirmar con vela de reversión en H1 antes de entrar.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 Nike Earnings post-cierre: Puede mover el mercado en after-hours. Si decepciona, presión adicional sobre NDX. Cuidado con posiciones abiertas en tecnología al cierre.
+
+⚠️ Oil RSI 27.2: Sobreventa extrema. Un tweet/noticia sobre acuerdo Iran/OPEC puede provocar +5% en minutos. Si tienes posición short en USO, ajusta el SL.
+
+🟡 BTC consolidando en $61,400: Si no logra limpiar $61,962 (EQH) hoy, puede retroceder al FVG $60,555–$61,051 antes de continuar. No forzar entradas en ATM.
+
+⚠️ Gold rebote falso: El +1.83% de hoy ocurre mientras sigue bajo EMAs y en estructura bajista. No confundir rebote técnico con reversión.
+
+🟢 DXY -0.70%: Viento de cola claro para BTC, ETH y metales. Si DXY continúa cediendo, los setups alcistas en crypto tienen mayor probabilidad.
+
+🔴 Fear & Greed 19: Extremo miedo mientras BTC sube = manos débiles vendiendo a manos fuertes. Confirma narrativa de acumulación silenciosa. No seguir el miedo del mercado retail.
+
+────────────────────────────────────────
+> 📌 Resumen ejecutivo en 30 segundos: Crypto alcista con CHOCH + BOS confirmados — ETH es el setup más limpio con target $1,693. Oil y Silver siguen estructuralmente bajistas. Índices mixtos con DOW más fuerte. Watchear Nike earnings al cierre. DXY débil favorece risk-on. Máxima atención: ETH pullback a $1,626–$1,647.
+
+────────────────────────────────────────
+Brief generado: 2026-07-02 12:45 UTC | Próxima actualización: sesión NY*
