@@ -1,0 +1,222 @@
+📊 MORNING BRIEF — Miércoles 8 de Julio 2026
+Generado: 12:45 UTC | Modo: Seguimiento activo
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 101.16 | Estable — sin presión extrema sobre cripto/commodities |
+| VIX | 17.45 | Bajo — complacencia relativa, pero Samsung/chips encendieron alerta |
+| Fear & Greed | 20 — Extreme Fear | Mercado en capitulación psicológica |
+| SPX Futures | Rojo (-0.45%) | Samsung chip selloff arrastra al sector tech |
+
+⚠️ Catalizador del día: Resultados de Samsung detonaron venta masiva en chips → NVDA, NDX bajo presión. Extreme Fear = liquidez comprimida, movimientos agresivos posibles. No operar con tamaño grande sin confirmación.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟠 BITCOIN — $62,083 (-0.35%)
+
+📌 SEGUIMIENTO: Ayer el sesgo era alcista con cautela en $63,999. El precio no logró mantener ese nivel — hoy cotiza $1,482 por debajo. Setup alcista invalidado. BOS bajista confirmado en LTF. El rechazo en $63,999 fue la señal que faltaba.
+
+────────────────────────────────────────
+Estructura HTF (4H):
+• Estructura mixta-transitional con CHOCH potencial bajista en desarrollo
+• EMAs apiladas comprimidas: 21 ($62,909) > 50 ($62,359) > 200 ($62,199) — precio por debajo de todas. Señal de debilidad estructural clara.
+• Swing range activo: $64,700 (high) / $61,306 (low)
+
+Estructura LTF (1H):
+• LH + LL confirmado → Downtrend activo
+• BOS bajista reciente rompió último swing low → momentum vendedor intacto
+
+🔴 Order Blocks / FVGs activos:
+| Zona | Tipo | Rango | Implicación |
+|------|------|-------|-------------|
+| Bear FVG 4H | ACTIVO | $62,901–$63,218 | Resistencia magnética — rebotar aquí para short |
+| Bear FVG 4H | ACTIVO | $62,451–$62,477 | Zona de oferta inmediata por encima del precio |
+| Bear FVG 1H | ACTIVO | $62,190–$62,550 | Confluencia bajista 1H + 4H entre $62,451–$62,550 |
+| Bear FVG 1H | ACTIVO | $63,066–$63,307 | Zona de oferta superior |
+
+> 🧲 El precio está "aspirando" hacia arriba los FVGs activos en $62,451–$62,477 como primer target de mitigación antes de continuar bajando.
+
+Liquidez y Sweeps:
+• Pool de liquidez inferior: $61,306 (swing low reciente) — es el target bajista primario
+• Si rompe $61,306 con volumen → siguiente objetivo $59,102
+• Equal Highs / resistencia estructural: $64,700
+
+CVD: ✅ Confirmación bajista — precio y CVD alineados. Sin divergencia favorable al alza.
+
+Funding / OI: No disponible en datos, asumir neutral-ligero short bias dado Extreme Fear.
+
+🎯 Setup BTC hoy:
+• Sesgo: 🔴 Bajista
+• Entrada short: Rebote a Bear FVG $62,451–$62,550 (confluencia 1H+4H), esperar rechazo en vela + CVD confirmando
+• SL: Por encima de $62,979 (EMA 21 + resistencia)
+• TP1: $61,938 | TP2: $61,306
+• Invalidación: Cierre 4H por encima de $63,239
+
+────────────────────────────────────────
+🔷 ETHEREUM — $1,744 (-0.24%)
+
+📌 SEGUIMIENTO: Ayer advertimos: "div. bajista CVD + sweep en $1,807 + Bear FVG = peligro". El precio cayó de $1,807+ hacia $1,744 — setup bajista se activó correctamente ✅. Quien tomó short desde $1,807 ya tiene +$63 de recorrido. Posición sigue activa o evaluar mover SL a breakeven.
+
+────────────────────────────────────────
+Estructura HTF (4H):
+• Mixta-transitional con CHOCH potencial
+• EMAs: 21 ($1,763) > precio ($1,744) > 50 ($1,731) > 200 ($1,686) — precio entre EMA 21 y 50, zona de decisión
+• Sweep reciente confirmado en $1,807 (sell-side) → señal SMC de manipulación antes de caída
+
+FVGs activos:
+| Zona | Tipo | Rango | Implicación |
+|------|------|-------|-------------|
+| Bull FVG 4H | ACTIVO | $1,722–$1,728 | Soporte potencial de corto plazo |
+| Bear FVG 4H | ACTIVO | $1,759–$1,765 | Resistencia — zona de short si hay rebote |
+| Bear FVG 1H | ACTIVO | $1,759–$1,770 | Confluencia 1H+4H en zona de oferta |
+| Bull FVG 1H | ACTIVO | $1,742–$1,743 | Soporte micro — precio encima por margen mínimo |
+
+Liquidez:
+• EQL soportes: $1,728 y $1,693 (pool inferior)
+• Si pierde $1,728 → $1,693 es el siguiente imán
+
+CVD: ✅ Bajista alineado con precio
+
+🎯 Setup ETH hoy:
+• Sesgo: 🔴 Bajista (estructura LTF downtrend activo)
+• Entrada short: Rebote a Bear FVG $1,759–$1,770 con rechazo confirmado
+• SL: $1,783
+• TP1: $1,728 | TP2: $1,693
+• Alternativa: Si baja a $1,722–$1,728 (Bull FVG 4H) y hay reacción alcista LTF → long especulativo con SL $1,715
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📌 SEGUIMIENTO: Ayer SPX alcista hacia $7,577 y NDX alcista — ambos corrigieron hoy (SPX -0.45%, NDX -1.16%). Samsung chip selloff fue el detonante. DOW resiste mejor gracias a composición no-tech.
+
+| Índice | Precio | Sesgo | Nivel clave soporte | Nivel clave resistencia |
+|--------|--------|-------|--------------------|-----------------------|
+| SPX | $7,504 | 🟢 Alcista | $7,392–$7,438 (Bull FVG) | $7,517 → $7,577 |
+| NDX | $25,819 | 🟡 Neutro | $25,491–$25,808 (Bull FVG — precio EN zona) | $26,707 |
+| DOW | $52,925 | 🟢 Alcista | $52,387–$52,395 (Bull FVG) | Sin resistencia clara |
+
+Lecturas clave:
+• SPX: Bull FVG en $7,392–$7,438 es zona de demanda — si price action corrige a ahí, buscar long. RSI 55.4 con recorrido.
+• NDX: ⚠️ RSI 48.7 neutralizado — el chip selloff (Samsung) presiona. Precio dentro del Bull FVG $25,491–$25,808 → zona de demanda activa. Clave si mantiene o rompe $25,700.
+• DOW: RSI 68.9 — sigue sobrecomprado. HH+HL uptrend intacto. No perseguir longs aquí — esperar pullback a $52,387.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Sesgo | Nivel clave | Setup rápido |
+|--------|--------|-------|-------------|--------------|
+| AAPL | $310.66 | 🟢 Alcista | S: $305 / R: $317.40 | Estructura LTF downtrend — cautela. FVG $309–$310 como soporte micro |
+| MSFT | $388.84 | 🟡 Neutro | S: $380.89 / R: $406.61 | Rebote moderado — Bull FVG $374–$383 es zona de compra si corrige |
+| NVDA | $196.93 | 🔴 Bajista | S: $194.74 / R: $197.62 | ⚠️ Samsung chip news = presión adicional. Bear FVG $201–$207 = zona de short. No long aquí. |
+| GOOGL | $367.03 | 🟢 Alcista | S: $357.87 / R: $376.00 | Bull FVG $364–$365 como soporte — interesante long si confirma |
+| AMZN | $245.98 | 🟡 Neutro | S: $233.59 / R: $249.51 | Bear FVG $249–$251 techo — estructura LTF bajista. Cuidado con los longs |
+
+> ⚠️ NVDA es el activo a vigilar hoy — el selloff de Samsung en chips puede generar segunda pata bajista. Resistencia clara en $197.62, luego Bear FVG $201–$207.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+📌 SEGUIMIENTO: Gold: ayer setup de rebote técnico en $4,100 fue señal. Hoy cayó a $4,080 (-1.56%) — el rebote no se sostuvo, downtrend aceleró. Silver: confirmó trampa alcista como advertimos — de $61.97 cayó a $58.78 (-3.52%) ✅. Oil: sorpresa alcista +4.20%.
+
+🥇 Gold — $4,081 (-1.56%) 🔴
+• EMAs en $4,179 y $4,347 — precio muy por debajo: downtrend estructural
+• RSI 40.0 — acercándose a sobreventa pero sin señal de reversión
+• Soporte inmediato: $4,031 → $3,963
+• Bull FVG activo: $4,049–$4,062 — posible rebote técnico menor
+• Sesgo: Bajista. Cualquier rebote a $4,100–$4,130 = zona de venta. No comprar sin BOS alcista 4H.
+
+🥈 Silver — $58.78 (-3.52%) 🔴
+• RSI 34.8 — sobreventa pero estructura manda
+• Soporte clave: $57.25 y $57.03 (doble piso — pool de liquidez)
+• Bear FVG bajista activo en $61.46–$61.63 = zona de short en rebote
+• Sesgo: Bajista. Target $57.03. Si pierde → caída acelerada.
+
+🛢️ Oil WTI — $73.40 (+4.20%) ⚠️
+• Rebote fuerte pero estructura sigue bajista (LH+LL, EMAs descendentes $76/$83)
+• RSI 40.6 — rebote desde sobreventa pero sin cambio estructural
+• Bull FVG $69.21–$71.75 ya actuó como soporte (precio lo superó)
+• Bear FVG resistencia: $81.58–$83.20
+• Sesgo: Rebote técnico — no cambio de tendencia. Zona de venta en $76–$78 si llega. Causa probable: geopolítica/OPEP.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | Soporte clave | Resistencia | FVG relevante |
+|-----|--------|-------|--------------|-------------|---------------|
+| SPY | $747.71 | 🟢 Alcista | $736.53–$740.89 | $754.74 | Bull FVG $736–$740 como zona de compra |
+| QQQ | $709.43 | 🟡 Neutro | $702.81 | $721.24 | Sin FVG activo claro — esperar estabilización |
+| GLD | $377.49 | 🔴 Bajista | $371.88 | $380.35–$385.60 | Bear FVG $380–$385 = zona de short; Bull FVG $372–$376 cerca |
+| SLV | $54.46 | 🔴 Bajista | $50.31 | $53.90–$58.75 | Bear FVG $53.90–$58.75 enorme — sigue bajista |
+| USO | $108.92 | 🔴 Bajista | $106.45 | $110.05–$110.06 | Rebote +4.38% pero estructura bajista. Bear FVG $110.05 = techo. Si no rompe → short |
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — BTC SHORT | Timeframe: 1H-4H
+
+Tesis: Estructura bajista confirmada (BOS bearish 1H), precio por debajo de todas las EMAs, CVD alineado, Fear&Greed en 20. El setup es esperar mitigación del Bear FVG para entry.
+
+| Parámetro | Valor |
+|-----------|-------|
+| Entrada | $62,451–$62,550 (confluencia Bear FVG 1H+4H) |
+| SL | $62,980 |
+| TP1 | $61,938 |
+| TP2 | $61,306 |
+| R:R | ~1:2 |
+| Condición | Rechazo en vela + CVD no divergente |
+
+────────────────────────────────────────
+🥈 #2 — ETH SHORT | Timeframe: 1H-4H
+
+Tesis: Sweep de $1,807 confirmado ayer (tesis válida), CVD bajista, estructura LTF downtrend. Bear FVG 1H+4H en confluencia $1,759–$1,770 es la zona ideal.
+
+| Parámetro | Valor |
+|-----------|-------|
+| Entrada | $1,759–$1,770 (Bear FVG confluencia) |
+| SL | $1,783 |
+| TP1 | $1,728 |
+| TP2 | $1,693 |
+| R:R | ~1:2.5 |
+| Condición | Rebote a la zona + rechazo en LTF (vela bajista 15m/1H) |
+
+────────────────────────────────────────
+🥉 #3 — NVDA SHORT | Timeframe: Diario/4H
+
+Tesis: Estructura LTF downtrend, RSI 43.5, Bear FVG activo $201–$207 como zona de oferta, y catalizador del día (Samsung chip selloff) presiona al sector. Setup de momentum + estructura.
+
+| Parámetro | Valor |
+|-----------|-------|
+| Entrada | Rebote a $197.62–$201.67 (resistencia + Bear FVG inferior) |
+| SL | $208.00 |
+| TP1 | $194.74 |
+| TP2 | $189.80 |
+| R:R | ~1:2 |
+| Condición | No comprar el dip — esperar rechazo en resistencia |
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 Samsung/Chips: El selloff iniciado por resultados de Samsung puede extenderse a NVDA, AMD, QCOM durante la sesión. Sector semiconductores = zona de peligro para longs hoy.
+
+🔴 BTC $61,306: Si rompe este swing low con volumen y cierre 4H, la estructura se torna claramente bajista hasta $59,102. Ajusta stops si tienes posiciones long heredadas.
+
+🟡 NDX dentro de Bull FVG: $25,491–$25,808 es zona de demanda activa. Si mantiene, puede rebotar. Si lo pierde — siguiente soporte en $25,014. Clave para definir sesgo tech del resto de semana.
+
+🟡 Oil +4.20% sin cambio estructural: El rebote es técnico/geopolítico. No cambies el sesgo bajista hasta ver BOS alcista en 4H. Bear FVG $81.58–$83.20 sigue siendo el techo estructural.
+
+🟡 Gold y Silver en sobreventa relativa: RSI en 40 y 34 respectivamente — posibles rebotes técnicos. Pero la estructura manda: vende en fortaleza, no compres la caída hasta cambio de estructura confirmado (BOS alcista 4H mínimo).
+
+⚠️ Extreme Fear (20): Mercado emocionalmente en capitulación — alta probabilidad de movimientos de liquidez agresivos (sweeps falsos, stop hunts). Reduce tamaño de posición, amplía SL razonablemente o espera confirmación antes de entrar.
+
+⚠️ DXY estable en 101.16: No hay presión adicional de dólar hoy — factor neutral para crypto y commodities.
+
+────────────────────────────────────────
+> 💡 Resumen ejecutivo: El mercado está en modo risk-off moderado con Extreme Fear y presión tech por chips. Crypto bajista estructuralmente — los shorts en rebote son el setup del día. Índices en zona de soporte (NDX en Bull FVG) — no short aquí sin más confirmación. Metales en downtrend — silver acercándose a zona crítica $57. Oil rebote técnico — no te enamores del verde. Opera con tamaño reducido y espera confirmación.
+
+────────────────────────────────────────
+Brief generado automáticamente — No es asesoramiento financiero. Opera con gestión de riesgo apropiada.
