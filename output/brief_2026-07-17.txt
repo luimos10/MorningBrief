@@ -1,0 +1,205 @@
+📊 MORNING BRIEF — Viernes 17 de Julio 2026
+Generado: 12:45 UTC | Lectura estimada: 8 min
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 100.82 (+0.09%) | Dólar estable, leve presión sobre riesgo |
+| VIX | 18.45 | Moderado — mercado en modo cauteloso |
+| Fear & Greed | 27 (Fear) | Ambiente vendedor aún presente |
+
+Noticias clave del día:
+• 📊 TSMC invierte $100B adicionales en Arizona tras Q2 +77% de profit → tailwind para semis (NVDA, AMD)
+• 📊 Datos de ventas al retail + empleo esperados hoy → potencial catalizador de volatilidad intraday
+• ⚠ Kospi cae 7% en rout de chips → contagio de sentimiento bajista en tech global
+• 🟢 UnitedHealth bate estimados → soporte para el DOW
+
+Lectura macro: Entorno mixto. DXY plano da algo de respiro a cripto y commodities, pero el VIX en 18+ y el F&G en 27 dicen que el dinero no está tomando riesgo agresivamente. Los datos de retail/empleo de hoy son el pivote — volatilidad garantizada en la apertura USA.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+BTCUSDT — $63,108 (-0.30%) 🔴
+
+📌 Seguimiento: El brief de ayer no registró setup activo para BTC. Hoy el precio opera bajo las EMAs 21 ($63,884) y 50 ($63,688) en 4H, confirmando presión vendedora a corto plazo.
+
+Estructura HTF (4H):
+• Marco mayor mantiene HH + HL → uptrend técnicamente vigente, pero precio está comprimido bajo EMAs clave
+• Bear FVG activos: $63,576–$63,748 y $63,361–$63,380 → ambas zonas sobre precio actual, actúan como techo inmediato
+• Bull FVG activo: $62,347–$62,517 → zona de demanda más cercana, imán si continúa la presión
+
+Estructura LTF (1H):
+• Downtrend confirmado: LH + LL + BOS bajista → la estructura corta manda ahora
+• Bull FVG 1H: $62,939–$62,989 → nivel de precisión para posible rebote intradía
+• EMA200 (4H) en $63,160 es el soporte dinámico inmediato — precio opera pegado a él
+
+Liquidez:
+• EQH: $64,696 — sweep ya ejecutado ⚠ (sell-side liquidez barrida, no hay urgencia de ir ahí hoy)
+• Próximo pool de liquidez relevante: EQL implícita en $61,825 (último swing low 4H)
+
+CVD: ✅ Alineado alcista con precio — no hay divergencia bajista activa, lo que modera el sesgo vendedor
+
+Sesgo del día: 🔴 Bajista en LTF, neutro-bajista en HTF
+
+| Escenario | Condición | Target |
+|-----------|-----------|--------|
+| 🔴 Short rebote | Precio sube a Bear FVG $63,576–$63,748 y falla | $62,939 → $62,347 |
+| 🟢 Long reactivo | Precio toca Bull FVG $62,347–$62,517 con confluencia 1H | $63,160 → $63,461 |
+| ⚠ Invalidación bajista | Cierre 4H sobre $63,884 (EMA21) | Setup corto cancelado |
+
+────────────────────────────────────────
+ETHUSDT — $1,828 (-0.59%) 🟡
+
+📌 Seguimiento: La invalidación de ayer estaba en cierre bajo $1,805 → escenario bajista hacia $1,749. ETH cotiza en $1,828, por encima del nivel de invalidación — el setup bajista NO se activó todavía, pero el margen es mínimo (~$23).
+
+Estructura HTF (4H):
+• CHOCH potencial — estructura mixta/transicional. Ni uptrend ni downtrend confirmado
+• Precio en $1,828, con resistencias inmediatas en $1,830 / $1,833 → zona densa
+• Bear FVG activo 4H: $1,853–$1,857 → techo de corto plazo
+• Bull FVG activo 4H: $1,805–$1,860 (grande, precio dentro) y $1,793–$1,794 más abajo
+
+Estructura LTF (1H):
+• Downtrend: LH + LL — bajista en LTF
+• Bear FVG 1H: $1,836–$1,844 → zona de venta LTF si hay rebote
+
+Liquidez:
+• EQH: $1,807 → pool de venta sobre precio (ya cerca, posible sweep)
+• EQL: $1,749 → objetivo si rompe estructura HTF a la baja
+
+Sesgo del día: 🟡 Neutral con sesgo bajista activable. El nivel $1,805 sigue siendo el gatillo clave — si cierra 4H bajo ese nivel, la narrativa cambia a ruta hacia $1,749.
+
+| Escenario | Condición | Target |
+|-----------|-----------|--------|
+| 🔴 Short activado | Cierre 4H bajo $1,805 | $1,779 → $1,749 |
+| 🟡 Rango | Se mantiene $1,805–$1,833 | Esperar ruptura |
+| 🟢 Long | Rebote desde $1,793 Bull FVG con BOS alcista 1H | $1,846 → $1,894 Bear FVG |
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+S&P 500 — $7,534 (-0.51%) 🟢
+• Estructura: Mixta pero EMAs apuntan arriba (21: $7,495 / 50: $7,401)
+• RSI 54.8 — espacio para seguir subiendo, no sobrecomprado
+• Bull FVG activo: $7,488–$7,508 → precio lo superó hoy, zona de soporte ahora
+• Resistencia clave: $7,551 → primer techo. Ruptura abre $7,577 y $7,620
+• Soporte: $7,421 (retroceso sano sin romper estructura)
+• Sesgo: 🟢 Alcista mientras aguante sobre $7,488
+
+NASDAQ — $25,882 (-1.47%) 🟡
+• El más débil de los tres índices hoy — Kospi + GOOGL (-4.4%) pesan
+• RSI 48.6 bajo EMA21 ($26,004) → presión real
+• Bull FVG activo: $25,491–$25,808 → precio en la mitad del gap, zona de decisión
+• Soporte crítico: $25,701 (EMA50 área) — si pierde, siguiente en $25,526
+• Resistencia: $26,261 — lejos aún
+• Sesgo: 🟡 Neutro-bajista. Datos de retail hoy son el catalizador para dirección
+
+DOW JONES — $52,553 (-0.20%) 🟢
+• El más robusto: HH + HL uptrend confirmado, RSI 59.6
+• Cotiza sobre todas las EMAs relevantes
+• Soporte: $52,069 (EMA21 área)
+• Resistencia: $52,655 → pequeña toma de liquidez posible
+• Sesgo: 🟢 Alcista — el índice más sano hoy. UnitedHealth lo sostiene.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Cambio | RSI | Sesgo | Nivel Clave |
+|--------|--------|--------|-----|-------|-------------|
+| AAPL | $333.26 | +1.76% | 71.4 | 🟢 Alcista | RSI sobrecomprado — cuidado con fade. Soporte $316 (FVG) |
+| MSFT | $401.10 | +1.38% | 56.3 | 🟢 Alcista | Pivote en $400 (soporte clave). Target $406 |
+| NVDA | $207.40 | -2.40% | 52.1 | 🟡 Cauteloso | Kospi chip rout pesa. Soporte $199 FVG. Watch $212 resistencia |
+| GOOGL | $354.46 | -4.44% | 46.2 | 🔴 Bajista | Caída fuerte — bajo EMAs. Soporte $351, si pierde → $346 |
+| AMZN | $249.89 | -1.99% | 54.2 | 🟡 Neutro | Bear FVG $257–$260 como techo. Soporte $238 |
+
+Nota: AAPL lidera hoy pero RSI en 71.4 → no perseguir largos. GOOGL es la debilidad del sector, monitorear si se estabiliza en $351.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+GOLD — $3,986 (-0.00%) 🔴
+• Downtrend claro: LH + LL, EMAs cayendo (21: $4,109 / 50: $4,274)
+• RSI 37.8 — cerca de sobreventa pero sin señal de reversión
+• Bear FVG activo: $4,012–$4,019 → resistencia inmediata si intenta rebotar
+• Soporte: $3,963 — zona de demanda clave. Ruptura abre void hacia $3,800+
+• Sesgo: 🔴 Bajista. No hay setup largo hasta BOS alcista confirmado
+
+SILVER — $55.51 (-0.70%) 🔴
+• Más débil que Gold: RSI 33.2 rozando sobreventa extrema
+• Bear FVG: $56.26–$56.90 → techo corto plazo
+• Sin soporte técnico claro mapeado — zona de riesgo elevado
+• Sesgo: 🔴 Bajista. Posible rebote técnico desde RSI pero sin estructura de apoyo
+
+OIL (WTI) — $80.32 (+1.74%) 🟡
+• Rebote interesante hoy — pero opera bajo EMA50 ($81.70)
+• Bear FVG activo: $81.58–$83.20 → es la zona de resistencia a testear
+• Bull FVG: $73.16–$77.84 → soporte profundo en caso de vuelta
+• Sesgo: 🟡 Neutro. El rebote es válido pero hay techo en $81.27–$83.20
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | RSI | Sesgo | Nivel Vigilar |
+|-----|--------|-----|-------|---------------|
+| SPY | $750.72 | 54.7 | 🟢 Alcista | Soporte $746 (FVG). Resistencia $752–$754 |
+| QQQ | $705.94 | 45.6 | 🟡 Neutro | Rompió a la baja el pivote de ayer. Soporte $702. Bear FVG $713–$714 como techo |
+| GLD | $364.96 | 37.0 | 🔴 Bajista | Soporte $363.32. Bear FVG $368–$370 como techo |
+| SLV | $50.39 | 33.3 | 🔴 Bajista | Soporte $50.31 (muy cerca — zona de decisión crítica) |
+| USO | $119.30 | 53.4 | 🟡 Neutro | Resistencia $124. Bull FVG $110–$117 como base |
+
+📌 Seguimiento QQQ: Ayer estaba en pivote exacto con RSI 50 en EMA21. Hoy resolvió a la baja (-1.64%, RSI 45.6) → el sesgo tech para el cierre de semana es bajista/neutro. Confirma la debilidad del NASDAQ.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — BTC SHORT desde Bear FVG 4H
+Activo: BTCUSDT | Dirección: 🔴 Short
+• Zona de entrada: $63,576–$63,748 (Bear FVG 4H activo)
+• Confluencia: EMA21 en $63,884 como techo dinámico — precio entre las EMAs y el FVG
+• Trigger LTF: Esperar rechazo en 1H con vela bajista de confirmación + LH en LTF
+• Target 1: $62,939 (Bull FVG 1H)
+• Target 2: $62,347 (Bull FVG 4H — zona de demanda principal)
+• Stop Loss: Cierre 4H sobre $63,884 (EMA21)
+• R:R estimado: ~1:2.5 hacia T2
+• Por qué: Estructura LTF bajista (BOS down confirmado), precio en resistencia, sweep de EQH ya ejecutado (no hay liquidez arriba urgente)
+
+────────────────────────────────────────
+🥈 #2 — ETH SHORT condicional en ruptura
+Activo: ETHUSDT | Dirección: 🔴 Short (condicional)
+• Gatillo: Cierre 4H bajo $1,805
+• Entrada: Retest del nivel $1,805 como nueva resistencia (ex-soporte)
+• Confluencia: LTF en downtrend, Bear FVG 1H en $1,836–$1,844 como techo
+• Target 1: $1,779
+• Target 2: $1,749 (EQL — pool de liquidez buy-side)
+• Stop Loss: Cierre 4H de vuelta sobre $1,830
+• Por qué: Setup de continuidad — la invalidación de ayer no se tocó ($1,805 aguanta por $23). Si cede hoy, la estructura transitional confirma CHOCH bajista y el viaje a $1,749 se activa.
+
+────────────────────────────────────────
+🥉 #3 — MSFT LONG en soporte $400
+Activo: MSFT | Dirección: 🟢 Long
+• Zona de entrada: $400.01–$397.15 (soporte + posible pullback)
+• Confluencia: EMAs crecientes ($388 / $395), RSI 56 con momentum, FVG alcista en $388–$392 como base más profunda
+• Target: $406.61 (resistencia mapeada)
+• Stop Loss: Cierre diario bajo $395 (EMA50 área)
+• R:R estimado: ~1:2 hacia target
+• Por qué: MSFT es el stock más sano del sector tech hoy (+1.38%), rompió $400 y lo usa como soporte. Si el mercado consolida en apertura USA, cualquier dip a $400 es oportunidad.
+
+────────────────────────────────────────
+8. ⚠ RIESGOS Y ALERTAS
+
+1. 📊 Datos Macro de hoy (Retail Sales + Jobs) — Son el catalizador más importante del día. Un dato débil = presión en USD → potencial rebote en BTC/Gold. Dato fuerte = DXY sube → crypto presionado.
+
+2. 🔴 GOOGL -4.44% — Caída significativa que arrastra al NASDAQ. Vigilar si hay estabilización o continúa el deterioro — contagio posible a QQQ y crypto.
+
+3. ⚠ Kospi -7% en chip rout — TSMC invierte $100B pero el mercado coreano castiga semis. NVDA y el sector pueden tener sesión volátil en apertura.
+
+4. 🥇 Gold/Silver en zona crítica — SLV en $50.39 con soporte en $50.31. Un cierre bajo ese nivel en el ETF podría acelerar la capitulación. GLD a vigilar en $363.
+
+5. ₿ BTC EMA200 4H en $63,160 — Precio cotiza apenas sobre ella ($63,108 vs $63,160 → prácticamente encima). Un cierre 4H bajo este nivel sería la primera señal de deterioro estructural HTF. Nivel crítico de la semana para BTC.
+
+6. 🟡 QQQ confirmó ruptura bajista — El pivote de ayer resolvió a la baja. Si $702 no aguanta, siguiente soporte en $700.91 → riesgo de aceleración bajista en tech para cierre de semana.
+
+────────────────────────────────────────
+📌 Prioridad del día: Vigilar BTC en $63,160 (EMA200 4H) y ETH en $1,805. Los datos macro de retail/empleo serán el catalizador de dirección en la sesión americana. Mantén disciplina en stops — viernes de opciones.
