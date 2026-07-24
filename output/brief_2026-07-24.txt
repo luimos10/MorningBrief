@@ -1,0 +1,188 @@
+📊 MORNING BRIEF — Viernes 24 de Julio 2026
+Generado: 12:45 UTC
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| Fear & Greed | 28 | Fear — mercado en capitulación parcial |
+| VIX | 18.58 | Elevado — volatilidad activa |
+| DXY | 101.47 | Lateral, sin presión clara |
+
+Narrativa del día: Jornada de risk-off generalizado. GOOGL -7.1% (multa EU $1B) y AMZN -4.6% arrastran al tech. El sector energía contrarreforma: WTI +3% y USO +6% (¿reposicionamiento de capital?). Sin catalizadores Fed hoy, pero el sentimiento "Fear" + VIX elevado sugiere que el selling de ayer y hoy tiene base real. Cuidado con longs en equities hoy.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+🟠 BITCOIN — $64,944 (-0.21%)
+
+> 📌 SEGUIMIENTO: Ayer sesgo naranja/neutral en $65,102. Precio bajó levemente a $64,944 — no hubo ruptura limpia ni en soporte ni en resistencia. Setup sigue vigente, sin activación de entrada clara.
+
+Estructura HTF (4H): HH + HL intacto = contexto alcista. Sin embargo, el precio cotiza por debajo de las 3 EMAs principales (21: 65,392 / 50: 65,054 / 200: 63,828), indicando presión vendedora a corto plazo.
+
+Estructura LTF (1H): 🔴 LH + LL — Downtrend activo. El sesgo intraday es bajista.
+
+Order Blocks & FVGs clave:
+• 🔴 Bear FVG ACTIVO 4H: 65,133 – 65,248 — zona de oferta sin mitigar. Cualquier rebote aquí es candidato a short.
+• 🔴 Bear FVG ACTIVO 1H: 65,157 – 65,302 y 65,314 – 65,320 — confluencia de oferta LTF alineada con el HTF.
+• Precio está debajo de todos los FVGs activos — el mercado actúa como imán hacia abajo.
+
+Liquidez:
+• 🟡 EQH (sell-side): 64,696 y 64,406 — pools de liquidez bajo el precio actual. Alta probabilidad de sweep.
+• Soporte clave: 64,650 (swing low HTF) → si pierde este nivel, siguiente zona es 63,656.
+
+CVD: ✅ Bajista — precio y CVD alineados. Sin divergencia. No hay señal de acumulación.
+
+Sesgo del día: 🔴 Bajista intraday dentro de contexto HTF alcista.
+
+Setup activo:
+
+
+────────────────────────────────────────
+🔷 ETHEREUM — $1,879 (-0.27%)
+
+> 📌 SEGUIMIENTO: Ayer CHOCH bearish confirmado. Target $1,749 mencionado. ETH cotiza hoy en $1,879 — NO recuperó $1,913. El escenario bajista sigue plenamente vigente y ganando fuerza.
+
+Estructura HTF (4H): ⚠️ CHOCH Bearish confirmado — rompió swing low en uptrend. Esto es una señal de reversión estructural, no un simple retroceso.
+
+Estructura LTF (1H): 🔴 LH + LL — downtrend en progreso.
+
+Order Blocks & FVGs clave:
+• 🔴 Bear FVG ACTIVO 4H: 1,895 – 1,914 — zona de oferta principal. Resistencia ahora.
+• 🔴 Bear FVG ACTIVO 1H: 1,909 – 1,924 — confluencia bajista LTF/HTF en esa zona.
+• Resistencia inmediata: 1,879 (prácticamente en precio actual — techo pegajoso).
+
+Liquidez:
+• 🔴 EQL (buy-side): 1,749 — pool de liquidez abajo. Target estructural claro.
+• 🟡 EQH (sell-side): 1,807 — zona intermedia que puede actuar como TP1.
+
+Soportes: 1,859 → 1,843 → 1,837
+
+CVD: ✅ Bajista confirmado — sin señales de reversión.
+
+Sesgo del día: 🔴 Bajista — CHOCH + CVD + LTF downtrend + precio bajo todas las EMAs relevantes.
+
+Setup activo:
+
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+> 📌 SEGUIMIENTO: Ayer SPX resistía en $7,499 con sesgo alcista. Hoy -1.21% a $7,408 — el nivel cedió. NASDAQ también perforó zona de oferta. DOW pierde su target $52,655. Todos los setups alcistas de ayer invalidados.
+
+S&P 500 — $7,408 (-1.21%) 🔴
+• Estructura: HH+HL intacto pero precio cayendo con fuerza desde zona de oferta
+• ⚠ Sweep: Sell-side confirmado en 7,579 — posible trampa para bulls
+• Bear FVG activo: 7,450 – 7,467 (ahora actúa como resistencia)
+• Niveles clave: Soporte 7,333 / 7,294 | Resistencia 7,450 → 7,517
+• Sesgo: 🔴 Bajista intraday. No comprar sin rebote confirmado.
+
+NASDAQ — $25,138 (-2.15%) 🔴
+• Estructura: Mixed — presión vendedora dominante. GOOGL y AMZN pesan.
+• Bear FVG activo: 25,358 – 25,672 (resistencia clave para cualquier rebote)
+• Niveles clave: Soporte 25,015 / 24,980 | Resistencia 25,358
+• RSI: 40.4 — acercándose a sobreventa pero sin señal de reversión aún
+• Sesgo: 🔴 Bajista. Evitar longs hasta recuperar 25,358.
+
+DOW JONES — $51,712 (-0.97%) 🟡
+• Bull FVG activo: 50,969 – 51,364 — soporte potencial cercano
+• Niveles clave: Soporte 51,301 / 50,687 | Resistencia 52,281
+• RSI: 45.7 — más resiliente que SPX/NDX
+• Sesgo: 🟡 Neutro-Bajista. El más defensivo pero no inmune.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Cambio | Sesgo | Nivel clave a vigilar |
+|--------|--------|--------|-------|----------------------|
+| AAPL | $321.66 | -1.30% | 🟢 Alcista | FVG activo 316–326 como soporte — hold si aguanta |
+| MSFT | $381.58 | -2.24% | 🔴 Bajista | Bear FVG 391–396 = techo. Soporte 373 |
+| NVDA | $208.76 | -1.56% | 🟢 Alcista | Resistencia 212–213. Soporte crítico 208.54 |
+| GOOGL | $317.69 | -7.13% | 🔴 Bajista | ⚠ Bear FVG 324–347 = techo. RSI 31, cerca sobreventa |
+| AMZN | $233.66 | -4.57% | 🔴 Bajista | Bear FVG 238–246 = resistencia. Soporte 233.59 |
+
+> AAPL y NVDA muestran sesgo alcista por EMAs pero están en downtrend de estructura LTF. Cuidado con longs agresivos hoy.
+
+🔴 GOOGL: La multa EU de $1B es el driver. RSI en 31 puede generar rebote técnico, pero el FVG 324–347 es zona de venta, no de compra. Setup short en rebote.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+🥇 GOLD — $4,060 (+0.32%) 🔴
+• Estructura: Mixed. Las EMAs (4,095 / 4,239) actúan como resistencia.
+• ⚠ Sweep: Buy-side sweep en 3,963 — posible trampa bajista completada.
+• FVGs: Bull FVG 4,018–4,096 como zona de soporte/demanda activa. Bear FVG 4,067–4,096 superpuesto — zona de indecisión.
+• Sesgo: 🟡 Conflictivo. El leve rebote de hoy (+0.32%) puede ser corrección dentro de bajista. Vigilar 4,095 como resistencia clave.
+
+🥈 SILVER — $58.76 (+1.67%) 🔴
+• Estructura: LH + LL — downtrend claro. EMAs en 59.86 / 64.93 como resistencia.
+• FVG Bull activo: 57.1 – 59.38 — el rebote de hoy llega a esta zona. Posible rechazo aquí.
+• Sesgo: 🔴 Bajista. El rebote actual es venta en FVG, no entrada long.
+
+🛢️ OIL (WTI) — $89.28 (-3.16%) 🟢
+• ⚠ Dato curioso: Precio -3.16% en el subyacente pero USO +5.93% — revisar divergencia (posible roll/contango o datos desfasados).
+• Estructura: LH + LL pero EMAs alcistas (81.06 / 82.88) — precio muy por encima de EMAs.
+• FVG Bull activo: 88.61 – 88.74 — soporte inmediato.
+• Sesgo: 🟢 Alcista en tendencia. Soporte 88.66 clave — si aguanta, sesgo continúa.
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | Cambio | Sesgo | Nivel crítico |
+|-----|--------|--------|-------|---------------|
+| SPY | $738.18 | -1.23% | 🔴 Bajista | Bear FVG 742–744 = resistencia. Soporte 729 |
+| QQQ | $691.96 | -1.90% | 🔴 Bajista | Bear FVG 698–702 = resistencia. Soporte 686 |
+| GLD | $371.52 | -2.00% | 🔴 Bajista | Bull FVG 368–378 — ¿soporte o trampa? |
+| SLV | $52.06 | -3.45% | 🔴 Bajista | Bear FVG 52.46–52.66 encima. Soporte 51.72 |
+| USO | $139.49 | +5.93% | 🟢 Alcista | RSI 71.6 — sobrecomprado. Resistencia 141.42 |
+
+> USO es el outlier del día — única nota alcista clara en ETFs. Posible rotación hacia energía.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — ETH SHORT (Mayor convicción)
+Activo: ETHUSDT | Timeframe: 4H con entrada en 1H
+
+
+
+¿Por qué? CHOCH bearish es la señal más significativa de la semana en crypto. ETH no recuperó $1,913 — el escenario bajista ganó una sesión más de confirmación.
+
+────────────────────────────────────────
+🥈 Setup #2 — GOOGL SHORT en rebote
+Activo: GOOGL | Timeframe: Diario
+
+
+
+¿Por qué? Catalyst negativo real ($1B multa EU), estructura bajista confirmada. El FVG 324–347 es la zona ideal para re-entregar oferta.
+
+────────────────────────────────────────
+🥉 Setup #3 — BTC SHORT intraday
+Activo: BTCUSDT | Timeframe: 1H
+
+
+
+¿Por qué? Menor convicción que ETH pero alineado con macro risk-off. El sweep de EQH en 64,406–64,696 es el escenario más probable intraday.
+
+────────────────────────────────────────
+8. ⚠ RIESGOS Y ALERTAS
+
+🔴 GOOGL contagio tech — El -7% puede generar efecto cascada en otras big tech hoy. Vigilar MSFT y AMZN en primeras horas.
+
+🔴 SPX pierde soporte — Si 7,333 cede en SPX, siguiente destino 7,294 / 7,237. Señal de que el risk-off se acelera.
+
+⚠️ USO vs WTI divergencia — USO +5.93% mientras WTI -3.16% es incoherente. Verificar si hay dato erróneo o efecto de roll en futuros antes de operar oil.
+
+⚠️ BTC contexto HTF alcista — Aunque el sesgo intraday es bajista, el HTF sigue siendo HH+HL. No sobre-shortar BTC. Si 63,828 (EMA 200 4H) aguanta, el tren alcista mayor sigue intacto.
+
+🟡 Viernes + Fear & Greed 28 — Los viernes con sentimiento de miedo suelen tener movimientos exagerados en ambas direcciones. Reducir tamaño de posición, gestionar riesgo con más conservadurismo.
+
+🟡 Sin eventos Fed hoy — El movimiento es puramente técnico + earnings. Sin catalizador macroeconómico nuevo, los niveles técnicos mandan.
+
+────────────────────────────────────────
+📌 Recuerda: Los setups #1 y #2 tienen mayor confluencia. Espera confirmación en LTF antes de entrar — no perseguir el precio en un viernes de volatilidad elevada.
+
+────────────────────────────────────────
+Brief generado automáticamente | Los análisis son orientativos y no constituyen asesoramiento financiero*
