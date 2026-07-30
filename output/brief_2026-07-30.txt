@@ -1,0 +1,229 @@
+📊 MORNING BRIEF — Miércoles 30 de Julio, 2026
+🕐 Generado a las 12:45 UTC
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 100.65 (-0.15%) | Dólar débil → favorable para crypto/oro |
+| VIX | 19.03 | Volatilidad moderada, no extrema |
+| Fear & Greed | 28 — Fear | Mercado en zona de miedo, posibles capitulaciones |
+
+Contexto: Índices sufriendo caída fuerte (-1.5% a -2.2%) con RSIs en zona de sobreventa (SPX 38, NDX 33). El DXY débil está sosteniendo crypto y oro, que divergen positivamente del equity. Sin catalizadores macro relevantes hoy — el foco estará en el price action puro. Las noticias del día (consumo, sneakers, P&G) apuntan a narrativa de presión inflacionaria sobre el consumidor: bajista para equity de forma estructural.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟡 BITCOIN (BTC/USDT) — $64,851 (+0.10%)
+
+> 📌 SEGUIMIENTO: Ayer BTC cerró en $64,333 con sesgo 🟡 indeciso. Hoy sube +$518 (+0.8%) y confirma CHOCH bullish en 4H y 1H. El precio se ha movido al alza desde el swing low de $62,742 y actualmente opera sobre todas las EMAs. El setup de continuación alcista sigue vigente y se está activando.
+
+Estructura HTF (4H):
+• Venía en downtrend (LH+LL) → CHOCH Bullish confirmado rompiendo el swing high en $64,744. Esto es señal de reversión, no solo rebote.
+• EMAs 21/50/200: 64,280 / 64,446 / 63,542 — precio por encima de las tres ✅
+• RSI 56.7 — momentum creciente, no sobrecomprado, tiene recorrido
+
+Order Blocks activos:
+• 🔴 Bear OB: $64,517–$65,090 — precio operando DENTRO de este OB ahora mismo. Zona de oferta activa. Aquí pueden aparecer rechazos.
+
+Fair Value Gaps activos:
+• 🟢 Bull FVG 4H: $64,182–$64,788 — ACTIVO, no mitigado. Precio actual en el techo de este gap. Si hay pullback, este FVG es el imán.
+• 🔴 Bear FVG 4H: $65,090–$65,092 — micro gap al alza, posible target rápido si rompe el OB.
+
+Liquidez (EQH/EQL):
+• EQH en $64,696 y $64,406 → sweeps ya realizados ✅ (señal de que la trampa bajista se completó)
+• EQH en $65,776 → próxima pool de liquidez sell-side. Target alcista clave.
+• ⚠️ El sweep de los dos EQH inferiores confirma la "liquidity grab" típica de SMC antes de reversión.
+
+LTF (1H):
+• También CHOCH Bullish confirmado
+• Bull FVG 1H activo: $64,359–$64,562 → zona de reentrada en pullback
+• Bull FVG 1H activo: $64,632–$64,788 → segunda zona de soporte más inmediata
+
+CVD: ⚠️ Divergencia alcista (precio bajaba, CVD subía) → acumulación silenciosa. Confirmación de sesgo long.
+
+Funding / OI: No disponible en datos, monitorear. Funding negativo/neutral sería ideal para el long.
+
+📐 Setup BTC:
+• Sesgo del día: 🟢 Alcista con cautela (dentro de Bear OB)
+• Zona de entrada long: $64,358–$64,632 (FVGs 1H confluentes) en pullback
+• Target 1: $64,967 (primera resistencia) → Target 2: $65,600 → Target 3: $65,776 (EQH liquidez)
+• Invalidación: Cierre 4H por debajo de $63,810 (soporte clave + rompería estructura CHOCH)
+
+────────────────────────────────────────
+🟡 ETHEREUM (ETH/USDT) — $1,922 (-0.05%)
+
+> 📌 SEGUIMIENTO: Ayer ETH en $1,907 con sesgo indeciso. Hoy sube a $1,922 (+$15). CHOCH bullish también en 1H. Sin embargo, la estructura es más débil que BTC.
+
+Estructura HTF (4H):
+• Mixed / Transitional — CHOCH potencial, no tan limpio como BTC
+• EMAs: 21/50/200 = 1,909 / 1,902 / 1,816 — precio sobre las tres ✅, pero margen reducido
+• RSI 54.0 — neutral-alcista, menos momentum que BTC
+
+Niveles clave:
+• 🔴 Bear OB activo: $1,922–$1,955 — precio está en el borde inferior de este OB ahora mismo. Zona de oferta.
+• 🟢 Bull FVG 4H activo: $1,910–$1,919 → zona de demanda en pullback
+• 🔴 Bear FVG activo: $1,955–$1,957 → resistencia y posible target
+
+Liquidez:
+• EQL (buy-side) en $1,749 → pool profunda abajo, riesgo de sweep si estructura se deteriora
+• EQH en $1,807 → curioso que esté por debajo del precio actual (revisar timeframe)
+
+CVD: ✅ Confirmación bajista (precio y CVD alineados a la baja) → señal de debilidad, contraria al CHOCH. ⚠️ Contradicción importante.
+
+📐 Setup ETH:
+• Sesgo del día: 🟡 Neutro con sesgo alcista condicionado
+• Zona de entrada long: $1,910–$1,919 (Bull FVG 4H) solo con confirmación LTF
+• Target: $1,929–$1,935 → $1,946 si rompe OB
+• Invalidación: Pérdida de $1,900 / cierre bajo EMA21
+• ⚠️ CVD bajista en ETH reduce la convicción. BTC preferred sobre ETH hoy.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> 📌 SEGUIMIENTO: Ayer el sesgo era bajista en SPX y NDX. Niveles de rebote 7,480–7,508 como zona de short en SPX. El precio no rebotó — continuó cayendo. SPX hoy en 7,316 vs target bajista de 7,333 → target prácticamente alcanzado. Idea bajista validada.
+
+| Índice | Precio | Cambio | RSI | Sesgo |
+|--------|--------|--------|-----|-------|
+| S&P 500 | 7,316 | -1.52% | 38.0 | 🔴 Bajista |
+| NASDAQ | 24,443 | -1.74% | 33.0 | 🔴 Bajista |
+| DOW | 51,594 | -2.19% | 45.1 | 🟡 Neutro |
+
+SPX: RSI 38 en zona de sobreventa cercana. Soportes en 7,294 → 7,237 → 7,107. FVG bajista activo en 7,460–7,485 → cualquier rebote hacia esa zona es potencial short. Sell-side sweep reciente en 7,579 confirma narrativa bajista. No buscar longs hoy salvo señal de CHOCH claro.
+
+NDX: RSI 33 — más débil que SPX. Mixed structure. FVG bajista activo 25,222–25,681. El Nasdaq arrastra al mercado tech a la baja (NVDA -3.55% lidera la caída).
+
+DOW: Mejor comportamiento relativo (RSI 45). Soporte inmediato 51,542–51,301. Si pierde 51,301 siguiente parada en 50,687.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | % | RSI | Sesgo | Nivel clave |
+|-------|--------|---|-----|-------|-------------|
+| AAPL | $338.19 | -0.56% | 66.8 | 🟢 Alcista | Soporte FVG $334.37–$335.60 |
+| MSFT | $390.54 | -0.71% | 50.0 | 🟡 Neutro | Soporte $377–$373 / Resistencia $395 |
+| NVDA | $190.01 | -3.55% | 38.0 | 🔴 Bajista | FVG bajista $198–$204, próx soporte $179 |
+| GOOGL | $336.71 | +0.90% | 43.6 | 🔴 Bajista | FVG confluente: $330–$347 (amplio) |
+| AMZN | $226.65 | -1.82% | 33.3 | 🔴 Bajista | Soporte $225.55, FVG bajista $234–$242 |
+
+Destacado — AAPL 🟢: Única tech con RSI en zona de fuerza (66.8) y sesgo alcista. El FVG en $334–$335 es soporte activo. Si el mercado rebota, AAPL lidera.
+
+Alerta — NVDA 🔴: Caída -3.55%, RSI 38, bajo EMAs ($202/$203). FVG de oferta activo en $198–$204 → cualquier rebote a esa zona en un mercado bajista es short. Próximo soporte relevante $179.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+> 📌 SEGUIMIENTO: Ayer oro en $4,076 con target de rebote hacia $4,096–$4,152. Hoy en $4,131 (+2.41%) — target prácticamente alcanzado ✅. Oil ayer en $84.26 con recomendación de no perseguir el pump. Hoy retrocede a $83.86 (-0.71%) — correcto no haber perseguido.
+
+🥇 GOLD — $4,131 (+2.41%)
+• RSI 51.7 — recién cruzó zona neutral, tiene recorrido
+• El rebote desde $4,036 está en marcha. Bull FVG activo en $4,036–$4,085 actuó como soporte ✅
+• Resistencias clave: $4,152 → $4,199 → $4,377
+• Sesgo: 🟡 Alcista de corto plazo. Si consolida sobre $4,100 y confirma, próximo target $4,152–$4,199
+• Ojo: EMA50 en $4,212 sigue siendo resistencia macro
+
+🪙 SILVER — $58.22 (+0.63%)
+• Downtrend confirmado, RSI 43.9 bajo EMAs ($59.25/$63.65)
+• FVG conflictivo: FVG alcista Y bajista en $57–$59 → zona de compresión
+• Sesgo: 🔴 Bajista. Rebotes a $58.66–$59.38 (FVG bajista) = posible short
+• Soporte: $57.03–$57.25. Pérdida → $55
+
+🛢️ OIL WTI — $83.86 (-0.71%)
+• Pull-back moderado post pump (+6.3% ayer). RSI 53.5, sobre EMAs ($81.57/$82.81)
+• Bull FVG activo: $82.43–$83.21 → precio ya lo ha tocado en el retroceso de hoy
+• Sesgo: 🟡 Neutro. Si mantiene $82.43 como soporte → posible continuación alcista hacia $87–$93
+• Stop idea long: pérdida de $81.57 (EMA21)
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | RSI | Sesgo | Nivel crítico |
+|-----|--------|-----|-------|---------------|
+| SPY | $729.46 | 38.9 | 🔴 Bajista | FVG oferta $743–$746, soporte $720 |
+| QQQ | $661.73 | 32.4 | 🔴 Bajista | RSI extremo, rebote técnico posible, pero no long |
+| GLD | $371.08 | 44.9 | 🔴 Bajista | Resistencia $374–$378 (FVG), soporte $363 |
+| SLV | $51.77 | 41.0 | 🔴 Bajista | Soporte crítico $51.72 — cerca del borde |
+| USO | $129.31 | 56.0 | 🟢 Alcista | FVG activo $124–$133, soporte $127.38 |
+
+USO 🟢 es el único ETF con sesgo alcista claro (+7.32% ayer, hoy sube +7.32% en datos). Soporte FVG amplio en $124.55–$133.53. Si mantiene $127.38, sesgo alcista.
+
+QQQ ⚠️: RSI 32.4 en zona de sobreventa extrema. Rebote técnico posible pero no es señal de reversión — solo corrección dentro de bajista mayor.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — LONG BTC en pullback | Alta convicción
+
+> Activo: BTCUSDT | Timeframe: 1H/4H
+
+Contexto: CHOCH bullish confirmado en 4H y 1H. Sweeps de liquidez completados. CVD divergencia alcista. DXY débil. Crypto divergiendo positivo del equity bajista.
+
+| Parámetro | Nivel |
+|-----------|-------|
+| Zona de entrada | $64,358–$64,632 (FVGs 1H confluentes) |
+| Stop Loss | $63,810 (cierre 4H) |
+| Target 1 | $64,967 |
+| Target 2 | $65,600 |
+| Target 3 | $65,776 (EQH liquidity) |
+| R:R estimado | ~1:3 desde entrada media |
+
+Trigger: Esperar retroceso a la zona. NO perseguir en $64,851. Buscar rechazo con vela de confirmación 1H en el FVG.
+
+────────────────────────────────────────
+🥈 Setup #2 — SHORT NVDA en rebote | Media-alta convicción
+
+> Activo: NVDA | Timeframe: Diario/4H
+
+Contexto: -3.55% hoy, RSI 38, bajo EMAs ($202–$203). FVG de oferta activo en $198.70–$204.81. Mercado bajista (NDX -1.74%). Cualquier rebote al FVG dentro de contexto bearish es vendible.
+
+| Parámetro | Nivel |
+|-----------|-------|
+| Zona de entrada short | $198.70–$204.81 (FVG bajista) |
+| Stop Loss | $205.50 (sobre FVG) |
+| Target 1 | $189.80 (soporte) |
+| Target 2 | $179.73 |
+| R:R estimado | ~1:2.5 |
+
+Trigger: Solo si mercado rebota y lleva NVDA al FVG. No shortar en mínimos del día.
+
+────────────────────────────────────────
+🥉 Setup #3 — LONG OIL/USO en soporte FVG | Media convicción
+
+> Activo: USO / WTI | Timeframe: Diario
+
+Contexto: Oil tiene momentum post-pump. Pull-back de hoy (-0.71%) tocó el Bull FVG ($82.43–$83.21 en WTI / $124.55 en USO). Si mantiene soporte, continuación posible.
+
+| Parámetro | Nivel (WTI) | Nivel (USO) |
+|-----------|-------------|-------------|
+| Zona de entrada | $82.43–$83.21 | $127–$128 |
+| Stop Loss | $81.40 | $126.50 |
+| Target 1 | $87.68 (FVG techo) | $133.53 |
+| Target 2 | $93.50 | $136.61 |
+| R:R estimado | ~1:4 | ~1:3.5 |
+
+Trigger: Cierre diario por encima de $83.21 (WTI) con cuerpo de vela sobre el FVG.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 Caída en cadena del equity — SPX, NDX y DOW todos en rojo con RSIs en sobreventa. Riesgo de contagio a crypto si se acelera la capitulación.
+
+🔴 ETH CVD bajista — contrario al CHOCH bullish en 1H. Si ETH no mantiene $1,900–$1,910, puede arrastrar BTC. Monitorear.
+
+⚠️ BTC dentro de Bear OB ($64,517–$65,090) — el precio está operando en zona de oferta activa. Rebote o rechazo posible en cualquier momento. No entrar long en el techo del OB.
+
+⚠️ QQQ RSI 32.4 — rebote técnico inminente posible. No confundir rebote con reversión. Seguiría siendo vendible en resistencias.
+
+⚠️ SLV en soporte crítico $51.72 — si pierde este nivel con volumen, caída acelerada hacia $50.31–$49.61. Vigilar especialmente.
+
+🟡 VIX 19.03 — moderado. No hay señal de pánico extremo (VIX > 25–30). El selloff en índices puede ser ordenado y controlado, lo que sugiere que puede continuar sin capitulación abrupta.
+
+🟢 DXY débil — factor positivo para crypto y oro. Mientras DXY no recupere 101+, el viento sigue a favor de activos alternativos.
+
+────────────────────────────────────────
+> 💡 Narrativa del día: El mercado equity sigue bajo presión con los índices acercándose a soportes importantes. El dinero está rotando hacia gold (+2.41%) y crypto (+BTC). El setup principal es el long BTC en pullback — la estructura SMC es clara y el macro la soporta. En equity, solo shorts en rebotes (NVDA el favorito). No operar contra la tendencia sin confirmación de CHOCH.
+
+────────────────────────────────────────
+Brief generado para uso educativo. No es asesoramiento financiero. Opera con gestión de riesgo.
