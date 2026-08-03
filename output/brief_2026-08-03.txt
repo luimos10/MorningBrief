@@ -1,0 +1,225 @@
+📊 MORNING BRIEF — Lunes 3 de Agosto, 2026
+🕐 Generado: 12:45 UTC
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.75 (-0.05%) | Débil — favorable para crypto/gold en teoría |
+| VIX | 16.04 | Complacencia moderada, sin pánico |
+| Fear & Greed | 28 — Fear | Mercado en miedo, baja euforia |
+| Fed/Eventos | Sin catalizadores macro mayores hoy | Semana de datos ligeros |
+
+Lectura rápida: DXY débil pero sin impulso claro. VIX bajo sugiere que el mercado de acciones no descuenta riesgo inmediato. El F&G en 28 es contrarian-alcista para crypto pero no se puede ignorar la estructura bajista dominante. El movimiento de hoy lo está escribiendo earnings season (AMZN +15%, GOOGL +6.7%, AAPL -7.35%) — diferenciación brutal por nombre.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🔴 BTC/USDT — $62,799 (+0.38%)
+
+📋 SEGUIMIENTO vs. Brief del 31/Jul:
+El setup bajista se activó parcialmente. BTC no llegó al rebote target $63,987–$64,196 (Bear FVG LTF) — en cambio el precio cayó directamente desde $63,660 hasta marcar mínimos cerca de $62,275. El target de $62,742 se alcanzó. Setup original: ✅ Ejecutado (primer target cumplido). El precio ahora rebota desde esa zona y lucha por reconquistar estructura.
+
+────────────────────────────────────────
+Estructura 4H: Mixta / transicional. Las EMAs (21: $63,199 / 50: $63,664 / 200: $63,263) están por encima del precio actual — BTC cotiza bajo todas las medias. Esto es presión estructural bajista mientras no haya cierre 4H sobre $63,200.
+
+Order Blocks activos:
+• 🐂 Bull OB: $63,907–$64,182 (30-Jul) — zona de demanda mayor, no alcanzada
+• 🐻 Bear OB: $63,344–$63,796 (02-Ago) — techo inmediato, precio debe superar esto para cambiar sesgo
+
+Fair Value Gaps:
+• 🔴 Bear FVG ACTIVO (4H): $63,001–$63,344 — precio está justo debajo, este FVG actúa como imán bajista si el precio sube hacia $63,100 y falla
+• El resto de FVGs están mitigados — terreno sin imanes limpios entre $62,800 y $63,000
+
+Liquidez (Equal Highs):
+• EQH pool: $64,406 / $64,696 / $65,776 — esas son las licuadoras de stops que el smart money buscará eventualmente
+• Swing H reciente: $65,409 | Swing L reciente: $62,275
+
+LTF (1H): ⚠️ CHOCH Bearish confirmado — el uptrend LTF (HH+HL) fue roto. Esto invalida los longs intraday por ahora. Bear FVG LTF activo: $63,001–$63,100 — si el precio reactiva aquí, es zona de rechazo.
+
+CVD: ⚠️ Divergencia alcista — precio baja, CVD sube. Señal de acumulación silenciosa. No es confirmación de long, pero advierte: el lado vendedor se está agotando en estos niveles.
+
+Funding / OI: No reportado en datos — asumir neutral, monitorear en exchange.
+
+🎯 Setup BTC hoy:
+• Sesgo: 🔴 Bajista estructural, con alerta de posible giro.
+• Escenario principal (bajista): Rebote hacia $63,001–$63,150 (Bear FVG + Bear OB inferior) → short con SL sobre $63,350. Target: $62,466 → $62,275.
+• Escenario alternativo (alcista, requiere confirmación): Cierre 4H limpio sobre $63,350 + CVD alcista sostenido → invalidación del sesgo bajista, siguiente target $63,796 y Bull OB $63,907.
+• Invalidación del corto: Cierre 4H sobre $63,796.
+• No operar en el rango $62,799–$63,001 sin dirección clara — zona de ruido.
+
+────────────────────────────────────────
+🔴 ETH/USDT — $1,844 (+0.22%)
+
+📋 SEGUIMIENTO vs. Brief del 31/Jul:
+El Bull OB $1,872–$1,885 fue perforado y perdido. El precio cayó desde $1,877 hasta casi los $1,822 (swing low), validando el sesgo bajista. El siguiente soporte $1,856 fue liquidado. Setup original: ✅ Tesis bajista correcta. Ahora el precio rebota desde $1,822 con estructura aún débil.
+
+────────────────────────────────────────
+Estructura 4H: LH + LL (downtrend limpio). EMAs: 21 ($1,867) / 50 ($1,880) / 200 ($1,825) — precio entre la EMA 200 y la 21, zona comprometida.
+
+Order Blocks / FVGs:
+• 🔴 Bear FVG ACTIVO: $1,863–$1,876 — resistencia inmediata si rebota
+• Bull FVGs todos mitigados — no hay soporte FVG limpio visible
+
+Liquidez:
+• ⚠️ Sweep reciente confirmado en $1,848 (buy-side) — esto es relevante: después de un sweep, el precio puede rebotar. Pero el CVD bajista alineado dice que la presión vendedora es real.
+• EQL: $1,749 — pool de liquidez buy-side mayor aún sin barrer. Es el imán a largo plazo en escenario de continuación bajista.
+• EQH: $1,807 ← Atención, este nivel es más bajo que el precio actual ($1,844), esto sugiere posible barrida hacia abajo antes de cualquier recuperación.
+
+LTF (1H): CHOCH Bearish confirmado igual que BTC. Sin setup alcista LTF.
+
+CVD: ✅ Bajista confirmado — precio y CVD alineados. Sin divergencia. La señal bajista es coherente.
+
+🎯 Setup ETH hoy:
+• Sesgo: 🔴 Bajista.
+• Setup principal: Rebote hacia $1,863–$1,876 (Bear FVG activo) → short. SL sobre $1,885. Targets: $1,837 → $1,822 → $1,807 (EQH barrida).
+• Objetivo medio plazo si pierde $1,822 con cierre 4H: $1,749 pool mayor.
+• Invalidación: Cierre 4H sobre $1,885 con CVD virando alcista.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+🟢 S&P 500 — $7,490 (+0.70%)
+📋 SEGUIMIENTO: El Bear FVG $7,460–$7,485 que era resistencia ayer fue superado — BOS alcista validado. El índice sube impulsado por earnings tech.
+• Tendencia: HH + HL confirmado. EMAs alcistas ($7,455 / $7,414) bien por debajo.
+• FVG Bajista activo: $7,498–$7,527 — precio está dentro de este FVG ahora mismo. Zona de decisión.
+• Resistencias: $7,517 → $7,525 → $7,551
+• Soportes: $7,431 → $7,421 (primer soporte relevante)
+• ⚠️ Sell-side sweep previo en $7,579 — liquidez arriba si el mercado acelera.
+• Sesgo: 🟢 Alcista intraday. Si mantiene sobre $7,480 al cierre, continuación hacia $7,525–$7,551.
+
+────────────────────────────────────────
+🔴 NASDAQ — $25,374 (+1.00%)
+📋 SEGUIMIENTO: Rebote desde $25,122. Las EMAs ($25,453/$25,529) siguen por encima — resistencia estructural no eliminada.
+• Estructura: Mixta. EMAs bajistas actúan como techo.
+• FVG Bajista activo: $25,222–$25,681 — precio está dentro. Zona de oferta activa.
+• Resistencia clave: $25,453 (EMA 21) → $25,529 (EMA 50)
+• Soportes: $25,250 → $25,015
+• Sesgo: 🔴 Bajista estructural mientras esté bajo EMAs. El rebote de hoy es técnico — el FVG es zona de distribución potencial.
+
+────────────────────────────────────────
+🟢 DOW — $52,485 (+0.53%)
+📋 SEGUIMIENTO: El setup de long sobre $52,443 se activó y el precio cerró por encima. ✅
+• Tendencia: EMAs alcistas ($52,162 / $51,577) — precio por encima.
+• Resistencias: $52,655 → $52,901 → $52,924
+• Soportes: $52,162 (EMA 21) — primer soporte relevante
+• Sesgo: 🟢 Alcista. El más sano de los tres índices. Si mantiene $52,300, continuación hacia $52,655.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | Sesgo | Nivel clave a vigilar |
+|--------|--------|--------|-------|----------------------|
+| AAPL | $308.91 | -7.35% 🔴 | Bajista | Soporte $305 — si cede, $287 expuesto. FVG bajista $310–$337 es techo |
+| MSFT | $464.72 | +3.02% 🟢 | Alcista fuerte | RSI 74.5 — sobrecomprado. Resistencia $466. Posible consolidación |
+| NVDA | $200.75 | +2.93% 🔴 | Bajista (EMAs) | FVG $198–$204 activo. Bajo EMA 21 ($202). Necesita superar $204 |
+| GOOGL | $356.13 | +6.73% 🟡 | Neutro/alcista | Earnings impulso. Resistencia $373–$375. Soporte $351 (EMA 21) |
+| AMZN | $271.58 | +15.32% 🟢 | Alcista fuerte | Movimiento explosivo earnings. Resistencia $274–$278. RSI 67.9 |
+
+⚠️ AAPL: El -7.35% es el gran outlier negativo. Earnings decepcionantes o guía débil. Este movimiento puede arrastrar al QQQ. Monitorear como indicador de sentiment tech.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🟡 GOLD — $4,106 (+1.39%)
+📋 SEGUIMIENTO: El precio mantuvo $4,100 y rompió la resistencia $4,152 durante la sesión pasada. Setup alcista activado ✅ — target $4,199 en progreso.
+• Estructura: Mixta. EMA 21 ($4,084) debajo del precio — positivo. EMA 50 ($4,202) es resistencia.
+• Niveles: Soporte $4,100 (antiguo techo, ahora piso). Resistencia $4,152 → $4,199 → $4,202 (EMA 50)
+• Sesgo: 🟡 Neutro con sesgo alcista de corto plazo. La EMA 50 en $4,202 es el test definitivo.
+
+────────────────────────────────────────
+🔴 SILVER — $57.78 (+0.33%)
+📋 SEGUIMIENTO: Sigue en downtrend sin cambio. Setup sin activación alcista.
+• Estructura: LH + LL confirmado. EMAs bajistas ($59.02 / $63.25) muy por encima.
+• FVG doble activo: Alcista $57.10–$59.38 + Bajista $58.66–$59.38 — zona de conflicto entre $57–$59.
+• Sesgo: 🔴 Bajista. Soporte inmediato $57.25 → $57.03. Si cede $57, próximo nivel $55.
+
+────────────────────────────────────────
+🔴 OIL (WTI) — $78.96 (-6.74%)
+📋 SEGUIMIENTO: El setup alcista del 31/Jul fue brutalmente invalidado. OIL cayó desde $85 hasta $78.96 — el SL en $83 fue barrido. ❌ Setup fallido. Caída masiva, posible catalizador OPEC o macro.
+• Estructura: LH + LL (downtrend) — confirmado agresivamente.
+• FVG alcista activo: $73.16–$77.84 — el precio cayó a este rango de demanda.
+• Soporte inmediato: $77.78. Si cede → $67.04 (soporte mayor).
+• Sesgo: 🔴 Bajista fuerte. No buscar longs hasta estabilización clara. La caída del -6.74% en un día es señal de capitulación o noticia de fondo.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Cambio | Sesgo | Setup / Nivel clave |
+|-----|--------|--------|-------|---------------------|
+| SPY | $747.03 | +0.72% | 🟢 Alcista | FVG bajista $747–$750 activo — precio en zona. Resistencia $750. Soporte $740 |
+| QQQ | $687.99 | +0.65% | 🔴 Bajista | FVG bajista $692–$703 = techo. EMAs ($697/$699) por encima. AAPL pesa |
+| GLD | $371.54 | -1.49% | 🔴 Bajista | Diverge vs. Gold spot — ETF más débil. FVG $374–$378 = resistencia. Soporte $363 |
+| SLV | $52.36 | -2.13% | 🔴 Bajista | Por debajo EMA 21 ($53.38). Soporte $51.72. Sin setup comprador |
+| USO | $129.17 | +1.33% | 🟢 Alcista | ⚠️ Contradice el OIL spot (-6.74%) — revisar spread o rezago. FVG $124–$126 como soporte |
+
+⚠️ Nota USO vs OIL: La divergencia USO +1.33% vs WTI -6.74% es anómala. Puede ser rezago de datos, sesión diferente, o roll de futuros. Verificar antes de operar USO.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — ETH/USDT SHORT | 🔴 Alta probabilidad
+
+Por qué es el mejor setup hoy:
+• Downtrend estructural limpio (LH + LL)
+• CVD bajista confirmado (sin divergencia)
+• Bear FVG activo en $1,863–$1,876 = zona de oferta precisa
+• CHOCH bajista LTF confirmado
+• Pool de liquidez en $1,807 (EQH) y $1,749 como imanes a la baja
+
+Entrada: Rebote a $1,863–$1,875 con rechazo en vela 1H
+SL: $1,885 (cierre sobre Bear FVG)
+Target 1: $1,837 | Target 2: $1,822 | Target 3: $1,807 (sweep EQH)
+R:R estimado: ~1:3 desde entrada
+
+────────────────────────────────────────
+🥈 #2 — BTC/USDT SHORT (menor convicción que ETH) | 🔴 Setup válido
+
+Por qué:
+• Bear FVG activo $63,001–$63,150 es zona de rechazo precisa
+• Bear OB $63,344–$63,796 es techo mayor
+• CHOCH bajista LTF, todas las EMAs 4H por encima del precio
+• CVD divergencia alcista es la ÚNICA razón para no tener máxima convicción — señal de cautela
+
+Entrada: Rebote a $63,001–$63,150, esperar rechazo claro
+SL: Cierre 4H sobre $63,350
+Target 1: $62,466 | Target 2: $62,275
+R:R estimado: ~1:2.5
+
+────────────────────────────────────────
+🥉 #3 — AMZN LONG (momentum earnings) | 🟢 Setup de continuación
+
+Por qué:
+• Earnings +15.32% — ruptura explosiva con volumen
+• RSI 67.9 — momentum fuerte pero no extremo
+• EMAs ($242/$244) muy por debajo — sin resistencia de medias
+• FVG alcista $232–$262 actuando como soporte de fondo
+
+Entrada: Pullback a $256–$262 (FVG + zona de valor) tras el gap de earnings
+SL: Cierre bajo $255
+Target: $274 → $278 (resistencias marcadas)
+R:R estimado: ~1:2.5 desde pullback
+⚠️ Riesgo: Las ganancias de earnings son volátiles — el gap puede cerrarse agresivamente el primer día.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 OIL -6.74% — Caída masiva sin catalizador obvio en los datos. Investigar si hay noticias OPEC, geopolítica o datos de inventarios. Puede impactar sectores energía y correlaciones macro.
+
+🔴 AAPL -7.35% — Peso enorme en SPX y QQQ. El rebote de índices de hoy está siendo sostenido por AMZN/GOOGL pero AAPL puede ser un lastre significativo en las próximas sesiones.
+
+⚠️ BTC: CVD divergencia alcista — Señal de absorción en zona baja. Si el funding se vuelve negativo (shorts pagando) y el CVD acelera alcista, el setup bajista se invalida rápido. Monitorear cada 2-4H.
+
+⚠️ NASDAQ dentro del Bear FVG $25,222–$25,681 — El rebote técnico tiene techo estructural claro. Si AAPL continúa débil y el QQQ no supera $692, la divergencia SPX/NDX se amplía.
+
+🟡 GLD vs. Gold spot divergen — El ETF GLD cae -1.49% mientras el spot sube +1.39%. Revisar si hay discrepancia de sesión/horario antes de operar GLD. No asumir que ambos se mueven igual hoy.
+
+🟡 Semana de inicio de mes (Agosto) — Rebalanceos institucionales típicos de principio de mes pueden generar movimientos atípicos en las primeras horas. Esperar confirmación antes de entrar en cualquier setup.
+
+────────────────────────────────────────
+> 💡 Resumen ejecutivo en 30 segundos: Crypto bajista con rebotes a zonas de oferta = shorts en ETH y BTC. Stocks mixtos por earnings — AMZN y GOOGL compensan el daño de AAPL. Índices en zona de resistencia FVG. OIL con caída severa que merece investigación. El mejor setup del día es ETH short desde $1,863–$1,875 con estructura limpia y CVD alineado.
+
+────────────────────────────────────────
+Brief generado con datos al 03/08/2026 12:45 UTC. Niveles sujetos a actualización en preapertura. No constituye asesoramiento financiero.
