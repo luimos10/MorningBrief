@@ -1,0 +1,211 @@
+📊 MORNING BRIEF — Martes 4 de Agosto 2026 | 12:45
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.91 (-0.05%) | Dólar débil → favorable para risk-on y metales |
+| VIX | 15.66 | Zona de calma — sin pánico sistémico |
+| Fear & Greed | 25 — Extreme Fear | Contrarian bullish en contexto de rally |
+| Earnings | Palantir hoy | Posible catalizador para tech/AI |
+
+Lectura macro: El mercado opera en modo "risk-on" pese al Extreme Fear — divergencia clásica entre sentimiento minorista y precio. El DXY cediendo bajo 100 es viento de cola para BTC, oro y tech. El contexto de fondo es alcista intraday pero el F&G en 25 advierte que el rally puede ser frágil. Palantir earnings pueden mover el sector AI (NVDA, MSFT) esta tarde.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟢 BTC/USDT — $63,947
+
+> 📋 SEGUIMIENTO: Brief anterior tenía BTC en $62,799 con sesgo de rebote. El precio subió ~$1,148 (+1.8%) activando el escenario alcista. El Bull OB 62,300–62,863 funcionó como soporte perfectamente. Setup vigente, ahora buscamos continuación.
+
+Estructura HTF (4H):
+• ✅ HH + HL confirmado — Uptrend intacto
+• Precio sobre las tres EMAs (21: 63,509 / 50: 63,721 / 200: 63,662) — señal de fortaleza estructural
+• Buy-side sweep reciente en 62,287.5 → trampa bajista ejecutada, ahora el precio tiene runway libre al alza
+• CVD ✅ alineado con precio — acumulación genuina
+
+Niveles clave:
+
+| Tipo | Zona | Acción |
+|------|------|--------|
+| 🟢 Bull FVG activo (4H) | 62,863–63,664 | Soporte/imán de retrocesos |
+| 🟢 Bull FVG activo (1H) | 63,610–63,712 | Soporte LTF — zona de entrada |
+| 🟢 Bull OB | 62,300–62,863 | Soporte fuerte — invalidación del sesgo alcista si cierra bajo |
+| 🔴 EQH / Liquidez | 64,406 / 64,696 | Target inmediato — buy-side liquidity |
+| 🔴 EQH mayor | 65,776 | Target swing |
+| 🔴 Resistencia | 64,744 → 65,409 | Zona de distribución potencial |
+
+Setup del día:
+• Sesgo: 🟢 Alcista
+• Idea: Pullback al FVG LTF 63,610–63,712 → entrada long con TP en liquidez 64,406–64,696
+• Entrada: 63,610–63,712 (FVG 1H no mitigado)
+• SL: Cierre 4H bajo 63,231 (bajo del FVG mayor)
+• TP1: 64,406 | TP2: 64,696 | TP3: 65,409
+• Invalidación del sesgo: Cierre 4H bajo 62,863 — reabre camino al OB 62,300
+
+> ⚠️ Funding rates: No tenemos dato directo pero con rally desde 62,800 y CVD alcista, asumir funding ligeramente positivo — no sobrecargado. Si funding se dispara >0.05%, reducir tamaño.
+
+────────────────────────────────────────
+🟡 ETH/USDT — $1,877
+
+> 📋 SEGUIMIENTO: Brief anterior en $1,844, sesgo mixto. El precio subió ~$33 (+1.8%) pero la estructura sigue siendo transitional. El setup de rango se mantiene — ETH sigue rezagado vs BTC.
+
+Estructura HTF (4H):
+• ⚠️ Mixed structure — CHOCH potencial en compresión
+• EMAs en zona de congestión (21: 1,869 / 50: 1,878) — precio luchando con la EMA 50
+• ⚠️ CVD divergencia bajista — precio sube pero CVD baja → señal de desconfianza
+• Buy-side sweep en 1,848.39 reciente → rebote técnico, no necesariamente cambio de estructura
+
+Niveles clave:
+
+| Tipo | Zona | Acción |
+|------|------|--------|
+| 🟢 Bull FVG (1H) | 1,858.83–1,866.18 | Soporte LTF si hay retroceso |
+| 🔴 EMA 50 (4H) | 1,878 | Resistencia inmediata — debe cerrar sobre ella |
+| 🔴 Resistencia | 1,884–1,898.5 | EQH y techo del rango |
+| 🟢 Soporte | 1,872 | Primer soporte intraday |
+| 🔴 EQL liquidez | 1,749.49 | Target bajista si estructura se rompe |
+
+Setup del día:
+• Sesgo: 🟡 Neutro — esperar confirmación
+• Idea bull: Retroceso a 1,858–1,866 (FVG 1H) + cierre 1H sobre 1,878 → long hacia 1,898
+• No operar short hasta CHOCH confirmado en 4H bajo 1,851
+• Prioridad: BTC claramente superior a ETH hoy. ETH underperforming → ratio ETH/BTC débil
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+> 📋 SEGUIMIENTO: SPX de ayer en $7,490 cumplió objetivo — superó $7,525–$7,551 cerrando hoy en $7,600 (+1.48%). DOW superó $52,655. NASDAQ rompió al alza pese al sesgo bajista del brief anterior — earnings tech lo voltearon.
+
+S&P 500 — $7,600 🟢
+• Sesgo: Alcista | HH + HL intacto
+• EMAs 21/50 en 7,468/7,421 — precio muy por encima, señal de fortaleza
+• ⚠️ Sell-side sweep en 7,579 — posible retroceso intraday a llenar
+• Soporte clave: 7,548–7,580 (zona de sweep) → 7,448–7,504 (FVG activo)
+• Resistencia: 7,620 (único nivel visible sobre precio)
+• Sesgo día: Mantener long mientras sobre 7,548. RSI 59.7 — tiene recorrido.
+
+NASDAQ — $25,914 🟡
+• Sesgo: Neutro → mejorando. +2.13% impulsado por MSFT/GOOGL/AMZN
+• Estructura mixed pero en recuperación. Sobre EMAs por primera vez en días
+• Bear FVG activo: 25,703–26,041 → precio ya dentro de esta zona → resistencia
+• Soporte: 25,701 | Resistencia: 26,261–26,316
+• ⚠️ AAPL sigue siendo el lastre — si no recupera $310, QQQ tendrá techo
+
+DOW — $53,178 🟢
+• Sesgo: Alcista | El más sano de los tres
+• EMAs 21/50 en 52,254/51,640 — amplio spread sobre EMAs
+• Soporte: 52,759 (FVG inferior) → 52,266 (FVG activo)
+• Resistencia: 53,289 → espacio libre sobre eso
+• Sesgo día: Largo mientras sobre 52,900
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | Sesgo | Nota accionable |
+|--------|--------|--------|-------|-----------------|
+| MSFT | $487.65 | +4.93% | 🟢 Alcista | RSI 78.3 — sobrecomprado, posible pausa. FVG 458–475 es soporte si retrocede. Sin resistencia visible = runway abierto |
+| GOOGL | $373.51 | +4.88% | 🟢 Alcista | FVG activo 336–363 mitiga perfectamente como base. Resistencia inmediata 375–376. Cierre sobre 376 → target 393 |
+| AMZN | $284.02 | +4.58% | 🟢 Alcista | RSI 72.2 — caliente. FVG 239–278 ya mitigado como base. Nuevo terreno — sin resistencia hasta ~295 |
+| NVDA | $206.64 | +2.93% | 🟡 Neutro | EMAs convergiendo. Resistencia clave 212.71–213.99 — zona de triple techo. Setup: pullback a 199–202 → long |
+| AAPL | $303.42 | -1.78% | 🔴 Bajista | ⚠️ Única roja del grupo. RSI 40.3 + FVG bajista 311.8–329.59 como techo. Soporte 287. No long hasta recuperar 310+ |
+
+> 💡 Palantir (PLTR) earnings hoy — no está en la lista pero puede mover MSFT/NVDA como proxy AI. Vigilar post-mercado.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+> 📋 SEGUIMIENTO: Oro sube a $4,138 (+2.57%) tras estar en $4,106 ayer — sesgo alcista se confirma aunque EMA 50 en $4,197 sigue siendo el test. Plata rompe al alza desde $57.78 a $60.13 (+4.27%) — rebote técnico desde soporte. Oil continúa débil desde $78.96 a $77.85.
+
+🥇 GOLD — $4,138 (+2.57%) 🟡
+• Mixed structure pero momentum positivo. DXY débil = soporte para oro
+• EMA 50 en $4,197 → resistencia clave — debe romperla para sesgo alcista pleno
+• Soporte: 4,100 → 4,031
+• Resistencia: 4,152 → 4,197–4,200 (EMA 50, zona de decisión)
+• Sesgo: Neutro-alcista. Comprador en pullbacks a 4,100. No perseguir aquí.
+
+🥈 SILVER — $60.13 (+4.27%) 🟡
+• Sorpresa del día — rebote del +4.27% desde zona de soporte $57.25
+• Estructura LH+LL sigue siendo bajista en 4H, pero FVG 57.1–59.38 actuó como soporte
+• Resistencia inmediata: 62.62 (EMA 50 area) → zona de distribución
+• Sesgo: Rebote técnico en downtrend. Si no cierra sobre 62.62, sigue siendo corrección en bajista
+
+🛢️ OIL (WTI) — $77.85 (-3.10%) 🔴
+• Segunda jornada bajista consecutiva (-6.74% ayer, -3.10% hoy) — tendencia bajista LH+LL
+• Precio en soporte crítico $77.78 — al borde
+• FVG bajista 81.30–82.97 es techo. FVG alcista 73.16–77.84 puede actuar como zona de bounce
+• Sesgo: 🔴 Bajista. Si pierde $77.78 con volumen → próximo soporte $67
+• ⚠️ No long todavía. Esperar estabilización de al menos 2 velas 4H
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Cambio | Sesgo | Nivel Clave |
+|-----|--------|--------|-------|-------------|
+| SPY | $757.67 | +1.42% | 🟢 Alcista | Resistencia $758.45 — muy cerca. Soporte FVG 742–748. Mantener long sobre $748 |
+| QQQ | $700.07 | +1.76% | 🟡 Neutro | Bear FVG activo 692–703 → precio en medio de zona de oferta. AAPL puede limitar upside |
+| GLD | $371.71 | +0.05% | 🔴 Bajista | ⚠️ Spot oro +2.57% pero GLD apenas +0.05% — divergencia persiste. FVG bajista 372–373. EMAs sobre precio. Evitar por ahora |
+| SLV | $52.46 | +0.19% | 🔴 Bajista | Silver spot +4.27% vs SLV +0.19% — misma divergencia que GLD. RSI 44 en downtrend. No seguir spot ciegamente |
+| USO | $122.12 | -5.46% | 🟡 Neutro | Correlaciona con Oil bajista. FVG bajista 122.86–126.91. Soporte $118.48. ⚠️ No long |
+
+> ⚠️ Alerta GLD/SLV vs Spot: La divergencia entre spot (sube) y ETFs (planos o bajan) puede deberse a horarios de sesión o arbitraje pendiente. No asumir que el spot predice el ETF intraday. Confirmación al cierre.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — BTC/USDT LONG (Setup prioritario)
+
+> Activo: BTC/USDT Perpetual | Timeframe: 4H sesgo, 1H entrada
+• Setup: Pullback al FVG 1H (63,610–63,712) en uptrend confirmado. Buy-side liquidity en 64,406–64,696 como target. CVD alcista confirmado. Sweep de 62,287 ya ejecutado = trampa bajista superada.
+• Entrada: 63,610–63,712
+• SL: Cierre 1H bajo 63,231
+• TP1: 64,406 (+1.1%) | TP2: 64,696 (+1.5%) | TP3: 65,409 (+2.8%)
+• R:R estimado TP2: ~3:1
+• Condición: No entrar si precio ya está en 64,200+ al momento de leer — esperar retroceso
+
+────────────────────────────────────────
+🥈 #2 — GOOGL LONG (Earnings momentum + estructura)
+
+> Activo: GOOGL | Timeframe: Diario
+• Setup: FVG alcista 336–363 mitiga perfectamente como base de lanzamiento. +4.88% de momentum con RSI 61 — no sobrecomprado. Estructura mixta mejorando. Resistencia 375–376 es el gate.
+• Entrada: Apertura sobre $373 con cierre diario sobre $376
+• SL: Cierre bajo $363 (bajo del FVG)
+• TP1: $376 | TP2: $393
+• Condición: Confirmar que el mercado no abre con gap bajista post-Palantir
+
+────────────────────────────────────────
+🥉 #3 — NVDA LONG en retroceso (Setup de continuación con paciencia)
+
+> Activo: NVDA | Timeframe: Diario
+• Setup: Uptrend HH+HL con EMAs convergiendo. El rally de hoy lleva precio hacia resistencia 212–213 (triple techo). Buscar entrada en pullback a zona EMA 21 (202.52) o soporte 199–202.
+• Entrada: Retroceso a 199–203 (primera oportunidad)
+• SL: Cierre bajo $197
+• TP1: $212 | TP2: $220+ (nuevo HH)
+• Nota: Palantir earnings = catalizador potencial para todo el sector AI. Si PLTR decepciona, NVDA puede proveer el pullback perfecto de entrada.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 Riesgos bajistas a vigilar:
+• AAPL -1.78% en día de rally general — si cede $295, el peso en SPX/QQQ puede frenar cualquier impulso. Seguir de cerca.
+• Oil continúa cayendo — dos días de caídas severas (-6.74% / -3.10%). Riesgo de contagio a energía y lectura deflacionaria que puede afectar sentimiento macro.
+• F&G en 25 (Extreme Fear) — el rally puede ser short covering, no demanda real. Cuidado con tamaños grandes.
+• ETH CVD divergencia bajista — si BTC pausa, ETH puede corregir más fuerte. Ratio ETH/BTC a vigilar.
+
+🟡 Catalizadores pendientes:
+• Palantir (PLTR) earnings hoy post-cierre — moverá sector AI/defense tech. Impacto en MSFT, NVDA.
+• Divergencia GLD/SLV vs spot — si se corrige al cierre, puede haber movimiento brusco en ETFs de metales.
+• BTC sobre $64,696 — rompe resistencia y abre camino a $65,409–$65,776 (EQH mayor). Evento técnico importante.
+
+🟢 Factores de soporte:
+• DXY bajo 100 → viento de cola para BTC, oro, tech
+• SPX rompiendo $7,600 con momentum — índices liderando
+• MSFT +4.93% y AMZN +4.58% compensando la debilidad de AAPL
+
+────────────────────────────────────────
+> 📌 Resumen ejecutivo: Contexto risk-on con índices fuertes, BTC en uptrend limpio buscando liquidez en 64,400–64,696, y tech liderada por MSFT/GOOGL/AMZN. AAPL y Oil son las excepciones bajistas. Setup #1 BTC es la idea del día. Gestiona tamaño dado el F&G en Extreme Fear — los rallies en este entorno pueden ser violentos en ambas direcciones.
+
+────────────────────────────────────────
+Brief generado: 2026-08-04 12:45 | Datos 4H crypto + diario tradicional
