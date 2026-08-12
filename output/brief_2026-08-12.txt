@@ -1,0 +1,220 @@
+📊 MORNING BRIEF — 12 Agosto 2026
+Generado: 12:45 UTC | Próxima revisión: cierre NY
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.71 (-0.11%) | 🟡 Dólar débil — favorable metales/risk-on |
+| VIX | 15.23 | 🟢 Baja volatilidad — mercados estables |
+| Fear & Greed | 27 (Fear) | 🔴 Sentimiento negativo — cautela |
+| BTC Funding | Verificar exchange | ⚠ Ver sección crypto |
+
+Contexto clave hoy:
+• 🥇 Gold +2.22% en $4,480 — WSJ apunta hacia $4,500 como target. Flujo hacia refugio.
+• 🛢️ Hormuz Deadlock — tensión geopolítica mantiene oil con soporte. Monitorear.
+• 🤖 Nvidia recibe $500B de Wall Street para proyectos AI — catalizador positivo tech selectivo.
+• DXY débil + F&G en zona de miedo = contexto mixto: metales mandan hoy, crypto y equities flojos.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+— BITCOIN (BTC/USDT) | $64,068 🔴
+
+📋 SEGUIMIENTO: Ayer BTC cerró en $64,329 con sesgo neutro. Hoy cotiza en $64,068 (-0.27%), perdiendo terreno y confirmando la debilidad señalada. Setup bajista vigente y reforzado.
+
+Estructura 4H:
+• Tendencia: LH + LL confirmado → Downtrend activo
+• BTC opera por debajo de las 3 EMAs (21/50/200 todas en 64,228–64,326) → señal bajista clara
+• CVD alineado bajista → presión vendedora real, sin divergencia
+
+Order Blocks & FVGs:
+• 🔴 Bear OB activo: 64,044–64,400 — precio rondando la zona inferior de este OB. Cualquier rebote hacia 64,200–64,400 es zona de oferta.
+• 🟡 Bull FVG activo: 63,891–64,044 (LTF confirma FVG en 63,867–64,059) → zona de demanda inmediata, posible rebote técnico menor
+• 🔴 Bear FVG activo: 64,354–64,958 → imán de precio hacia abajo si hay ruptura de soporte
+
+Liquidez (EQH/EQL):
+• ✅ Sweep sell-side reciente en 65,400 y 65,442 → liquidez arriba ya tomada, el precio no tiene incentivo inmediato de ir a buscarla
+• ✅ Sweep buy-side reciente en 63,252 → este sweep es relevante: si el precio vuelve a rondar 63,238–63,252, podría generar un segundo test o spring
+• 🎯 EQL sin sweep: 62,287 → pool de liquidez buy-side profunda — objetivo bajista si se pierde 63,238
+
+Niveles clave:
+| Tipo | Nivel | Nota |
+|------|-------|------|
+| Resistencia fuerte | 64,354–64,515 | Bear FVG + Bear OB + swing high |
+| Zona pivote actual | 63,880–64,044 | Bull FVG — soporte intraday |
+| Soporte crítico | 63,238–63,267 | Swing Low — ya sweepado una vez |
+| Objetivo bajista | 62,287 | EQL sin tocar |
+
+Setup del día:
+• Sesgo: 🔴 BAJISTA
+• 🎯 Short setup: Rebote hacia Bear OB 64,200–64,400 con rechazo confirmado en LTF (vela bajista engulfing o CHOCH bearish en 15m/1h) → Entry: ~64,350 | SL: 64,520 | TP1: 63,880 | TP2: 63,238
+• ⚠ CHOCH bullish potencial en LTF (1h) → no entrar short a ciegas desde precio actual, esperar el pullback al OB
+
+────────────────────────────────────────
+— ETHEREUM (ETH/USDT) | $1,907 🟡
+
+📋 SEGUIMIENTO: Ayer ETH en $1,889 con sesgo neutro-transitional. Hoy sube a $1,907 (+0.95% desde ayer), rebotando desde zona de soporte. El CHOCH bullish en LTF se está ejecutando.
+
+Estructura 4H:
+• Estructura mixta/transitional en 4H, pero CHOCH bullish en 1H → señal de posible reversión de corto plazo
+• EMAs 21/50/200 en 1,896/1,897/1,877 → precio por encima de las 3 EMAs → punto favorable
+• CVD bajista en 4H, pero LTF está mostrando cambio → conflicto entre marcos temporales
+
+Order Blocks & FVGs:
+• 🔴 Bear OB: 1,875–1,895 — precio ya operando encima. Si confirma estructura alcista, este OB queda como soporte.
+• 🟢 Bull FVG activos: 1,887–1,890 y 1,893–1,907 (4H) + 1,896–1,905 (1H) → precio dentro de estos FVGs, actuando como imán de soporte
+• 🟢 LTF Bull FVG: 1,867–1,879 → soporte de respaldo si hay pullback
+
+Liquidez:
+• Sweep sell-side en 1,927 y 1,937 → liquidez arriba tomada
+• Sweep buy-side en 1,856 → similar a BTC, la liquidez inferior fue barrida
+• 🎯 EQL sin tocar: 1,848 → objetivo si falla el CHOCH y rompe por debajo
+
+Setup del día:
+• Sesgo: 🟡 NEUTRO con sesgo alcista intraday (condicionado)
+• 🎯 Long Setup: Pullback al Bull FVG 1,893–1,896 con confirmación CHOCH bullish en 15m → Entry: ~1,895 | SL: 1,872 | TP1: 1,927 | TP2: 1,937
+• ⚠ Invalidación total si rompe y cierra 4H bajo 1,875 (Bear OB inferior)
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📋 SEGUIMIENTO: SPX perdió 7,743 (nivel clave de ayer) → sesgo alcista sigue pero con debilidad. NASDAQ cumplió advertencia: perdió impulso por debajo de 26,499. DOW salió del rango pivote 53,975–54,266 a la baja.
+
+S&P 500 | $7,728 🟢 (moderado)
+• EMAs alcistas (7,585/7,488) → precio muy por encima, tendencia de fondo sana
+• Bull FVG activo: 7,610–7,720 → precio rondando la parte superior de este FVG. Soporte: 7,720 y luego 7,610.
+• Resistencia: 7,793 (EQH)
+• ⚠ Sweep sell-side en 7,579 ya ejecutado → precio "limpio" para posible reanudación alcista si mantiene 7,720
+• Sesgo: 🟢 Alcista mientras opere sobre 7,720. Pullback a 7,610–7,720 = zona de compra táctica.
+
+NASDAQ | $26,445 🟢⚠
+• Estructura 4H: LH + LL → downtrend a pesar de EMAs alcistas — señal de alerta
+• Bull FVG: 25,967–26,348 → zona de demanda debajo. Si cae a ese rango, primer test de soporte real.
+• Resistencias: 26,707–26,788 (bloque de resistencia triple)
+• Sesgo: 🟡 Precaución. Opera en zona débil. Por debajo de 26,200 → objetivo 25,967.
+
+DOW JONES | $53,792 🟢
+• EMAs alcistas sólidas (53,015/52,146) → spread amplio respecto al precio → soporte robusto
+• Bull FVG: 53,230–54,266 → precio dentro de este FVG, zona de equilibrio
+• Bear FVG solapado: 54,094–54,266 → resistencia en 54,094–54,266
+• Sesgo: 🟢 Alcista con soporte en 53,230. Resistencia dura en 54,094–54,266.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Sesgo | Nivel clave | Nota |
+|--------|--------|-------|-------------|------|
+| AAPL | $304.91 🔴 | Bajista | Soporte $304.76 | RSI 42 — si pierde $304, objetivo $299 |
+| MSFT | $503.81 🟢 | Alcista fuerte | FVG $498–498.73 | RSI 77.7 sobrecomprado — cuidado con pullback |
+| NVDA | $217.50 🟢 | Alcista | FVG $213–217 | Noticias AI positivas hoy. Soporte en FVG |
+| GOOGL | $343.80 🔴 | Bajista | Soporte $341.36 | -3.84% hoy — caída brusca. FVG bajista 364–367 encima |
+| AMZN | $272.27 🟢 | Alcista | Resistencia $274.75 | Estructura HH+HL sana. Pullback en FVG $239–278 |
+
+⚠ GOOGL: Caída del -3.84% es la más agresiva del panel. Verificar catalizador (¿earnings? ¿noticia regulatoria?). Sesgo corto si rebota hacia 350–355.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD | $4,480 🟢🚀
+• RSI 71.4 → sobrecomprado, pero en tendencia. WSJ target $4,500 cercano.
+• Bull FVG activo: 4,390–4,421 → soporte de pullback si cae
+• Resistencias: 4,591 → 4,765 → 4,789
+• DXY débil + tensión Hormuz = viento de cola doble para oro
+• Sesgo: 🟢 Alcista. No perseguir aquí. Pullback a 4,421–4,450 = zona de compra.
+
+SILVER | $66.56 🟢
+• +2.76% — siguiendo al oro con fuerza
+• EMAs muy por debajo (61.31/63.26) → rally fuerte pero extendido
+• Resistencia próxima: $70.95
+• Bull FVG: 61.91–63.90 → lejos del precio actual — zona de reacumulación si corrige
+• Sesgo: 🟢 Alcista. Gestionar riesgo en zona extendida.
+
+OIL (WTI) | $83.57 🟡
+• Tensión en Hormuz da soporte, pero sin trend clara
+• Bull FVG: 82.38–82.46 (muy estrecho) → precio ya encima
+• Bear FVG: 82.43–87.68 → precio dentro de rango bajista → resistencia hasta 87.68
+• Soporte: $80.56 | Resistencia: $86.87
+• Sesgo: 🟡 Neutro. Rango 82–87. Sin setup limpio hasta definición.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | FVG / Nivel clave |
+|-----|--------|-------|-------------------|
+| SPY | $770.56 🟢 | Alcista | FVG $758–769 como soporte; resistencia $776.85 |
+| QQQ | $718.45 🟢 | Alcista mod. | FVG $701–716 → soporte profundo; resistencia $721–728 |
+| GLD | $400.96 🟢 | Alcista | FVG $392–395; próxima resistencia $402 luego $421 |
+| SLV | $58.55 🟢 | Alcista | FVG $55.88–57.52; soporte $57.30 — ojo con retroceso |
+| USO | $127.61 🟢 | Alcista mod. | FVG bajista $117–127 aún activo. Resistencia $130.98 |
+
+Nota SLV: -1.45% hoy vs silver spot +2.76% → divergencia inusual. Puede ser rebalanceo de ETF o spreads. Monitorear si SLV recupera o spot corrige.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+────────────────────────────────────────
+🥇 Setup #1 — GOLD (Long en pullback) ⭐⭐⭐
+Por qué: Confluencia de catalizadores (DXY débil, Hormuz, momentum RSI, target WSJ $4,500). Setup de mayor calidad hoy.
+
+| | |
+|---|---|
+| Dirección | 🟢 LONG |
+| Zona de entrada | $4,421–$4,450 (pullback a Bull FVG) |
+| Stop Loss | $4,389 (bajo el FVG) |
+| TP1 | $4,500 |
+| TP2 | $4,591 |
+| R:R estimado | ~1:2.5 |
+| Trigger | Vela de rechazo alcista en zona + DXY sin recuperación |
+
+────────────────────────────────────────
+🥈 Setup #2 — BTC Short (rebote al Bear OB) ⭐⭐
+Por qué: Estructura bajista clara en 4H, CVD confirmado, precio bajo EMAs. Bear OB bien definido.
+
+| | |
+|---|---|
+| Dirección | 🔴 SHORT |
+| Zona de entrada | $64,200–$64,400 (Bear OB) |
+| Stop Loss | $64,520 (sobre swing high) |
+| TP1 | $63,880 |
+| TP2 | $63,238 |
+| R:R estimado | ~1:2 |
+| Trigger | Rechazo con CHOCH bearish en 15m dentro del Bear OB |
+
+────────────────────────────────────────
+🥉 Setup #3 — ETH Long (pullback a Bull FVG 1H) ⭐⭐
+Por qué: CHOCH bullish en 1H es una señal SMC de peso. Precio sobre Bear OB que actúa como soporte. Setup de corto plazo con R:R atractivo.
+
+| | |
+|---|---|
+| Dirección | 🟢 LONG |
+| Zona de entrada | $1,893–$1,896 (Bull FVG confluencia 4H + 1H) |
+| Stop Loss | $1,871 (bajo Bear OB inferior) |
+| TP1 | $1,927 (EQH) |
+| TP2 | $1,937 (EQH sweep) |
+| R:R estimado | ~1:2.3 |
+| Trigger | Pullback limpio a zona + confirmación bullish en 5m/15m |
+
+────────────────────────────────────────
+⚠ 8. RIESGOS Y ALERTAS
+
+1. 🔴 GOOGL -3.84% → Investigar catalizador. Si es sistémico (regulatorio/macro), puede arrastrar al sector tech y presionar QQQ/NDX adicionalmente hoy.
+
+2. ⚠ Gold RSI 71.4 → Operando en sobrecompra. Un reversal brusco del DXY puede provocar corrección rápida a $4,421–$4,390. No entrar en momentum ciego.
+
+3. 🛢️ Hormuz Deadlock — cualquier escalada/desescalada repentina mueve oil violentamente en ambas direcciones. Posiciones en USO/OIL requieren SL ajustado.
+
+4. 🔴 BTC bajo EMAs 21/50/200 con estructura LH+LL — si no recupera 64,400, el objetivo bajista $62,287 (EQL) queda en juego esta semana.
+
+5. 🟡 SLV vs Silver spot divergencia — monitorear; puede señalar movimiento correctivo en metales o anomalía de ETF.
+
+6. 📊 MSFT RSI 77.7 → Sobrecomprado. No es momento de compra nueva; riesgo de pullback hacia $498 FVG.
+
+7. 🌍 F&G en 27 (Fear) — el sentimiento no acompaña movimientos alcistas sostenidos en equities. Cualquier noticia negativa amplifica ventas.
+
+────────────────────────────────────────
+> 💡 Resumen ejecutivo del día: Metales son la operación del día por confluencia macro + técnica. BTC bajista con setup de short en Bear OB. ETH con señal de reversión intraday interesante pero de menor convicción. Índices en pausa correctiva — sin setup claro hasta confirmar soporte en FVGs respectivos. Mantener disciplina de SL dado sentimiento de "Fear" en mercado.
+
+────────────────────────────────────────
+Brief generado: 12 Ago 2026 | Niveles basados en datos 4H y 1H más recientes. Siempre confirmar con price action en tiempo real antes de ejecutar.
