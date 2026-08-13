@@ -1,0 +1,220 @@
+📊 MORNING BRIEF — Jueves 13 de Agosto 2026
+Generado: 12:45 UTC | Lectura estimada: ~8 min
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.95 (-0.06%) | Dólar débil → favorable metales/risk-on selectivo |
+| VIX | 14.54 | Complacencia. Sin miedo estructural |
+| Fear & Greed | 29 — Fear | El mercado minorista tiene miedo. Smart money acumula o distribuye |
+
+Noticias clave:
+• 🔴 CPI USA hoy — principal catalizador del día. Dato caliente = USD sube, equities caen, crypto sufre. Dato frío = rally.
+• ⚠️ Estrecho de Ormuz — cierre potencial comprime oferta de petróleo. IEA alerta destrucción de demanda simultánea. OIL en territorio volátil.
+• 🟡 Irán en foco — geopolítica activa, mantén stops ajustados en commodities.
+• 🟢 CoreWeave +8% — impulso AI continúa. Flujo hacia semiconductores (NVDA líder).
+
+Sesgo macro del día: Risk-on selectivo en equities/tech y metales, con cautela pre-CPI. Crypto desacoplado negativamente.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN — $63,582 🔴
+
+📌 SEGUIMIENTO (vs ayer): No había setup explícito en BTC en el brief anterior. Precio actual confirma compresión y estructura débil. Sin cambio narrativo.
+
+Estructura HTF (4H):
+• Estructura mixta/transicional. CHOCH potencial en formación — ni alcista ni bajista claro.
+• EMAs 21/50/200 en 63,917 / 64,146 / 64,248 — precio por debajo de las tres EMAs = sesgo bajista confirmado.
+• LTF (1H): LH + LL activo → tendencia bajista de corto plazo clara.
+
+Order Blocks:
+• 🔴 Bear OB activo: $63,768 – $64,249 — zona de oferta. Cualquier pump hacia aquí sin volumen = trampa.
+
+Fair Value Gaps:
+• 🔴 Bear FVG activo (no mitigado): $64,354 – $64,958 — imán de precio al alza si hay expansión, pero es zona de distribución.
+• ⚠️ FVG LTF (1H) Bear activo: $63,786 – $63,856 — zona de oferta inmediata.
+• FVGs alcistas: todos mitigados. Sin FVGs bullish que sostengan precio.
+
+Liquidez:
+• 🔴 EQH (sell-side liquidity): $64,507 / $65,400 / $65,442 — pools sobre el precio.
+• 🟢 EQL (buy-side liquidity): $62,287 / $63,252 / $63,288 — pools bajo el precio.
+• ⚠️ Sweep reciente sell-side en $64,507 → precio bajó tras barrer esa liquidez. Confirma distribución.
+• ⚠️ Sweep reciente buy-side en $63,252–$63,288 → precio barrió esos EQL. Ahora la pregunta: ¿rebota o continúa?
+
+CVD: ⚠️ Divergencia alcista — precio baja pero CVD sube. Señal de absorción compradora. No confirma reversión pero sí que los vendedores se agotan en este rango.
+
+Funding & OI: No especificados — asumir neutral/ligeramente negativo dado el sesgo bajista.
+
+Sesgo del día: 🔴 Bajista mientras opere bajo $63,768 (base del Bear OB)
+
+| Zona | Nivel | Acción |
+|------|-------|--------|
+| Bear OB / FVG LTF | $63,786 – $63,856 | Zona de short con confluencia |
+| Soporte inmediato | $63,252 – $63,310 | EQL barrido, posible bounce técnico |
+| Target bajista | $62,287 | Próximo pool de liquidez buy-side |
+| Invalidación short | Cierre 4H > $64,250 | Cambia estructura |
+
+Setup: Esperar retesteo del Bear FVG LTF ($63,786–$63,856) + rechazo sin volumen → short con SL sobre $64,000, target $62,900. La divergencia CVD alcista es el riesgo — no shortear en soporte, esperar el pull.
+
+────────────────────────────────────────
+ETHEREUM — $1,887 🟡
+
+📌 SEGUIMIENTO: Sin setup explícito ayer en ETH. Precio dentro del Bear OB activo ($1,875–$1,895). Estructura sigue siendo bajista.
+
+Estructura HTF (4H):
+• LH + LL confirmado — downtrend. EMAs 21/50/200 en $1,891 / $1,894 / $1,878.
+• Precio comprimido dentro del Bear OB ($1,875–$1,895). Zona de oferta activa.
+• LTF (1H): Transitional/CHOCH potencial — indecisión táctica dentro del sesgo bajista.
+
+Fair Value Gaps LTF activos:
+• 🔴 Bear FVG: $1,890.59 – $1,895.31 — resistencia inmediata.
+• 🔴 Bear FVG: $1,896.29 – $1,900.04 — segunda capa de oferta.
+
+Liquidez:
+• EQH: $1,925 / $1,927 / $1,937 — targets al alza si hay expansión.
+• EQL: $1,848 / $1,856 — targets bajistas. Sweep reciente en $1,856 ya ejecutado.
+• ⚠️ Sweeps recientes sell-side en $1,925 y $1,927 → distribución confirmada en esos niveles.
+
+CVD: ✅ Confirmación bajista — precio y CVD alineados. Sin divergencia. Presión vendedora real.
+
+Sesgo del día: 🔴 Bajista. Opera dentro de Bear OB. CVD confirma.
+
+| Zona | Nivel | Acción |
+|------|-------|--------|
+| Bear FVG resistencia | $1,890 – $1,900 | Short zone con confluencia OB |
+| Soporte clave | $1,872 – $1,873 | Primer nivel de defensa |
+| Target bajista | $1,848 – $1,856 | EQL barrida parcialmente |
+| Invalidación | Cierre 4H > $1,914 | Rompe Bear FVG + OB |
+
+Setup: ETH es el short más limpio hoy vs BTC. CVD confirma, estructura confirma, Bear OB activo. Short en rechazo de $1,895–$1,900, SL $1,916, target $1,856.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📌 SEGUIMIENTO:
+• SPX: Ayer sesgo alcista sobre $7,720. Hoy $7,748 ✅ — nivel sostenido, setup de pullback a $7,610–$7,720 no se activó. Sigue vigente como zona de compra táctica.
+• NDX: Ayer precaución bajo $26,200. Hoy $26,588 — superó el umbral ✅. Recuperación en curso.
+• DOW: Ayer alcista con soporte $53,230. Hoy $53,770 ✅ — soporte sostenido. Resistencia $54,094–$54,266 sigue vigente.
+
+| Índice | Precio | Sesgo | Soporte clave | Resistencia clave |
+|--------|--------|-------|---------------|-------------------|
+| S&P 500 | $7,748 | 🟢 Alcista | 7,720 → 7,610 (FVG) | 7,793 |
+| NASDAQ | $26,588 | 🟢 Alcista (mejorando) | 26,200 → 25,967 (FVG) | 26,707 – 26,788 |
+| DOW | $53,770 | 🟢 Alcista | 53,230 (FVG base) | 54,094 – 54,266 |
+• SPX/SPY: FVG alcista $7,610–$7,720 intacto. Bias alcista. CPI frío = extensión a $7,793+.
+• NDX: Recuperando. Zona $26,707–$26,788 es la resistencia a vencer. RSI 59 — tiene espacio.
+• DOW: FVG bajista $54,094–$54,266 activo sobre precio = zona de distribución potencial. Con cautela.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Cambio | Sesgo | Nivel clave | Nota |
+|--------|--------|--------|-------|-------------|------|
+| AAPL | $302.25 | -0.87% | 🔴 Bajista | S: $299.74 / R: $309.97 (FVG↓) | RSI 40.4 — sobreventa relativa. Bear FVG $309–$310 es resistencia fuerte |
+| MSFT | $492.43 | -2.26% | 🟢 Alcista (estructura) | S: $466–$479 (FVG↑) / R: $501 (FVG↓) | Caída desde zona de FVG bajista $501–$502. Pullback normal. Estructura uptrend |
+| NVDA | $224.09 | +3.03% | 🟢 Alcista 🚀 | S: $213–$217 (FVG↑) / R: $232–$236 | Líder del día. CoreWeave impulsa sector AI. No perseguir — esperar pull a $217 |
+| GOOGL | $343.54 | -0.08% | 🔴 Bajista | S: $341.36 / R: $346–$352 (FVG↓) | Operando bajo EMAs. FVG bajista activo como resistencia inmediata |
+| AMZN | $267.28 | -1.83% | 🟢 Alcista (estructura) | S: $256–$260 / R: $273–$274 (FVG↓) | Retroceso dentro de uptrend. FVG alcista $239–$278 = zona de interés en pulls profundos |
+
+Nota del día: NVDA es el único tech con momentum real. AAPL y GOOGL en debilidad. MSFT/AMZN retroceden pero en uptrends — buscar compras en FVGs de soporte si CPI es benigno.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+📌 SEGUIMIENTO:
+• GOLD: Ayer alcista, zona de compra táctica $4,421–$4,450. Hoy $4,443 — precio tocó la zona ✅ y está rebotando (+0.78%). Setup vigente pero ya dentro de la zona objetivo.
+• SILVER: Ayer extendido en $66.56. Hoy $65.04 (-0.79%) — corrección esperada ✅. FVG $61.91–$63.90 es el soporte a vigilar.
+• OIL: Ayer rango $82–$87 sin setup. Hoy $81.36 (-2.29%) — rompió el piso del rango ⚠️. Nueva lectura abajo.
+
+🥇 GOLD — $4,443 | 🟢 Alcista
+• RSI 70 — sobrecomprado. No perseguir largo aquí.
+• FVG alcista $4,408–$4,420 = siguiente zona de pullback y compra.
+• Soporte estructural: $4,363. Resistencia próxima: $4,591.
+• Sesgo: Alcista pero esperar pullback a $4,408–$4,420 para entrada limpia.
+
+🥈 SILVER — $65.04 | 🟢 Alcista (estructura)
+• Corrección desde $66.56. RSI 61.2 — saludable.
+• FVG alcista activo: $61.91–$63.90 = zona de compra en retroceso.
+• Sesgo: Alcista. Esperar pullback a $63.74–$63.90 para largo.
+
+🛢️ OIL (WTI) — $81.36 | 🟡 Neutro / 🔴 Alerta
+• Rompe estructura de rango — opera bajo EMA50 ($81.95). FVG alcista $78.77–$81.27 como zona de rebote.
+• Ormuz/IEA añaden volatilidad bidireccional. Sin setup limpio.
+• Soporte: $80.56. Si rompe → $77.78.
+• Sesgo: Neutral/cauteloso. Evitar hasta definición post-CPI.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | Soporte | Resistencia | Nota |
+|-----|--------|-------|---------|-------------|------|
+| SPY | $772.49 | 🟢 Alcista | 758–769 (FVG) | $776.85 | FVG alcista como soporte. Bien posicionado |
+| QQQ | $723.70 | 🟢 Alcista | 701–716 (FVG) | $726–$737 | Recuperando. Resistencia $726 próxima |
+| GLD | $404.92 | 🟢 Alcista | $404.30 (S/R flip) | $421.82 | Opera en S/R flip. Confirmar hold sobre $404 |
+| SLV | $59.06 | 🟢 Alcista | 55.88–57.52 (FVG) | $64.69 | Retroceso saludable. FVG como zona de compra |
+| USO | $127.30 | 🟡 Neutro | 126.55 / FVG↓ activo | $130.98 | FVG bajista $117–$127 superpuesto. Confuso — evitar |
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+────────────────────────────────────────
+🥇 SETUP #1 — SHORT ETH | $1,895–$1,900
+Activo: ETHUSDT Perpetual
+Dirección: 🔴 Short
+Entrada: Retesteo y rechazo en $1,895–$1,900 (Bear FVG LTF + Bear OB HTF confluencia)
+SL: $1,916 (sobre Bear FVG mayor)
+TP1: $1,872 | TP2: $1,856 (EQL)
+R:R: ~2.5:1
+Confluencias: Bear OB 4H activo + dos Bear FVGs LTF activos + CVD bajista confirmado + estructura LH+LL + sweeps sell-side ya ejecutados
+Trigger: Vela de rechazo (pin bar / engulfing bajista) en zona. No entrar a mercado.
+
+────────────────────────────────────────
+🥈 SETUP #2 — SHORT BTC | $63,786–$63,856
+Activo: BTCUSDT Perpetual
+Dirección: 🔴 Short (de menor convicción que ETH — CVD divergente es riesgo)
+Entrada: Rechazo en Bear FVG LTF $63,786–$63,856
+SL: $64,050 (sobre Bear OB base)
+TP1: $63,310 | TP2: $62,900
+R:R: ~2:1
+Confluencias: Bear FVG LTF + Bear OB 4H + EMAs bajistas + estructura 1H LH+LL
+⚠ Riesgo: CVD divergencia alcista — si no hay rechazo claro, omitir. EL CPI puede generar spike violento.
+
+────────────────────────────────────────
+🥉 SETUP #3 — LONG NVDA | Pullback $217–$213
+Activo: NVDA (acciones o opciones call)
+Dirección: 🟢 Long
+Entrada: Pullback al FVG alcista $213–$217
+SL: $208 (bajo soporte $208.54)
+TP1: $224 (precio actual) | TP2: $232
+R:R: ~3:1 desde $213
+Confluencias: Único tech con momentum real (+3%), FVG alcista sin mitigar, impulso sector AI (CoreWeave), estructura alcista
+Nota: Setup contingente — necesita pullback primero. Si sigue subiendo sin pull, no perseguir.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 CPI USA (hoy) — El evento más importante. Cualquier dato fuera de estimaciones genera movimiento violento en todos los activos. Reducir tamaño de posición pre-dato o esperar confirmación post-CPI.
+
+⚠️ Estrecho de Ormuz — Riesgo geopolítico activo. Oil puede gapear en cualquier dirección. Evitar posiciones grandes en USO/OIL sin stop garantizado.
+
+⚠️ BTC CVD divergencia alcista — Aunque el sesgo es bajista, la absorción compradora puede generar squeeze hacia $64,500+. No shortear soportes — esperar el pull al OB/FVG.
+
+🟡 VIX 14.54 — Complacencia elevada. Mercados ignoran riesgos geopolíticos. Un headline de Ormuz o CPI caliente puede despertar volatilidad rápidamente.
+
+🔴 MSFT -2.26% y AMZN -1.83% — Pesos pesados del SPX cediendo. Si continúa la venta, puede frenar el avance de índices hacia resistencias.
+
+🟡 Gold RSI 70 — Sobrecomprado. No perseguir largos aquí. Esperar pullback a $4,408–$4,420 o reducir exposición en GLD si ya estás largo desde niveles inferiores.
+
+────────────────────────────────────────
+📌 Resumen ejecutivo del día:
+• Crypto: Bajista/lateral. ETH short más limpio. BTC con cautela por CVD.
+• Equities: Alcistas con cautela pre-CPI. NVDA líder; AAPL/GOOGL débiles.
+• Metales: Alcistas en estructura pero sobreextendidos — esperar pullbacks.
+• Oil: Volátil/evitar sin confirmación.
+• Macro: Todo depende del CPI de hoy. Gestiona el tamaño.
+
+────────────────────────────────────────
+Brief generado con datos de mercado al 13/08/2026 12:45 UTC. No constituye asesoría financiera.
