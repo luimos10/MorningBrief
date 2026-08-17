@@ -1,0 +1,197 @@
+📊 MORNING BRIEF — Domingo 17 de Agosto 2026
+Generado: 12:45 UTC | Datos 4H
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.47 (-0.20%) | 🟢 Debilidad USD = tailwind para risk assets y metals |
+| VIX | 15.03 | 🟢 Volatilidad baja — mercado complaciente |
+| Fear & Greed | 31 (Fear) | ⚠️ Discrepancia: VIX bajo pero F&G en miedo |
+| Fed Events | Sin catalizadores macro relevantes hoy | 🟡 Sesión tranquila |
+
+Lectura clave: DXY débil es combustible para Gold, Silver y crypto. La discrepancia entre VIX bajo (14-15) y F&G en zona de miedo (31) sugiere que el mercado no ha comprado del todo el rally reciente — potencial para movimientos bruscos si hay catalizador. Sin noticias macroeconómicas relevantes hoy; sesión de domingo = liquidez reducida. Cuidado con falsas rupturas en crypto.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN (BTC/USDT) — $63,605 🟡 Neutro
+
+> 📌 SEGUIMIENTO: Ayer BTC cotizaba en $62,779. Subió +$826 (+1.3%) hasta $63,605 — el precio rebotó desde la zona de OB Alcista (62,716–63,140) como era de esperar. El setup de compra en el OB se activó parcialmente, pero la estructura bearish HTF (LH+LL en 4H) sigue intacta.
+
+Estructura 4H: Downtrend confirmado — LH + LL. El precio está actualmente comprimido entre el OB Alcista y el OB Bajista, una zona de decisión crítica.
+• OB Alcista activo: 62,716–63,140 (fue tocado ayer — primera reacción positiva)
+• OB Bajista activo: 63,591–64,010 (precio está empujando contra él ahora mismo en $63,605)
+• Bull FVG ACTIVO (4H): 63,140–63,429 — zona de imán/soporte inmediato
+• Bull FVG activo (1H): 63,247–63,340 y 63,428–63,587
+
+Liquidez:
+• 🔴 EQH (sell-side pools): 65,400 / 65,442 / 64,507 — objetivos alcistas si rompe estructura
+• 🟢 EQL (buy-side pools): 62,287 / 63,252 / 63,288 — ya hubo sweep en 63,252 y 63,288 (señal bullish LTF)
+• ⚠️ Los sweeps recientes en buy-side (63,252/63,288) son señal de que el smart money barrió stops antes de posible movimiento alcista
+
+CVD: ✅ Alcista — precio y CVD alineados. Soporta el rebote desde OB.
+
+LTF (1H): CHOCH potencial — estructura mixta/transitional. Posible cambio de carácter si cierra sobre 63,587.
+
+Setup del día:
+• 🟢 Long: Pullback al Bull FVG 4H (63,140–63,429) o FVG 1H (63,247–63,340) → target OB Bajista en 63,591 y luego EQH en 64,507
+• 🔴 Short: Rechazo en OB Bajista (63,591–64,010) sin BOS alcista → target sweep de EQL en 62,287
+• Invalidación long: Cierre 4H por debajo de 62,716
+• Invalidación short: Cierre 4H por encima de 64,010 con volumen
+
+Sesgo hoy: 🟡 Neutral con ligero bias alcista intraday mientras mantenga el FVG. La estructura HTF sigue bearish — no confiar en longs de alto volumen sin BOS confirmado sobre 64,500.
+
+────────────────────────────────────────
+ETHEREUM (ETH/USDT) — $1,899 🟡 Transitional
+
+> 📌 SEGUIMIENTO: Ayer ETH en $1,875. Subió +$24 (+1.3%) hasta $1,899 — dentro del rango del Bull FVG activo (1,887–1,897) que se mencionaba ayer. El precio está ahora testeando resistencia psicológica en $1,900.
+
+Estructura 4H: Mixed/Transitional — CHOCH potencial. EMAs 21/50/200 prácticamente aplanadas en 1,889/1,889/1,890 = compresión extrema, ruptura inminente en cualquier dirección.
+• OB Alcista: 1,869–1,887 (soporte clave — no debe ceder)
+• Bull FVG ACTIVO (4H): 1,887–1,897 (precio encima — validado como soporte)
+• Resistencias inmediatas: 1,900 (psicológica) → 1,925 → 1,927 (EQH)
+
+⚠️ CVD: Divergencia bajista — precio subió pero CVD bajando. Señal de cautela en longs.
+
+Liquidez:
+• 🔴 EQH: 1,927 / 1,937 — targets si rompe $1,900
+• 🟢 EQL: 1,848 / 1,856 — zona de barrido potencial si falla $1,887
+
+Setup del día:
+• 🟢 Long (menor confianza): Hold sobre 1,887 con cierre 1H sobre 1,900 → target 1,925/1,927. SL: 1,869
+• 🔴 Short preferido dado CVD divergente: Rechazo en 1,900–1,914 (Bear FVG mitigado pero zona de oferta) → target 1,869 OB / sweep EQL 1,848
+• Sesgo: 🟡 Neutral — la divergencia CVD pesa más. Esperar confirmación en 1H antes de entrar.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+| Índice | Precio | Sesgo | Soporte Clave | Resistencia Clave |
+|--------|--------|-------|---------------|-------------------|
+| S&P 500 | 7,786 | 🟢 Alcista | 7,766–7,776 (FVG activo) | 7,793 (resistencia) |
+| NASDAQ | 26,729 | 🟢 Alcista | 25,967–26,348 (FVG) | 26,739 / 26,788 |
+| DOW | 53,732 | 🟢 Alcista | 53,230–54,266 (FVG ↑) | 54,266 / 54,744 |
+
+Lectura rápida:
+• SPX: Muy cerca de resistencia en 7,793. FVG alcista en 7,766–7,776 como soporte inmediato — si retrocede ahí y sostiene, setup long con target ATH. RSI en 65.9 = espacio para más upside pero sin sobrecompra crítica.
+• NDX: Estructura mixta pero alcista. FVG enorme (25,967–26,348) como piso sólido. Resistencia inmediata en 26,739–26,788. Romper y cerrar encima activa objetivo 27,190.
+• DOW: El más fuerte — única estructura HTF confirmada HH+HL. FVG activo en 53,230–54,266 sirve como launch pad. Target: 54,744. ⚠️ FVG bajista en 54,094–54,266 = zona donde puede haber distribución.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | Sesgo | Nivel a Vigilar | Nota |
+|-------|--------|-------|-----------------|------|
+| AAPL | $305.93 | 🔴 Bajista | Soporte $304.76 → si cede, $299.74 | Por debajo de EMAs. FVG bajista 309.97–310.47 = resistencia para shorts |
+| MSFT | $495.40 | 🟢 Alcista | FVG bajista $501.50–502.27 = zona de venta CT | ⚠️ RSI 70.9 sobrecomprado. Ayer en $501-502 era distribución — precio bajó a $495, setup válido |
+| NVDA | $225.16 | 🟢 Alcista | FVG alcista $222.20–223.71 = compra | RSI 63 — room to run. Resistencia en $232 |
+| GOOGL | $345.90 | 🔴 Bajista | FVG bajista $346.48–352.71 encima | Por debajo de EMAs. Short si rechaza FVG. Target $341.36 |
+| AMZN | $262.65 | 🟢 Alcista | FVG bajista $265.81–267.10 = resistencia CT | Pullback de -0.94%. FVG alcista enorme $239–278 como soporte macro |
+
+> 📌 SEGUIMIENTO MSFT: Ayer se identificó el FVG bajista $501–502 como zona de distribución. El precio reaccionó exactamente ahí y cedió a $495.40 hoy (-0.30%). Setup de short corto funcionó. Ahora monitorear si $495 actúa como soporte o continúa el retroceso hacia $479.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD — $4,442 (+1.39%) 🟢
+
+> 📌 SEGUIMIENTO: Ayer Gold en $4,436. Setup de compra en pullback $4,380–$4,420 no se activó — el precio no retrocedió y continuó subiendo directo a $4,442 (+0.1%). El momentum alcista es indiscutible.
+• Sesgo: 🟢 Fuertemente Alcista. DXY débil = combustible.
+• FVG alcista activo: 4,297–4,336 = soporte de largo plazo para swing traders
+• Soporte inmediato: 4,363
+• Targets: 4,591 → 4,765 → 4,789 (EQH / resistencias estructurales)
+• RSI 67.9 — alcista pero acercándose a sobrecompra. No perseguir — esperar pullback a 4,363–4,400.
+
+SILVER — $65.54 (+0.84%) 🟢
+
+> 📌 SEGUIMIENTO: Ayer $65.15, hoy $65.54. Continuación alcista confirmada. La micro-resistencia mencionada ayer ($65-66) está siendo absorbida.
+• Resistencia inmediata: 66.65. Ruptura = target 70.95.
+• Soporte: 63.74 | FVG: 61.91–63.90
+• RSI 62.3 — room to run.
+
+OIL (WTI) — $82.85 (+0.55%) 🟡
+
+> 📌 SEGUIMIENTO: Ayer $81.37 — rango $80.56–$84.61 mencionado. El precio subió a $82.85, dentro del rango esperado. Setup neutral vigente.
+• Sesgo: 🟡 Neutro — navegando entre FVGs. FVG alcista $78.77–81.27 como piso. FVG bajista $82.43–87.68 como techo.
+• El precio está dentro del FVG bajista — posible resistencia en $82.43–84.61.
+• Niveles: Soporte $80.56 | Resistencia $84.61 → $86.87
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | FVG Activo | Nivel Clave |
+|-----|--------|-------|------------|-------------|
+| SPY | $776.34 | 🟢 Alcista | FVG ↑ 774.90–775.43 (soporte inmediato) | Resistencia: $776.85 — justo encima del precio |
+| QQQ | $731.07 | 🟢 Alcista | FVG ↑ 727.25–728.32 (soporte) | Resistencia: $737.62 → $743.94 |
+| GLD | $401.48 | 🟢 Alcista | FVG ↑ 392.12–395.93 | Resistencia: $402.04 — próxima barrera |
+| SLV | $58.48 | 🟢 Alcista | FVG ↑ 55.88–57.52 (soporte) | Resistencia: $64.69 |
+| USO | $126.60 | 🟢 Alcista | FVG ↑ 120.10–124.46 | ⚠️ FVG bajista enorme $117.62–127.95 — USO dentro de él |
+
+> 📌 SEGUIMIENTO GLD/SLV: Ayer se alertó divergencia ETFs vs. spot Gold. Hoy se resolvió al alza — GLD +0.63% y SLV +0.55% siguen al spot. Era técnico (roll), no señal de salida. ✅ Lectores que mantuvieron long en GLD/SLV correctos.
+
+⚠️ USO dentro de FVG bajista masivo (117.62–127.95) — el precio puede subir a $127.95 antes de encontrar resistencia real. No es señal bajista inmediata, pero limita el upside intraday.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — GOLD SPOT / GLD (Long Swing)
+Tipo: Continuación alcista en pullback
+Activo: GOLD Spot o GLD ETF
+Zona de entrada: Pullback a $4,363–4,400 (spot) / $398–400 (GLD)
+Target: $4,591 (spot) / $402+ (GLD, romper resistencia inmediata)
+SL: Cierre 4H por debajo de $4,336 (FVG activo)
+R:R estimado: ~2.5:1
+Por qué: Trend alcista intacto, DXY débil, momentum. Setup de "comprar la sangre" cuando retroceda — no perseguir en ATH intraday.
+
+────────────────────────────────────────
+🥈 Setup #2 — NVDA (Long en FVG)
+Tipo: Long desde Order Block / FVG alcista
+Activo: NVDA acciones
+Zona de entrada: $222.20–223.71 (FVG activo, posible pullback)
+Target: $232.01 → $236.26
+SL: Cierre diario por debajo de $220
+R:R estimado: ~3:1
+Por qué: Estructura HH+HL implícita (EMAs alcistas), RSI con espacio, FVG sin mitigar como zona de compra institucional. Sector AI sigue siendo el más fuerte.
+
+────────────────────────────────────────
+🥉 Setup #3 — BTC Short Condicional (en OB Bajista)
+Tipo: Short desde Order Block Bajista con confirmación
+Activo: BTC/USDT Perpetual
+Zona de entrada: 63,591–64,010 (OB Bajista 4H) con rechazo confirmado en 1H (vela envolvente bajista o CHOCH en LTF)
+Target 1: 63,140 (FVG alcista inferior)
+Target 2: 62,716 (OB Alcista / sweep EQL)
+SL: Cierre 1H por encima de 64,050
+R:R estimado: ~2:1 (T1) / ~3.5:1 (T2)
+Por qué: Estructura 4H bajista (LH+LL), OB Bajista no mitigado encima, precio empujando contra él. Condición clave: No entrar sin vela de rechazo en LTF. Si rompe con fuerza, el setup se invalida y se convierte en long hacia 64,507.
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 Riesgos a vigilar hoy:
+
+1. Liquidez reducida (domingo) — Sesión asiática/europea. Movimientos en crypto pueden ser exagerados y revertir rápido. Reducir sizing.
+
+2. BTC en zona de decisión crítica — El precio está literalmente aplastado entre OB Alcista (62,716–63,140) y OB Bajista (63,591–64,010). La resolución de esta compresión definirá el sesgo de la semana. Un breakout falso es el escenario más probable en domingo.
+
+3. ETH CVD divergente — A pesar del rebote, la divergencia bajista en CVD de ETH es señal de manipulación o distribución encubierta. Cuidado con longs ciegos.
+
+4. SPY vs. $776.85 — SPY tiene resistencia inmediata a solo $0.50 del precio actual. Si no la rompe hoy, posible consolidación/retroceso lunes. FVG en 774.90–775.43 = primera línea de defensa.
+
+5. MSFT RSI 70.9 extendido — Aunque la tendencia es alcista, RSI en 70.9 con FVG bajista sin mitigar en $501–502 es zona de posible nueva distribución si el precio retorna ahí.
+
+6. Gold sobrecomprado a corto plazo — RSI 67.9 y sin pullback significativo. El trade es largo pero la entrada es exigente aquí. Paciencia — esperar el pullback, no perseguir.
+
+7. Oil dentro de FVG bajista — WTI en $82.85 está técnicamente dentro de una zona de oferta. El bias neutro se mantiene hasta ruptura de $84.61 con cierre.
+
+────────────────────────────────────────
+📌 Niveles clave para poner alertas ahora mismo:
+• BTC: 63,140 (soporte FVG) | 64,010 (ruptura OB bajista)
+• ETH: 1,887 (OB soporte) | 1,900 (resistencia psicológica)
+• Gold: 4,363 (primer soporte pullback)
+• SPY: 776.85 (resistencia) | 774.90 (FVG soporte)
+• NVDA: 222.20 (entrada FVG)
+
+────────────────────────────────────────
+Brief generado para uso educativo. No es asesoramiento financiero. Opera con gestión de riesgo.
