@@ -1,0 +1,203 @@
+📊 MORNING BRIEF — Lunes 24 de Agosto, 2026 | 12:45 UTC
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.92 (+0.12%) | Dólar débil estructuralmente — favorable a crypto y metales |
+| VIX | 15.87 | Complacencia. Sin señales de miedo institucional |
+| Fear & Greed | 73 — Greed | Mercado caliente. Cuidado con euforia en extensiones |
+
+Catalizadores clave de la semana:
+• 🏦 Jackson Hole en el radar — discursos Fed pueden mover FX/equity fuerte
+• 🤖 Earnings NVDA — evento binario para NDX/QQQ
+• 🛢️ Tensión en Hormuz → soporte para Oil pese a debilidad intradía
+• Scott Bessent comentando sobre Bitcoin como activo de debasement = narrativa macro BTC bullish
+
+Lectura rápida: Entorno risk-on moderado. DXY sin fuerza real, VIX bajo. El mayor riesgo es un discurso hawkish en Jackson Hole o sorpresa en NVDA earnings. Sesgo general: alcista cauteloso.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+BITCOIN — $78,784 (+0.43%)
+
+📌 SEGUIMIENTO (vs brief del 21-Aug): BTC no estaba en el brief anterior con setup específico, pero la tendencia HTF sigue siendo la misma — impulso continuado alcista con precio ahora tocando la zona de resistencia crítica.
+
+Estructura HTF (4H): HH + HL confirmados. EMAs apiladas alcistas (21: 76,290 / 50: 72,605 / 200: 67,346). Precio por encima de todo el stack — estructura limpia.
+
+Estructura LTF (1H): BOS Bullish confirmado rompiendo último swing high. Uptrend intacto.
+
+CVD: ✅ Alineado con precio — sin divergencia. Compradores dominando flujo.
+
+Niveles críticos:
+
+| Zona | Precio | Tipo |
+|------|--------|------|
+| 🔴 Resistencia inmediata | $78,828 – $79,500 | Swing High + EQH (liquidez) |
+| 🟡 Bull FVG activo (LTF) | $77,414 – $77,534 | Primer soporte y potencial entrada |
+| 🟡 Bull FVG activo (4H) | $77,790 – $77,982 | OB zona de demanda |
+| 🟢 Bull FVG (4H) mayor | $73,400 – $74,510 | Soporte profundo no mitigado |
+| ⚠️ Soporte duro | $75,545 | Swing Low HTF |
+
+🎯 Setup del día — BTC:
+• Precio atacando la zona $78,828–$79,500 (resistencia + pool de liquidez sell-side)
+• Escenario A (continuación): Si hace sweep de EQH en $79,500 con mecha y cierra de vuelta por debajo → short scalp hacia $77,790 FVG. Entrada: $79,300–$79,500. SL: $80,000. TP: $77,800.
+• Escenario B (pullback lógico): Rechazo en resistencia, pullback al FVG LTF $77,414–$77,534 con estructura 1H mantenida → long swing. Entrada: $77,450–$77,550. SL: $76,900. TP1: $79,000. TP2: $79,500.
+• Invalidación alcista total: Pérdida de $75,545 (swing HL HTF).
+
+> ⚠️ RSI 4H en 72.5 — zona de sobrecompra. No perseguir longs aquí. Esperar pullback o sweep limpio.
+
+────────────────────────────────────────
+ETHEREUM — $2,500 (+0.23%)
+
+Estructura HTF (4H): HH + HL. EMAs alcistas (21: 2,405 / 50: 2,259). Precio limpísimo por encima de todo el stack.
+
+Estructura LTF (1H): BOS Bullish confirmado. Misma narrativa que BTC.
+
+CVD: ✅ Confirmación alcista alineada.
+
+Niveles críticos:
+
+| Zona | Precio | Tipo |
+|------|--------|------|
+| 🔴 Resistencia | $2,546 | Swing High HTF — liquidez sell-side |
+| 🟡 Bull FVG activo | $2,474 | Primer soporte inmediato |
+| 🟢 Soporte | $2,355 | Swing Low HTF — no debería perder |
+
+🎯 Setup ETH:
+• Misma lógica que BTC. Precio aproximándose a $2,546 (swing high HTF = pool de liquidez).
+• Long en pullback hacia FVG $2,474 si la estructura 1H lo permite. SL: $2,430. TP: $2,546.
+• RSI 71.1 — también en zona caliente. Sin perseguir.
+
+> 📊 ETH/BTC ratio: Ambos en zona de resistencia simultánea. Si BTC hace sweep y ETH no — divergencia bajista de ETH. Vigilar ratio.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📌 SEGUIMIENTO (vs brief 21-Aug):
+• NASDAQ: Ayer en Bull FVG 25,967–26,348 como soporte. HOY: precio en $26,180 — sigue dentro del FVG. El soporte funcionó. Setup vigente, ahora testeando techo del rango.
+• DOW: Ayer débil (-1.32%), RSI 46. HOY: +0.98%, RSI 52.4 — recuperación clara. Bull FVG 52,623–53,641 actuó como soporte perfecto. Setup de long desde FVG se activó ✅.
+
+────────────────────────────────────────
+S&P 500 — $7,674 (+0.43%) 🟢
+• EMAs: 7,654 / 7,551 — precio por encima. Tendencia intacta.
+• Dentro de Bull FVG activo 7,610–7,720. Precio en la parte media.
+• Sesgo: Alcista. Target próximo: $7,793. Soporte: $7,610.
+• Bear FVG 7,697–7,700 actuando como resistencia menor — zona de friccción inmediata.
+
+NASDAQ — $26,180 (+0.43%) 🟡
+• Dentro del Bull FVG 25,967–26,348. RSI 50.9 — neutro.
+• ⚠️ NVDA earnings esta semana — evento binario. Cautela en posiciones directionales NDX.
+• Resistencia inmediata: $26,261. Si rompe: $26,316 y $26,707.
+• Soporte: $25,967 (fondo del FVG) → si pierde: $25,701.
+
+DOW — $53,277 (+0.98%) 🟢
+• El más fuerte hoy. HH + HL confirmado. Recuperación desde FVG validada.
+• Resistencia inmediata: $53,289 (casi tocándola). Siguiente: $54,744.
+• Bear FVG 53,355–53,399 como zona de fricción — atención si no puede cerrar por encima.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Sesgo | Nivel Clave | Nota |
+|--------|--------|-------|-------------|------|
+| AAPL | $309.35 | 🟡 Neutro | Soporte $304.76 / Res $316 | Bear FVG $311–329 — precio en techo de FVG bajista. Flojo. |
+| MSFT | $483.24 | 🟢 Alcista | FVG↑ $465–478 como base | Dentro de Bear FVG $483–492. Resistencia. Cuidado longs aquí. |
+| NVDA | $214.72 | 🟡 Neutro | FVG↑ $213–217 | Precio en FVG alcista. Earnings esta semana = no operar hasta después. |
+| GOOGL | $344.82 | 🔴 Bajista | Res $346–352 (Bear FVG) | EMAs por encima del precio. Rebote dentro de Bear FVG — sospechar. |
+| AMZN | $258.63 | 🟡 Neutro | FVG↓ $265–267 como res | Por encima de EMA50. Pierde EMA21. Rango. Sin setup claro. |
+
+> ⚠️ NVDA: No operar antes de earnings. El FVG $213–217 como soporte es interesante POST-earnings si hay sobrerreacción bajista.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+GOLD — $4,718 (+2.03%) 🟢🔥
+• RSI 76.9 — sobrecompra extrema. Pero trend es trend.
+• EMAs: 4,362 / 4,300 — precio un 8%+ por encima. Extensión significativa.
+• Soporte inmediato: $4,704. FVG activo: $4,530–$4,651 (soporte profundo).
+• Resistencia: $4,765 → $4,851.
+• Sesgo: Alcista. No perseguir. Esperar pullback a $4,704 o FVG $4,530 para long.
+• Narrativa: DXY débil + Jackson Hole uncertainty + geopolítica = gold bid.
+
+SILVER — $69.24 (-0.33%) 🟢
+• Corrección menor vs Gold — divergencia silver/gold temporal.
+• FVG activo: $66.85–$68.10 como soporte. RSI 66.8 — espacio para subir.
+• Resistencia: $70.95. Setup: long si pullback toca FVG $66.85–$68.10.
+
+OIL (WTI) — $85.52 (-1.77%) 🟡
+• Retroceso intradía pese a tensión Hormuz. RSI 55.6.
+• FVG activo: $82.99–$84.57 como soporte inmediato.
+• Resistencia: $86.87. Si FVG aguanta, long hacia $86.87.
+• Riesgo: resolución geopolítica = venta violenta.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | RSI | Sesgo | Nivel clave |
+|-----|--------|-----|-------|-------------|
+| SPY | $765.72 | 54.3 | 🟢 | FVG↑ $758–769 como base. Bear FVG $767–768 como fricción inmediata. ⚠️ Sweep buy-side en $729.38 ya ejecutado. |
+| QQQ | $713.44 | 50.2 | 🟡 | Neutro. Bear FVG $714–715 como resistencia justo encima. NVDA earnings = catalizador. |
+| GLD | $423.36 | 71.2 | 🟢 | Fuerte. FVG $414–419 como soporte. Resistencia: $437. |
+| SLV | $62.72 | 66.8 | 🟢 | FVG $60.05–62.26 siendo testeado. Resistencia: $64.69. |
+| USO | $134.64 | 61.6 | 🟢 | FVG $133.36–133.89 como soporte inmediato. Resistencia: $136.61. |
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+────────────────────────────────────────
+🥇 SETUP #1 — BTC: Sweep de EQH + Rechazo Short / O Pullback Long
+Activo: BTCUSDT Perpetual
+Sesgo: Alcista HTF — pero en zona de decisión crítica
+
+Plan A — Short scalp:
+• Esperar que BTC haga sweep de liquidez en zona $79,300–$79,500 (EQH HTF)
+• Confirmación: mecha con cierre de vuelta dentro en 1H + estructura CHoCH en 15M
+• Entrada: $79,200–$79,400 | SL: $80,100 | TP: $77,800 (FVG 4H)
+• R:R estimado: ~1:2
+
+Plan B — Long pullback:
+• Si BTC rechaza sin sweep y pullback a FVG LTF $77,414–$77,534
+• Confirmación: BOS alcista en 15M dentro del FVG
+• Entrada: $77,450–$77,550 | SL: $76,900 | TP1: $79,000 | TP2: $79,500
+• R:R estimado: ~1:2.5
+
+────────────────────────────────────────
+🥈 SETUP #2 — GOLD: Pullback a soporte $4,704 para long
+Activo: GOLD (XAU) / GLD ETF
+Sesgo: Alcista — trend momentum intacto
+• RSI 76.9 = sobrecompra, corrección técnica inminente o consolidación
+• Zona de interés: $4,704 (soporte S1) como primera corrección sana
+• Confirmación: vela de rechazo alcista en daily/4H en esa zona
+• Entrada GLD equiv: ~$419–$421 | SL: $413 | TP: $437
+• Catalizador: cualquier tono dovish en Jackson Hole = rocket fuel
+
+────────────────────────────────────────
+🥉 SETUP #3 — DOW: Continuación alcista sobre $53,289
+Activo: DOW Jones / DJI
+Sesgo: 🟢 Alcista — recuperación validada desde FVG
+• El FVG 52,623–53,641 absorbió la debilidad del viernes ✅ (seguimiento confirmado)
+• Precio en $53,277, resistencia inmediata en $53,289
+• Si cierra H4 por encima de $53,289 → siguiente target $54,744
+• Bear FVG 53,355–53,399 es la friccción a superar
+• Entrada: Pullback a $53,000–$53,100 con estructura intacta | SL: $52,600 | TP: $54,744
+• R:R estimado: ~1:3
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+| 🚨 Riesgo | Detalle | Impacto |
+|-----------|---------|---------|
+| Jackson Hole (esta semana) | Discursos Fed. Tono hawkish inesperado = selloff equity + DXY spike | Alto — todos los activos |
+| NVDA Earnings | Evento binario. Miss = NDX -3%+ posible. Beat = rip | Alto — tech/QQQ |
+| BTC RSI 72.5 en 4H | Sobrecompra. No perseguir longs ciegos. Zona de sweep probable | Medio-Alto |
+| GOLD RSI 76.9 | Extremo técnico. Posible corrección brusca si DXY rebota | Medio |
+| Tensión Hormuz / Oil | Gap entre narrativa geopolítica y precio actual (-1.77%) | Medio |
+| GOOGL EMAs bajistas | Precio bajo EMA21/50. Rebote dentro de bear FVG — trampa alcista posible | Bajo-Medio |
+
+────────────────────────────────────────
+📌 Mantra del día: "El mercado está en Greed. Las manos inteligentes venden liquidez a los que compran breakouts. Espera el sweep, confirma la estructura, entonces ejecuta."
+
+────────────────────────────────────────
+Brief generado: 24-Aug-2026 12:45 | Próxima actualización: cierre sesión NY
