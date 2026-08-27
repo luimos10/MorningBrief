@@ -1,0 +1,200 @@
+📊 MORNING BRIEF — 27 AGO 2026
+Generado: 12:45 | Datos: 4H principal | Contexto: Sesión previa 26-Ago
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| Fear & Greed | 71 (Greed) | Mercado eufórico — cautela en entradas largas |
+| VIX | 14.97 | Baja volatilidad, riesgo contenido |
+| DXY | 99.22 (+0.05%) | Dólar débil estructuralmente → favorable para Gold/Crypto |
+
+Eventos del día: Datos de inflación en agenda + earnings NVIDIA. Ambos son catalizadores de volatilidad intradía. No entrar en posiciones grandes 30 min antes/después del dato.
+
+> ⚠ El mercado de bonos muestra tensión (nota Bessent/Politico). Vigilar spreads si VIX rompe 16.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟠 BITCOIN — $79,290 (-0.24%)
+📌 SEGUIMIENTO: Ayer BTC cotizaba ~$78,320. El precio subió ~$970 (+1.2%) sin confirmación del setup long limpio. El Bull FVG 4H en zona 79,028–79,049 fue visitado — precio está ahora justo encima. Setup vigente pero con caveat importante: CVD bajista activo.
+
+Estructura HTF (4H):
+• ✅ HH + HL confirmado → tendencia alcista estructural
+• EMAs alineadas alcistas (21 > 50 > 200): $78,519 / $75,902 / $69,031
+• Swing High activo: $81,272 (pool de liquidez sell-side)
+• Swing Low activo: $77,632 (estructura clave — perder esto = CHOCH)
+
+Order Blocks & FVGs:
+• 🟢 Bull FVG ACTIVO (4H): $79,028–$79,049 → precio está encima, FVG como soporte inmediato
+• 🟢 Bull FVG ACTIVO (4H): $79,096–$79,269 → zona de equilibrio actual — precio dentro de este gap
+• 🟢 LTF Bull FVG (1H): $78,912–$79,048 (soporte refinado para entrada)
+• 🟢 LTF Bull FVG (1H): $79,096–$79,683 (target intradía si hay momentum)
+
+Estructura LTF (1H):
+• ⚠ CHOCH Bullish confirmado en 1H — el downtrend LTF fue roto. Cambio de carácter → favorece long desde FVG 1H
+
+Liquidez:
+• 🎯 Target alcista: $81,272 (EQH/Swing High — sell-side liquidity)
+• 🛡 Soporte crítico: $77,632–$77,851 (EQL + Order Block)
+
+Señales de caución:
+• ⚠ CVD Divergencia bajista — precio sube pero el volumen comprador neto no acompaña. Señal de debilidad oculta
+• Funding rate: No disponible en datos — asumir neutral; verificar en exchange
+
+Sesgo del día: 🟢 Alcista con cautela — estructura HTF favorece longs desde FVGs, pero CVD bajista exige confirmación antes de entrar.
+
+Setup:
+• 📍 Entrada: Retroceso a $79,028–$79,269 (zona FVG consolidada 4H+1H)
+• 🎯 Target 1: $80,000 (psicológico) | Target 2: $81,272 (Swing High)
+• ❌ Invalidación: Cierre 4H por debajo de $77,632 → estructura rota
+
+────────────────────────────────────────
+🔷 ETHEREUM — $2,498 (-0.15%)
+📌 SEGUIMIENTO: ETH sin setup definido ayer. Hoy mantiene sesgo alcista pero con estructura mixta — más rango que tendencia.
+
+Estructura (4H):
+• 🟡 Estructura mixta/transitional — potencial CHOCH en compresión
+• EMAs alcistas: $2,468 / $2,372 / $2,095
+• Rango activo: $2,414 – $2,532
+
+Niveles clave:
+• 🛡 Soporte: $2,432 (base del rango) / $2,414 (Swing Low — invalidación)
+• 🎯 Resistencia: $2,532 / $2,546 (doble techo — liquidity pool)
+• ⚠ LTF Bear FVG activo (1H): $2,510–$2,525 → zona de oferta si precio sube a testear
+
+Señales:
+• ⚠ CVD Divergencia bajista igual que BTC — presión vendedora subyacente
+• LTF (1H) en uptrend pero acercándose a Bear FVG como freno
+
+Sesgo del día: 🟡 Neutro/Alcista cauteloso — jugar el rango. Longs desde $2,432–$2,450 con SL $2,414. Short táctico posible desde $2,510–$2,525 con stop $2,535.
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📌 SEGUIMIENTO: SPX no alcanzó el target $7,793 de ayer (actual $7,675 vs ayer $7,677 — sin movimiento neto). DOW retrocedió desde $53,577 → $53,463; target $54,744 sigue activo. NASDAQ no superó $26,261 — sesgo neutro confirmado.
+
+| Índice | Precio | Sesgo | Soporte Clave | Resistencia Clave | FVG Activo |
+|--------|--------|-------|---------------|-------------------|------------|
+| SPX | $7,676 | 🟢 Alcista | $7,610 | $7,793 / $7,816 | ↑ $7,610–$7,720 |
+| NDX | $26,130 | 🟡 Neutro | $25,701 | $26,261 / $26,707 | ↑ $25,461–$26,088 |
+| DOW | $53,464 | 🟢 Alcista | $53,286 (EMA21) | $54,744 | ↑ $53,355–$53,386 |
+• SPX: Dentro del Bull FVG $7,610–$7,720. Resistencia en $7,793 sigue como target. Dato inflación puede ser catalizador.
+• NDX: RSI 50.2 — sin convicción. Necesita romper $26,261 con volumen. Short sobre $26,456 (Bear FVG techo).
+• DOW: El más sólido. HH+HL intacto. Micro soporte en FVG $53,355 — si aguanta, target $54,744 vigente.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Ticker | Precio | Sesgo | Nivel Clave | Nota |
+|--------|--------|-------|-------------|------|
+| AAPL | $313.45 | 🟢 Alcista | Soporte $311.85 / R $316–320 | HH+HL limpio, acercándose a resistencia |
+| MSFT | $496.37 | 🟢 Alcista | OB $476 / R $512 | RSI 68 — extendido, cuidado con Bear FVG $500–501 como freno |
+| NVDA | $209.66 | 🟡 Neutro | S $208.54 / R $212–214 | 🚨 Earnings hoy — no operar hasta post-publicación |
+| GOOGL | $342.00 | 🔴 Bajista | S $341–340 / R $346–352 | Bajo EMAs 21/50, Bear FVG $346–352 como oferta |
+| AMZN | $260.28 | 🟡 Neutro | S $257 / R $265–267 | Dentro de mega Bull FVG — sin setup claro |
+
+> 🚨 NVDA EARNINGS HOY — volatilidad extrema esperada. Evitar posiciones previas al reporte. Post-earnings puede generar el setup más interesante del día.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🥇 GOLD — $4,646 (+1.05%)
+• Sesgo: 🟢 Alcista fuerte | RSI 71.7 — sobrecomprado pero en momentum
+• EMAs: $4,423 / $4,335 — precio muy por encima, extensión notable
+• 🛡 Soporte: $4,530–$4,635 (Bull FVG activo — zona de recarga)
+• 🎯 Targets: $4,765 / $4,879 (próximas resistencias/liquidez)
+• ⚠ RSI en 71.7 — no perseguir. Esperar pullback al FVG $4,530–$4,635 para long de calidad
+
+🥈 SILVER — $68.97 (+1.45%)
+• Sesgo: 🟢 Alcista | RSI 64.2 — momentum sano sin sobrecompra extrema
+• 🛡 Soporte/Bull FVG: $66.85–$68.10 (zona de retroceso ideal)
+• 🎯 Resistencias: $69.85 / $70.95 / $76.03
+• Silver outperforming oro hoy → señal de apetito por riesgo en metales
+
+🛢 OIL (WTI) — $82.49 (+0.32%)
+• Sesgo: 🟡 Neutro | RSI 49.6 — sin dirección clara
+• Rango: $80.56 (soporte) – $84.61 (resistencia)
+• Bear FVG activo: $83.31–$84.36 — zona de oferta si sube
+• Sin setup de alta convicción. DXY débil da soporte, pero estructura mixta limita upside
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | Soporte | Resistencia | FVG Activo |
+|-----|--------|-------|---------|-------------|------------|
+| SPY | $766.08 | 🟢 Alcista | $762 / $758 | $776 / $779 | ↑ $758–$769 |
+| QQQ | $711.37 | 🟡 Neutro | $702 / $700 | $721 / $726 | ↓ $714–$715 (resistencia) |
+| GLD | $421.32 | 🟢 Alcista | $413 / $409 | $437 / $448 | ↑ $416–$424 (precio dentro) |
+| SLV | $61.59 | 🟢 Alcista | $57.30 | $63.21 / $64.69 | ↑ $60.05–$62.26 |
+| USO | $127.35 | 🟢 Alcista | $126.55 | $127.85 / $131 | ↓ $129–$131 (oferta arriba) |
+• SPY: Dentro de Bull FVG — si dato inflación es favorable, ataque a $776+
+• QQQ: Bajo EMA21 ($713) — el Bear FVG $714–$715 actuará como resistencia. Cuidado con longs aquí
+• GLD/SLV: Siguen la fortaleza del metal físico. GLD dentro de Bull FVG — zona de soporte
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 #1 — BITCOIN LONG desde FVG $79,028–$79,269
+Tipo: Long / Pullback a demanda HTF+LTF confluencia
+
+| Campo | Detalle |
+|-------|---------|
+| Entrada | $79,028–$79,269 (Bull FVG 4H + 1H confluencia) |
+| Stop Loss | $77,600 (bajo Swing Low / invalidación estructural) |
+| Target 1 | $80,500 (+1.8%) |
+| Target 2 | $81,272 (+2.5%) — EQH / liquidity sweep |
+| R:R | ~1:2+ |
+| Condición | Solo entrar si hay vela de confirmación alcista (engulfing/pinbar) en la zona |
+| ⚠ Riesgo | CVD bajista — reducir size vs. setup normal. Esperar confirmación 1H |
+
+────────────────────────────────────────
+🥈 #2 — GOLD LONG en retroceso $4,530–$4,635
+Tipo: Long / Pullback a Bull FVG en activo de máximo momentum
+
+| Campo | Detalle |
+|-------|---------|
+| Entrada | $4,530–$4,635 (Bull FVG activo) |
+| Stop Loss | $4,512 (bajo soporte / FVG) |
+| Target 1 | $4,765 |
+| Target 2 | $4,879 |
+| R:R | ~1:3 |
+| Condición | RSI 71.7 = no perseguir. Esperar retroceso. Si no retrocede hoy, no es el día |
+| Catalizador | DXY débil + datos inflación favorables = acelerador |
+
+────────────────────────────────────────
+🥉 #3 — SILVER LONG desde $66.85–$68.10 (o continuación)
+Tipo: Long / Bull FVG retest o continuación si aguanta $68
+
+| Campo | Detalle |
+|-------|---------|
+| Entrada | Retroceso a $66.85–$68.10 (Bull FVG) o breakout confirmado sobre $69 |
+| Stop Loss | $66.00 |
+| Target 1 | $69.85 |
+| Target 2 | $70.95 |
+| R:R | ~1:2.5 |
+| Condición | Silver outperformando Gold → momentum sano. RSI 64 — tiene recorrido |
+| Extra | SLV ETF como vehículo alternativo si se prefiere equity |
+
+────────────────────────────────────────
+⚠ 8. RIESGOS Y ALERTAS
+
+1. 🚨 NVDA Earnings hoy — puede mover todo el sector tech y arrastrar NDX/QQQ. Si bate expectativas, NDX puede romper $26,261 y activar sesgo alcista. Si defrauda, presión sobre toda tech.
+
+2. 📊 Dato de Inflación — catalizador para SPX/DXY. Inflación alta = DXY sube → presión en BTC y Gold. Inflación baja = DXY cae → impulso en ambos.
+
+3. ⚠ CVD Bajista en BTC y ETH — la divergencia entre precio y volumen comprador neto es la señal de mayor riesgo en crypto hoy. Reduce tamaño de posición y exige confirmación antes de entrar.
+
+4. 🟡 RSI Gold en 71.7 — activo en sobrecompra. Un rechazo brusco si el dato de inflación es adverso puede bajar $200–$300 rápido. No perseguir.
+
+5. 🏦 Mercado de bonos bajo tensión (nota Politico/Bessent) — si yields suben abruptamente, puede generar rotación fuera de equities. Mantener VIX vigilado: ruptura de 16 = alerta.
+
+6. 📈 Fear & Greed en 71 — el mercado está codicioso. En extremos de greed, las correcciones vienen cuando menos se esperan. Ajustar stops y no over-leverage.
+
+────────────────────────────────────────
+> 💡 Resumen ejecutivo: El mercado está alcista pero en zona de extensión. Los mejores setups son en pullback — no en persecución. BTC, Gold y Silver ofrecen oportunidades claras SI el precio regresa a demanda. NVDA earnings e inflación son los dos wildcards del día. Prioridad: esperar, confirmar, ejecutar.
+
+────────────────────────────────────────
+Brief generado: 27-Ago-2026 12:45 | Próxima actualización: cierre NY
