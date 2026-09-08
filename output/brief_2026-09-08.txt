@@ -1,0 +1,218 @@
+📊 MORNING BRIEF — Martes 8 de Septiembre, 2026
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.9 (-0.26%) | Debilidad USD → viento de cola para metales/crypto |
+| VIX | 15.61 | Complacencia. Sin miedo real en mercado |
+| Fear & Greed | 69 (Greed) | Mercado optimista — cuidado con compras en máximos |
+| Oil | $93.41 +2.11% | Riesgo inflacionario. Goldman avisa posible $120 |
+| Deuda USA | $40T / $1.25T interés anual | Presión macro latente, no inmediata |
+
+Lectura macro del día: DXY débil favorece commodities y risk-on selectivo. El petróleo disparado es el evento del día — inflacionario, crea dilema para Fed. VIX bajo = mercado no anticipa caída brusca. No hay catalizadores macro urgentes hoy, el foco estará en flow interno de cada activo.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟡 BITCOIN — $78,355 (-0.10%)
+
+📌 SEGUIMIENTO: Ayer BTC cotizaba a $79,473. Precio ha cedido ~$1,100 desde el brief anterior. El sesgo bajista alertado con el CHOCH se está desarrollando. Setup bajista vigente y en progreso.
+
+Estructura HTF (4H):
+• CHOCH bajista confirmado — rompió swing low del uptrend previo. Estructura que era HH+HL ahora en proceso de reversión.
+• Precio cotiza por debajo de EMA21 ($79,199) y EMA50 ($78,987) — presión vendedora dominante en 4H.
+• CVD alineado bajista — no hay divergencia, vendedores reales detrás del movimiento.
+
+Order Blocks activos:
+• 🔴 Bear OB: $80,502–$81,423 — zona de oferta premium. Si hay rebote, este es el techo.
+
+Fair Value Gaps:
+• 🟢 Bull FVG activo: $78,066–$80,613 — rango amplio, precio está dentro. No tiene magnetismo claro hasta tocar los extremos.
+• 🔴 LTF Bear FVG (1H): $78,450–$78,568 — FVG bajista LTF no mitigado actuando como resistencia inmediata. Precio debe superar este nivel para alivio alcista.
+
+Liquidez:
+• EQH bajista en $64,507 — pool sell-side lejano, no relevante hoy.
+• Soportes clave a vigilar: $77,851 → $77,632 → $77,000
+
+Funding / OI: (datos no disponibles en feed — monitorear en exchange)
+
+Sesgo del día: 🔴 Bajista
+• Estructura CHOCH activo, precio bajo EMAs, CVD confirmando.
+• No buscar longs hasta recuperar $79,200 con cierre 4H.
+
+Setup BTC:
+> 🔴 Retest bajista en LTF FVG $78,450–$78,568
+> - Entrada corta: rebote a $78,450–$78,550 con estructura LH confirmada en 15min
+> - Target 1: $77,851 | Target 2: $77,000
+> - Invalidación: cierre 4H por encima de $79,400
+
+────────────────────────────────────────
+🟡 ETHEREUM — $2,474 (-0.04%)
+
+📌 SEGUIMIENTO: Ayer ETH en $2,495, hoy en $2,474. Cayó ~$21. El sesgo mixto/transitional de ayer se ha inclinado bajista en LTF. Setup bajista ganando forma.
+
+Estructura HTF (4H):
+• Estructura mixta/transitional — sin tendencia clara en 4H. Rango entre $2,431 y $2,536.
+• ⚠️ Sweep doble confirmado en sell-side liquidity: $2,533.97 y $2,535.81 barridos — señal SMC de posible reversión bajista tras caza de liquidez.
+• LTF (1H): LH + LL — Downtrend activo. Estructura bajista clara en timeframe inferior.
+• CVD: Divergencia bajista — precio relativamente estable pero CVD bajando. Vendedores absorviendo en silencio.
+
+Order Blocks:
+• 🔴 Bear OB: $2,503–$2,546 — coincide con zona donde ocurrieron los sweeps. Zona de oferta fuerte.
+
+Fair Value Gaps:
+• 🟢 Bull FVG activo: $2,413–$2,488 — amplio, precio cotiza dentro ($2,474). Magnético hacia el extremo inferior en $2,413.
+• 🔴 LTF Bear FVG (1H): $2,476–$2,481 — resistencia inmediata LTF. Coincide con EMA21 ($2,481).
+
+Liquidez:
+• EQL buy-side: $2,356 — pool de liquidez long-side abajo. Posible objetivo si estructura continúa bajista.
+• EQH sell-side: $2,533–$2,546 (ya barridos — menos relevantes ahora).
+
+Sesgo del día: 🔴 Bajista (sesgo intradiario)
+• Sweep de sell-side completado + LTF downtrend + CVD divergencia = combinación bajista.
+• Precio atrapado bajo Bear FVG LTF y EMA21.
+
+Setup ETH:
+> 🔴 Short en rechazo de Bear FVG LTF $2,476–$2,481
+> - Entrada: rebote a $2,476–$2,481 con vela de rechazo en 15min
+> - Target 1: $2,460 | Target 2: $2,432 | Target extendido: $2,413
+> - Invalidación: cierre 1H sobre $2,490
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+📌 SEGUIMIENTO: Ayer se alertó FVG SPX $7,681–$7,706 como zona de interés long. El precio aún no la ha visitado — setup pendiente de activación. NDX: sell-side sweep en $26,703 completado ayer, precio buscando FVG $26,245–$26,444.
+
+| Índice | Precio | Sesgo | Soporte Clave | Resistencia Clave |
+|--------|--------|-------|---------------|-------------------|
+| SPX | $7,719 | 🟢 Alcista HTF | $7,681–$7,706 (FVG) | $7,771 → $7,816 |
+| NDX | $26,507 | 🟢 Alcista HTF | $26,245–$26,444 (FVG) | $26,700 → $26,739 |
+| DJI | $53,414 | 🟢 Alcista HTF | $53,227–$53,289 (FVG) | $53,819 → $54,744 |
+
+Lecturas clave:
+• Los tres índices en estructura mixta pero sesgo HTF alcista. RSI entre 52–55 — espacio para subir sin sobrecalentamiento.
+• SPX y NDX: Si ceden a sus FVGs activos con estructura LTF bullish → setup long de continuación válido.
+• DOW: El más débil de los tres. FVG $53,227–$53,289 es el soporte inmediato. Sin setup claro standalone.
+• NDX completó sweep bajista en $26,703 → corrección esperada hacia FVG. Vigilar rebote en $26,245–$26,444.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | Sesgo | Nivel Crítico | Nota |
+|-------|--------|-------|---------------|------|
+| AAPL | $319.97 (-2.51%) | 🟡 Frágil | Soporte $319.07 | ⚠️ Perdió $319.07 = señal de debilidad. Caída a $304 posible |
+| MSFT | $499.70 (-2.04%) | 🟢 Alcista | Soporte $476.25 | Uptrend intacto. Pullback saludable. Watch $476 para long |
+| NVDA | $230.36 (+0.84%) | 🟢 Alcista | FVG $227.95–$229.63 | ⭐ Único tech en verde. FVG activo = soporte dinámico |
+| GOOGL | $338.46 (-1.11%) | 🔴 Bajista | Bear FVG $346–$352 | LH+LL confirmado. Sesgo bajista. Resistencia en $351 |
+| AMZN | $258.51 (-0.15%) | 🟡 Neutro | Soporte $257–$256 | Compresión en rango. Esperar definición |
+
+⚠️ Alerta AAPL: Cotizando en $319.97 — prácticamente sobre el soporte crítico $319.07. Un cierre diario bajo ese nivel abre camino a $304.76. La caída de -2.51% en un mercado sin pánico (VIX 15) es señal de debilidad sectorial específica.
+
+⭐ NVDA destaca: Único verde del sector tech. FVG activo $227.95–$229.63 como soporte dinámico. Si mercado no colapsa, NVDA es el tech con mejor estructura.
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🟡 GOLD — $4,447 (+0.39%)
+• Sesgo: 🟢 Alcista (uptrend HH+HL, EMAs alineadas al alza)
+• DXY débil = catalizador alcista para oro hoy.
+• FVG alcista activo: $4,390–$4,429 — soporte/zona de reacumulación si hay pullback.
+• FVG bajista activo: $4,466–$4,609 — zona de oferta potencial si sube.
+• Target próximo: $4,466 (borde inferior del Bear FVG) → $4,591 (primera resistencia)
+• Sesgo intradiario: compras en pullback a $4,420–$4,429.
+
+🟡 SILVER — $66.85 (+1.21%)
+• Sesgo: 🟢 Alcista (uptrend + DXY débil)
+• Superando momentum hoy vs oro (+1.21%). RSI 55 — sin sobrecompra.
+• Resistencia próxima: $67.18 (borde Bear FVG). Si supera → $69.43–$69.85.
+• Soporte: FVG alcista $65.05–$65.46 (zona de compra en caída).
+
+🔥 OIL (WTI) — $93.41 (+2.11%)
+• Sesgo: 🟢 Alcista agresivo. RSI 68 — caliente pero sin sobrecompra técnica aún.
+• Goldman Sachs alerta posible $120. Riesgo de shipping en titulares.
+• Resistencia inmediata: $93.50 (casi tocada). Siguiente: $97.00.
+• No perseguir. Esperar pullback a $88.66–$86.35 si quieres posición. Hoy el movimiento ya está maduro.
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | FVG / Nivel Clave | Nota |
+|-----|--------|-------|-------------------|------|
+| SPY | $770.19 | 🟢 Alcista | FVG↑ $766.43–$769.00 | Soporte inmediato. Long si toca con estructura |
+| QQQ | $718.96 | 🟢 Alcista | FVG↑ $709.80–$716.56 | Buy-side sweep $702.76 completado ayer |
+| GLD | $406.77 | 🟢 Alcista | FVG↑ $403.33–$403.96 | En resistencia $407.36 — esperar pullback |
+| SLV | $59.82 | 🟢 Alcista | FVG↑ $59.06–$59.60 | Retroceso hoy -1.21% vs silver spot +1.21% ⚠️ divergencia |
+| USO | $141.96 | 🟢 Alcista | Resistencia $142.33 | Casi en techo inmediato. No comprar aquí |
+
+Nota SLV/Silver divergencia: Silver spot +1.21% pero SLV -1.21% hoy. Revisar si es diferencia horaria del feed o anomalía real antes de operar.
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — TOP 3 SETUPS
+
+────────────────────────────────────────
+🥇 #1 — ETH SHORT | $2,476–$2,481
+Tipo: Short intradiario | Calidad: ⭐⭐⭐⭐
+
+> Confluencias:
+> - LTF (1H) en downtrend LH+LL confirmado
+> - Bear FVG activo $2,476–$2,481 = resistencia + zona de oferta
+> - CVD divergencia bajista (precio no baja, pero CVD sí — distribución silenciosa)
+> - Double sweep de sell-side en $2,533–$2,535 completado (agotamiento de momentum alcista)
+> - EMA21 en $2,481 = confluencia adicional de resistencia
+
+> Plan: Rebote a $2,476–$2,481 → vela de rechazo 15min → entrada short
+> SL: $2,492 | TP1: $2,460 | TP2: $2,432 | R:R aprox 1:2.5
+
+────────────────────────────────────────
+🥈 #2 — NVDA LONG | $227.95–$229.63
+Tipo: Long intradiario/swing | Calidad: ⭐⭐⭐⭐
+
+> Confluencias:
+> - Único tech en verde hoy (+0.84%) — fuerza relativa sectorial
+> - Estructura HTF HH+HL uptrend intacto
+> - FVG alcista activo $227.95–$229.63 = zona de demanda institucional no mitigada
+> - RSI 60 con momentum alcista
+> - EMAs alineadas al alza (219/213)
+
+> Plan: Retroceso a zona FVG $227.95–$229.63 → confirmación en 15min → long
+> SL: $227.00 | TP1: $230.47 | TP2: $232.01 | R:R aprox 1:2
+
+────────────────────────────────────────
+🥉 #3 — BTC SHORT | $78,450–$78,568
+Tipo: Short intradiario | Calidad: ⭐⭐⭐
+
+> Confluencias:
+> - CHOCH bajista 4H confirmado — estructura rota
+> - LTF Bear FVG $78,450–$78,568 como resistencia inmediata
+> - Precio bajo EMA21 y EMA50 en 4H
+> - CVD alineado bajista (sin divergencia, vendedores reales)
+> - Setup en desarrollo desde ayer, precio acercándose a zona de retest
+
+> Plan: Rebote a $78,450–$78,568 → estructura LH en 15min → short
+> SL: $79,250 | TP1: $77,851 | TP2: $77,000 | R:R aprox 1:2
+> ⚠️ Si precio cae directamente sin retest, no perseguir.
+
+────────────────────────────────────────
+⚠ 8. RIESGOS Y ALERTAS
+
+🔴 AAPL en borde crítico $319.07 — Si pierde este soporte en cierre diario, presión bajista en todo el sector tech. Vigilar en tiempo real.
+
+🔴 BTC CHOCH activo sin invalidar — Cualquier cierre 4H sobre $79,400 invalida el sesgo bajista. Gestiona sizing en cortos de crypto.
+
+⚠️ OIL $93.41 — no perseguir — Movimiento del +2.11% ya está en precio. Goldman alerta $120 pero el trade ya está maduro intradiario. Esperar pullback o siguiente sesión.
+
+⚠️ SLV vs Silver divergencia — Silver spot +1.21% / SLV -1.21%. Verificar discrepancia antes de operar cualquiera de los dos.
+
+🟡 SPX/NDX en FVGs alcistas no visitados — Si los índices caen a sus FVGs ($7,681–$7,706 y $26,245–$26,444) hoy, hay setup long de continuación válido. Monitorear.
+
+🟡 Deuda USA / Intereses $1.25T — No es catalizador hoy, pero presión macro acumulativa. Mantener en radar para sesgo macro semanal.
+
+🟡 Fear & Greed en 69 (Greed) — Mercado optimista. En zonas de resistencia, el optimismo elevado = precaución para entradas largas a mercado.
+
+────────────────────────────────────────
+> 💡 Resumen ejecutivo del día: Crypto bajista (BTC CHOCH + ETH sweeps + CVD divergencia). Tech mixto con NVDA como excepción alcista. Commodities fuertes (DXY débil + narrativa oil). Índices alcistas en HTF buscando FVGs como zonas de compra. Los mejores setups hoy: ETH short en FVG LTF, NVDA long en FVG demanda, BTC short en retest CHOCH.
+
+────────────────────────────────────────
+Brief generado: 08-Sep-2026 12:45 | Próxima revisión recomendada: 16:00 UTC (apertura NY)
