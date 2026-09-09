@@ -1,0 +1,188 @@
+📊 MORNING BRIEF — Miércoles 9 de Septiembre, 2026
+
+────────────────────────────────────────
+🌍 1. PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 98.66 (-0.18%) | 🟢 Debilidad USD → favorable para risk assets y metales |
+| VIX | 16.51 | 🟢 Complacencia, sin señal de pánico |
+| Fear & Greed | 66 — Greed | 🟡 Mercado optimista pero no extremo |
+
+Contexto clave: DXY débil soporta metales y crypto. El Dow cae con fuerza (-1.18%) mientras NASDAQ aguanta mejor — rotación sectorial en curso. WTI +3% es el gran movimiento del día. Sin eventos Fed críticos hoy, pero el headline de la economía "C-shaped" (NPR) añade incertidumbre sobre el ciclo.
+
+────────────────────────────────────────
+₿ 2. CRYPTO
+
+🟡 BITCOIN — $79,541 (+0.27%)
+
+> 📌 SEGUIMIENTO: Ayer BTC cotizaba a $78,355 con alerta de que un cierre 4H sobre $79,400 invalidaría el sesgo bajista. Hoy cotiza a $79,541 — la condición se cumplió. El sesgo bajista anterior queda invalidado. El mercado ha validado la narrativa alcista con el CHOCH bullish en 1H.
+
+Estructura 4H: Mixta/transicional. CHOCH potencial activo — el mercado sigue en zona de decisión entre $77,620 y $80,560. Las EMAs 21/50/200 ($79,148 / $79,002 / $74,557) están apiladas alcistas y el precio cotiza por encima de todas — señal positiva.
+
+Eventos SMC clave:
+• ✅ Buy-side sweep ejecutado en EQL $77,626 — limpieza de liquidez buy-side completada. Esta es la señal de combustible para el movimiento alcista
+• 🔼 CHOCH Bullish en 1H — rompió swing high en downtrend LTF, confirmando intento de reversión
+• LTF Bull FVG activo: $79,183–$79,281 → zona de demanda inmediata y posible punto de entrada en pullback
+
+Order Blocks y FVGs:
+• Bull FVG 4H ($78,066–$80,613): marcado como mitigado — el precio ya lo ha trabajado
+• Bear FVG ($79,550–$79,568): mitigado, sin relevancia activa
+• LTF FVG $79,183–$79,281 → es el OB más limpio del día para entry en long
+
+Pools de liquidez:
+• 🎯 Arriba: EQH $80,560 (swing high del rango) → primer target
+• 🎯 Arriba lejano: $81,272 → resistencia y posible imán de liquidez
+• ⚠️ Abajo: EQL $77,626 ya sweepado — si lo revisite sin estructura, podría profundizar a $76,500
+
+CVD: ⚠️ Señal contradictoria — el dato indica "confirmación bajista" pero el precio está subiendo. Esto sugiere que el movimiento alcista está siendo absorbido lentamente — no hay compras agresivas, lo que exige cautela. Un rally sin CVD confirmado puede revertir rápido.
+
+Funding / OI: No disponible en los datos — asumir neutralidad. Monitorear si funding se vuelve positivo extremo (señal de techo).
+
+Sesgo del día: 🟢 Alcista condicionado
+• Setup: Pullback al LTF FVG $79,183–$79,281 → long con target $80,559 (EQH)
+• Invalidación: Cierre 1H por debajo de $78,680 (soporte clave)
+• SL sugerido: $78,600 (bajo el soporte $78,660)
+• R/R estimado: ~1:3
+
+────────────────────────────────────────
+🟡 ETHEREUM — $2,510 (+0.35%)
+
+> 📌 SEGUIMIENTO: Ayer ETH en $2,474 con sesgo neutro. Hoy sube a $2,510, rompiendo por encima del área de compresión y validando el CHOCH bullish en 1H. Setup alcista se ha activado.
+
+Estructura 4H: Mixta con CHOCH potencial. Swings del rango: $2,441–$2,536. ETH cotiza en la mitad alta del rango — pendiente de decidir dirección.
+
+Eventos SMC clave:
+• ⚠️ Sell-side sweep doble ejecutado en EQH $2,533.97 y $2,535.81 — liquidez sell-side limpiada en la parte alta. Esto es señal de posible distribution si no rompe con fuerza
+• ✅ CHOCH Bullish 1H confirmado — estructura LTF volteó al alza
+• LTF Bull FVG activo: $2,494–$2,498 → zona de demanda micro para scalp long
+
+FVGs activos:
+• 🟢 Bull FVG 4H $2,413–$2,488 → ACTIVO y no mitigado. Es el gran imán de demanda si el precio retrocede. También es zona de compra institucional si hay sweep más profundo
+• LTF FVG $2,494–$2,498 → soporte inmediato para la vela actual
+
+Pools de liquidez:
+• 🎯 Arriba: EQH cluster $2,529–$2,546 → zona de resistencia y liquidez sell-side (cuidado con trampas alcistas)
+• 🎯 Abajo: EQL $2,356 → target bajista si estructura se rompe
+
+CVD: 🔴 Divergencia bajista activa — precio sube pero CVD baja. Esta es la señal más preocupante de ETH hoy. Sugiere que el rally podría ser una trampa alcista o distribución silenciosa. Prioriza cautela en longs de ETH.
+
+Sesgo del día: 🟡 Alcista con cautela (divergencia CVD pesa)
+• Setup preferido: Esperar pullback al LTF FVG $2,494–$2,498 para long especulativo con target $2,523–$2,530
+• Setup alternativo: Si pierde $2,466, buscar short hacia Bull FVG 4H $2,413–$2,488
+• Invalidación long: Cierre 1H por debajo de $2,466
+
+────────────────────────────────────────
+📈 3. ÍNDICES
+
+| Índice | Precio | Sesgo | Nivel soporte clave | Nivel resistencia clave |
+|--------|--------|-------|---------------------|------------------------|
+| S&P 500 | $7,674 (-0.58%) | 🟡 Neutro | $7,638 / $7,611 | $7,771 / $7,793 |
+| NASDAQ | $26,421 (-0.32%) | 🟢 Alcista | $25,995 / $25,910 | $26,700 / $26,739 |
+| DOW | $52,786 (-1.18%) | 🔴 Presión | $52,691 / $52,069 | $52,901 / $53,289 |
+
+SPX: Cotiza dentro de Bull FVG activo $7,663–$7,686 — el precio está literalmente dentro del gap. Si lo defiende, rebote hacia $7,771. Si lo pierde en cierre, presión hacia $7,611. RSI 50.9 = sin momentum claro.
+
+NASDAQ: El más fuerte de los tres. Sell-side sweep en $26,703 completado — limpió liquidez arriba. FVG alcista $26,245–$26,444 activo y como soporte. Mientras aguante $25,995, sesgo alcista intacto.
+
+DOW: 🔴 El más débil. RSI 45.1, Bear FVG activo en $53,110–$53,286. EMAs 21 ($53,255) actuando como resistencia. Evitar longs en DOW hasta recuperar $53,000 en cierre.
+
+────────────────────────────────────────
+💻 4. TOP TECH
+
+| Stock | Precio | Sesgo | Setup rápido |
+|-------|--------|-------|--------------|
+| AAPL | $316.22 (-1.17%) | 🟡 Neutro | ⚠️ SEGUIMIENTO: Ayer en $319 con alerta de borde crítico. Hoy cayó a $316 — soporte roto. Presión bajista activada. Bear FVG $320.70–$324.11 ahora es resistencia. Evitar longs |
+| MSFT | $493.95 (-1.15%) | 🟢 Alcista | Uptrend intacto (HH+HL). Bear FVG $495–$500 como resistencia. Soporte sólido $476. Si retesta $489 (EMA21), posible long |
+| NVDA | $225.73 (-2.01%) | 🟢 Alcista | Uptrend pero baja -2% hoy. Bull FVG $220.41–$224.75 como zona de demanda activa. Si retesta ese FVG, setup long con target $230–$232 |
+| GOOGL | $338.36 (-0.03%) | 🔴 Bajista | Downtrend LH+LL. EMAs bajistas ($342/$347). Bear FVG $339.68–$339.84 como resistencia micro. Sesgo short mientras no supere $351 |
+| AMZN | $256.97 (-0.60%) | 🟡 Neutro | Bull FVG masivo $239–$278 (contexto enorme, poco útil para timing). Soporte inmediato $256.16. Sin setup claro hoy |
+
+────────────────────────────────────────
+🥇 5. COMMODITIES & METALS
+
+🥇 GOLD — $4,442 (+1.08%)
+> 📌 SEGUIMIENTO: Ayer en $4,447 con sesgo alcista. Hoy en $4,442 — prácticamente sin cambio. Uptrend intacto.
+• Sesgo: 🟢 Alcista — HH+HL confirmado, EMAs apiladas al alza ($4,421/$4,357)
+• Resistencia inmediata: $4,445 (techo del día) → $4,510 siguiente target
+• Soporte: $4,363 (EMA21 zone), luego $4,315
+• Setup: Mantener sesgo alcista. Pullbacks a $4,420–$4,400 son zonas de compra. Target: $4,510–$4,591
+
+🥈 SILVER — $66.80 (+0.76%)
+> 📌 SEGUIMIENTO: Ayer en $66.85, hoy $66.80 — sin cambio material. Sesgo alcista vigente.
+• Sesgo: 🟢 Alcista — HH+HL, DXY débil como catalizador adicional
+• Bull FVG activo: $65.05–$65.46 → soporte y zona de demanda en retroceso
+• Bear FVG activo: $67.18–$69.43 → zona de oferta/resistencia inmediata
+• Setup: Long en pullback a $65.90–$66.20 con target $67.18–$69.43
+
+🛢️ OIL (WTI) — $95.81 (+2.99%)
+• Sesgo: 🟢 Alcista fuerte — el mayor movimiento del día. RSI 71.4 (sobrecomprado en 4H — cuidado)
+• Bull FVG activo: $92.17–$93.76 → zona de soporte si retrocede
+• Target: $97.00 (resistencia inmediata), luego $109–$110
+• ⚠️ RSI 71.4 — no perseguir el precio aquí. Esperar pullback a $93.76 para entrada controlada
+
+────────────────────────────────────────
+📦 6. ETFs
+
+| ETF | Precio | Sesgo | Nivel clave | Nota |
+|-----|--------|-------|-------------|------|
+| SPY | $765.96 (-0.55%) | 🟡 Neutro | FVG $764.67–$767.45 activo | Precio dentro del FVG — zona de decisión |
+| QQQ | $718.36 (-0.08%) | 🟢 Alcista | Soporte $714.53 / FVG $709.80–$716.56 | Buy-side sweep $702.76 completado. Mejor ETF hoy |
+| GLD | $399.72 (-1.73%) | 🟡 Neutro | Bear FVG $404.28–$408.54 como resistencia | Diverge del spot Gold — GLD bajo presión vendedora |
+| SLV | $59.37 (-0.75%) | 🟢 Alcista | FVG alcista $59.06–$59.60 activo | Precio en el FVG — micro soporte. Target $63.21 |
+| USO | $146.03 (+2.87%) | 🟢 Alcista fuerte | Soporte $134–$138 (FVG) | RSI 69.8 — no perseguir. Esperar retroceso |
+
+────────────────────────────────────────
+🎯 7. WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — NVDA Long en Bull FVG
+> Tipo: Swing/Intraday Long | Mercado: Stocks
+• Contexto: NVDA cae -2% hoy en uptrend confirmado (HH+HL). La caída lleva el precio directamente al Bull FVG activo $220.41–$224.75 — zona de demanda institucional en tendencia alcista
+• Entrada: $221–$224.75 (dentro del FVG, esperar vela de confirmación)
+• SL: $215.09 (bajo soporte doble $215.10/$216.20)
+• Target 1: $227.92 | Target 2: $230.47–$232.01
+• R/R: ~1:2.5
+• Razón: FVG en uptrend + precio corregido = setup ICT clásico de alta probabilidad
+
+────────────────────────────────────────
+🥈 Setup #2 — BTC Long en LTF FVG
+> Tipo: Intraday Long | Mercado: Crypto Perpetual Futures
+• Contexto: CHOCH bullish 1H confirmado, buy-side sweep ejecutado en $77,626, precio por encima de EMAs. LTF FVG $79,183–$79,281 como zona de demanda refinada
+• Entrada: Pullback a $79,183–$79,281 con vela de absorción/engulfing bullish en 1H
+• SL: $78,600 (bajo soporte $78,660)
+• Target: $80,559 (EQH — pool de liquidez sell-side)
+• R/R: ~1:2.8
+• ⚠️ Condición: CVD debe mejorar (menos bajista) en el momento del entry. Si CVD sigue cayendo al llegar al FVG, reducir size al 50%
+
+────────────────────────────────────────
+🥉 Setup #3 — USO/OIL Pullback Long
+> Tipo: Swing Long | Mercado: Commodities / ETF
+• Contexto: WTI +3% en el día, USO +2.87%. Tendencia alcista fuerte pero RSI sobrecomprado (69.8–71.4). La estrategia es no perseguir y esperar el pullback al FVG de USO $134.34–$138.44 o en WTI al FVG $92.17–$93.76
+• Entrada USO: $138–$140 en primer retroceso | Entrada WTI: $92.17–$93.76
+• SL: Por debajo del FVG respectivo
+• Target USO: $151.63 | Target WTI: $97.00
+• R/R: ~1:3
+• Razón: Trend fuerte + RSI alto = comprar el dip, no el breakout
+
+────────────────────────────────────────
+⚠️ 8. RIESGOS Y ALERTAS
+
+🔴 AAPL roto el soporte $319 — activada presión bajista en sector tech. Si SPX no se recupera sobre $7,686 hoy, riesgo de extensión bajista a $7,611. Monitorear cierre.
+
+⚠️ ETH CVD divergencia bajista activa — el rally de ETH puede ser distribución. Reducir tamaño en longs ETH o esperar confirmación adicional antes de entrar.
+
+⚠️ DOW débil (-1.18%) con Bear FVG como resistencia — divergencia con NASDAQ es señal de rotación. El mercado no está subiendo de forma uniforme.
+
+🟡 BTC CVD bajista vs precio alcista — contradicción a vigilar. Si el precio rompe $80,560 con CVD negativo, alta probabilidad de fake breakout / trampa alcista.
+
+🛢️ WTI RSI 71.4 — sobrecomprado en 4H. No perseguir oil/USO hoy. El setup está en el pullback, no en el chase.
+
+📊 GLD ETF vs Spot Gold divergencia — GLD cae -1.73% mientras el spot sube +1.08%. Posible presión de redenciones en el ETF. Preferir exposición a Gold vía futuros o mineras si vas alcista en metales.
+
+🌐 Macro riesgo latente: Headline de economía "C-shaped" + reducción de dependencia de China en baterías = narrativas que pueden mover sentiment sin previo aviso. Mantener stops activos.
+
+────────────────────────────────────────
+Brief generado: 09/09/2026 12:45 | Próxima revisión recomendada: cierre NY (21:00 UTC)
+
+────────────────────────────────────────
