@@ -1,0 +1,213 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 MORNING BRIEF — Viernes 11 Sep 2026 | 12:45h
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|-----------|-------|---------|
+| DXY | 99.21 (+0.12%) | Dólar ligeramente firme — presión moderada sobre risk assets |
+| VIX | 17.15 | Complacencia relativa — mercado no descuenta pánico |
+| Fear & Greed | 56 (Greed) | Mercado en zona de complacencia pese a caídas |
+| OIL (WTI) | $99.15 (−3.25%) | Retrocede desde $100 — narrativa inflacionaria se enfría levemente |
+
+Evento clave hoy: Informe de inflación mayorista (PPI) — traders en modo espera. El dato puede mover índices y cripto de forma abrupta. No entres en posiciones de alta convicción antes de la publicación.
+
+> ⚠ Oil bajando desde $100 reduce presión inflacionaria en el corto plazo. Si el PPI resulta frío, podrías ver rebote en índices y risk-on parcial. Si viene caliente, extensión bajista en todo.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+BITCOIN (BTC/USDT) — $77,669 (+0.82%) 🔴
+
+📌 SEGUIMIENTO: Ayer BTC cerró en $77,107 en sesgo bajista. Hoy rebota +0.82% hasta $77,669, pero sigue por debajo de todas las EMAs (21: $77,949 / 50: $78,405). El rebote no cambia nada — el sesgo bajista HTF sigue intacto.
+
+Estructura (4H/1H): LH + LL confirmado en ambos timeframes. Sin BOS alcista. La estructura exige respetar la tendencia bajista hasta que veamos un CHOCH limpio por encima de $79,760.
+
+Order Blocks activos:
+• 🔴 OB Oferta: $78,330–$78,405 (zona EMA 21+50 confluencia) — si el precio pullea aquí es la entry bajista más limpia del día
+• 🟢 OB Demanda: $77,620–$77,632 — soporte inmediato, ya testado
+
+Fair Value Gaps:
+• Bear FVG $77,544–$77,688 (zona actual de precio) — precio operando dentro, puede actuar como imán bajista
+• Bull FVG $78,066–$80,613 — zona superior, target si hay BOS al alza (escenario alternativo)
+
+Liquidez:
+• EQL (buy-side pool): $77,626 — ⚠ Sweep reciente confirmado. El precio barrió esta liquidez. Post-sweep sin BOS alcista = trampa para longs. La siguiente zona de buy-side está mucho más abajo.
+• EQH (sell-side pool): $64,507 — target HTF bajista muy distante pero activo
+
+CVD: ✅ Confirmación bajista alineada con precio. Sin divergencia. Presión vendedora dominante.
+
+Setup del día:
+• 🔴 BIAS: BAJISTA
+• Entry corto: Pullback a $78,200–$78,405 (OB + EMA 21/50)
+• SL: Cierre 4H por encima de $78,600
+• Target 1: $77,620 | Target 2: $77,000
+• Invalidación: BOS al alza con cierre 4H > $79,760
+
+────────────────────────────────────────
+ETHEREUM (ETH/USDT) — $2,495 (+1.51%) 🟡
+
+📌 SEGUIMIENTO: Ayer ETH en $2,433 con estructura bajista. Hoy sube +1.51% hasta $2,495, con RSI en 55.9 — el rebote es más fuerte que BTC. Sin embargo, la estructura HTF sigue siendo LH + LL.
+
+Estructura (4H): Downtrend HTF vigente. Pero el LTF (1H) muestra CHOCH potencial con compresión en rango — señal de transición, NO de reversión confirmada.
+
+Order Blocks activos:
+• 🔴 OB Oferta: $2,523–$2,530 (swing high + EQH cluster) — zona de rechazo probable
+• 🟢 OB Demanda: $2,460–$2,466 — primera defensa si el precio retrocede
+
+Fair Value Gaps:
+• Bear FVG $2,464–$2,503 (mitigado) — precio actualmente en esta zona, actúa como zona de equilibrio
+• EQL buy-side: $2,405 (swepeado ayer) y $2,356 (siguiente pool sin tocar)
+
+⚠ CVD DIVERGENCIA BAJISTA: Precio sube pero el CVD baja — distribución oculta. Este es el mayor riesgo de ETH hoy. El rebote puede ser una trampa.
+
+Liquidez sell-side (EQH): Cluster en $2,523–$2,546 — zona de imán si el precio sigue subiendo, pero también zona de probable rechazo y reversión.
+
+Setup del día:
+• 🟡 BIAS: NEUTRO-BAJISTA (divergencia CVD pesa más que el RSI)
+• Escenario A (preferido): Precio alcanza $2,523–$2,530, rechaza → Short con SL > $2,550, target $2,405
+• Escenario B: Si rompe y cierra 4H > $2,530 → posible long hacia $2,546 (liquidez)
+• No compres el rebote actual sin confirmación LTF
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+📌 SEGUIMIENTO: Ayer SPX rompió $7,611 confirmando target $7,431. DOW ya alcanzó zona $52,064. Nasdaq mantiene $25,995 pero con presión.
+
+| Índice | Precio | Sesgo | Nivel clave bajista | Resistencia | FVG activo |
+|--------|--------|-------|---------------------|-------------|------------|
+| S&P 500 | $7,592 | 🔴 Bajista | $7,431 (próximo target) | $7,620–$7,667 | $7,612–$7,667 ↓ |
+| NASDAQ | $26,082 | 🟡 Neutro | $25,995 (línea en la arena) | $26,261–$26,317 | $26,178–$26,341 ↓ |
+| DOW | $52,064 | 🔴 Bajista | $51,551–$51,542 | $52,281–$52,655 | $52,291–$52,721 ↓ |
+
+Lectura rápida:
+• SPX: Rompió $7,611 confirmado. Próximo destino $7,431. Cualquier pullback al FVG $7,612–$7,667 = oportunidad de short (vía SPY).
+• NASDAQ: El sell-side sweep en $26,703 ya ocurrió. Mientras no cierre 4H > $26,261, sesgo bajista. Vigilar $25,995 — si lo pierde, extensión a $25,701.
+• DOW: RSI 38.2 — el más débil. Soporte $51,542 en la mira. Evitar longs.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Sesgo | Nivel a vigilar | Nota |
+|--------|--------|-------|-----------------|------|
+| AAPL 🟢 | $326.57 (+3.56%) | Alcista | Resistencia $330.81 | Outlier positivo hoy — si mantiene EMAs, buscar continuación |
+| MSFT 🟢 | $492.44 (+0.16%) | Alcista | FVG↓ $494–$499 encima | Pullback al FVG = posible rechazo antes de continuar |
+| NVDA 🟡 | $218.36 (−2.26%) | Neutro | FVG↑ $213–$216 abajo | Entre dos FVGs — esperar ruptura de rango |
+| GOOGL 🔴 | $332.60 (+0.59%) | Bajista | FVG↓ $331–$337 activo | Precio en FVG bajista — setup short si rechaza aquí |
+| AMZN 🔴 | $251.89 (−0.20%) | Bajista | FVG↓ $253–$254 encima | Posible pullback y rechazo en esa zona |
+
+> 💡 AAPL es el único tech con momentum real hoy (+3.56%). Contrasta con el mercado bajista general — puede ser rotación defensiva o short-covering.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+Gold — $4,381 (+0.37%) 🟡
+📌 SEGUIMIENTO: Ayer el soporte $4,358–$4,363 aguantó. Hoy rebota levemente. Setup sigue vigente como zona de demanda.
+• Sesgo: Neutro dentro de uptrend HTF. Estructura HH + HL intacta.
+• FVG↓ activo: $4,416–$4,430 — si el precio rebota a esta zona, es posible rechazo
+• Soporte clave: $4,363–$4,315 — zona de OB de demanda válida para swing long
+• Setup: Pullback a $4,363 + confirmación vela = long con target $4,445. SL < $4,292.
+
+Silver — $64.67 (+0.59%) 🟡
+📌 SEGUIMIENTO: Ayer alerta por corrección fuerte desde $65.10. El soporte crítico era $63.74. Hoy rebota pero SLV cae −5.30% (discrepancia notable — revisar horarios).
+• Sesgo: Neutro. Vigilar $63.74 como soporte crítico. Si lo pierde, objetivo $63.12.
+• FVG↓: $64.99–$66.30 activo — zona de posible rechazo si el precio sube.
+• ⚠ La caída de SLV (−5.30%) mientras SILVER muestra +0.59% es una divergencia que merece atención.
+
+Oil (WTI) — $99.15 (−3.25%) 🟢
+📌 SEGUIMIENTO: Ayer en $100.14 con RSI extendido — advertimos esperar pullback a $95–$97. El pullback está ocurriendo (-3.25%). Setup en preparación.
+• Sesgo: Alcista en estructura, pero corrección en curso.
+• FVG↑ activo: $96.93–$98.75 — zona de entrada que mencionamos ayer. Si el precio toca este rango y hay confirmación 1H, es el long.
+• Entry: $96.93–$98.75 | SL: < $95.50 | Target: $109.47
+• RSI 69.4 aún elevado — esperar que baje a 55–60 para entry más seguro.
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | Sesgo | FVG activo | Nivel clave |
+|-----|--------|-------|------------|-------------|
+| SPY 🔴 | $757.83 (−0.60%) | Bajista | $760–$765 ↓ | Resistencia $758.45 — short en pullback |
+| QQQ 🟡 | $708.69 (−1.06%) | Neutro | $712–$715 ↓ | Soporte $704.66 — si lo pierde, $702 |
+| GLD 🟡 | $396.36 (−1.73%) | Neutro | $404–$408 ↓ | Soportes $371–$366 — lejos aún |
+| SLV 🟡 | $57.50 (−5.30%) | Neutro⚠ | — | Soporte $57.23 crítico HOY |
+| USO 🟢 | $158.38 (+5.61%) | Alcista | $146–$152 ↑ | RSI 78 — sobreextendido, no perseguir |
+
+> ⚠ SLV −5.30% es la mayor caída del universo hoy. El soporte $57.23 está siendo testado. Si cierra por debajo, próximo nivel es $51.72 (zona de vacío). Vigilar activamente.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA — Top 3 Setups
+
+────────────────────────────────────────
+🥇 Setup #1 — SHORT BTC | $78,200–$78,405
+
+| Campo | Detalle |
+|-------|---------|
+| Activo | BTC/USDT Perpetual |
+| Dirección | 🔴 Short |
+| Entry | $78,200–$78,405 (OB oferta + EMA 21/50) |
+| SL | $78,620 (cierre 4H) |
+| TP1 | $77,620 |
+| TP2 | $77,000 |
+| R:R aprox. | 1:2.5 |
+| Trigger | Pullback al OB + vela de rechazo en 15M/1H |
+| Invalidación | BOS alcista 4H > $79,760 |
+
+Por qué: Estructura bajista HTF/LTF alineada. CVD confirmando. Buy-side sweep ya ocurrió en $77,626 sin BOS alcista. Las EMAs actúan como techo dinámico. Setup con alta probabilidad SMC.
+
+────────────────────────────────────────
+🥈 Setup #2 — SHORT ETH | $2,523–$2,530
+
+| Campo | Detalle |
+|-------|---------|
+| Activo | ETH/USDT Perpetual |
+| Dirección | 🔴 Short |
+| Entry | $2,523–$2,530 (EQH cluster + OB oferta) |
+| SL | $2,552 |
+| TP1 | $2,460 |
+| TP2 | $2,405 |
+| R:R aprox. | 1:2.8 |
+| Trigger | Precio alcanza zona + divergencia CVD + rechazo 1H |
+| Invalidación | Cierre 4H > $2,550 |
+
+Por qué: CVD bajista divergente con precio (distribución oculta). El rebote está llevando precio directo hacia cluster de liquidez sell-side ($2,523–$2,546). Zona ideal de rechazo si el setup se presenta.
+
+────────────────────────────────────────
+🥉 Setup #3 — LONG OIL / USO | Pullback a FVG
+
+| Campo | Detalle |
+|-------|---------|
+| Activo | OIL WTI / USO ETF |
+| Dirección | 🟢 Long (pullback) |
+| Entry OIL | $96.93–$98.75 (FVG↑ activo) |
+| Entry USO | $146–$152 (FVG↑ activo) |
+| SL OIL | < $95.50 |
+| TP OIL | $109.47 |
+| R:R aprox. | 1:3+ |
+| Trigger | Toque de FVG + vela de demanda en 1H + RSI enfriando a ~60 |
+| Invalidación | Cierre diario < $95.50 |
+
+Por qué: Advertimos ayer el pullback desde $100. La estructura es alcista (HH+HL). El FVG $96.93–$98.75 nunca fue mitigado y es el imán natural de precio. Setup de continuación en tendencia con excelente R:R.
+
+────────────────────────────────────────
+8. ⚠ RIESGOS Y ALERTAS
+
+1. 📊 PPI (Inflación Mayorista) — Dato de hoy. Si viene caliente → extensión bajista en índices, cripto y metales. Si viene frío → posible rebote risk-on que invalida setups bajistas de BTC/ETH a corto plazo. No entres en shorts grandes antes del dato.
+
+2. 🛢 Oil a $99 y geopolítica — El petróleo sobre $100 genera expectativa de Fed más hawkish. La caída de hoy a $99 alivia levemente pero sigue en nivel crítico psicológico.
+
+3. ⚠ SLV −5.30% — Caída anómala. Si el ETF de plata pierde $57.23, puede señalar liquidaciones en commodities más amplias. Watchear como indicador de riesgo sistémico en metales.
+
+4. 🟡 AAPL +3.56% como outlier — Una acción subiendo +3.56% mientras el mercado cae puede indicar rotación defensiva o noticia específica no capturada. Si es rotación, el rebote del mercado puede ser efímero.
+
+5. 📉 DOW RSI 38.2 — Zona de sobreventa moderada. Un dato de PPI frío podría generar squeeze alcista técnico. No asumas continuación bajista en DJI sin verificar el dato.
+
+6. ₿ BTC entre soportes y resistencias comprimido — El rango $77,620–$78,405 es estrecho. Una ruptura con volumen puede ser impulsiva. Tener alertas activas en ambos extremos.
+
+────────────────────────────────────────
+> 💬 Resumen ejecutivo del día: El mercado sigue bajo presión bajista generalizada, con el evento macro (PPI) dominando la sesión. En cripto, los rebotes de BTC y ETH son técnicos dentro de estructuras bajistas — no cambios de sesgo. Los únicos outliers alcistas reales son AAPL y USO (este último en pullback saludable). La estrategia del día: esperar el PPI, usar los pullbacks a OBs/EMAs para entries bajistas en BTC/ETH, y tener listo el setup long en Oil si el FVG actúa.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 Brief generado: 2026-09-11 12:45h | Próxima revisión post-PPI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
