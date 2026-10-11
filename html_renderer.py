@@ -23,6 +23,7 @@ TZ_LABEL = "ET"
 # Nombres amigables para los modelos de Claude.
 _MODEL_NAMES = {
     "claude-opus-4-8": "Claude Opus 4.8",
+    "claude-sonnet-5-5": "Claude Sonnet 5.5",
     "claude-sonnet-4-6": "Claude Sonnet 4.6",
     "claude-sonnet-4-5": "Claude Sonnet 4.5",
     "claude-haiku-4-5-20251001": "Claude Haiku 4.5",

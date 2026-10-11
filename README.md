@@ -24,7 +24,7 @@ Cada ejecución corre `main.py`, que orquesta:
 
 1. **Recopila datos** de múltiples fuentes (Binance 4h+1h, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco.
 2. **Calcula indicadores SMC/ICT**: EMAs, RSI, BOS/CHOCH, Order Blocks, FVG (con flag de mitigación), Equal Highs/Lows + sweeps de liquidez, niveles S/R, refinamiento multi-timeframe (1h dentro de 4h).
-3. **Genera el brief** con Claude Sonnet 4.6 — el system prompt va con `cache_control: ephemeral` para reducir coste.
+3. **Genera el brief** con Claude Sonnet 5.5 — el system prompt va con `cache_control: ephemeral` para reducir coste.
 4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local, y backup `.txt` en disco.
 
 Cada brief incluye una línea de **SEGUIMIENTO** que compara los setups del día anterior con los precios actuales (¿se activó la entrada? ¿saltó el SL? ¿llegó al target?), dando continuidad narrativa día a día.
@@ -65,7 +65,7 @@ morning-brief/
 ## 4. Módulos paso a paso
 
 ### `config.py` — Configuración central
-Carga variables de entorno (desde `.env` en local, o desde el entorno en la nube) y, si existe, sobrescribe los símbolos con `watchlist.yaml`. Define API keys, activos por defecto, parámetros técnicos (EMAs 21/50/200, RSI 14, timeframe crypto 4h, lookback 100 días), modelo Claude (`claude-sonnet-4-6`), max tokens (8192) y hora de ejecución (`BRIEF_HOUR = 9`).
+Carga variables de entorno (desde `.env` en local, o desde el entorno en la nube) y, si existe, sobrescribe los símbolos con `watchlist.yaml`. Define API keys, activos por defecto, parámetros técnicos (EMAs 21/50/200, RSI 14, timeframe crypto 4h, lookback 100 días), modelo Claude (`claude-sonnet-5-5`), max tokens (8192) y hora de ejecución (`BRIEF_HOUR = 9`).
 
 ### `watchlist.yaml` — Watchlist configurable
 Editar para añadir/quitar tickers sin tocar código:
@@ -100,7 +100,7 @@ Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH 
 > Este módulo es la razón por la que versionamos `output/brief_*.txt`: en la nube cada ejecución arranca en una VM limpia, así que el brief de ayer tiene que venir del repositorio (ver sección 6).
 
 ### `brief_generator.py` — Generación con Claude
-`format_analysis_for_prompt()` serializa el análisis a texto compacto. `generate_brief()` llama a Claude Sonnet 4.6 con el `SYSTEM_PROMPT` envuelto en `cache_control: {"type": "ephemeral"}` y loguea `cache_read_input_tokens` para medir el ahorro. `markdown_to_plain()` convierte a texto plano para `.txt` y Telegram.
+`format_analysis_for_prompt()` serializa el análisis a texto compacto. `generate_brief()` llama a Claude Sonnet 5.5 con el `SYSTEM_PROMPT` envuelto en `cache_control: {"type": "ephemeral"}` y loguea `cache_read_input_tokens` para medir el ahorro. `markdown_to_plain()` convierte a texto plano para `.txt` y Telegram.
 
 ### `html_renderer.py`, `telegram_delivery.py`, `discord_delivery.py` — Entrega
 - HTML: tema oscuro, JetBrains Mono + Inter, tabla de contenidos → `output/brief_YYYY-MM-DD.html`.
