@@ -88,5 +88,5 @@ HTML_OUTPUT_DIR = BASE_DIR / "output"
 HTML_OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ── Claude API ──
-CLAUDE_MODEL = "claude-sonnet-4-6"
+CLAUDE_MODEL = "claude-sonnet-5-5"
 CLAUDE_MAX_TOKENS = 8192
