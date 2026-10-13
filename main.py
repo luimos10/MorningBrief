@@ -54,6 +54,12 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True,
         brief_md = generate_brief(analysis)
         brief_text = markdown_to_plain(brief_md)
 
+        # Save plain text backup ANTES de entregar: si la entrega falla, el brief
+        # ya queda en disco y el workflow puede commitearlo para continuidad.
+        txt_path = config.HTML_OUTPUT_DIR / f"brief_{now.strftime('%Y-%m-%d')}.txt"
+        txt_path.write_text(brief_text, encoding="utf-8")
+        print(f"[OK] Backup texto guardado: {txt_path}")
+
         # Step 4: Deliver
         print("\n[4/4] Entregando brief...")
 
@@ -72,11 +78,6 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True,
         # Send to Discord (no-op if DISCORD_WEBHOOK_URL not set)
         deliver_to_discord(brief_text, html_path)
 
-        # Save plain text backup
-        txt_path = config.HTML_OUTPUT_DIR / f"brief_{now.strftime('%Y-%m-%d')}.txt"
-        txt_path.write_text(brief_text, encoding="utf-8")
-        print(f"[OK] Backup texto guardado: {txt_path}")
-
         elapsed = time.time() - start_time
         print(f"\n{'=' * 60}")
         print(f"  ✅ Brief completado en {elapsed:.1f} segundos")
@@ -87,6 +88,7 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True,
     except Exception as e:
         logger.exception(f"Error en el pipeline: {e}")
         print(f"\n[ERROR] Error en el pipeline: {e}")
+        raise
 
 
 def run_test(use_cache: bool = True) -> None:
@@ -166,7 +168,12 @@ def schedule_daily():
             last_run_date != today):
 
             print(f"\n[SCHEDULER] ¡Es hora! Ejecutando brief...")
-            run_brief(open_browser=True, send_telegram=True)
+            try:
+                run_brief(open_browser=True, send_telegram=True)
+            except Exception as e:
+                # Un fallo puntual no debe matar el scheduler.
+                logger.exception(f"Error en run programado: {e}")
+                print(f"[ERROR] Brief falló: {e}")
             last_run_date = today
             print(f"[SCHEDULER] Próxima ejecución: mañana a las {target_hour:02d}:{target_minute:02d}")
 
@@ -261,15 +268,24 @@ Ejemplos:
     if args.setup:
         setup_windows_task()
     elif args.test:
-        run_test(use_cache=use_cache)
+        try:
+            run_test(use_cache=use_cache)
+        except Exception as e:
+            logger.exception(f"Error en modo test: {e}")
+            print(f"\n[ERROR] {e}")
+            sys.exit(1)
     elif args.schedule:
         schedule_daily()
     else:
-        run_brief(
-            open_browser=not args.no_browser,
-            send_telegram=not args.no_telegram,
-            use_cache=use_cache,
-        )
+        try:
+            run_brief(
+                open_browser=not args.no_browser,
+                send_telegram=not args.no_telegram,
+                use_cache=use_cache,
+            )
+        except Exception:
+            # exit != 0 para que GitHub Actions marque el job en rojo.
+            sys.exit(1)
 
 
 if __name__ == "__main__":

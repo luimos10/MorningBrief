@@ -238,6 +238,29 @@ Para las demás secciones, sé más conciso pero incluye:
 - 1-2 niveles clave"""
 
 
+def extract_brief_text(message: Any) -> str:
+    """
+    Return the brief markdown from an Anthropic Message.
+
+    Modelos como claude-sonnet-5-5 devuelven bloques de thinking antes que el
+    texto, así que content[0] puede no ser un TextBlock. Buscamos el último
+    bloque de tipo "text" y fallamos con un error claro si no existe.
+    """
+    content = getattr(message, "content", None) or []
+    text_blocks = [
+        getattr(block, "text", None)
+        for block in content
+        if getattr(block, "type", None) == "text"
+    ]
+    text_blocks = [t for t in text_blocks if t]
+    if not text_blocks:
+        block_types = [getattr(b, "type", type(b).__name__) for b in content]
+        raise RuntimeError(
+            f"Respuesta de Claude sin bloque de texto (bloques: {block_types})"
+        )
+    return text_blocks[-1]
+
+
 def generate_brief(analysis: Dict) -> str:
     """
     Send analysis data to Claude API and generate the professional brief in markdown.
@@ -281,7 +304,7 @@ en máximo 10 minutos y saber exactamente qué vigilar.""",
         ],
     )
 
-    brief_md = message.content[0].text
+    brief_md = extract_brief_text(message)
     stop_reason = getattr(message, "stop_reason", "unknown")
     if stop_reason == "max_tokens":
         logger.warning(
