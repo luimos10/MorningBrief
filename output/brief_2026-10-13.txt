@@ -1,0 +1,165 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 MORNING BRIEF — 13 Oct 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|---|---|---|
+| DXY | 102.26 (-0.31%) | 🟢 Dólar débil, viento de cola para crypto y metales |
+| VIX | 15.32 | 🟢 Volatilidad baja, mercado confiado. Cuidado con la complacencia |
+| Fear & Greed | 57 (Greed) | 🟡 Optimismo moderado, sin extremo |
+
+Titulares clave:
+• Petróleo: sube por ataques energéticos en Ucrania. Es el catalizador geopolítico que ya seguíamos.
+• Fiscal EE.UU.: preocupación que puede mantener elevados los yields largos. Es un riesgo para tech y múltiplos altos.
+• Fed: no hay datos de calendario en el input. Revisa el calendario económico antes de abrir posiciones.
+
+Lectura: el contexto es risk-on suave con dólar cayendo y VIX bajo. El riesgo está en los yields largos y en la geopolítica de energía.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+BTC/USDT — $83,272 (-0.11%) | 🟡 Neutro
+
+🔁 SEGUIMIENTO: el brief del 09/10 marcaba la zona crítica $82,563–$83,036, con activación bajista solo bajo un cierre 4H < $82,500. No se activó. La zona defendió, el precio subió +$205 y la idea bajista queda invalidada por ahora. El brief anterior no traía entrada/SL explícitos para BTC, así que el seguimiento se limita a los niveles.
+
+Estructura HTF (4H):
+• Estructura mixta/transicional con CHOCH potencial. No hay sesgo direccional limpio.
+• Precio sobre EMA21 (83,224) y EMA200 (82,452), pero bajo EMA50 (83,465). La EMA50 y la resistencia 83,529 forman un techo inmediato.
+• RSI 50.1, equilibrio total.
+• Swings: High 84,352 / Low 80,393. El rango operativo está entre ambos.
+
+Liquidez y sweeps:
+• EQL 83,184.5 (sell-side liquidity) fue barrida (el input la etiqueta "buy-side sweep"). El precio recuperó y está encima. Es un sweep + reclaim, señal SMC alcista.
+• EQH 87,249 es el pool de liquidez mayor sobre el precio. Es un target de largo plazo, no de hoy.
+
+Order Blocks y FVG:
+• Bull OB 81,750–83,147.95 (12/10 20:00): demanda vigente, el precio está justo encima.
+• Todos los FVG de 4H están mitigados, así que no hay imanes HTF activos.
+• LTF Bull FVG activo: 83,100–83,255, donde está cotizando el precio. Es la zona de entrada táctica.
+
+LTF (1h): estructura LH+LL, pero con CHOCH alcista (rompió swing high). Es un reversal temprano que aún necesita confirmación con BOS.
+
+CVD: ✅ alineado alcista, sin divergencia. Respalda el rebote.
+
+Funding / OI / Long-Short: ⚠ no vienen en los datos de hoy. Verifícalos manualmente antes de entrar (funding extremo o OI en alza pueden alterar el setup).
+
+Niveles:
+• Soportes: 83,186 · 82,900 · 82,805
+• Resistencias: 83,529 · 84,352 · 84,381
+
+🎯 Setup (long, tamaño reducido por sesgo HTF neutro):
+• Entrada: retesteo del LTF FVG 83,100–83,255, con confirmación 1h.
+• SL: < 82,780 (bajo soporte 82,805 y el techo del OB).
+• TP1: 83,529 (EMA50 y resistencia, ~0.9R, parcial). TP2: 84,352 (~2.9R).
+• Invalidación: cierre 4H < 82,500. Eso reabre el move hacia 81,750 / 81,948.
+
+────────────────────────────────────────
+ETH/USDT — $2,500 (-0.04%) | 🔴 Bajista
+
+🔁 SEGUIMIENTO: el brief del 09/10 advertía debilidad relativa y un posible move violento hacia $2,406 si BTC cedía. BTC no cedió, por lo que no se activó. ETH sigue plano (2,498 → 2,500) y la tesis bajista sigue vigente pero sin trigger.
+
+Estructura (4H):
+• LH + LL (downtrend) bajista, con precio bajo las tres EMAs (2,519 / 2,553 / 2,585). Son resistencias dinámicas apiladas.
+• RSI 44.9, momentum débil sin sobreventa.
+• Swings: High 2,579.88 / Low 2,406.11.
+
+Zonas:
+• Bull OB 2,443–2,527.5: el precio está dentro de la demanda. Es el principal contrapeso a la tesis bajista.
+• Bear FVG activo HTF: 2,535–2,540.42 (target de magnetismo al alza y zona de venta).
+• LTF Bear FVG activo: 2,518.67–2,525.41, que coincide con resistencia 2,519–2,520 y EMA21. Es confluencia de oferta.
+• EQH 2,667 / 2,725 / 2,739: liquidez lejana sobre el precio.
+
+CVD: ✅ alcista, que contradice el sesgo bajista. Es una señal de cautela: no shortear a ciegas.
+
+Niveles:
+• Soportes: 2,497.85 · 2,474 · 2,409
+• Resistencias: 2,519.5 · 2,520.5 · 2,580
+
+🎯 Setups (ambos requieren confirmación en 1h):
+• A) Short en rally: entrada 2,520–2,525 (LTF Bear FVG), con rechazo/CHOCH bajista en 1h. SL 2,545. TP1 2,474 (~2.2R). TP2 2,409 (~5R).
+• B) Short por ruptura: cierre 1h < 2,497.85, buscando 2,474 y luego el borde inferior del OB en 2,443.
+• Invalidación: cierre 4H > 2,540 (barre el Bear FVG y cancela la tesis).
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+🔁 Seguimiento: SPX y NDX mantuvieron sus niveles de invalidación ($7,660 y $26,934). El DOW, que estaba "no operar longs", subió +1.2% y reduce la divergencia.
+
+| Índice | Precio | Sesgo | RSI | Niveles clave |
+|---|---|---|---|---|
+| SPX | 7,807 (-0.06%) | 🟢 HH+HL | 59.4 | Res 7,817 / 7,845 · FVG↑ 7,685–7,728 · Sop 7,638 |
+| NDX | 27,246 (-0.44%) | 🟢 Alcista, estructura mixta | 57.4 | Res 27,289 / 27,723 · FVG↑ 27,014–27,223 · FVG↓ 27,492–27,593 |
+| DJI | 51,851 (+0.38%) | 🟡 Neutro (LH+LL) | 50.6 | Res 52,281 (EMA50 52,040) · FVG↑ 51,245–51,719 |
+• SPX: tendencia limpia, con precio sobre EMA21 (7,731) y EMA50 (7,673). Está cerca de resistencia 7,817, así que no persigas el breakout. Prefiere comprar pullbacks al FVG 7,685–7,728. El sell-side sweep en 7,580 es antiguo y alcista.
+• NDX: es el más débil de los tres hoy (-0.44%). Pullback hacia el FVG 27,014–27,223 (confluye con EMA21 26,998) es zona de compra, con invalidación bajo 26,900. Arriba lo frena el FVG bajista 27,492.
+• DJI: mejora, pero sigue bajo EMA50 y con estructura LH+LL. Necesita cerrar sobre 52,040 y 52,281 para cambiar el sesgo. Hasta entonces, sin convicción.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Sesgo | RSI | Niveles |
+|---|---|---|---|---|
+| AAPL | 340.97 (+1.29%) | 🟢 | 60.2 | Res 343–345 · Sop 325.8 |
+| MSFT | 541.15 (+1.14%) | 🟢 | 69.9 ⚠ | Sin resistencia (máximos) · FVG↑ 533.5–535.7 |
+| NVDA | 226.32 (-1.29%) | 🟡 | 49.4 | Res 227.7–230 (FVG↓ 228.9–229.9) · Sop 221 |
+| GOOGL | 352.72 (+0.30%) | 🟢 | 57.3 | Res 353.2 / 364 · Sop 350.9 |
+| AMZN | 259.53 (-1.11%) | 🟢 | 55.6 | Res 261.1 · Sop 257 / 252 |
+• MSFT: fuerza clara pero RSI casi en 70. Evita comprar en el máximo y espera un retroceso al FVG 533–536.
+• NVDA: es la debilidad del grupo. Está bajo EMA21 con un FVG bajista encima. Mantén neutral hasta recuperar 228–230.
+• AAPL / GOOGL: ambos pegados a resistencia (343 / 353). Un cierre por encima da continuación.
+• AMZN: cae -1.1% pero conserva estructura sobre EMAs. Vigila que sostenga 257.
+
+────────────────────────────────────────
+5. 🥇 COMMODITIES & METALS
+
+| Activo | Precio | Sesgo | RSI | Niveles |
+|---|---|---|---|---|
+| Gold | 4,211 (+0.49%) | 🔴 | 43.8 | Res 4,215 / 4,259 · FVG↓ 4,218–4,289 · Sop 4,143 · FVG↑ 4,171–4,178 |
+| Silver | 60.53 (+0.64%) | 🔴 | 43.1 | Res 61.62 · FVG↓ 61.2–63.62 · Sop 58.92 · FVG↑ 59.06–60.14 |
+| WTI | 92.15 (-1.70%) | 🟡 | 50.4 | Res 93.5 / 97 · Sop 88.71 |
+
+🔁 Seguimiento:
+• Gold: el brief anterior marcaba "decisión" en el borde del Bear FVG (4,218). El oro no lo rompió (4,206 → 4,211) y sigue bajo la invalidación de 4,289. Tesis bajista vigente.
+• Silver: el rebote a 60.78 no llegó al FVG (61.2) y hoy cotiza en 60.53. Aún sin entrada.
+• Oil: hubo spike geopolítico y el WTI pasó de 90.90 a 92.15, pero hoy cae -1.70%. Está justo sobre EMA21 (92.17).
+
+Lectura: los metales siguen en downtrend (bajo EMAs 21/50), con rebotes hacia oferta. El dólar débil hoy da un respiro al oro, pero la estructura manda. En Oil, un cierre sobre 93.5 reactiva la cuenta hacia 97, y uno bajo 88.7 anula el catalizador.
+
+⚠ Nota de datos: WTI marca -1.70% mientras USO marca +1.91% y las noticias hablan de petróleo al alza. Hay inconsistencia entre fuentes (posible desfase horario o contrato). Verifica el precio en vivo antes de operar Oil.
+
+────────────────────────────────────────
+6. 📦 ETFs
+
+| ETF | Precio | Sesgo | RSI | Niveles |
+|---|---|---|---|---|
+| SPY | 778.10 (-0.06%) | 🟢 | 59.9 | Res 781.6 · FVG↑ 765.7–769.6 · Sop 760 |
+| QQQ | 746.04 (-0.70%) | 🟢 | 56.7 | Res 747–748 · FVG↓ 757–759 · Sop 731.6 |
+| GLD | 382.15 (-0.63%) | 🔴 | 43.9 | Res 382–385 (FVG↓ 383–390) · Sop 376.9 |
+| SLV | 54.35 (-0.78%) | 🔴 | 41.8 | Res 55.1 (FVG↓ 55.5–57.25) · Sop 51.7 |
+| USO | 151.03 (+1.91%) | 🟢 | 56.4 | Res 155.6 · Sop 142.67 · FVG↑ 150.5–150.9 |
+• SPY/QQQ: reflejan los índices. Compra en pullback mientras SPY sostenga 760 y QQQ 731.
+• GLD/SLV: bajistas, bajo EMAs. Solo hay shorts en rebotes a sus FVG bajistas.
+• USO: el long del brief anterior (SL < 142.67) sigue vigente y en ganancia. Con RSI 56 aún hay espacio hacia 155.6, pero mueve el SL a breakeven o sube el stop sobre 150 si ves rechazo.
+
+────────────────────────────────────────
+7. 🎯 WATCHLIST DEL DÍA
+
+🥇 #1 — BTC long táctico (LTF FVG)
+• Por qué: sweep del EQL 83,184 + CHOCH alcista en 1h + CVD alineado + OB 4H defendido.
+• Entrada: 83,100–83,255 con confirmación 1h. SL: 82,780.
+• TP1: 83,529 · TP2: 84,352 (~2.9R).
+• Ojo: el HTF es neutro y la EMA50 (83,465) hace de techo. Tamaño reducido y toma parcial en TP1.
+
+🥈 #2 — ETH short en rally (confluencia de oferta)
+• Por qué: LH+LL, bajo todas las EMAs y LTF Bear FVG con resistencia 2,519–2,525.
+• Entrada: 2,520–2,525 tras rechazo en 1h. SL: 2,545.
+• TP1: 2,474 (~2.2R) · TP2: 2,409 (~5R).
+• Ojo: el CVD es alcista y el precio está dentro de un Bull OB. No entres sin confirmación.
+
+🥉 #3 — Gold short en Bear FVG
+• Por qué: tendencia bajista, RSI 43.8, bajo EMAs 21/50 y rebote a oferta 4,218–4,289.
+• Entrada: 4,220–4,255 con rechazo en LTF. SL: > 4,292.
+• TP1: 4,178 (FVG↑) · TP2: 4,143.
+• Ojo: el
