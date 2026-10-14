@@ -1,0 +1,65 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 MORNING BRIEF: 2026-10-14
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|---|---|---|
+| DXY | 102.67 (+0.48%) | 🔴 Dólar fuerte: presión sobre metales y crypto |
+| VIX | 15.43 | 🟢 Volatilidad baja, mercado confiado |
+| Fear & Greed | 62 (Greed) | 🟡 Optimismo moderado, sin extremo |
+
+Titulares relevantes:
+• Futuros mixtos mientras arranca la temporada de earnings bancarios.
+• JPMorgan no alcanzó estimaciones de beneficio y reportó una caída sorpresa en ingresos de renta fija. Dimon advierte que las fuerzas económicas "shift under the surface".
+• Las memorias caen tras el sell-off en Corea, lo que puede pesar sobre semis (NVDA).
+
+Lectura: el dólar sube +0.48% mientras caen metales y crypto. Con VIX en 15 hay complacencia, así que cualquier sorpresa bancaria puede generar movimiento brusco. Los datos no incluyen calendario Fed/macro de hoy, confírmalo antes de operar.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+BTCUSDT: $82,908 (-0.67%) | 🟡 Neutro (4H)
+
+🔄 Seguimiento: ayer cerró en $83,272 con sesgo neutro. Hoy cae ~0.4% y sigue neutro, sin salida del rango. El brief anterior no registró entradas ni SL específicos, así que no hay setup que marcar como activado o invalidado.
+
+Estructura: Mixed / Transitional, con CHOCH potencial en compresión. Swings 84,168 / 81,033.
+EMAs: el precio está bajo la EMA21 (83,284) y la EMA50 (83,445), pero sobre la EMA200 (82,403). Las medias están comprimidas, así que no hay tendencia clara. RSI 46.
+
+Zonas clave:
+• 🟢 Bull OB 81,750–83,148: el precio está dentro, en la parte alta. Es la única zona de demanda activa.
+• 🔴 Cluster de oferta 83,185–83,530: reúne el EQL perforado (83,184), EMA21, EMA50 y la resistencia 83,529.
+• Resistencias siguientes: 84,168 (swing high), 84,352.
+• Soportes: 82,900 (justo en el precio), 82,805, 82,563, EMA200 82,403.
+• Liquidez: EQH en 87,249, un imán lejano.
+• FVG: los 6 FVG detectados están mitigados, así que no hay imanes de precio activos.
+
+Sweep / liquidez: el feed reporta "buy-side sweep en 83,184.5". Ese nivel es un EQL (en convención ICT sería liquidez sell-side) y el precio sigue debajo de él sin recuperarlo. Es una perforación, no un sweep confirmado. Si se recupera 83,185 con cierre 1H, se valida el sweep y se abre el rebote hacia 83,530 y 84,168.
+
+CVD: ✅ confirmación bajista, sin divergencia. La caída tiene presión vendedora real y no hay señal de absorción. Esto inclina el rango ligeramente a la baja.
+Funding / OI / Long-Short: ⚠ no disponibles en los datos de hoy.
+LTF (1H): Mixed con CHOCH potencial, sin confirmación para refinar entrada todavía.
+
+Plan (condicional):
+• 🟢 Long: solo con reacción en el OB (barrida de 82,403–82,560 con reclaim) y CHOCH/BOS alcista en 1H. Entrada en 82,560–82,900, SL <81,700, TP1 83,185–83,530, TP2 84,168.
+• 🔴 Short: cierre 4H bajo 81,750 (OB invalidado). Busca retest y objetivo en el swing low 81,034.
+• ⚠ R:R: desde el precio actual, el TP1 está a ~600 puntos con SL a ~1,200. No operes el medio del rango.
+
+────────────────────────────────────────
+ETHUSDT: $2,481 (-0.94%) | 🔴 Bajista (4H)
+
+🔄 Seguimiento: ayer $2,500 con sesgo bajista. Hoy cae ~0.8%, más que BTC (-0.4%), así que el sesgo sigue vigente y ETH muestra debilidad relativa.
+
+Estructura: Mixed / Transitional con CHOCH potencial. Swings 2,580 / 2,409.
+EMAs: el precio está bajo las tres (2,512 / 2,543 / 2,580), alineadas a la baja. RSI 41.7.
+
+Zonas clave:
+• 🔴 Bear FVG ACTIVO 2,535–2,540: el único FVG sin mitigar y el imán de retroceso. Coincide con la resistencia 2,538.5 y la EMA50 (2,543).
+• Resistencias intermedias: 2,519.5 / 2,520.5.
+• Soportes: 2,474 (a 0.3% del precio), 2,409, 2,406.
+• Liquidez: EQH en 2,739 / 2,725, lejano.
+• Order Blocks: no se detectaron OB en los datos.
+
+CVD: ✅ confirmación bajista, sin divergencia.
+Funding / OI / L-S: ⚠ no disponibles
