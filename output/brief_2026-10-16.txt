@@ -1,0 +1,110 @@
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📊 MORNING BRIEF — 16 Oct 2026
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+> Tesis del día: risk-off en tech/AI (Kospi -7%, "AI rout", futuros del S&P a la baja) mientras los índices spot aún muestran verde. Los precios pueden reflejar el cierre previo, así que espera gap o volatilidad en la apertura US. Crypto está bajista y comprimido en zona de oferta.
+
+────────────────────────────────────────
+1. 🌍 PANORAMA MACRO
+
+| Indicador | Valor | Lectura |
+|---|---|---|
+| Fear & Greed | 63 (Greed) | Optimismo que choca con las noticias; riesgo de corrección |
+| VIX | 15.99 | Bajo. Hay poco miedo priceado para el titular de "AI rout" |
+| DXY | 101.72 (-0.27%) | Dólar débil, viento de cola leve para metales y crypto |
+• Noticias clave: selloff tech día 2, CoreWeave en el epicentro, TSMC cae pese a buenos earnings, presión en Micron/Sandisk. Hoy hay más datos económicos US.
+• Fed: no hay datos de calendario en el input. Confirma manualmente si hay discursos o datos de alto impacto.
+
+────────────────────────────────────────
+2. ₿ CRYPTO
+
+No hay brief anterior, así que no hay seguimiento de setups. Tampoco hay datos de funding, OI ni Long/Short en el input. No los asumo: revísalos en tu plataforma antes de entrar.
+
+BTCUSDT — $82,246 (-0.48%) 🔴 Bajista
+• Estructura 4H: LH + LL (downtrend). Swings 84,147 / 79,800. No hay BOS/CHOCH alcista; la estructura bajista sigue intacta.
+• EMAs: precio bajo la 21 (82,412) y la 50 (82,860), pegado a la 200 (82,304). Cluster de resistencia dinámica en 82,300–82,860.
+• RSI 47.5: neutro-bajista, con espacio para caer.
+• CVD: ✅ confirmación bajista, sin divergencia.
+• Liquidez:
+• Highs barridos en 84,157 (EQH) con rechazo. Es el sweep más relevante.
+• Lows en 83,184 (EQL) también barridos y precio por debajo. Ambos lados fueron tomados, lo que apunta a rango/compresión.
+• EQH pendiente en 87,249 (target lejano, solo si hay cambio de estructura).
+• FVG 4H activos:
+• 🔴 Bear 82,083–83,029. El precio está dentro, es zona de oferta.
+• 🟢 Bull 81,585–81,944. Imán inmediato a la baja y posible soporte.
+• LTF (1h) Bull FVG: 80,773–81,755.
+• LTF (1h): estructura mixta, CHOCH potencial en compresión. No hay confirmación todavía, así que no persigas.
+
+Niveles
+
+| Resistencias | Soportes |
+|---|---|
+| 82,634 / 83,529 / 84,147 | 81,034 / 80,394 / 79,800 |
+
+🎯 Setup principal: SHORT en retest de oferta
+• Zona de entrada: 82,634–83,029 (resistencia + bear FVG + cluster de EMAs).
+• Trigger: rechazo o CHOCH bajista en 1h dentro de la zona.
+• Invalidación: cierre 1h > 83,600 (sobre la resistencia 83,529).
+• Targets:
+• TP1 81,944 (FVG bull)
+• TP2 81,034
+• TP3 79,800 (swing low)
+• R:R (entrada media 82,830, SL 83,600): TP1 ≈ 1.1R, TP2 ≈ 2.3R, TP3 ≈ 3.9R.
+• ⚠ No shortees a mercado sobre 81,600–81,900. Hay un FVG bull debajo y el R:R es pobre.
+
+Plan B (contra-tendencia, menor convicción): sweep de 81,034 + reclaim y CHOCH alcista en 1h, apuntando a 82,083–82,634. Solo con confirmación LTF.
+
+────────────────────────────────────────
+ETHUSDT — $2,470 (-0.29%) 🟡 Neutro (estructura bajista)
+• Estructura 4H: LH + LL. Swings 2,530 / 2,318.
+• EMAs: sobre la 21 (2,459), bajo la 50 (2,499) y la 200 (2,565). Rebote dentro de tendencia bajista.
+• RSI 50.6: neutro.
+• CVD: ✅ confirmación bajista.
+• Liquidez: EQH en 2,739 y 2,724 (lejos, sin sweep reciente). No hay EQL identificado.
+• Order Block: 🟢 Bull OB 2,360–2,381 (15-Oct 08:00). Está pegado al Bull FVG 4H 2,381–2,423, una confluencia de demanda fuerte.
+• Otros FVG activos:
+• 🟢 Bull 2,460–2,463 (justo bajo el precio)
+• 🔴 Bear 2,535–2,540, en la misma zona que la resistencia 2,520–2,530 y el swing high
+• LTF (1h): mixto, CHOCH potencial. Bull FVGs en 2,399–2,423 y 2,458–2,464.
+
+Niveles
+
+| Resistencias | Soportes |
+|---|---|
+| 2,520 / 2,531 / 2,540 | 2,409 / 2,406 / 2,318 |
+
+Rango operable: 2,410–2,530. A mitad de rango no hay edge.
+
+🎯 Setups
+• Long (mejor R:R, contra HTF):
+• Entrada en 2,381–2,423 con confirmación 1h.
+• SL < 2,350.
+• TP1 2,460, TP2 2,520–2,530.
+• Desde 2,400: ≈ 1.2R a TP1 y ≈ 2.4R a TP2.
+• Short:
+• Rechazo en 2,520–2,540 (bear FVG + swing high).
+• SL > 2,550.
+• TP 2,460 y luego 2,410.
+• ETH se mueve con BTC. Si tomas el short en BTC, el long en ETH es una apuesta contra tu propio sesgo.
+
+────────────────────────────────────────
+3. 📈 ÍNDICES
+
+| Índice | Precio | Sesgo | RSI | Niveles clave | Nota SMC |
+|---|---|---|---|---|---|
+| S&P 500 | 7,744 (+0.33%) | 🟢 Alcista (HH+HL) | 51.9 | R: 7,757 / 7,771 / 7,782 · S: 7,638 / 7,617 | Bear FVG 7,754–7,786 justo encima. Sweep en 7,614 |
+| Nasdaq | 26,713 (+0.08%) | 🟡 Neutro | 46.2 | R: 26,739 / 26,789 · S: 26,706 / 25,996 | Bear FVG 26,754–27,116. Sweep en 26,704 |
+| Dow | 52,178 (+1.08%) | 🟢 Alcista | 55.2 | R: 52,281 / 52,319 · S: 52,070 / 51,551 | Bull FVG 51,245–51,719 como soporte |
+• S&P: sobre EMAs (7,737 / 7,683), pero topando con un bear FVG. Con los futuros en rojo, el escenario más probable es perder 7,737 y buscar 7,638–7,617. Solo se ve alcista sobre 7,790.
+• Nasdaq: EMA21 (26,962) por encima del precio, con la oferta del FVG 26,754–27,116 encima. Es el índice más débil y el más expuesto al selloff AI.
+• Dow: la etiqueta dice alcista pero la estructura marca LH+LL, una contradicción en los datos. Es el índice más fuerte hoy (+1.08%), probablemente rotación defensiva. Cuidado con perseguir.
+
+────────────────────────────────────────
+4. 💻 TOP TECH
+
+| Ticker | Precio | Sesgo | RSI | Niveles | Comentario |
+|---|---|---|---|---|---|
+| NVDA | 217.23 (-1.84%) | 🔴 Bajista | 40.2 | S: 215.96 / 214.86 · R: 227.67 | Bajo EMAs, bear FVG 218.47–223.06 encima. Si pierde 215.96, busca 208.93. Rebote a 218–223 = zona de short |
+| MSFT | 539.44 (+1.08%) | 🟢 Alcista | 65.1 | S: 518.79 · sin R | Fuerte, pero extendida sobre la EMA21 (521). Bear FVG 541–543. No perseguir |
+| AAPL | 342.00 (-0.28%) | 🟢 Alcista | 60.6 | R: 342.99 / 344.27 · S: 325.81 | Bull FVG 338.61–340.74 como zona de pullback |
+| GOOGL | 349.22 (+0.45%) | 🟢 Alcista | 52.8 | R
