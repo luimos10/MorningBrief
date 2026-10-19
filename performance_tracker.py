@@ -15,17 +15,23 @@ import config
 
 SETUP_HEADER_RE = re.compile(r"^[🎯⚠️📊🔥]*\s*Setup\s+([A-Z0-9 /\-]+):", re.MULTILINE)
 KEY_LINE_RE = re.compile(
-    r"^\s*[>•\-*]?\s*("
-    r"Sesgo|Entrada|Entrada short|Entrada long|Setup|SL|Stop|Target|Target 1|"
-    r"Target 2|Invalidación|Invalidacion"
+    r"^\s*[>•\-*]*\s*"
+    r"(?:[💧🎯🛡️⚠️📊🔥🌐⚡🏛️▪️]+\s*)?"
+    r"\*{0,2}\s*"
+    r"("
+    r"Sesgo|Entrada(?:\s+(?:short|long))?|Setup|SL|Stop|Target(?:\s+\d)?|TP|"
+    r"Invalidación|Invalidacion|Estructura(?:\s+[\w/()]+)?|Order Flow|CVD|"
+    r"(?:Mapa de )?Liquidez|Plan de Acción"
     r")\s*[:：]",
     re.IGNORECASE | re.MULTILINE,
 )
 ASSET_LINE_RE = re.compile(
-    r"^\s*(?:🟢|🔴|🟡|🟠)?\s*"
+    r"^\s*(?:\*\*)?\s*"
+    r"(?:\[?TICKER:\s*)?"
+    r"(?:🟢|🔴|🟡|🟠)?\s*"
     r"(BITCOIN|ETHEREUM|BTC|ETH|S&P\s*500|NASDAQ|DOW|GOLD|SILVER|"
     r"OIL|SPY|QQQ|GLD|SLV|USO|AAPL|MSFT|NVDA|GOOGL|AMZN)"
-    r"\b",
+    r"(?:/?USDT)?\b",
     re.IGNORECASE | re.MULTILINE,
 )
 
@@ -58,7 +64,7 @@ def _extract_relevant_lines(text: str, max_lines_per_asset: int = 8) -> List[str
             continue
 
         is_asset_header = bool(ASSET_LINE_RE.search(line)) and (
-            "—" in line or "$" in line or "(" in line
+            "—" in line or "$" in line or "(" in line or "TICKER:" in line.upper()
         )
         is_setup_header = bool(SETUP_HEADER_RE.search(line))
         is_key_line = bool(KEY_LINE_RE.search(line))

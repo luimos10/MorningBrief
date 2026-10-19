@@ -142,11 +142,8 @@ def format_brief_for_telegram(brief_text: str) -> str:
     formatted_lines = []
     for line in lines:
         # Make section headers bold
-        if line.strip().startswith("📊") or line.strip().startswith("🌍") or \
-           line.strip().startswith("₿") or line.strip().startswith("📈") or \
-           line.strip().startswith("💻") or line.strip().startswith("🥇") or \
-           line.strip().startswith("📦") or line.strip().startswith("🎯") or \
-           line.strip().startswith("⚠"):
+        if line.strip().startswith(("📊", "🌍", "₿", "📈", "💻", "🥇", "📦",
+                                    "🎯", "⚠", "🏛️", "🌐", "⚡")):
             formatted_lines.append(f"\n<b>{line.strip()}</b>")
         elif "━" in line or "═" in line:
             formatted_lines.append("─" * 30)

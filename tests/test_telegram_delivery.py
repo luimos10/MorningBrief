@@ -82,6 +82,17 @@ def test_format_escapes_html_entities_and_keeps_bold_headers():
     assert "&gt; 1" in out
 
 
+def test_format_bolds_new_header_emojis():
+    out = telegram_delivery.format_brief_for_telegram(
+        "🏛️ INSTITUTIONAL MORNING BRIEF | 2026-10-19\n"
+        "🌐 1. MACRO & SENTIMIENTO\n"
+        "⚡ 2. ARQUITECTURA CRYPTO & FLUJO"
+    )
+    assert "<b>🏛️ INSTITUTIONAL MORNING BRIEF | 2026-10-19</b>" in out
+    assert "<b>🌐 1. MACRO &amp; SENTIMIENTO</b>" in out
+    assert "<b>⚡ 2. ARQUITECTURA CRYPTO &amp; FLUJO</b>" in out
+
+
 def test_split_keeps_tags_balanced_per_chunk():
     text = "\n".join(f"<b>📊 Nota {i}</b> " + "y" * 50 for i in range(20))
     chunks = telegram_delivery.split_message(text, max_length=200)
