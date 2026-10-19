@@ -36,12 +36,13 @@ def _split_for_discord(text: str, max_len: int = DISCORD_MAX_LEN):
 def deliver_to_discord(brief_text: str, html_path: Optional[Path] = None) -> bool:
     """
     Send the brief to Discord via webhook. Returns True on success.
-    Silently no-ops (returns False) if DISCORD_WEBHOOK_URL is not set.
+    No-op (returns True) if DISCORD_WEBHOOK_URL is not set: no configurar un
+    canal opcional no es un fallo de entrega.
     """
     webhook = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
     if not webhook:
         logger.info("DISCORD_WEBHOOK_URL no configurado; salto Discord delivery.")
-        return False
+        return True
 
     try:
         for chunk in _split_for_discord(brief_text):

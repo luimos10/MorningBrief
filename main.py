@@ -72,11 +72,12 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True,
             print(f"[OK] Brief abierto en el navegador")
 
         # Send to Telegram
-        if send_telegram:
-            deliver_to_telegram(brief_text, html_path)
+        if send_telegram and not deliver_to_telegram(brief_text, html_path):
+            raise RuntimeError("Entrega a Telegram falló (ver logs).")
 
         # Send to Discord (no-op if DISCORD_WEBHOOK_URL not set)
-        deliver_to_discord(brief_text, html_path)
+        if not deliver_to_discord(brief_text, html_path):
+            raise RuntimeError("Entrega a Discord falló (ver logs).")
 
         elapsed = time.time() - start_time
         print(f"\n{'=' * 60}")
