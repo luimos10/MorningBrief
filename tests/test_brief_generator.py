@@ -96,3 +96,36 @@ def test_generate_brief_raises_when_truncated(monkeypatch):
     )
     with pytest.raises(RuntimeError, match="Brief truncado"):
         brief_generator.generate_brief({"timestamp": "2026-10-19"})
+
+
+# ── _inject_ticker_data: precio/RSI del encabezado siempre del feed ──
+
+
+def test_inject_ticker_data_usa_precio_y_rsi_del_feed():
+    analysis = {
+        "crypto": [
+            {"name": "BTCUSDT", "price": 82496.12, "rsi": 54.9},
+            {"name": "ETHUSDT", "price": 2424.5, "rsi": 49.6},
+        ]
+    }
+    md = (
+        "**[TICKER: BTC/USDT]** | **$99,999** | RSI **1.0**\n"
+        "- **Order Flow:** ok\n\n"
+        "**[TICKER: ETH/USDT]**\n"
+        "- **Order Flow:** ok\n"
+    )
+    out = brief_generator._inject_ticker_data(md, analysis)
+    assert "**[TICKER: BTC/USDT] | $82,496 | RSI 54.9**" in out
+    assert "**[TICKER: ETH/USDT] | $2,424 | RSI 49.6**" in out
+    assert "$99,999" not in out
+
+
+def test_inject_ticker_data_deja_intacta_linea_sin_data():
+    analysis = {"crypto": [{"name": "SOLUSDT", "error": "Sin datos disponibles"}]}
+    md = "**[TICKER: SOL/USDT]**\nSin data en el feed de hoy.\n"
+    assert brief_generator._inject_ticker_data(md, analysis) == md
+
+
+def test_inject_ticker_data_sin_analisis_no_cambia_nada():
+    md = "**[TICKER: BTC/USDT]**\n- **Order Flow:** ok\n"
+    assert brief_generator._inject_ticker_data(md, {}) == md

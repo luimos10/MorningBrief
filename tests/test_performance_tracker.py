@@ -22,6 +22,12 @@ NEW_FORMAT_BRIEF = """# 🏛️ INSTITUTIONAL MORNING BRIEF | 2026-10-19
 
 **[TICKER: ETH/USDT]**
 - **Estructura (HTF/LTF):** rango LTF dentro de downtrend HTF.
+
+**[TICKER: SOL/USDT]**
+- **Estructura (HTF/LTF):** rango bajista bajo EMA200; swings 142 / 128.
+- **Order Flow:** Funding -0.021% | CVD bajista | OI -3.4%.
+- 💧 **Mapa de Liquidez:** EQH 148.6 sin sweep; FVG 132–136 mitigado.
+- 🎯 **Plan de Acción:** 🔴 Entrada: **139.5** | 🛡️ SL: **146.0** | 🎯 TP: **128.0**
 """
 
 
@@ -40,6 +46,7 @@ def test_extracts_crypto_headers_and_lines_new_format():
 
     assert "TICKER: BTC/USDT" in joined
     assert "TICKER: ETH/USDT" in joined
+    assert "TICKER: SOL/USDT" in joined
     assert "Estructura (HTF/LTF)" in joined
     assert "Order Flow" in joined
     assert "Mapa de Liquidez" in joined
@@ -49,7 +56,7 @@ def test_extracts_crypto_headers_and_lines_new_format():
 def test_new_format_plan_line_keeps_entry_sl_tp():
     kept = _extract_relevant_lines(NEW_FORMAT_BRIEF)
     plan = [line for line in kept if "Plan de Acción" in line]
-    assert len(plan) == 1
+    assert len(plan) == 2  # BTC y SOL traen Plan de Acción; ETH solo estructura.
     assert "78,900" in plan[0]
     assert "SL" in plan[0]
     assert "TP" in plan[0]

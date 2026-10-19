@@ -29,7 +29,7 @@ ASSET_LINE_RE = re.compile(
     r"^\s*(?:\*\*)?\s*"
     r"(?:\[?TICKER:\s*)?"
     r"(?:🟢|🔴|🟡|🟠)?\s*"
-    r"(BITCOIN|ETHEREUM|BTC|ETH|S&P\s*500|NASDAQ|DOW|GOLD|SILVER|"
+    r"(BITCOIN|ETHEREUM|SOLANA|BTC|ETH|SOL|S&P\s*500|NASDAQ|DOW|GOLD|SILVER|"
     r"OIL|SPY|QQQ|GLD|SLV|USO|AAPL|MSFT|NVDA|GOOGL|AMZN)"
     r"(?:/?USDT)?\b",
     re.IGNORECASE | re.MULTILINE,

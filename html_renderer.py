@@ -61,6 +61,27 @@ def _now_display() -> datetime:
     return datetime.now()
 
 
+# Nombres en español: el runner de la nube no tiene locale es_* instalado.
+_DAYS_ES = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"]
+_MONTHS_ES = [
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+]
+
+
+def _format_datetime_es(dt: datetime) -> str:
+    """Ej: 'lunes 19 de octubre, 2026 · 08:45' (sin depender del locale)."""
+    day = _DAYS_ES[dt.weekday()]
+    month = _MONTHS_ES[dt.month - 1]
+    return f"{day} {dt.day:02d} de {month}, {dt.year} · {dt.strftime('%H:%M')}"
+
+
+def _reading_time_minutes(text: str) -> int:
+    """Estimación a 250 palabras/min (2500 palabras ≈ 10 min)."""
+    words = len(re.findall(r"\S+", text))
+    return max(1, round(words / 250))
+
+
 HTML_TEMPLATE = """<!DOCTYPE html>
 <html lang="es">
 <head>
@@ -70,37 +91,38 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {{
-  --bg: #07070c;
-  --bg-grad1: #0d0d18;
-  --bg-grad2: #0a0a12;
-  --bg2: #101019;
-  --bg3: #181826;
-  --card: #0f0f18;
-  --border: #23233a;
-  --border2: #2e2e4a;
-  --text: #ececf5;
-  --text2: #9a9ab5;
-  --text3: #61617e;
-  --accent: #7c83ff;
-  --accent2: #a5acff;
-  --accent-bg: rgba(124,131,255,0.12);
-  --green: #2ee676;
-  --green-bg: rgba(46,230,118,0.12);
-  --red: #ff5c6c;
-  --red-bg: rgba(255,92,108,0.12);
+  --bg: #050504;
+  --bg-grad1: #0e0c08;
+  --bg-grad2: #090806;
+  --bg2: #12100c;
+  --bg3: #1a1710;
+  --card: #0c0b08;
+  --border: #2b2517;
+  --border2: #3d3521;
+  --text: #f4efe4;
+  --text2: #b5aa8e;
+  --text3: #7d7259;
+  --accent: #ff9f1a;
+  --accent2: #ffc46b;
+  --accent3: #ffd9a0;
+  --accent-bg: rgba(255,159,26,0.12);
+  --green: #3ddc84;
+  --green-bg: rgba(61,220,132,0.12);
+  --red: #ff5c5c;
+  --red-bg: rgba(255,92,92,0.12);
   --amber: #ffb547;
   --amber-bg: rgba(255,181,71,0.12);
-  --blue: #4aa8ff;
-  --cyan: #2fe0d6;
-  --purple: #c06bff;
+  --blue: #6fb3ff;
+  --cyan: #ffd166;
+  --purple: #ff7a00;
   --mono: 'JetBrains Mono', monospace;
   --sans: 'Inter', -apple-system, sans-serif;
 }}
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
 body {{
   background:
-    radial-gradient(1200px 600px at 50% -10%, rgba(124,131,255,0.10), transparent 60%),
-    radial-gradient(900px 500px at 90% 10%, rgba(47,224,214,0.06), transparent 55%),
+    radial-gradient(1200px 600px at 50% -10%, rgba(255,159,26,0.09), transparent 60%),
+    radial-gradient(900px 500px at 90% 10%, rgba(255,122,0,0.05), transparent 55%),
     linear-gradient(180deg, var(--bg-grad1), var(--bg-grad2) 40%, var(--bg));
   background-attachment: fixed;
   color: var(--text);
@@ -126,7 +148,7 @@ body {{
   font-weight: 800;
   letter-spacing: 1.5px;
   margin: 0 0 6px;
-  background: linear-gradient(92deg, var(--accent2), var(--cyan) 55%, var(--purple));
+  background: linear-gradient(92deg, var(--accent2), var(--accent) 55%, var(--purple));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -159,32 +181,59 @@ body {{
   padding: 5px 12px;
   border-radius: 8px;
 }}
-.badge.accent {{ color: var(--accent2); border-color: rgba(124,131,255,0.35); background: var(--accent-bg); }}
+.badge.accent {{ color: var(--accent2); border-color: rgba(255,159,26,0.35); background: var(--accent-bg); }}
 .badge .dot {{ width: 7px; height: 7px; border-radius: 50%; background: var(--green); box-shadow: 0 0 8px var(--green); }}
 .brief-content {{
-  background: linear-gradient(180deg, rgba(255,255,255,0.018), rgba(255,255,255,0));
+  background: linear-gradient(180deg, rgba(255,181,71,0.02), rgba(255,255,255,0));
   background-color: var(--card);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 34px 38px;
-  box-shadow: 0 24px 60px -30px rgba(0,0,0,0.8);
+  box-shadow: 0 24px 60px -30px rgba(0,0,0,0.9);
+}}
+.brief-content h1 {{
+  font-size: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: var(--accent2);
+  margin: 0 0 10px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
 }}
 .brief-content h2 {{
-  font-size: 19px;
-  font-weight: 700;
-  color: var(--text);
-  margin: 36px 0 16px;
+  font-size: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--accent2);
+  margin: 38px 0 16px;
   padding: 6px 0 10px 14px;
   border-bottom: 1px solid var(--border);
   border-left: 3px solid var(--accent);
-  letter-spacing: 0.2px;
+  letter-spacing: 0.8px;
 }}
-.brief-content h2:first-child {{ margin-top: 0; }}
+.brief-content h2:first-child, .brief-content h3:first-child {{ margin-top: 0; }}
 .brief-content h3 {{
-  font-size: 15.5px;
-  font-weight: 600;
-  color: var(--accent2);
-  margin: 22px 0 8px;
+  font-size: 17.5px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  color: var(--accent3);
+  margin: 34px 0 14px;
+  padding: 4px 0 8px 12px;
+  border-left: 3px solid var(--accent);
+}}
+.brief-content h4 {{
+  font-family: var(--mono);
+  font-size: 14.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  color: var(--accent);
+  margin: 24px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed var(--border2);
 }}
 .brief-content p {{ margin: 10px 0; color: var(--text); }}
 .brief-content ul, .brief-content ol {{ margin: 10px 0; padding-left: 22px; }}
@@ -203,18 +252,34 @@ body {{
   border: 1px solid var(--border);
 }}
 .brief-content hr {{ border: none; border-top: 1px solid var(--border); margin: 26px 0; }}
-.brief-content table {{
-  width: 100%;
-  border-collapse: collapse;
+.brief-content blockquote {{
+  background: var(--amber-bg);
+  border: 1px solid rgba(255,181,71,0.3);
+  border-left: 3px solid var(--amber);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 14px 0;
+  color: var(--text);
+}}
+.brief-content blockquote p {{ margin: 0; }}
+.table-wrap {{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   margin: 16px 0;
-  font-size: 13px;
   border: 1px solid var(--border);
   border-radius: 10px;
-  overflow: hidden;
+}}
+.brief-content table {{
+  width: 100%;
+  min-width: 460px;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 13px;
 }}
 .brief-content th {{
   background: var(--bg3);
   color: var(--accent2);
+  font-family: var(--mono);
   font-weight: 700;
   font-size: 10.5px;
   text-transform: uppercase;
@@ -225,12 +290,14 @@ body {{
 }}
 .brief-content td {{
   padding: 9px 14px;
-  border-bottom: 1px solid rgba(42,42,58,0.5);
+  border-bottom: 1px solid rgba(61,53,33,0.55);
   font-family: var(--mono);
   font-size: 12.5px;
+  color: var(--text2);
 }}
+.brief-content td strong {{ color: var(--accent3); }}
 .brief-content tr:last-child td {{ border-bottom: none; }}
-.brief-content tr:hover td {{ background: rgba(124,131,255,0.05); }}
+.brief-content tr:hover td {{ background: rgba(255,159,26,0.05); }}
 /* Señales de mercado */
 .pos {{ color: var(--green); font-weight: 600; }}
 .neg {{ color: var(--red); font-weight: 600; }}
@@ -245,7 +312,7 @@ body {{
 }}
 .callout.danger {{
   background: var(--red-bg);
-  border-color: rgba(255,92,108,0.3);
+  border-color: rgba(255,92,92,0.3);
   border-left-color: var(--red);
 }}
 .footer {{
@@ -256,10 +323,20 @@ body {{
 }}
 .footer p {{ font-size: 11.5px; color: var(--text3); font-family: var(--mono); margin: 3px 0; }}
 .footer .brand {{ color: var(--accent2); letter-spacing: 0.15em; }}
-@media (max-width: 600px) {{
-  .container {{ padding: 14px 12px 40px; }}
-  .brief-content {{ padding: 22px 18px; }}
-  .header h1 {{ font-size: 25px; }}
+@media (max-width: 640px) {{
+  body {{ font-size: 14px; }}
+  .container {{ padding: 14px 10px 40px; }}
+  .header {{ padding: 30px 0 22px; }}
+  .header h1 {{ font-size: 23px; letter-spacing: 1px; }}
+  .badge {{ font-size: 10.5px; padding: 4px 9px; }}
+  .brief-content {{ padding: 20px 14px; border-radius: 12px; }}
+  .brief-content h1 {{ font-size: 19px; }}
+  .brief-content h2 {{ font-size: 17px; }}
+  .brief-content h3 {{ font-size: 15px; letter-spacing: 0.5px; }}
+  .brief-content h4 {{ font-size: 13px; letter-spacing: 0.8px; }}
+  .brief-content table {{ font-size: 12px; min-width: 420px; }}
+  .brief-content th {{ font-size: 10px; padding: 8px 10px; }}
+  .brief-content td {{ padding: 7px 10px; }}
 }}
 </style>
 </head>
@@ -271,7 +348,7 @@ body {{
     <div class="badges">
       <span class="badge accent"><span class="dot"></span> {datetime_str}</span>
       <span class="badge">🤖 {model_label}</span>
-      <span class="badge">⏱ ~8 min de lectura</span>
+      <span class="badge">⏱ ~{reading_min} min de lectura</span>
     </div>
   </div>
   <div class="brief-content">
@@ -322,7 +399,147 @@ def _wrap_callouts(html: str) -> str:
         cls = "callout danger" if emoji in ("🔴", "🚨") else "callout"
         return f'<p class="{cls}">{emoji}'
 
-    return re.sub(r"<p>(🔴|🚨|⚠️?|🟡|🟠)", repl, html)
+    # Dentro de un <blockquote> ya hay estilo de recuadro (amber), no lo dupliques.
+    return re.sub(r"(?<!<blockquote>\n)<p>(🔴|🚨|⚠️?|🟡|🟠)", repl, html)
+
+
+# ── Tablas de activos (solo front HTML) ─────────────────────────────
+_TICKER_LINE_RE = re.compile(
+    r"^\*{0,2}\[TICKER:\s*(?P<name>[^\]]+)\]\*{0,2}\s*(?P<extra>.*)$"
+)
+_BULLET_LABEL_RE = re.compile(
+    r"^-\s+(?P<pre>[^*]*?)\*\*(?P<label>[^*]+?):\*\*\s*(?P<val>.*)$"
+)
+_RADAR_HEADING_RE = re.compile(r"^#+\s.*cross-asset.*radar", re.IGNORECASE)
+_SECTION_STOP_RE = re.compile(r"^(#{1,3}\s|-\s*-|─|━|═)")
+
+
+def _md_cell(text: str) -> str:
+    """Escapa pipes para que no rompan la tabla markdown."""
+    return text.replace("|", "\\|").strip()
+
+
+def _ticker_header(name: str, extra: str) -> str:
+    """Nombre del ticker + datos extra de su línea (precio, RSI) para el encabezado."""
+    extra = extra.strip()
+    if not extra:
+        return name
+    extra = re.sub(r"\*\*", "", extra.replace("|", "·"))
+    extra = re.sub(r"\s*·\s*", " · ", extra).strip(" ·")
+    return f"{name} · {extra}" if extra else name
+
+
+def _bullet_row(line: str):
+    """Parsea '- [emoji] **Etiqueta:** valor' → (etiqueta_md, valor) o None."""
+    m = _BULLET_LABEL_RE.match(line.strip())
+    if not m:
+        return None
+    pre = m.group("pre").strip()
+    label = m.group("label").strip()
+    label_md = f"{pre} **{label}**".strip()
+    return label_md, m.group("val").strip()
+
+
+def _radar_section_to_table(section_lines):
+    """Runs de ≥2 bullets etiquetados en la sección radar → tabla Grupo/Detalle."""
+    out = []
+    run_raw, run_rows = [], []
+
+    def flush():
+        if not run_rows:
+            return
+        if len(run_rows) < 2:
+            out.extend(run_raw)
+            return
+        if out and out[-1].strip():
+            out.append("")
+        out.append("| Grupo | Detalle |")
+        out.append("| :--- | :--- |")
+        for label_md, val in run_rows:
+            out.append(f"| {label_md} | {_md_cell(val)} |")
+        out.append("")
+
+    for line in section_lines:
+        row = None if line[:1] in (" ", "\t") else _bullet_row(line)
+        if row:
+            run_raw.append(line)
+            run_rows.append(row)
+            continue
+        flush()
+        run_raw, run_rows = [], []
+        out.append(line)
+    flush()
+    return out
+
+
+def _tables_for_assets(md: str) -> str:
+    """Convierte los bloques de activos a tablas (solo para el HTML).
+
+    - Bloques **[TICKER: X]** (con o sin negritas) con sus bullets → tabla | Métrica | X |.
+      Los sub-bullets indentados se anexan a la celda anterior.
+    - Sección CROSS-ASSET RADAR → tabla | Grupo | Detalle |.
+    El .txt y Telegram NO se tocan.
+    """
+    lines = md.split("\n")
+    out = []
+    i, n = 0, len(lines)
+
+    while i < n:
+        line = lines[i]
+
+        ticker = _TICKER_LINE_RE.match(line.strip())
+        if ticker:
+            name = _ticker_header(ticker.group("name").strip(), ticker.group("extra"))
+            rows = []
+            j = i + 1
+            while j < n:
+                raw = lines[j]
+                stripped = raw.strip()
+                if not stripped or stripped[:2] not in ("- ", "• "):
+                    break
+                row = _bullet_row(stripped) if raw[:1] not in (" ", "\t") else None
+                if row:
+                    rows.append(row)
+                    j += 1
+                    continue
+                if not rows:
+                    break
+                # Sub-bullet (indentado) o viñeta sin etiqueta: se anexa a la celda anterior.
+                label_md, val = rows[-1]
+                sep = "<br>◦ " if val else "◦ "
+                rows[-1] = (label_md, f"{val}{sep}{stripped[2:].strip()}")
+                j += 1
+            if rows:
+                if out and out[-1].strip():
+                    out.append("")
+                out.append(f"| Métrica | {name} |")
+                out.append("| :--- | :--- |")
+                for label_md, val in rows:
+                    out.append(f"| {label_md} | {_md_cell(val)} |")
+                out.append("")
+                i = j
+                continue
+
+        if _RADAR_HEADING_RE.match(line):
+            out.append(line)
+            i += 1
+            section = []
+            while i < n and not _SECTION_STOP_RE.match(lines[i].strip()):
+                section.append(lines[i])
+                i += 1
+            out.extend(_radar_section_to_table(section))
+            continue
+
+        out.append(line)
+        i += 1
+
+    return "\n".join(out)
+
+
+def _wrap_tables(html: str) -> str:
+    """Envuelve las tablas en un contenedor con scroll horizontal (mobile)."""
+    html = html.replace("<table>", '<div class="table-wrap"><table>')
+    return html.replace("</table>", "</table></div>")
 
 
 def brief_to_html(brief_text: str, output_path: Path = None, model: str = None) -> Path:
@@ -332,16 +549,17 @@ def brief_to_html(brief_text: str, output_path: Path = None, model: str = None) 
     now_display = _now_display()
     now_file = datetime.now()
     # Ej: "miércoles 04 de junio, 2026 · 08:45 ET"
-    datetime_str = now_display.strftime("%A %d de %B, %Y · %H:%M") + f" {TZ_LABEL}"
+    datetime_str = _format_datetime_es(now_display) + f" {TZ_LABEL}"
     date_file = now_file.strftime("%Y-%m-%d")
 
     model_id = model or getattr(config, "CLAUDE_MODEL", "")
     model_label = _model_label(model_id)
+    reading_min = _reading_time_minutes(brief_text)
 
     # Convert markdown to HTML if it contains markdown syntax
     if any(marker in brief_text for marker in ["##", "**", "```", "| "]):
         content_html = markdown.markdown(
-            brief_text,
+            _tables_for_assets(brief_text),
             extensions=["tables", "fenced_code", "nl2br"],
         )
     else:
@@ -365,6 +583,7 @@ def brief_to_html(brief_text: str, output_path: Path = None, model: str = None) 
         content_html = "\n".join(html_lines)
 
     # Post-procesado visual
+    content_html = _wrap_tables(content_html)
     content_html = _add_section_icons(content_html)
     content_html = _wrap_callouts(content_html)
     content_html = _colorize_percentages(content_html)
@@ -374,6 +593,7 @@ def brief_to_html(brief_text: str, output_path: Path = None, model: str = None) 
         datetime_str=datetime_str,
         date_file=date_file,
         model_label=model_label,
+        reading_min=reading_min,
         content=content_html,
     )
 

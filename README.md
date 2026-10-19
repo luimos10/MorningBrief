@@ -70,7 +70,7 @@ Carga variables de entorno (desde `.env` en local, o desde el entorno en la nube
 ### `watchlist.yaml` — Watchlist configurable
 Editar para añadir/quitar tickers sin tocar código:
 ```yaml
-crypto: [BTCUSDT, ETHUSDT]
+crypto: [BTCUSDT, ETHUSDT, SOLUSDT]
 stocks: [AAPL, MSFT, NVDA, GOOGL, AMZN]
 indexes: {S&P 500: ^GSPC, NASDAQ: ^IXIC, DOW: ^DJI}
 commodities: {GOLD: GC=F, SILVER: SI=F, OIL (WTI): CL=F}
@@ -83,7 +83,7 @@ economic_events:
 
 | Fuente | Datos |
 |---|---|
-| Binance API (pública) | OHLCV 4h **y 1h** para BTC/ETH, funding rate, open interest, long/short ratio |
+| Binance API (pública) | OHLCV 4h **y 1h** para BTC/ETH/SOL, funding rate, open interest, long/short ratio |
 | Yahoo Finance (`yfinance`) | OHLCV diario para índices, stocks, commodities y ETFs; VIX y DXY |
 | alternative.me | Fear & Greed Index |
 | NewsAPI | Noticias de mercado del día (opcional) |

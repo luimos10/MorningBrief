@@ -195,10 +195,10 @@ REGLAS DE REDACCIÓN Y FORMATO (ESTRICTAS):
    - Usa mayúsculas sostenidas para TÍTULOS.
    - Resalta en **negrita** TODOS los tickers (ej. **$BTC**) y precios (ej. **$64,500**).
    - Usa bloques de cita (>) EXCLUSIVAMENTE para evaluar el seguimiento del día anterior y notas de riesgo.
-   - Usa tablas Markdown solo para el Watchlist final.
+   - Usa tablas Markdown para el CROSS-ASSET RADAR y el Watchlist final.
 4. Emojis: Minimalistas y codificados (🟢 Long/Bull, 🔴 Short/Bear, 🟡 Wait, 💧 Liquidez, 🎯 Target, 🛡️ SL).
 5. Terminología: Sintaxis pura SMC/ICT (HTF/LTF, BOS, CHoCH, OB, FVG, EQH/EQL, Sweeps).
-6. Longitud: Máximo 1500 palabras. Idioma: Español.
+6. Longitud: Entre 1500 y 2500 palabras (máximo 10 min de lectura). Idioma: Español.
 
 ESTRUCTURA EXACTA DEL BRIEF:
 
@@ -219,16 +219,38 @@ ESTRUCTURA EXACTA DEL BRIEF:
 - 💧 **Mapa de Liquidez:** [FVGs no mitigados, Order Blocks clave, EQL/EQH recientes]
 - 🎯 **Plan de Acción:** [🟢/🔴/🟡] Zona de Entrada: **[Precio]** | 🛡️ SL: **[Precio]** | 🎯 TP: **[Precio]**
 
-*(Repite exactamente la misma plantilla para ETH/USDT)*
+*(Repite exactamente la misma plantilla para ETH/USDT y SOL/USDT)*
 
 ---
 
 ### 📊 3. CROSS-ASSET RADAR
-*(Lectura rápida de 1 línea por activo. Omite el activo si está en zona muerta).*
-- **Índices (SPX, NDX, DJI):** [Sesgo + 1 nivel clave de reacción]
-- **Top Tech:** [Menciona solo las 2-3 acciones con setups más claros hoy]
-- **Commodities (Gold, Silver, WTI):** [Niveles operativos inminentes]
-- **ETFs Clave:** [Visión direccional rápida]
+*(Una tabla por grupo con sus activos. Sesgo + 1 nivel clave + lectura de 1 línea por activo. Omite activos en zona muerta; mínimo 2 filas por tabla).*
+
+#### 📈 ÍNDICES
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| **$SPX** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+| **$NDX** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+| **$DJI** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+
+#### 💻 TOP TECH
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| **$NVDA** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+| **$MSFT** | 🟢/🔴/🟡 | **$Precio** | [Menciona solo las 2-3 acciones con setups más claros hoy] |
+
+#### 🥇 COMMODITIES
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| **$GOLD** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+| **$SILVER** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+| **$WTI** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
+
+#### 📦 ETFS
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| **$SPY** | 🟢/🔴/🟡 | **$Precio** | [Visión direccional rápida, 1 línea] |
+| **$QQQ** | 🟢/🔴/🟡 | **$Precio** | [1 línea] |
 
 ---
 
@@ -239,7 +261,48 @@ ESTRUCTURA EXACTA DEL BRIEF:
 | **$TICKER2** | 🟢/🔴 | [Ej. Sweep de EQL] | **$Precio** | **$Precio** | **$Precio** |
 | **$TICKER3** | 🟢/🔴 | [Ej. Rechazo OB HTF] | **$Precio** | **$Precio** | **$Precio** |
 
-> ⚠️ **Radar de Riesgo:** [Menciona cierres diarios críticos, inyecciones de volatilidad programadas o invalidaciones macro para hoy]."""
+> ⚠️ **Radar de Riesgo:** [Nivel de invalidación crítico del tablero: el cierre diario que rompe la tesis principal] | [Posicionamiento del activo principal: funding/OI/L-S extremos a vigilar] | [Noticia o evento de último momento a valorar; si no hay, indicarlo] | [Volatilidad programada / invalidación macro para hoy]."""
+
+
+def _display_symbol(name: str) -> str:
+    """BTCUSDT → BTC/USDT (para emparejar la línea del ticker del brief)."""
+    base = str(name).upper().replace("/", "")
+    for quote in ("USDT", "USDC", "USD"):
+        if base.endswith(quote) and len(base) > len(quote):
+            return f"{base[:-len(quote)]}/{quote}"
+    return base
+
+
+_INJECT_TICKER_RE = re.compile(
+    r"^\*{0,2}\[TICKER:\s*(?P<name>[^\]]+)\]\*{0,2}[^\n]*$", re.MULTILINE
+)
+
+
+def _inject_ticker_data(brief_md: str, analysis: Dict) -> str:
+    """Reescribe las líneas [TICKER: X] con el precio/RSI reales del feed.
+
+    El modelo suele transcribir (o inventar) esos valores; aquí se sustituyen
+    por los del análisis del día para que el encabezado de la tabla siempre
+    muestre data actualizada. Si un activo no tiene data, la línea no se toca.
+    """
+    prices = {}
+    for a in analysis.get("crypto", []):
+        if "error" in a or _is_empty(a.get("price")):
+            continue
+        prices[_display_symbol(a["name"])] = (a["price"], a.get("rsi"))
+
+    def repl(m: re.Match) -> str:
+        name = m.group("name").strip()
+        data = prices.get(_display_symbol(name))
+        if not data:
+            return m.group(0)
+        price, rsi = data
+        line = f"**[TICKER: {name}] | ${_fmt_price(price)}"
+        if not _is_empty(rsi):
+            line += f" | RSI {rsi}"
+        return line + "**"
+
+    return _INJECT_TICKER_RE.sub(repl, brief_md)
 
 
 def extract_brief_text(message: Any) -> str:
@@ -328,7 +391,7 @@ en máximo 10 minutos y saber exactamente qué vigilar.""",
             f"(cap={config.CLAUDE_MAX_TOKENS}). Sube CLAUDE_MAX_TOKENS en config.py."
         )
 
-    return brief_md
+    return _inject_ticker_data(brief_md, analysis)
 
 
 def markdown_to_plain(md: str) -> str:

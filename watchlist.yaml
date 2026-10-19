@@ -5,6 +5,7 @@
 crypto:
   - BTCUSDT
   - ETHUSDT
+  - SOLUSDT
 
 stocks:
   - AAPL

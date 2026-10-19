@@ -26,7 +26,7 @@ NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "")  # Opcional: newsapi.org free tier
 
 # ── Activos a analizar ──
 # Defaults — sobrescritos por watchlist.yaml si existe.
-CRYPTO_SYMBOLS = ["BTCUSDT", "ETHUSDT"]
+CRYPTO_SYMBOLS = ["BTCUSDT", "ETHUSDT", "SOLUSDT"]
 
 STOCK_SYMBOLS = ["AAPL", "MSFT", "NVDA", "GOOGL", "AMZN"]  # Top 5 Tech
 
