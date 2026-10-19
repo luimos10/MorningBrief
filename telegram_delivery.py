@@ -48,15 +48,21 @@ def send_telegram_message(text: str, chat_id: str = None, parse_mode: str = "HTM
                 print(f"[ERROR] Telegram chunk {i+1}: {resp.json()}")
                 success = False
         except Exception as e:
-            print(f"[ERROR] Telegram send: {e}")
+            print(f"[ERROR] Telegram chunk {i+1} con parse_mode={parse_mode}: {e}")
             # Retry without parse_mode in case of formatting issues
             try:
-                payload["parse_mode"] = None
                 payload.pop("parse_mode", None)
                 resp = requests.post(url, json=payload, timeout=15)
-            except Exception:
-                pass
-            success = False
+                data = resp.json() if resp.content else {}
+                if not (resp.ok and data.get("ok")):
+                    print(
+                        f"[ERROR] Telegram chunk {i+1} (retry sin parse_mode): "
+                        f"{resp.status_code} {resp.text[:200]}"
+                    )
+                    success = False
+            except Exception as e2:
+                print(f"[ERROR] Telegram chunk {i+1} (retry sin parse_mode): {e2}")
+                success = False
 
     return success
 
@@ -127,6 +133,9 @@ def format_brief_for_telegram(brief_text: str) -> str:
 
     # Clean up any triple backticks
     text = text.replace("```", "")
+
+    # Escape entities para que <, > y & del brief no rompan parse_mode=HTML
+    text = text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
     # Limit line length for mobile readability
     lines = text.split("\n")
