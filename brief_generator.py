@@ -306,11 +306,6 @@ en máximo 10 minutos y saber exactamente qué vigilar.""",
 
     brief_md = extract_brief_text(message)
     stop_reason = getattr(message, "stop_reason", "unknown")
-    if stop_reason == "max_tokens":
-        logger.warning(
-            f"Brief truncado: alcanzó max_tokens={config.CLAUDE_MAX_TOKENS}. "
-            f"Considera subir el cap."
-        )
     usage = getattr(message, "usage", None)
     if usage is not None:
         cache_read = getattr(usage, "cache_read_input_tokens", 0) or 0
@@ -320,7 +315,15 @@ en máximo 10 minutos y saber exactamente qué vigilar.""",
             f"out={usage.output_tokens} cache_read={cache_read} cache_create={cache_create}"
         )
     else:
-        logger.info(f"Brief generado exitosamente. stop_reason={stop_reason}")
+        logger.info(f"Brief generado. stop_reason={stop_reason}")
+
+    if stop_reason == "max_tokens":
+        # Un brief truncado no debe entregarse como si estuviera completo.
+        raise RuntimeError(
+            f"Brief truncado: stop_reason=max_tokens "
+            f"(cap={config.CLAUDE_MAX_TOKENS}). Sube CLAUDE_MAX_TOKENS en config.py."
+        )
+
     return brief_md
 
 

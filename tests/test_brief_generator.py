@@ -9,6 +9,7 @@ from types import SimpleNamespace
 
 import pytest
 
+import brief_generator
 from brief_generator import extract_brief_text
 
 
@@ -57,3 +58,41 @@ def test_raises_when_no_text_block():
 def test_raises_on_empty_content():
     with pytest.raises(RuntimeError, match="sin bloque de texto"):
         extract_brief_text(_message())
+
+
+# ── generate_brief: truncación por max_tokens debe fallar ──
+
+
+def _fake_message(text: str = "## Brief", stop_reason: str = "end_turn"):
+    return SimpleNamespace(
+        content=[_block("thinking"), _block("text", text)],
+        stop_reason=stop_reason,
+        usage=None,
+    )
+
+
+def _install_fake_anthropic(monkeypatch, message):
+    class _Messages:
+        def create(self, **kwargs):
+            return message
+
+    class _FakeAnthropic:
+        def __init__(self, **kwargs):
+            self.messages = _Messages()
+
+    monkeypatch.setattr(brief_generator.anthropic, "Anthropic", _FakeAnthropic)
+    monkeypatch.setattr(brief_generator, "build_previous_context", lambda: "")
+
+
+def test_generate_brief_returns_text_on_end_turn(monkeypatch):
+    _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
+    brief = brief_generator.generate_brief({"timestamp": "2026-10-19"})
+    assert brief == "## Brief completo"
+
+
+def test_generate_brief_raises_when_truncated(monkeypatch):
+    _install_fake_anthropic(
+        monkeypatch, _fake_message("## Brief parcial", stop_reason="max_tokens")
+    )
+    with pytest.raises(RuntimeError, match="Brief truncado"):
+        brief_generator.generate_brief({"timestamp": "2026-10-19"})
