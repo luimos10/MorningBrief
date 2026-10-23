@@ -22,7 +22,7 @@ El único costo es la Claude API (~$1/mes). Todas las demás fuentes de datos so
 
 Cada ejecución corre `main.py`, que orquesta:
 
-1. **Recopila datos** de múltiples fuentes (Binance 4h+1h, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco.
+1. **Recopila datos** de múltiples fuentes (Binance spot + mirrors geo, OKX, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco.
 2. **Calcula indicadores SMC/ICT**: EMAs, RSI, BOS/CHOCH, Order Blocks, FVG (con flag de mitigación), Equal Highs/Lows + sweeps de liquidez, niveles S/R, refinamiento multi-timeframe (1h dentro de 4h).
 3. **Genera el brief** con Claude Sonnet 5.5 (cap de salida 11.000 tokens, env `CLAUDE_MAX_TOKENS`) con `thinking: between_tools` — cero thinking: la salida es ~100% texto y el costo cae de ~$0.17 a **~$0.09–0.12/run** — y loguea el costo estimado en `[COST]`. Si Claude devuelve `stop_reason=max_tokens`, el pipeline **falla** (guarda `output/brief_TRUNCATED_<fecha>.md` solo para debugging) en vez de entregar un brief incompleto.
 4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local, y backup `.txt` en disco. El `.txt` se guarda **antes** de entregar, y una entrega fallida termina el proceso con exit ≠ 0 (job en rojo).
@@ -83,12 +83,16 @@ economic_events:
 
 | Fuente | Datos |
 |---|---|
-| Binance API (pública) | OHLCV 4h **y 1h** para BTC/ETH/SOL, funding rate, open interest, long/short ratio |
+| Binance spot + mirror `data-api.binance.vision` (fallback Bybit) | OHLCV 4h **y 1h** para BTC/ETH/SOL (incluye taker buy para CVD) |
+| Binance fapi → Bybit → **OKX público** | funding rate (asentado) y open interest actual — solo perp `*USDT` |
+| Binance fapi → Bybit → **metrics diarios `data.binance.vision`** | OI history 4h y long/short ratio de top traders |
 | Yahoo Finance (`yfinance`) | OHLCV diario para índices, stocks, commodities y ETFs; VIX y DXY |
 | alternative.me | Fear & Greed Index |
 | NewsAPI | Noticias de mercado del día (opcional) |
 
-Todas las llamadas HTTP pasan por `_http_get_json()` decorado con **tenacity** (3 intentos, backoff exponencial 1–8s). Función principal: `collect_all_data()`.
+Todos los endpoints HTTP de JSON pasan por `_http_get_json()` decorado con **tenacity** (3 intentos, backoff exponencial 1–8s). Función principal: `collect_all_data()`.
+
+> **Geo-fallbacks derivados:** `fapi.binance.com` (451) y `key.bybit` (`api.bybit.com`, 403) están geo-bloqueados desde runners de GitHub Actions (IPs de EE.UU.). Por eso la cadena de fallbacks: funding/OI terminan en OKX (frescos, `oiCcy` en BTC base comparable con Binance) y la OI history/L/S terminan en los ZIP diarios de metrics de binance.vision (mismo mirror que spot). El archivo metrics de HOY se publica mañana, así que en la nube el L/S refleja el **cierre del día previo**. Costo de latencia: ~+1 min por run en la nube al resamplear los ZIP; ~0 en local (donde Binance/Bybit responden primero).
 
 ### `analysis.py` — Motor técnico SMC/ICT
 Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH (`detect_market_structure`), Order Blocks, Fair Value Gaps (con flag `mitigated`), liquidity pools + sweeps (EQH/EQL con tolerancia 0.1%), CVD divergence (crypto), niveles S/R, y refinamiento multi-timeframe (1h dentro de 4h). Función principal: `run_full_analysis(market_data)`.
@@ -113,7 +117,7 @@ Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH 
 ### `market_cache.py`, `logging_setup.py`, `tests/`
 - Caché diario del dict de `collect_all_data()` en `cache/market_data_<fecha>.pkl` (bypass con `--fresh`).
 - Logging a `logs/morning_brief_<fecha>.log` + stdout en UTF-8.
-- 53 tests pytest: detectores SMC/ICT, extracción de texto, truncación y params de generación en `brief_generator`, y escape/fallback de entrega en `telegram_delivery` (`pytest tests/`).
+- 67 tests pytest: detectores SMC/ICT, extracción de texto, truncación y params de generación en `brief_generator`, fallbacks geo de `data_fetcher`, y escape/fallback de entrega en `telegram_delivery` (`pytest tests/`).
 
 ### `main.py` — Orquestador (CLI)
 ```
@@ -145,7 +149,7 @@ copy .env.example .env         # Windows  (cp en Mac/Linux)
 
 python main.py --test          # Probar sin gastar Claude API
 python main.py                 # Ejecutar brief completo
-pytest tests/                  # Correr la suite completa (53 tests)
+pytest tests/                  # Correr la suite completa (67 tests)
 ```
 
 ### Variables de entorno
@@ -233,9 +237,10 @@ Con `thinking: between_tools` (default) un run típico usa ~4.8–6.1k tokens de
 ```bash
 pytest tests/ -v
 ```
-53 tests en <3s, sin red ni API (todo mockeado):
+67 tests en <3s, sin red ni API (todo mockeado):
 - **SMC/ICT** con OHLCV sintético: EMAs, RSI, swings, BOS/CHOCH, Order Blocks, FVG (activo + mitigado), Equal Highs/Lows + sweeps, sesgo de tendencia.
 - **`brief_generator`**: `extract_brief_text()` con bloques `thinking` (regresión del fallo del 12/10), truncación (`stop_reason=max_tokens` → `RuntimeError` + guardado de `brief_TRUNCATED_*.md`), params de la llamada (`between_tools`/`adaptive`+effort, `CLAUDE_MAX_TOKENS`, `cache_control`) y `_estimate_cost()` del log `[COST]`.
+- **`data_fetcher`**: fallbacks geo (fapi 451 / Bybit 403 → OKX para funding/OI; metrics diarios de binance.vision para OI history resampleada a 4h y L/S del cierre previo), mapeo USDT-perp (`_okx_inst_id`), y cadena que no toca OKX/metrics si Binance responde.
 - **`telegram_delivery`**: escape de HTML y fallback sin `parse_mode` (400 → retry ok cuenta como enviado).
 
 Deben pasar antes de cualquier cambio en `analysis.py`.

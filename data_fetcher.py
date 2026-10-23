@@ -3,11 +3,15 @@ Morning Market Brief — Data Fetcher
 ====================================
 Recopila datos de mercado de múltiples fuentes gratuitas.
 """
+import csv
+import io
 import logging
+import re
+import zipfile
 import requests
 import yfinance as yf
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional
 
 from tenacity import (
@@ -59,6 +63,162 @@ _BYBIT_INTERVAL = {
     "1h": "60", "2h": "120", "4h": "240", "6h": "360", "12h": "720",
     "1d": "D", "1w": "W", "1M": "M",
 }
+
+# Fallbacks geo-tolerantes para derivados: fapi.binance.com (451) y api.bybit.com (403)
+# están bloqueados en IPs de EE.UU. como las de GitHub Actions.
+#  - OKX público (sin API key): funding asentado y OI actual (oiCcy = base asset).
+#  - Metrics diarios de data.binance.vision (mismo mirror que spot, sin geo-bloqueo):
+#    ZIP + CSV con OI ~1h y ratios L/S de top traders. El archivo de HOY se publica
+#    mañana, así que en la nube el L/S de esta vía refleja el cierre del día previo.
+_OKX_BASE = "https://www.okx.com"
+_METRICS_BASE = "https://data.binance.vision/data/futures/um/daily/metrics"
+_metrics_cache: Dict[str, List[Dict]] = {}
+
+
+def _okx_inst_id(symbol: str) -> Optional[str]:
+    """BTCUSDT → BTC-USDT-SWAP. Solo perps USDT (otros símbolos no tienen fallback OKX)."""
+    m = re.match(r"^([A-Z0-9]+)USDT$", symbol.upper())
+    if not m:
+        return None
+    return f"{m.group(1)}-USDT-SWAP"
+
+
+def _fetch_okx_funding(symbol: str) -> Optional[Dict]:
+    """Fallback de funding asentado vía OKX público (realizedRate = semántica Binance)."""
+    inst = _okx_inst_id(symbol)
+    if not inst:
+        return None
+    try:
+        payload = _http_get_json(
+            f"{_OKX_BASE}/api/v5/public/funding-rate-history",
+            params={"instId": inst, "limit": 1},
+            timeout=10,
+        )
+        rows = payload.get("data") or []
+        if rows:
+            ts = int(rows[0]["fundingTime"])
+            return {
+                "rate": float(rows[0]["realizedRate"]),
+                "time": datetime.fromtimestamp(ts / 1000).strftime("%H:%M UTC"),
+            }
+    except Exception as e:
+        logger.warning(f"Funding rate {symbol} (OKX): {e}")
+    return None
+
+
+def _fetch_okx_open_interest(symbol: str) -> Optional[Dict]:
+    """Fallback de OI vía OKX público. El `oiCcy` viene en base asset (BTC) → comparable con Binance."""
+    inst = _okx_inst_id(symbol)
+    if not inst:
+        return None
+    try:
+        payload = _http_get_json(
+            f"{_OKX_BASE}/api/v5/public/open-interest",
+            params={"instId": inst},
+            timeout=10,
+        )
+        rows = payload.get("data") or []
+        if rows:
+            return {"oi": float(rows[0]["oiCcy"]), "symbol": symbol}
+    except Exception as e:
+        logger.warning(f"Open Interest {symbol} (OKX): {e}")
+    return None
+
+
+def _download_metrics_zip(url: str, timeout: int = 15) -> Optional[bytes]:
+    """Descarga un ZIP daily de metrics y devuelve los bytes del CSV interno (404 → None)."""
+    try:
+        resp = requests.get(url, timeout=timeout)
+        if resp.status_code == 200:
+            with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:
+                members = [n for n in zf.namelist() if n.endswith(".csv")]
+                if members:
+                    return zf.read(members[0])
+                logger.warning(f"Metrics {url}: ZIP sin CSV")
+        elif resp.status_code != 404:
+            logger.warning(f"Metrics {url}: HTTP {resp.status_code}")
+    except (requests.RequestException, zipfile.BadZipFile) as e:
+        logger.warning(f"Metrics {url}: {e}")
+    return None
+
+
+def _parse_metrics_csv(raw: bytes) -> List[Dict]:
+    """CSV de metrics → filas ASC {'ts', 'oi', 'count_ratio', 'position_ratio'} (~1h por fila)."""
+    rows: List[Dict] = []
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return rows
+    reader = csv.reader(io.StringIO(text))
+    header = next(reader, None) or []
+    idx = {name.strip(): i for i, name in enumerate(header)}
+    cols = ("create_time", "sum_open_interest",
+            "count_toptrader_long_short_ratio", "sum_toptrader_long_short_ratio")
+    if not all(c in idx for c in cols):
+        return rows
+    t_i, oi_i, acc_i, pos_i = (idx[c] for c in cols)
+    for r in reader:
+        try:
+            rows.append({
+                "ts": datetime.strptime(r[t_i].strip(), "%Y-%m-%d %H:%M:%S"),
+                "oi": float(r[oi_i]),
+                "count_ratio": float(r[acc_i]) if r[acc_i].strip() else None,
+                "position_ratio": float(r[pos_i]) if r[pos_i].strip() else None,
+            })
+        except (ValueError, IndexError, TypeError):
+            continue
+    rows.sort(key=lambda x: x["ts"])
+    return rows
+
+
+def _fetch_metrics_rows(symbol: str, days: int = 6) -> List[Dict]:
+    """Descarga y parsea los últimos N archivos diarios de metrics por símbolo (memo por proceso)."""
+    if symbol in _metrics_cache:
+        return _metrics_cache[symbol]
+    all_rows: List[Dict] = []
+    today = datetime.now(timezone.utc).date()
+    for d in range(1, days + 1):
+        date = today - timedelta(days=d)
+        url = f"{_METRICS_BASE}/{symbol}/{symbol}-metrics-{date:%Y-%m-%d}.zip"
+        raw = _download_metrics_zip(url)
+        if not raw:
+            continue
+        all_rows.extend(_parse_metrics_csv(raw))
+    _metrics_cache[symbol] = all_rows
+    return all_rows
+
+
+def _metrics_oi_history(symbol: str, period: str = "4h", limit: int = 30) -> List[float]:
+    """OI history 4h vía metrics: valor del cierre de cada ventana, ASC (empareja Binance fapi)."""
+    m = re.match(r"^([1-9]\d*)h$", period)
+    if not m:
+        return []
+    hours = int(m.group(1))
+    rows = _fetch_metrics_rows(symbol)
+    if not rows:
+        return []
+    buckets: Dict[datetime, float] = {}
+    for r in rows:
+        ts = r["ts"].replace(minute=0, second=0, microsecond=0)
+        bucket = ts - timedelta(hours=ts.hour % hours)
+        buckets[bucket] = r["oi"]
+    return [buckets[k] for k in sorted(buckets)][-limit:]
+
+
+def _metrics_long_short_ratio(symbol: str, period: str = "4h") -> Optional[Dict]:
+    """L/S (cierre día previo, por publicación diaria): shares 0–1 derivados del ratio de cuentas."""
+    rows = _fetch_metrics_rows(symbol)
+    if not rows:
+        return None
+    r = rows[-1]
+    ratio = r["count_ratio"] if r["count_ratio"] else r["position_ratio"]
+    if not ratio or ratio <= 0:
+        return None
+    return {
+        "long_account": ratio / (1.0 + ratio),
+        "short_account": 1.0 / (1.0 + ratio),
+        "ratio": round(ratio, 4),
+    }
 
 
 def fetch_binance_klines(symbol: str, interval: str = "4h", limit: int = 200) -> pd.DataFrame:
@@ -128,7 +288,7 @@ def _fetch_bybit_klines(symbol: str, interval: str = "4h", limit: int = 200) -> 
 
 
 def fetch_binance_funding_rate(symbol: str) -> Optional[Dict]:
-    """Latest funding rate. Binance fapi → fallback Bybit (ambos geo-tolerantes)."""
+    """Latest funding rate. Binance fapi → Bybit → OKX (todos sin geo-bloqueo garantizado)."""
     url = "https://fapi.binance.com/fapi/v1/fundingRate"
     params = {"symbol": symbol, "limit": 1}
     try:
@@ -157,11 +317,12 @@ def fetch_binance_funding_rate(symbol: str) -> Optional[Dict]:
             }
     except Exception as e:
         logger.warning(f"Funding rate {symbol} (Bybit): {e}")
-    return None
+    # Fallback OKX: realizedRate es el funding asentado más reciente (semántica Binance).
+    return _fetch_okx_funding(symbol)
 
 
 def fetch_binance_open_interest(symbol: str) -> Optional[Dict]:
-    """Current open interest. Binance fapi → fallback Bybit."""
+    """Current open interest. Binance fapi → Bybit → OKX (oiCcy en BTC base)."""
     url = "https://fapi.binance.com/fapi/v1/openInterest"
     params = {"symbol": symbol}
     try:
@@ -177,11 +338,11 @@ def fetch_binance_open_interest(symbol: str) -> Optional[Dict]:
     hist = _fetch_bybit_oi_history(symbol, limit=1)
     if hist:
         return {"oi": hist[-1], "symbol": symbol}
-    return None
+    return _fetch_okx_open_interest(symbol)
 
 
 def fetch_binance_oi_history(symbol: str, period: str = "4h", limit: int = 30) -> List[float]:
-    """OI history para detectar cambios. Binance fapi → fallback Bybit."""
+    """OI history para detectar cambios. Binance fapi → Bybit → metrics de binance.vision."""
     url = "https://fapi.binance.com/futures/data/openInterestHist"
     params = {"symbol": symbol, "period": period, "limit": limit}
     try:
@@ -191,7 +352,11 @@ def fetch_binance_oi_history(symbol: str, period: str = "4h", limit: int = 30) -
     except Exception as e:
         logger.warning(f"OI history {symbol} (Binance): {e}")
 
-    return _fetch_bybit_oi_history(symbol, period=period, limit=limit)
+    hist = _fetch_bybit_oi_history(symbol, period=period, limit=limit)
+    if hist:
+        return hist
+    # Fallback metrics diarios de binance.vision: OI ~1h resampleada a cierres de ventana.
+    return _metrics_oi_history(symbol, period=period, limit=limit)
 
 
 def _fetch_bybit_oi_history(symbol: str, period: str = "4h", limit: int = 30) -> List[float]:
@@ -212,7 +377,7 @@ def _fetch_bybit_oi_history(symbol: str, period: str = "4h", limit: int = 30) ->
 
 
 def fetch_binance_long_short_ratio(symbol: str, period: str = "4h") -> Optional[Dict]:
-    """Top trader long/short ratio. Binance fapi → fallback Bybit."""
+    """Top trader long/short ratio. Binance fapi → Bybit → metrics binance.vision (cierre día previo)."""
     url = "https://fapi.binance.com/futures/data/topLongShortAccountRatio"
     params = {"symbol": symbol, "period": period, "limit": 1}
     try:
@@ -244,7 +409,9 @@ def fetch_binance_long_short_ratio(symbol: str, period: str = "4h") -> Optional[
             }
     except Exception as e:
         logger.warning(f"Long/Short ratio {symbol} (Bybit): {e}")
-    return None
+    # Fallback metrics diarios de binance.vision: el archivo de HOY se publica mañana,
+    # así que este dato refleja el cierre del día previo.
+    return _metrics_long_short_ratio(symbol, period=period)
 
 
 def compute_cvd_from_klines(df: pd.DataFrame) -> pd.Series:
