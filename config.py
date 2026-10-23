@@ -88,5 +88,24 @@ HTML_OUTPUT_DIR = BASE_DIR / "output"
 HTML_OUTPUT_DIR.mkdir(exist_ok=True)
 
 # ── Claude API ──
-CLAUDE_MODEL = "claude-sonnet-5-5"
-CLAUDE_MAX_TOKENS = 16000
+CLAUDE_MODEL = os.getenv("CLAUDE_MODEL", "claude-sonnet-5-5")
+# Cap de salida: 11000 cubre el brief completo (1500–2500 palabras + tablas ≈ 10.2k tokens);
+# solo se paga lo generado. Sonnet 5.5 soporta hasta 128k si hace falta subirlo por env.
+CLAUDE_MAX_TOKENS = int(os.getenv("CLAUDE_MAX_TOKENS", "11000"))
+# Thinking de sonnet-5-5: "between_tools" (default, cero thinking; con este pipeline sin tools
+# la respuesta es 100% texto) o "adaptive" (thinking on, costo variable). "disabled" y
+# "enabled"+budget_tokens devuelven 400 en este modelo.
+CLAUDE_THINKING = os.getenv("CLAUDE_THINKING", "between_tools")
+# Solo aplica con CLAUDE_THINKING=adaptive: acota la profundidad del thinking (limitación suave,
+# sin techo estricto de costo). Sonnet 5.5 acepta between_tools solo en effort high o inferior.
+CLAUDE_EFFORT = os.getenv("CLAUDE_EFFORT", "medium")
+# Caché de prompt: con runs 1×/día nunca hay cache_read (TTL 5 min) y el write cuesta +25%
+# sobre el precio de input. Off por defecto; on solo si se relanza varias veces seguidas.
+CLAUDE_PROMPT_CACHE = os.getenv("CLAUDE_PROMPT_CACHE", "0") == "1"
+# USD por MTok para el log [COST] (sonnet-5-5 a oct-2026). Actualizar si cambia el modelo.
+CLAUDE_PRICES = {
+    "input": 2.0,
+    "output": 10.0,
+    "cache_write_5m": 2.5,
+    "cache_read": 0.10,
+}

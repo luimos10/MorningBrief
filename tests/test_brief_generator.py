@@ -1,15 +1,10 @@
-"""
-Unit tests for brief_generator.extract_brief_text.
-
-Modelos como claude-sonnet-5-5 devuelven bloques de thinking antes que el
-texto: content[0] puede no ser un TextBlock. Regresión del fallo del
-12/10/2026 ('ThinkingBlock' object has no attribute 'text').
-"""
+import logging
 from types import SimpleNamespace
 
 import pytest
 
 import brief_generator
+import config
 from brief_generator import extract_brief_text
 
 
@@ -67,13 +62,21 @@ def _fake_message(text: str = "## Brief", stop_reason: str = "end_turn"):
     return SimpleNamespace(
         content=[_block("thinking"), _block("text", text)],
         stop_reason=stop_reason,
-        usage=None,
+        usage=SimpleNamespace(
+            input_tokens=100,
+            output_tokens=200,
+            cache_read_input_tokens=0,
+            cache_creation_input_tokens=0,
+        ),
     )
 
 
 def _install_fake_anthropic(monkeypatch, message):
+    captured = {}
+
     class _Messages:
         def create(self, **kwargs):
+            captured.update(kwargs)
             return message
 
     class _FakeAnthropic:
@@ -82,20 +85,75 @@ def _install_fake_anthropic(monkeypatch, message):
 
     monkeypatch.setattr(brief_generator.anthropic, "Anthropic", _FakeAnthropic)
     monkeypatch.setattr(brief_generator, "build_previous_context", lambda: "")
+    return captured
 
 
 def test_generate_brief_returns_text_on_end_turn(monkeypatch):
-    _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
+    captured = _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
     brief = brief_generator.generate_brief({"timestamp": "2026-10-19"})
     assert brief == "## Brief completo"
+    assert captured["max_tokens"] == config.CLAUDE_MAX_TOKENS
+    assert captured["model"] == config.CLAUDE_MODEL
 
 
-def test_generate_brief_raises_when_truncated(monkeypatch):
+def test_generate_brief_usa_between_tools_y_sin_cache_por_defecto(monkeypatch):
+    captured = _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
+    brief_generator.generate_brief({"timestamp": "2026-10-19"})
+    assert captured["thinking"] == {"type": "between_tools"}
+    assert "output_config" not in captured
+    assert "cache_control" not in captured["system"][0]
+
+
+def test_generate_brief_adaptive_envia_effort(monkeypatch):
+    monkeypatch.setattr(config, "CLAUDE_THINKING", "adaptive")
+    monkeypatch.setattr(config, "CLAUDE_EFFORT", "high")
+    captured = _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
+    brief_generator.generate_brief({"timestamp": "2026-10-19"})
+    assert captured["thinking"] == {"type": "adaptive"}
+    assert captured["output_config"] == {"effort": "high"}
+
+
+def test_generate_brief_cache_on_incluye_cache_control(monkeypatch):
+    monkeypatch.setattr(config, "CLAUDE_PROMPT_CACHE", True)
+    captured = _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
+    brief_generator.generate_brief({"timestamp": "2026-10-19"})
+    assert captured["system"][0]["cache_control"] == {"type": "ephemeral"}
+
+
+def test_generate_brief_loguea_costo(monkeypatch, caplog):
+    _install_fake_anthropic(monkeypatch, _fake_message("## Brief completo"))
+    with caplog.at_level(logging.INFO, logger="brief_generator"):
+        brief_generator.generate_brief({"timestamp": "2026-10-19"})
+    assert any(r.message.startswith("[COST]") for r in caplog.records)
+
+
+def test_generate_brief_raises_when_truncated(monkeypatch, tmp_path):
+    monkeypatch.setattr(config, "HTML_OUTPUT_DIR", tmp_path)
     _install_fake_anthropic(
         monkeypatch, _fake_message("## Brief parcial", stop_reason="max_tokens")
     )
     with pytest.raises(RuntimeError, match="Brief truncado"):
         brief_generator.generate_brief({"timestamp": "2026-10-19"})
+    archivos = list(tmp_path.glob("brief_TRUNCATED_*.md"))
+    assert len(archivos) == 1
+    assert archivos[0].read_text(encoding="utf-8") == "## Brief parcial"
+
+
+# ── _estimate_cost: presupuesto por run con precios de config ──
+
+
+def test_estimate_cost_con_usage_completo():
+    usage = SimpleNamespace(
+        input_tokens=6140,
+        output_tokens=16000,
+        cache_read_input_tokens=0,
+        cache_creation_input_tokens=2404,
+    )
+    assert brief_generator._estimate_cost(usage) == pytest.approx(0.178290)
+
+
+def test_estimate_cost_none_es_cero():
+    assert brief_generator._estimate_cost(None) == 0.0
 
 
 # ── _inject_ticker_data: precio/RSI del encabezado siempre del feed ──

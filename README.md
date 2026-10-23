@@ -24,7 +24,7 @@ Cada ejecución corre `main.py`, que orquesta:
 
 1. **Recopila datos** de múltiples fuentes (Binance 4h+1h, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco.
 2. **Calcula indicadores SMC/ICT**: EMAs, RSI, BOS/CHOCH, Order Blocks, FVG (con flag de mitigación), Equal Highs/Lows + sweeps de liquidez, niveles S/R, refinamiento multi-timeframe (1h dentro de 4h).
-3. **Genera el brief** con Claude Sonnet 5.5 (cap de salida 16.000 tokens) — el system prompt va con `cache_control: ephemeral`. Si Claude devuelve `stop_reason=max_tokens`, el pipeline **falla** en vez de entregar un brief incompleto.
+3. **Genera el brief** con Claude Sonnet 5.5 (cap de salida 11.000 tokens, env `CLAUDE_MAX_TOKENS`) con `thinking: between_tools` — cero thinking: la salida es ~100% texto y el costo cae de ~$0.17 a **~$0.09–0.12/run** — y loguea el costo estimado en `[COST]`. Si Claude devuelve `stop_reason=max_tokens`, el pipeline **falla** (guarda `output/brief_TRUNCATED_<fecha>.md` solo para debugging) en vez de entregar un brief incompleto.
 4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local, y backup `.txt` en disco. El `.txt` se guarda **antes** de entregar, y una entrega fallida termina el proceso con exit ≠ 0 (job en rojo).
 
 Cada brief incluye una línea de **SEGUIMIENTO** que compara los setups del día anterior con los precios actuales (¿se activó la entrada? ¿saltó el SL? ¿llegó al target?), dando continuidad narrativa día a día.
@@ -43,7 +43,7 @@ morning-brief/
 ├── data_fetcher.py         # Recopilación de datos (con retries tenacity)
 ├── analysis.py             # Motor SMC/ICT (BOS/CHOCH, OB, FVG, liquidity)
 ├── performance_tracker.py  # Inyecta contexto del brief anterior
-├── brief_generator.py      # Genera brief con Claude (prompt caching)
+├── brief_generator.py      # Genera brief con Claude (thinking off + log [COST])
 ├── html_renderer.py        # Renderizado HTML profesional
 ├── telegram_delivery.py    # Envío a Telegram
 ├── discord_delivery.py     # Envío a Discord (webhook)
@@ -65,7 +65,7 @@ morning-brief/
 ## 4. Módulos paso a paso
 
 ### `config.py` — Configuración central
-Carga variables de entorno (desde `.env` en local, o desde el entorno en la nube) y, si existe, sobrescribe los símbolos con `watchlist.yaml`. Define API keys, activos por defecto, parámetros técnicos (EMAs 21/50/200, RSI 14, timeframe crypto 4h, lookback 100 días), modelo Claude (`claude-sonnet-5-5`), cap de salida (`CLAUDE_MAX_TOKENS = 16000`) y hora de ejecución (`BRIEF_HOUR = 9`).
+Carga variables de entorno (desde `.env` en local, o desde el entorno en la nube) y, si existe, sobrescribe los símbolos con `watchlist.yaml`. Define API keys, activos por defecto, parámetros técnicos (EMAs 21/50/200, RSI 14, timeframe crypto 4h, lookback 100 días), la configuración Claude con env vars (`CLAUDE_MODEL`, `CLAUDE_MAX_TOKENS = 11000`, `CLAUDE_THINKING = between_tools`, `CLAUDE_EFFORT` solo en modo `adaptive`, `CLAUDE_PROMPT_CACHE`, y `CLAUDE_PRICES` para el log `[COST]`) y hora de ejecución (`BRIEF_HOUR = 9`).
 
 ### `watchlist.yaml` — Watchlist configurable
 Editar para añadir/quitar tickers sin tocar código:
@@ -100,9 +100,9 @@ Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH 
 > Este módulo es la razón por la que versionamos `output/brief_*.txt`: en la nube cada ejecución arranca en una VM limpia, así que el brief de ayer tiene que venir del repositorio (ver sección 6).
 
 ### `brief_generator.py` — Generación con Claude
-`format_analysis_for_prompt()` serializa el análisis a texto compacto. `generate_brief()` llama a Claude Sonnet 5.5 (cap de salida 16.000 tokens) con el `SYSTEM_PROMPT` envuelto en `cache_control: {"type": "ephemeral"}` y loguea tokens y uso de caché en cada run. `extract_brief_text()` toma el último bloque `type=text` de la respuesta (claude-sonnet-5-5 devuelve bloques `thinking` antes del texto) y falla con error claro si no hay ninguno. Si `stop_reason == "max_tokens"`, `generate_brief()` lanza `RuntimeError`: **nunca se entrega un brief truncado**. `markdown_to_plain()` convierte a texto plano para `.txt` y Telegram.
+`format_analysis_for_prompt()` serializa el análisis a texto compacto con caps anti-ruido (máx 3 FVG activos por lado, 2 en LTF, 3 sweeps, 3 EQH/EQL, top 5 noticias y eventos). `generate_brief()` llama a Claude Sonnet 5.5 con `thinking: between_tools` (cero up-front thinking; con `CLAUDE_THINKING=adaptive` + `CLAUDE_EFFORT` se reintroduce thinking con limitación suave) y sin `cache_control` por defecto; loguea tokens y el costo estimado del run (`[COST] ~$0.0xxx` calculado con `CLAUDE_PRICES`). `extract_brief_text()` toma el último bloque `type=text` de la respuesta (sonnet-5-5 puede devolver bloques `thinking` junto al texto) y falla con error claro si no hay ninguno. Si `stop_reason == "max_tokens"`, `generate_brief()` guarda `output/brief_TRUNCATED_<fecha>.md` para debugging y lanza `RuntimeError`: **nunca se entrega un brief truncado**. `markdown_to_plain()` convierte a texto plano para `.txt` y Telegram.
 
-> Nota: el caché de prompt es efímero (TTL ~5 min), así que entre ejecuciones diarias lo normal es ver `cache_read=0`; se mantiene por si hay reintentos dentro de la ventana.
+> Nota: el caché de prompt (TTL ~5 min) está **off por defecto** (`CLAUDE_PROMPT_CACHE=1` para activarlo): en un run diario el write cuesta un +25% sobre el input y nunca hay `cache_read`. Solo compensa si se relanza el brief varias veces seguidas dentro de la ventana.
 
 ### `html_renderer.py`, `telegram_delivery.py`, `discord_delivery.py` — Entrega
 - HTML: tema oscuro, JetBrains Mono + Inter, tabla de contenidos → `output/brief_YYYY-MM-DD.html`.
@@ -113,7 +113,7 @@ Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH 
 ### `market_cache.py`, `logging_setup.py`, `tests/`
 - Caché diario del dict de `collect_all_data()` en `cache/market_data_<fecha>.pkl` (bypass con `--fresh`).
 - Logging a `logs/morning_brief_<fecha>.log` + stdout en UTF-8.
-- 23 tests pytest: detectores SMC/ICT, extracción de texto y truncación en `brief_generator`, y escape/fallback de entrega en `telegram_delivery` (`pytest tests/`).
+- 53 tests pytest: detectores SMC/ICT, extracción de texto, truncación y params de generación en `brief_generator`, y escape/fallback de entrega en `telegram_delivery` (`pytest tests/`).
 
 ### `main.py` — Orquestador (CLI)
 ```
@@ -145,7 +145,7 @@ copy .env.example .env         # Windows  (cp en Mac/Linux)
 
 python main.py --test          # Probar sin gastar Claude API
 python main.py                 # Ejecutar brief completo
-pytest tests/                  # Correr la suite completa (23 tests)
+pytest tests/                  # Correr la suite completa (53 tests)
 ```
 
 ### Variables de entorno
@@ -157,6 +157,11 @@ pytest tests/                  # Correr la suite completa (23 tests)
 | `TELEGRAM_CHAT_ID` | Chat donde entregar el brief | Recomendado |
 | `DISCORD_WEBHOOK_URL` | Webhook de canal Discord | No |
 | `NEWSAPI_KEY` | Noticias del día (newsapi.org free tier) | No |
+| `CLAUDE_MODEL` | Modelo Claude (default `claude-sonnet-5-5`) | No |
+| `CLAUDE_MAX_TOKENS` | Cap de salida (default `11000`) | No |
+| `CLAUDE_THINKING` | `between_tools` (default, sin thinking) o `adaptive` | No |
+| `CLAUDE_EFFORT` | Effort cuando `CLAUDE_THINKING=adaptive` (default `medium`) | No |
+| `CLAUDE_PROMPT_CACHE` | `1` activa el `cache_control` del system prompt | No |
 
 En local estas variables viven en `.env` (que **nunca** se commitea). En la nube se configuran como GitHub Secrets (sección 6).
 
@@ -169,7 +174,7 @@ El objetivo: que GitHub corra el brief solo, de **lunes a viernes ~9:00 AM ET** 
 ### Cómo está resuelto
 
 - **Horario / puntualidad:** el workflow **solo** acepta `workflow_dispatch` (no tiene `schedule`). Lo dispara un **cron externo (cron-job.org)** que llama a la API de GitHub a las ~8:45 America/New_York; el servicio externo resuelve el DST. Se abandonó el scheduler de GitHub porque es best-effort (runs con horas de retraso o descartados) y el viejo *guard* de ventana horaria terminaba salteando el envío dejando el job en verde.
-- **Fallos visibles:** `python main.py --no-browser --fresh` sale con exit ≠ 0 si Claude trunca el brief (`stop_reason=max_tokens`) o si una entrega configurada (Telegram/Discord) falla → el job queda en rojo en Actions en vez de pasar desapercibido.
+- **Fallos visibles:** `python main.py --no-browser --fresh` sale con exit ≠ 0 si Claude trunca el brief (`stop_reason=max_tokens`) o si una entrega configurada (Telegram/Discord) falla → el job queda en rojo en Actions en vez de pasar desapercibido (el markdown truncado queda en `output/brief_TRUNCATED_*.md` para diagnóstico).
 - **Continuidad:** como cada ejecución corre en una VM nueva, el `.txt` se escribe en disco **antes** de entregar y el último paso del workflow commitea `output/brief_<fecha>.txt` de vuelta al repo con `if: always()` (corre aunque la entrega haya fallado; el job igual queda rojo). Al día siguiente el `checkout` lo trae y `performance_tracker.py` lo encuentra → el SEGUIMIENTO funciona en la nube.
 - **Sin navegador:** se ejecuta con `--no-browser` (el `webbrowser.open()` no aplica en CI).
 - **Secretos:** se inyectan como variables de entorno desde GitHub Secrets; `config.py` los lee directamente, sin necesidad de `.env`.
@@ -219,7 +224,7 @@ A partir de ahí, el brief llega solo cada mañana laborable.
 
 ### Costo
 
-~22 ejecuciones/mes ≈ **~$1/mes** (solo Claude API). Un run típico usa ~3.6k tokens de entrada y ~11.5k de salida (el cap de 16k es un techo, solo se paga lo que se genera). GitHub Actions entra dentro del free tier (ilimitado en repos públicos; 2000 min/mes en privados).
+Con `thinking: between_tools` (default) un run típico usa ~4.8–6.1k tokens de entrada y ~7–10k de salida → **~$0.09–0.12/run ≈ $2–2.5/mes** con ~22 ejecuciones, dentro del techo de $0.12/run. Cada run loguea `[COST] ~$0.0xxx` para verificarlo contra los precios de `CLAUDE_PRICES`. El cap `CLAUDE_MAX_TOKENS = 11000` solo factura lo generado; el run fallido del 22/10/2026 (~$0.18 desperdiciados con `out=16,000` truncado) ocurría porque sonnet-5-5 corre con *adaptive thinking* por defecto (default effort `high`) — ya desactivado con `between_tools`. GitHub Actions entra dentro del free tier (ilimitado en repos públicos; 2000 min/mes en privados).
 
 ---
 
@@ -228,9 +233,9 @@ A partir de ahí, el brief llega solo cada mañana laborable.
 ```bash
 pytest tests/ -v
 ```
-23 tests en <2s, sin red ni API (todo mockeado):
+53 tests en <3s, sin red ni API (todo mockeado):
 - **SMC/ICT** con OHLCV sintético: EMAs, RSI, swings, BOS/CHOCH, Order Blocks, FVG (activo + mitigado), Equal Highs/Lows + sweeps, sesgo de tendencia.
-- **`brief_generator`**: `extract_brief_text()` con bloques `thinking` (regresión del fallo del 12/10) y truncación (`stop_reason=max_tokens` → `RuntimeError`).
+- **`brief_generator`**: `extract_brief_text()` con bloques `thinking` (regresión del fallo del 12/10), truncación (`stop_reason=max_tokens` → `RuntimeError` + guardado de `brief_TRUNCATED_*.md`), params de la llamada (`between_tools`/`adaptive`+effort, `CLAUDE_MAX_TOKENS`, `cache_control`) y `_estimate_cost()` del log `[COST]`.
 - **`telegram_delivery`**: escape de HTML y fallback sin `parse_mode` (400 → retry ok cuenta como enviado).
 
 Deben pasar antes de cualquier cambio en `analysis.py`.

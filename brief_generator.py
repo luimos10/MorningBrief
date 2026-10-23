@@ -5,7 +5,8 @@ Usa Claude API para generar el brief final profesional.
 """
 import logging
 import re
-from typing import Dict, Any
+from datetime import datetime
+from typing import Any, Dict
 
 import anthropic
 
@@ -13,6 +14,14 @@ import config
 from performance_tracker import build_previous_context, summarize_current_prices
 
 logger = logging.getLogger(__name__)
+
+# Caps del feed para el prompt: el ruido (FVGs ya mitigados, sweeps antiguos, listas largas)
+# sube el costo de input y diluye los niveles que importan hoy.
+_MAX_FVG_PER_SIDE = 3
+_MAX_LTF_FVG_PER_SIDE = 2
+_MAX_EQ_LEVELS = 3
+_MAX_SWEEPS = 3
+_MAX_MACRO_ITEMS = 5
 
 
 def _fmt_price(v: Any) -> str:
@@ -78,21 +87,21 @@ def format_analysis_for_prompt(analysis: Dict) -> str:
                 out.append(f"  Bear OB: {b['low']}–{b['high']} ({b['time']})")
 
             fvg = a.get("fvg", {})
-            for f in fvg.get("bullish_fvg", []) or []:
-                state = "mitigado" if f.get("mitigated") else "ACTIVO"
-                out.append(f"  Bull FVG: {f['low']}–{f['high']} ({state})")
-            for f in fvg.get("bearish_fvg", []) or []:
-                state = "mitigado" if f.get("mitigated") else "ACTIVO"
-                out.append(f"  Bear FVG: {f['low']}–{f['high']} ({state})")
+            active_bull_fvg = [f for f in fvg.get("bullish_fvg") or [] if not f.get("mitigated")]
+            active_bear_fvg = [f for f in fvg.get("bearish_fvg") or [] if not f.get("mitigated")]
+            for f in active_bull_fvg[:_MAX_FVG_PER_SIDE]:
+                out.append(f"  Bull FVG: {f['low']}–{f['high']} (ACTIVO)")
+            for f in active_bear_fvg[:_MAX_FVG_PER_SIDE]:
+                out.append(f"  Bear FVG: {f['low']}–{f['high']} (ACTIVO)")
 
             liq = a.get("liquidity", {})
             if liq.get("equal_highs"):
-                eqh = ", ".join(str(x["level"]) for x in liq["equal_highs"])
+                eqh = ", ".join(str(x["level"]) for x in liq["equal_highs"][:_MAX_EQ_LEVELS])
                 out.append(f"  EQH (liquidez sell-side): {eqh}")
             if liq.get("equal_lows"):
-                eql = ", ".join(str(x["level"]) for x in liq["equal_lows"])
+                eql = ", ".join(str(x["level"]) for x in liq["equal_lows"][:_MAX_EQ_LEVELS])
                 out.append(f"  EQL (liquidez buy-side): {eql}")
-            for s in liq.get("sweeps", []) or []:
+            for s in (liq.get("sweeps") or [])[:_MAX_SWEEPS]:
                 out.append(f"  ⚠ Sweep reciente: {s['type']} en {s['level']}")
 
             ltf = a.get("ltf")
@@ -100,12 +109,12 @@ def format_analysis_for_prompt(analysis: Dict) -> str:
                 out.append(f"  LTF (1h): {ltf.get('structure','—')} / {ltf.get('trend','—')}")
                 if ltf.get("events"):
                     out.append(f"    Eventos LTF: {', '.join(ltf['events'])}")
-                for f in (ltf.get("bullish_fvg") or []):
-                    if not f.get("mitigated"):
-                        out.append(f"    LTF Bull FVG activo: {f['low']}–{f['high']}")
-                for f in (ltf.get("bearish_fvg") or []):
-                    if not f.get("mitigated"):
-                        out.append(f"    LTF Bear FVG activo: {f['low']}–{f['high']}")
+                ltf_bull_fvg = [f for f in ltf.get("bullish_fvg") or [] if not f.get("mitigated")]
+                for f in ltf_bull_fvg[:_MAX_LTF_FVG_PER_SIDE]:
+                    out.append(f"    LTF Bull FVG activo: {f['low']}–{f['high']}")
+                ltf_bear_fvg = [f for f in ltf.get("bearish_fvg") or [] if not f.get("mitigated")]
+                for f in ltf_bear_fvg[:_MAX_LTF_FVG_PER_SIDE]:
+                    out.append(f"    LTF Bear FVG activo: {f['low']}–{f['high']}")
 
             if not _is_empty(a.get("funding_rate")):
                 out.append(f"  Funding: {a['funding_rate']} ({a.get('funding_sentiment','')})")
@@ -172,12 +181,12 @@ def format_analysis_for_prompt(analysis: Dict) -> str:
     events = macro.get("economic_events") or []
     if events:
         macro_lines.append("  Eventos hoy:")
-        for ev in events:
+        for ev in events[:_MAX_MACRO_ITEMS]:
             macro_lines.append(f"    - {ev['title']} ({ev['source']})")
     news = macro.get("news") or []
     if news:
         macro_lines.append("  Noticias:")
-        for n in news:
+        for n in news[:_MAX_MACRO_ITEMS]:
             macro_lines.append(f"    - {n['title']} ({n['source']})")
     if macro_lines:
         out.append("\n=== MACRO ===")
@@ -328,6 +337,29 @@ def extract_brief_text(message: Any) -> str:
     return text_blocks[-1]
 
 
+def _estimate_cost(usage: Any) -> float:
+    """Costo USD estimado de la llamada usando los precios unitarios de config.CLAUDE_PRICES."""
+    if usage is None:
+        return 0.0
+    p = config.CLAUDE_PRICES
+    return (
+        (getattr(usage, "input_tokens", 0) or 0) * p["input"]
+        + (getattr(usage, "output_tokens", 0) or 0) * p["output"]
+        + (getattr(usage, "cache_read_input_tokens", 0) or 0) * p["cache_read"]
+        + (getattr(usage, "cache_creation_input_tokens", 0) or 0) * p["cache_write_5m"]
+    ) / 1_000_000
+
+
+def _save_truncated_markdown(brief_md: str) -> None:
+    """Guarda la salida truncada para debugging; por política del pipeline no se entrega."""
+    path = config.HTML_OUTPUT_DIR / f"brief_TRUNCATED_{datetime.now():%Y-%m-%d}.md"
+    try:
+        path.write_text(brief_md, encoding="utf-8")
+        logger.warning(f"Markdown truncado guardado para debugging (no se entrega): {path}")
+    except OSError as e:
+        logger.warning(f"No pude guardar el markdown truncado: {e}")
+
+
 def generate_brief(analysis: Dict) -> str:
     """
     Send analysis data to Claude API and generate the professional brief in markdown.
@@ -345,17 +377,15 @@ def generate_brief(analysis: Dict) -> str:
 
     client = anthropic.Anthropic(api_key=config.ANTHROPIC_API_KEY)
 
-    message = client.messages.create(
-        model=config.CLAUDE_MODEL,
-        max_tokens=config.CLAUDE_MAX_TOKENS,
-        system=[
-            {
-                "type": "text",
-                "text": SYSTEM_PROMPT,
-                "cache_control": {"type": "ephemeral"},
-            }
-        ],
-        messages=[
+    system_block: Dict[str, Any] = {"type": "text", "text": SYSTEM_PROMPT}
+    if config.CLAUDE_PROMPT_CACHE:
+        system_block["cache_control"] = {"type": "ephemeral"}
+
+    request: Dict[str, Any] = {
+        "model": config.CLAUDE_MODEL,
+        "max_tokens": config.CLAUDE_MAX_TOKENS,
+        "system": [system_block],
+        "messages": [
             {
                 "role": "user",
                 "content": f"""Genera el Morning Market Brief en markdown basado en estos datos de mercado recopilados hoy:
@@ -369,7 +399,15 @@ y los niveles que realmente importan hoy. El trader necesita poder leer esto
 en máximo 10 minutos y saber exactamente qué vigilar.""",
             }
         ],
-    )
+    }
+    if config.CLAUDE_THINKING == "adaptive":
+        request["thinking"] = {"type": "adaptive"}
+        request["output_config"] = {"effort": config.CLAUDE_EFFORT}
+    else:
+        # Sin tools, la respuesta con between_tools es 100% texto: out ≈ solo el brief.
+        request["thinking"] = {"type": "between_tools"}
+
+    message = client.messages.create(**request)
 
     brief_md = extract_brief_text(message)
     stop_reason = getattr(message, "stop_reason", "unknown")
@@ -381,11 +419,13 @@ en máximo 10 minutos y saber exactamente qué vigilar.""",
             f"Brief generado. stop_reason={stop_reason} Tokens: in={usage.input_tokens} "
             f"out={usage.output_tokens} cache_read={cache_read} cache_create={cache_create}"
         )
+        logger.info(f"[COST] ~${_estimate_cost(usage):.4f} modelo={config.CLAUDE_MODEL}")
     else:
         logger.info(f"Brief generado. stop_reason={stop_reason}")
 
     if stop_reason == "max_tokens":
         # Un brief truncado no debe entregarse como si estuviera completo.
+        _save_truncated_markdown(brief_md)
         raise RuntimeError(
             f"Brief truncado: stop_reason=max_tokens "
             f"(cap={config.CLAUDE_MAX_TOKENS}). Sube CLAUDE_MAX_TOKENS en config.py."
