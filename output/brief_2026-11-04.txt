@@ -1,0 +1,79 @@
+🏛️ INSTITUTIONAL MORNING BRIEF | 2026-11-04
+────────────────────────────────────────
+🌐 1. MACRO & SENTIMIENTO (Flash View)
+• ▪️ DXY / VIX: DXY 101.27 (-0.59%) cede terreno: viento de cola táctico para commodities y cripto. VIX 18.54: volatilidad moderada, sin pánico pese al RSI deprimido en índices; no hay capitulación aún.
+• ▪️ Sentimiento: Fear & Greed 34 (Fear). Miedo moderado con L/S crypto extremadamente long-heavy: divergencia entre sentimiento declarado y posicionamiento real.
+• ▪️ Catalizadores Hoy: Elecciones de medio mandato EE.UU. (riesgo binario; un barrido demócrata del Congreso es leído como riesgo para equities). Pérdidas en tech pesan en mercados globales. Petróleo con titulares al alza pero $WTI -2.14%: divergencia a vigilar. No hay datos macro de primer nivel en el feed; asumir volatilidad por headline electoral.
+
+────────────────────────────────────────
+⚡ 2. ARQUITECTURA CRYPTO & FLUJO (SMC)
+
+> 📋 SEGUIMIENTO (brief 2026-11-03):
+> - $BTC: de $77,652 a $78,422 (+$770). El rebote correctivo LTF se extendió: reclamó $77,620, mitigó el Bull FVG LTF y rellenó el Bull FVG 4H ($77,544–$78,140). Precio ya está dentro del Bear FVG 4H $78,274–$80,592. La tesis de "rebote hasta que el 4H cambie estructura" sigue vigente: el 4H continúa LH + LL. OI +0.47% → -0.66% y funding +0.0100% → +0.0088%: el posicionamiento se enfrió ligeramente, pero L/S subió de 66.6 a 72.5% long. Más combustible long contra tendencia HTF.
+> - $ETH: de $2,297 a $2,320. Salió del rango alto: superó $2,317.84 (swing high) y está pegado al Bear FVG LTF $2,322–$2,327. CVD pasó de confirmación alcista a divergencia bajista: el avance pierde respaldo de flujo. Estructura sigue transicional; no hay BOS confirmado.
+> - $SOL: de $93.34 a $93.03. Plano, sin resolución. Mantiene $90.87; divergencia alcista de CVD (absorción) persiste. L/S subió de 77.6 a 81.0% long: el más apalancado del trío, riesgo de cascada intacto.
+
+[TICKER: BTC/USDT] | $78,422 | RSI 55.1
+• Estructura (HTF/LTF): 4H: LH + LL, precio bajo EMAs 50/200 ($78,474 / $81,291) y sobre EMA 21 ($77,769). RSI 55.1 sin sobrecompra. LTF 1h: estructura mixta/transicional con CHoCH potencial. Swings $78,878 / $76,326. El precio opera en el premium interno del rango, bajo el Bear FVG que actúa como techo.
+• Order Flow: Funding +0.0088% (longs pagan) | CVD alineado alcista, sin divergencia | OI 35,392 (-0.66%) | L/S 72.5/27.5. OI cayendo con precio plano = cierre parcial de posiciones, rebote sin convicción nueva. 72.5% long en contra de HTF bajista = combustible para sweep.
+• 💧 Mapa de Liquidez: Bear FVG 4H $78,274–$80,592 (activo, precio dentro). Bull FVG 4H $77,544–$78,140 (activo, soporte inmediato). Bull FVG LTF $77,596–$77,748. Bull OB $75,736–$77,544. Resistencias $78,878 (swing high, EQH menor) / $80,845 / $81,034. Soportes $77,620 / $76,500 / $76,389. EQH $84,157 como imán lejano.
+• 🎯 Plan de Acción:
+• 🔴 Short (tendencial): rechazo del Bear FVG 4H. Entrada $78,500–$78,878 | 🛡️ SL $79,200 (sobre el swing high y dentro del FVG; si cierra 4H sobre $80,592 la tesis muere) | 🎯 TP1 $77,620 / TP2 $76,500.
+• 🟢 Long (táctico, solo LTF): mitigación del Bull FVG LTF. Entrada $77,600–$77,750 | 🛡️ SL $77,350 | 🎯 TP $78,878. R:R ajustado; contra HTF, tamaño reducido.
+• 🟡 Esperar: cierre 4H bajo $77,544 invalida el rebote y abre $76,326.
+
+[TICKER: ETH/USDT] | $2,320 | RSI 58.9
+• Estructura (HTF/LTF): 4H: transicional, precio sobre EMA 21/50 ($2,283 / $2,295) y bajo EMA 200 ($2,425). RSI 58.9. Compresión/rango con CHoCH potencial. LTF 1h igualmente mixto. Swings $2,317.84 / $2,237.38: el precio testea el techo del rango.
+• Order Flow: Funding +0.0066% | CVD divergencia bajista (precio sube, CVD baja) | OI 668,418 (+0.42%) | L/S 76.1/23.9. OI subiendo + CVD divergente + 76% long = rally sin soporte de flujo real, longs nuevos entrando en resistencia. Configuración clásica de trampa alcista.
+• 💧 Mapa de Liquidez: Bear FVG LTF $2,322–$2,327 (activo, precio en la base). Bull FVG 4H $2,281–$2,303.5. Bull OB $2,226–$2,281. Resistencias $2,345 / $2,380 / $2,392. Soportes $2,297 / $2,293 / $2,293. Liquidez sobre $2,317.84 probablemente ya barrida.
+• 🎯 Plan de Acción:
+• 🔴 Short: rechazo del Bear FVG LTF con sweep de $2,345. Entrada $2,325–$2,345 | 🛡️ SL $2,365 | 🎯 TP1 $2,297 / TP2 $2,281.
+• 🟡 Esperar: no perseguir longs en resistencia con CVD divergente. Solo long en mitigación del Bull FVG 4H $2,281–$2,303 con reacción LTF, SL $2,260, TP $2,345.
+
+[TICKER: SOL/USDT] | $93.03 | RSI 44.5
+• Estructura (HTF/LTF): 4H: transicional con sesgo bajista, precio bajo las tres EMAs ($93.66 / $96.00 / $104.52). RSI 44.5. Swings $103.85 / $90.87. El más débil estructuralmente; sin FVG 4H activo en el dato. LTF 1h: Bear FVG $93.05–$93.48 encima del precio.
+• Order Flow: Funding +0.0099% (el más alto del trío) | CVD divergencia alcista (absorción) | OI 3,667,662 (-0.39%) | L/S 81.0/19.0. Absorción sin avance de precio y 81% long: si cede $90.87, la cascada de liquidaciones se auto-alimenta.
+• 💧 Mapa de Liquidez: Soportes $92.34 / $90.87 / $89.86; EQL implícito bajo $90.87 (imán de sweep). Resistencias $93.93 / $95.95 / $97.09. EQH $102.75. Bear FVG LTF $93.05–$93.48.
+• 🎯 Plan de Acción:
+• 🔴 Short: rechazo del Bear FVG LTF. Entrada $93.05–$93.93 | 🛡️ SL $94.60 | 🎯 TP1 $90.87 / TP2 $89.86.
+• 🟢 Long (solo tras sweep): barrida de $90.87 con recuperación rápida y CVD alcista. Entrada $90.00–$90.87 | 🛡️ SL $88.90 | 🎯 TP $93.93.
+
+────────────────────────────────────────
+📊 3. CROSS-ASSET RADAR
+
+📈 ÍNDICES
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $SPX | 🔴 | $7,581 | Rebote +0.36% contra RSI 40.4; resistencia en $7,581.5 y Bear FVG $7,662–$7,691. Bajo EMAs $7,677. |
+| $NDX | 🔴 | $25,800 | +0.83% rebote en bajista; Bear FVG $25,799–$26,053 como techo. Soporte $25,251. |
+| $DJI | 🔴 | $51,551 | Único en rojo del trío (-0.38%), LH + LL. Quiebre de $51,551 abre $51,301. |
+
+💻 TOP TECH
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $NVDA | 🔴 | $209.98 | +2.29% hacia Bear FVG $209.98–$212.08; rechazo ahí = short táctico. RSI 39.2. |
+| $MSFT | 🟡 | $518.79 | +2.74%, líder relativo; soporte $518.79, resistencia $541.29. Único neutro del grupo. |
+| $AAPL | 🔴 | $325.81 | -1.90% divergente del rebote tech; pierde EMAs, soporte $325.81 crítico. |
+
+🥇 COMMODITIES
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $GOLD | 🔴 | $4,050 | +2.77% choca con Bear FVG $4,050–$4,122 en LH + LL; rebote por DXY débil, sin cambio estructural. |
+| $SILVER | 🔴 | $53.40 | +4.95% hacia Bear FVG $51.84–$53.40; movimiento explosivo, zona de rechazo probable. |
+| $WTI | 🔴 | $98.82 | -2.14%; estructura HH + HL intacta, soporte $88.71. Bear FVG $98.82–$102.43 como techo. |
+
+📦 ETFS
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $SPY | 🔴 | $763.86 | Bear FVG $763.86–$766.62 sobre precio; soporte $747.74. |
+| $QQQ | 🔴 | $699.43 | RSI 34.6, el más débil de índices; buy-side sweep en $702.02 puede atrapar longs. |
+
+────────────────────────────────────────
+🎯 4. TOP 3 WATCHLIST INSTITUCIONAL
+| Ticker | Dirección | Setup (SMC/Técnico) | Zona de Entrada | Invalidación (SL) | Objetivo (TP) |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| $BTC | 🔴 | Rechazo del Bear FVG 4H + sweep de swing high | $78,500–$78,878 | $79,200 | $77,620 / $76,500 |
+| $ETH | 🔴 | Divergencia CVD + rechazo Bear FVG LTF | $2,325–$2,345 | $2,365 | $2,297 / $2,281 |
+| $NVDA | 🔴 | Rebote a Bear FVG diario en downtrend | $209.98–$212.08 | $214.50 | $197.75 |
+
+> ⚠️ Radar de Riesgo: Cierre 4H de $BTC sobre $80,592 invalida la tesis bajista y apunta a $84,157 (EQH) | L/S 72–81% long en las tres cripto con funding positivo: un sweep bajista dispara liquidaciones en cascada, $SOL con mayor sensibilidad bajo $90.87 | Elecciones de medio mandato EE.UU.: riesgo binario de gap en equities y volatilidad de headline; sin datos macro de primer nivel en el feed | Índices con RSI 34–46 y rebote en estructura bajista: riesgo de trampa alcista; DXY debilitándose puede sostener commodities y cripto a corto plazo, pero no cambia la estructura HTF.
