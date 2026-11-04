@@ -8,6 +8,7 @@ Regresión de dos fallos reales:
 - format_brief_for_telegram no escapaba &, <, > antes de insertar <b>.
 """
 import requests
+from tenacity import wait_none
 
 import config
 import telegram_delivery
@@ -29,12 +30,16 @@ class _FakeResponse:
 
     def raise_for_status(self):
         if self.status_code >= 400:
-            raise requests.HTTPError(f"HTTP {self.status_code}")
+            raise requests.HTTPError(f"HTTP {self.status_code}", response=self)
 
 
 def _configure_telegram(monkeypatch):
     monkeypatch.setattr(config, "TELEGRAM_BOT_TOKEN", "123456:FAKE")
     monkeypatch.setattr(config, "TELEGRAM_CHAT_ID", "42")
+
+
+def _disable_retry_wait(monkeypatch):
+    monkeypatch.setattr(telegram_delivery._telegram_post.retry, "wait", wait_none())
 
 
 def test_returns_false_when_not_configured(monkeypatch):
@@ -45,9 +50,10 @@ def test_returns_false_when_not_configured(monkeypatch):
 
 def test_retry_without_parse_mode_counts_as_sent(monkeypatch):
     _configure_telegram(monkeypatch)
+    _disable_retry_wait(monkeypatch)
     calls = []
 
-    def fake_post(url, json=None, timeout=None):
+    def fake_post(url, json=None, data=None, files=None, timeout=None):
         calls.append(dict(json or {}))
         if len(calls) == 1:
             return _FakeResponse(400, {"ok": False, "description": "can't parse entities"})
@@ -63,13 +69,48 @@ def test_retry_without_parse_mode_counts_as_sent(monkeypatch):
 
 def test_returns_false_when_both_attempts_fail(monkeypatch):
     _configure_telegram(monkeypatch)
+    _disable_retry_wait(monkeypatch)
 
-    def fake_post(url, json=None, timeout=None):
+    def fake_post(url, json=None, data=None, files=None, timeout=None):
         return _FakeResponse(400, {"ok": False})
 
     monkeypatch.setattr(telegram_delivery.requests, "post", fake_post)
 
     assert telegram_delivery.send_telegram_message("hola") is False
+
+
+def test_retries_transient_network_errors(monkeypatch):
+    _configure_telegram(monkeypatch)
+    _disable_retry_wait(monkeypatch)
+    calls = []
+
+    def fake_post(url, json=None, data=None, files=None, timeout=None):
+        calls.append(1)
+        if len(calls) < 3:
+            raise requests.ConnectionError("connection reset")
+        return _FakeResponse(200, {"ok": True})
+
+    monkeypatch.setattr(telegram_delivery.requests, "post", fake_post)
+
+    assert telegram_delivery.send_telegram_message("hola") is True
+    assert len(calls) == 3
+
+
+def test_retries_5xx_responses(monkeypatch):
+    _configure_telegram(monkeypatch)
+    _disable_retry_wait(monkeypatch)
+    calls = []
+
+    def fake_post(url, json=None, data=None, files=None, timeout=None):
+        calls.append(1)
+        if len(calls) < 3:
+            return _FakeResponse(502, {"ok": False})
+        return _FakeResponse(200, {"ok": True})
+
+    monkeypatch.setattr(telegram_delivery.requests, "post", fake_post)
+
+    assert telegram_delivery.send_telegram_message("hola") is True
+    assert len(calls) == 3
 
 
 def test_format_escapes_html_entities_and_keeps_bold_headers():

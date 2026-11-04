@@ -25,7 +25,7 @@ Cada ejecución corre `main.py`, que orquesta:
 1. **Recopila datos** de múltiples fuentes (Binance spot + mirrors geo, OKX, Yahoo Finance, alternative.me, NewsAPI) con retries y caché diario en disco.
 2. **Calcula indicadores SMC/ICT**: EMAs, RSI, BOS/CHOCH, Order Blocks, FVG (con flag de mitigación), Equal Highs/Lows + sweeps de liquidez, niveles S/R, refinamiento multi-timeframe (1h dentro de 4h).
 3. **Genera el brief** con Claude Sonnet 5.5 (cap de salida 11.000 tokens, env `CLAUDE_MAX_TOKENS`) con `thinking: between_tools` — cero thinking: la salida es ~100% texto y el costo cae de ~$0.17 a **~$0.09–0.12/run** — y loguea el costo estimado en `[COST]`. Si Claude devuelve `stop_reason=max_tokens`, el pipeline **falla** (guarda `output/brief_TRUNCATED_<fecha>.md` solo para debugging) en vez de entregar un brief incompleto.
-4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local, y backup `.txt` en disco. El `.txt` se guarda **antes** de entregar, y una entrega fallida termina el proceso con exit ≠ 0 (job en rojo).
+4. **Entrega el brief** vía Telegram (texto + HTML adjunto), Discord (si hay webhook), HTML local, y backup `.txt` en disco. El `.txt` se guarda **antes** de entregar; cada canal se intenta aunque otro falle y, si alguno falla, el proceso termina con exit ≠ 0 (job en rojo) **después** de resumir el run.
 
 Cada brief incluye una línea de **SEGUIMIENTO** que compara los setups del día anterior con los precios actuales (¿se activó la entrada? ¿saltó el SL? ¿llegó al target?), dando continuidad narrativa día a día.
 
@@ -50,7 +50,7 @@ morning-brief/
 ├── market_cache.py         # Caché diario de market_data
 ├── logging_setup.py        # Logging estructurado a logs/
 ├── setup_brief.py          # Setup interactivo
-├── tests/                  # Tests pytest (analysis, brief_generator, telegram_delivery)
+├── tests/                  # Tests pytest (analysis, brief_generator, main, telegram_delivery)
 ├── requirements.txt
 ├── .env.example            # Plantilla de variables (copiar a .env en local)
 ├── cache/                  # Cachés diarios (ignorado por git)
@@ -110,14 +110,14 @@ Detectores: EMAs → `determine_trend_bias()`, RSI(14), swing points, BOS/CHOCH 
 
 ### `html_renderer.py`, `telegram_delivery.py`, `discord_delivery.py` — Entrega
 - HTML: tema oscuro, JetBrains Mono + Inter, tabla de contenidos → `output/brief_YYYY-MM-DD.html`.
-- Telegram: texto en HTML, split a 4096 chars, HTML adjunto como documento. Escapa `&`, `<` y `>` (el brief contiene comparaciones como "cierre 1h < 2,393" que rompían `parse_mode=HTML`), y si Telegram rechaza el HTML de un chunk reintenta **ese chunk** sin `parse_mode`, marcando fallo solo si el reintento también falla.
+- Telegram: texto en HTML, split a 4096 chars, HTML adjunto como documento. Escapa `&`, `<` y `>` (el brief contiene comparaciones como "cierre 1h < 2,393" que rompían `parse_mode=HTML`), y si Telegram rechaza el HTML de un chunk reintenta **ese chunk** sin `parse_mode`, marcando fallo solo si el reintento también falla. Los POST pasan por **tenacity** (4 intentos, backoff exponencial 2–30s) solo para fallos transitorios: timeouts, errores de red, 5xx y 429; un 4xx cae de inmediato al fallback sin `parse_mode`. Timeouts: 30s para `sendMessage`, 60s para `sendDocument`.
 - Discord: webhook, split a 1900 chars, adjunto HTML. No-op (éxito) si `DISCORD_WEBHOOK_URL` no está configurado.
-- Fallos visibles: `main.py` verifica el retorno de cada entrega y termina con exit ≠ 0 si algo falló → job en rojo en Actions.
+- Fallos visibles: `main.py` intenta **todos** los canales configurados, deja el brief guardado en disco y recién al final termina con exit ≠ 0 si alguno falló → job en rojo en Actions, sin saltear Discord cuando Telegram falla.
 
 ### `market_cache.py`, `logging_setup.py`, `tests/`
 - Caché diario del dict de `collect_all_data()` en `cache/market_data_<fecha>.pkl` (bypass con `--fresh`).
 - Logging a `logs/morning_brief_<fecha>.log` + stdout en UTF-8.
-- 67 tests pytest: detectores SMC/ICT, extracción de texto, truncación y params de generación en `brief_generator`, fallbacks geo de `data_fetcher`, y escape/fallback de entrega en `telegram_delivery` (`pytest tests/`).
+- 72 tests pytest: detectores SMC/ICT, extracción de texto, truncación y params de generación en `brief_generator`, fallbacks geo de `data_fetcher`, escape/fallback de entrega y retry transitorio en `telegram_delivery`, y resiliencia de entregas en `main` (`pytest tests/`).
 
 ### `main.py` — Orquestador (CLI)
 ```
@@ -129,7 +129,7 @@ python main.py --no-telegram
 python main.py --no-browser → No abre el navegador (obligatorio en la nube)
 ```
 
-En cualquier modo, un fallo del pipeline (truncación de Claude o entrega fallida) sale con exit ≠ 0, para que GitHub Actions marque el job en rojo.
+En cualquier modo, un fallo del pipeline (truncación de Claude o entrega fallida) sale con exit ≠ 0, para que GitHub Actions marque el job en rojo. Las entregas no se cortan entre sí: si Telegram falla, Discord se intenta igual y el resumen final lista los canales fallidos.
 
 ---
 
@@ -149,7 +149,7 @@ copy .env.example .env         # Windows  (cp en Mac/Linux)
 
 python main.py --test          # Probar sin gastar Claude API
 python main.py                 # Ejecutar brief completo
-pytest tests/                  # Correr la suite completa (67 tests)
+pytest tests/                  # Correr la suite completa (72 tests)
 ```
 
 ### Variables de entorno
@@ -178,7 +178,7 @@ El objetivo: que GitHub corra el brief solo, de **lunes a viernes ~9:00 AM ET** 
 ### Cómo está resuelto
 
 - **Horario / puntualidad:** el workflow **solo** acepta `workflow_dispatch` (no tiene `schedule`). Lo dispara un **cron externo (cron-job.org)** que llama a la API de GitHub a las ~8:45 America/New_York; el servicio externo resuelve el DST. Se abandonó el scheduler de GitHub porque es best-effort (runs con horas de retraso o descartados) y el viejo *guard* de ventana horaria terminaba salteando el envío dejando el job en verde.
-- **Fallos visibles:** `python main.py --no-browser --fresh` sale con exit ≠ 0 si Claude trunca el brief (`stop_reason=max_tokens`) o si una entrega configurada (Telegram/Discord) falla → el job queda en rojo en Actions en vez de pasar desapercibido (el markdown truncado queda en `output/brief_TRUNCATED_*.md` para diagnóstico).
+- **Fallos visibles:** `python main.py --no-browser --fresh` sale con exit ≠ 0 si Claude trunca el brief (`stop_reason=max_tokens`) o si una entrega configurada (Telegram/Discord) falla. `main.py` intenta todos los canales antes de fallar, así que un timeout de Telegram no impide el intento por Discord; el job queda en rojo en Actions en vez de pasar desapercibido (el markdown truncado queda en `output/brief_TRUNCATED_*.md` para diagnóstico).
 - **Continuidad:** como cada ejecución corre en una VM nueva, el `.txt` se escribe en disco **antes** de entregar y el último paso del workflow commitea `output/brief_<fecha>.txt` de vuelta al repo con `if: always()` (corre aunque la entrega haya fallado; el job igual queda rojo). Al día siguiente el `checkout` lo trae y `performance_tracker.py` lo encuentra → el SEGUIMIENTO funciona en la nube.
 - **Sin navegador:** se ejecuta con `--no-browser` (el `webbrowser.open()` no aplica en CI).
 - **Secretos:** se inyectan como variables de entorno desde GitHub Secrets; `config.py` los lee directamente, sin necesidad de `.env`.
@@ -237,10 +237,11 @@ Con `thinking: between_tools` (default) un run típico usa ~4.8–6.1k tokens de
 ```bash
 pytest tests/ -v
 ```
-67 tests en <3s, sin red ni API (todo mockeado):
+72 tests en <2s, sin red ni API (todo mockeado):
 - **SMC/ICT** con OHLCV sintético: EMAs, RSI, swings, BOS/CHOCH, Order Blocks, FVG (activo + mitigado), Equal Highs/Lows + sweeps, sesgo de tendencia.
 - **`brief_generator`**: `extract_brief_text()` con bloques `thinking` (regresión del fallo del 12/10), truncación (`stop_reason=max_tokens` → `RuntimeError` + guardado de `brief_TRUNCATED_*.md`), params de la llamada (`between_tools`/`adaptive`+effort, `CLAUDE_MAX_TOKENS`, `cache_control`) y `_estimate_cost()` del log `[COST]`.
 - **`data_fetcher`**: fallbacks geo (fapi 451 / Bybit 403 → OKX para funding/OI; metrics diarios de binance.vision para OI history resampleada a 4h y L/S del cierre previo), mapeo USDT-perp (`_okx_inst_id`), y cadena que no toca OKX/metrics si Binance responde.
-- **`telegram_delivery`**: escape de HTML y fallback sin `parse_mode` (400 → retry ok cuenta como enviado).
+- **`main`**: `run_brief` intenta todos los canales aunque uno falle, mantiene el brief en disco y lanza el error recién al final (job en rojo).
+- **`telegram_delivery`**: escape de HTML, fallback sin `parse_mode` (400 → retry ok cuenta como enviado) y retry con backoff solo para fallos transitorios (timeouts/red/5xx/429), sin reintentar 4xx.
 
 Deben pasar antes de cualquier cambio en `analysis.py`.

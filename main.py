@@ -71,20 +71,39 @@ def run_brief(open_browser: bool = True, send_telegram: bool = True,
             webbrowser.open(str(html_path))
             print(f"[OK] Brief abierto en el navegador")
 
+        # Attempt every configured delivery, even if one fails: track the
+        # failures and raise only after all channels have had a chance.
+        delivery_failures = []
+
         # Send to Telegram
         if send_telegram and not deliver_to_telegram(brief_text, html_path):
-            raise RuntimeError("Entrega a Telegram falló (ver logs).")
+            logger.warning("Entrega a Telegram falló (ver logs).")
+            print("[WARN] Entrega a Telegram falló (brief ya guardado en disco).")
+            delivery_failures.append("Telegram")
 
         # Send to Discord (no-op if DISCORD_WEBHOOK_URL not set)
         if not deliver_to_discord(brief_text, html_path):
-            raise RuntimeError("Entrega a Discord falló (ver logs).")
+            logger.warning("Entrega a Discord falló (ver logs).")
+            print("[WARN] Entrega a Discord falló (brief ya guardado en disco).")
+            delivery_failures.append("Discord")
 
         elapsed = time.time() - start_time
         print(f"\n{'=' * 60}")
-        print(f"  ✅ Brief completado en {elapsed:.1f} segundos")
+        status = "✅" if not delivery_failures else "⚠️"
+        print(f"  {status} Brief completado en {elapsed:.1f} segundos")
         print(f"  📁 HTML: {html_path}")
         print(f"  📁 TXT: {txt_path}")
+        if delivery_failures:
+            print(f"  ❌ Entrega fallida: {', '.join(delivery_failures)}")
         print(f"{'=' * 60}")
+
+        # Raise after the summary: the brief is already on disk and every
+        # channel was attempted, but CI still marks the run as failed.
+        if delivery_failures:
+            raise RuntimeError(
+                f"Entrega falló en: {', '.join(delivery_failures)} "
+                f"(brief guardado en disco)."
+            )
 
     except Exception as e:
         logger.exception(f"Error en el pipeline: {e}")

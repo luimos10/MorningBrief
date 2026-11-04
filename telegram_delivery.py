@@ -10,13 +10,55 @@ SETUP:
    para obtener tu chat_id
 3. Guarda ambos en config.py o como variables de entorno
 """
+import logging
 import requests
 from typing import Optional
 from pathlib import Path
+
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception,
+    before_sleep_log,
+)
+
 import config
 
 
+logger = logging.getLogger(__name__)
+
 MAX_TELEGRAM_MSG_LENGTH = 4096
+
+
+def _is_transient_error(exc: BaseException) -> bool:
+    """True for network errors, timeouts, 429 and 5xx; False for other 4xx.
+
+    A 400 from Telegram (p.ej. HTML inválido) debe caer de inmediato al
+    fallback sin parse_mode en vez de gastar 4 reintentos con backoff.
+    """
+    if isinstance(exc, requests.HTTPError):
+        response = getattr(exc, "response", None)
+        if response is None:
+            return False
+        return response.status_code == 429 or response.status_code >= 500
+    return isinstance(exc, (requests.RequestException, OSError))
+
+
+# Retry-wrapped helper for Telegram HTTP POST calls.
+@retry(
+    stop=stop_after_attempt(4),
+    wait=wait_exponential(multiplier=2, min=2, max=30),
+    retry=retry_if_exception(_is_transient_error),
+    before_sleep=before_sleep_log(logger, logging.WARNING),
+    reraise=True,
+)
+def _telegram_post(url: str, *, json: dict = None, data: dict = None,
+                   files: dict = None, timeout: int = 30) -> requests.Response:
+    """Execute a single POST to the Telegram Bot API with tenacity retry."""
+    resp = requests.post(url, json=json, data=data, files=files, timeout=timeout)
+    resp.raise_for_status()
+    return resp
 
 
 def send_telegram_message(text: str, chat_id: str = None, parse_mode: str = "HTML") -> bool:
@@ -42,8 +84,7 @@ def send_telegram_message(text: str, chat_id: str = None, parse_mode: str = "HTM
             "disable_web_page_preview": True,
         }
         try:
-            resp = requests.post(url, json=payload, timeout=15)
-            resp.raise_for_status()
+            resp = _telegram_post(url, json=payload, timeout=30)
             if not resp.json().get("ok"):
                 print(f"[ERROR] Telegram chunk {i+1}: {resp.json()}")
                 success = False
@@ -52,7 +93,7 @@ def send_telegram_message(text: str, chat_id: str = None, parse_mode: str = "HTM
             # Retry without parse_mode in case of formatting issues
             try:
                 payload.pop("parse_mode", None)
-                resp = requests.post(url, json=payload, timeout=15)
+                resp = _telegram_post(url, json=payload, timeout=30)
                 data = resp.json() if resp.content else {}
                 if not (resp.ok and data.get("ok")):
                     print(
@@ -85,8 +126,7 @@ def send_telegram_document(file_path: Path, caption: str = "", chat_id: str = No
                 "chat_id": cid,
                 "caption": caption[:1024] if caption else "",
             }
-            resp = requests.post(url, data=payload, files=files, timeout=30)
-            resp.raise_for_status()
+            resp = _telegram_post(url, data=payload, files=files, timeout=60)
             if resp.json().get("ok"):
                 print(f"[OK] Documento enviado a Telegram: {file_path.name}")
                 return True
