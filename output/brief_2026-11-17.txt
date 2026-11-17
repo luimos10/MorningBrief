@@ -1,0 +1,74 @@
+🏛️ INSTITUTIONAL MORNING BRIEF | 2026-11-17
+────────────────────────────────────────
+🌐 1. MACRO & SENTIMIENTO (Flash View)
+• ▪️ DXY / VIX: DXY 103.77 (+0.21%) con tono comprador: presión de fondo para commodities y crypto. VIX 22.98: elevado, régimen de cobertura activa tras el sell-off de índices ($NDX -2.49%).
+• ▪️ Sentimiento: Fear & Greed 12 (Extreme Fear). Capitulación de sentimiento; históricamente zona de rebotes técnicos, pero sin confirmación estructural no es señal de compra.
+• ▪️ Catalizadores Hoy: Narrativa $NVDA (Commerce cierra el loophole de terceros países para el cómputo hacia China; $NVDA -4.12%, RSI 22.7). Tests de Nvidia/Anthropic en agenda. Petróleo revirtiendo ganancias iniciales por oferta ($WTI +1.35%). Sin datos macro duros en el input: validar calendario económico manualmente.
+
+────────────────────────────────────────
+⚡ 2. ARQUITECTURA CRYPTO & FLUJO (SMC)
+
+> AUDITORÍA DE SETUPS (BRIEF 2026-11-16):
+> - $BTC 🔴 Short en rebote ($66,190–$66,966): NO ACTIVADO. Precio $64,988 (+$611 vs ayer), rebote que no alcanzó la zona. Sigue VIGENTE; SL $67,950 y TP $62,100 intactos. El swing low $62,006 no fue barrido: sin setup long.
+> - $ETH 🔴 Short en rebote ($1,858–$1,894): NO ACTIVADO. Precio $1,822 (+$17), techo del plan a +2% de la zona. VIGENTE. SL $1,915 / TP $1,720.
+> - $SOL 🔴 Short en rebote ($73.95–$75.07): CASI ACTIVADO. Precio $73.47, a $0.48 del borde inferior del Bear FVG. VIGENTE y es el que más cerca está. SL $77.30 / TP $67.60. Nota: el LTF Bear FVG $71.25–$71.38 fue superado al alza (mitigado).
+> - Cambio de flujo clave: funding de $SOL pasó de +0.0016% a -0.0131% (longs descargados, shorts pagan fuerte) y $BTC pasó de -0.0005% a +0.0014%. Rotación de posicionamiento: $SOL pierde el "combustible long" que justificaba su prioridad ayer.
+
+[TICKER: BTC/USDT] | $64,988 | RSI 37.2
+• Estructura (HTF/LTF): 4H bajo EMA 21/50/200 ($65,811 / $68,663 / $75,173), RSI 37.2. Estructura transitional con CHoCH potencial en compresión (rango $63,905–$65,696). LTF 1h: LH + LL, bajista; precio mitigando un Bull FVG 1h ($64,456–$64,827).
+• Order Flow: Funding +0.0014% (longs pagan, flip vs ayer) | CVD ✅ bajista alineado | OI 31,784 (-0.46%, deleveraging continuo) | L/S 74.6%/25.4%.
+• 💧 Mapa de Liquidez: Sell-side: swing low $63,905 y $62,006. Buy-side: $65,696 (swing high) y $66,132. Cadena de Bear FVG 4H sin mitigar: $66,190–$66,966, $67,460–$67,865, $69,371–$71,113.
+• 🎯 Plan de Acción: 🔴 Short en rebote: Zona de Entrada $66,190–$66,966 | 🛡️ SL: $67,950 | 🎯 TP: $62,100. 🟡 Sin short a mercado en $64,988: R:R pobre en mitad de rango. 🟢 Long táctico solo si sweep de $63,905 + CHoCH 1h con divergencia CVD, 🎯 $65,700.
+
+[TICKER: ETH/USDT] | $1,822 | RSI 39.1
+• Estructura (HTF/LTF): 4H: LH + LL, bajo EMA 21/50/200 ($1,849 / $1,941 / $2,169), RSI 39.1. Divergencia HTF/LTF: 1h en HH + HL (alcista), rebote LTF dentro de tendencia bajista mayor. Precio pegado a la EMA 21 ($1,849).
+• Order Flow: Funding -0.0021% (shorts pagan) | CVD ✅ bajista | OI 674,790 (-0.38%) | L/S 75.8%/24.2% (crowd long atrapado).
+• 💧 Mapa de Liquidez: Resistencias $1,845 y $1,866.89 (swing high, buy-side). Bear FVG $1,858–$1,894 + Bear OB $1,894–$1,919 (confluencia de oferta), Bear FVG $1,948–$2,009. Sell-side: $1,787 y $1,711.
+• 🎯 Plan de Acción: 🔴 Short en rebote: Zona de Entrada $1,858–$1,894 | 🛡️ SL: $1,925 (sobre el OB) | 🎯 TP: $1,720. 🟡 Sin persecución bajo $1,822. Es el setup con mejor confluencia estructural: FVG + OB + sweep de $1,866 como trampa.
+
+[TICKER: SOL/USDT] | $73.47 | RSI 45.5
+• Estructura (HTF/LTF): 4H bajo EMA 21/50/200 ($73.55 / $77.82 / $89.90), RSI 45.5 (el más alto del trío: rebote más avanzado). Precio en la EMA 21. Estructura transitional, CHoCH potencial en rango. LTF 1h: mixto.
+• Order Flow: Funding -0.0131% (shorts pagan fuerte; riesgo de short squeeze) | CVD ✅ bajista | OI 3,285,346 (-0.70%) | L/S 80.8%/19.2% (el más extremo del trío).
+• 💧 Mapa de Liquidez: Bear FVG $73.95–$75.07 (inmediato), $76.16–$77.19, Bear OB $81.13–$81.82. Sell-side: $69.93 y $67.41. EQH $102.75 lejano.
+• 🎯 Plan de Acción: 🔴 Short en rebote: Zona de Entrada $73.95–$75.07 | 🛡️ SL: $77.30 | 🎯 TP: $69.90 (primer pool; extensión $67.60). 🟡 Con funding negativo extremo, no sobrecargar el tamaño: un squeeze hacia $76–$77 es plausible antes de la reversión.
+
+────────────────────────────────────────
+📊 3. CROSS-ASSET RADAR
+
+📈 ÍNDICES
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $SPX | 🔴 | $7,376 | -1.92%, bajo EMAs. Soporte $7,376 vulnerable; rebotes mueren en Bear FVG $7,515–$7,551. |
+| $NDX | 🔴 | $24,425 | -2.49%, líder bajista (arrastre $NVDA/$GOOGL). Rebote hacia FVG $24,882–$25,068 = zona de venta. |
+| $DJI | 🔴 | $51,564 | Más resiliente (-1.41%, estructura HH + HL). Soporte $51,564: su pérdida confirma debilidad generalizada. |
+
+💻 TOP TECH
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $NVDA | 🔴 | $170.00 | -4.12%, RSI 22.7 (sobreventa extrema), sin soporte mapeado. FVG $170–$170.77 como techo del rebote; no perseguir. |
+| $GOOGL | 🔴 | $277.07 | LH + LL, -4.07%. Pérdida de $277 abre más caída; FVG $283–$322 gigante como oferta. |
+| $AAPL | 🟢 | $346.20 | Único alcista (RSI 57.2), FVG alcista $345.53–$346.20 como soporte. Fuerza relativa; vigilar resistencia $355.11. |
+
+🥇 COMMODITIES
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $GOLD | 🔴 | $3,927 | LH + LL, RSI 34.1. DXY al alza lo presiona; Bear FVG $3,927–$3,990 es techo. |
+| $SILVER | 🔴 | $47.92 | +1.16% rebote hacia Bear FVG $47.92–$48.36; zona de rechazo. Sin soporte mapeado. |
+| $WTI | 🔴 | $87.03 | +1.35% hacia Bear FVG $87.03–$87.80; soporte $86.86. Noticias de oferta limitan el rebote. |
+
+📦 ETFS
+| Activo | Sesgo | Nivel Clave | Lectura |
+| :--- | :---: | :--- | :--- |
+| $SPY | 🔴 | $738.96 | Cerca del soporte; rebote se vende en FVG $749.82–$753.67. |
+| $QQQ | 🔴 | $660.45 | Pegado al soporte ($661.75); su ruptura apunta a $647.05. |
+| $SLV | 🔴 | $42.92 | -3.94%, RSI 28.6; techo FVG $42.92–$44.85. Más débil del bloque metales. |
+
+────────────────────────────────────────
+🎯 4. TOP 3 WATCHLIST INSTITUCIONAL
+| Ticker | Dirección | Setup (SMC/Técnico) | Zona de Entrada | Invalidación (SL) | Objetivo (TP) |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| $ETH | 🔴 | Rebote a confluencia Bear FVG 4H + Bear OB, sweep de $1,866 | $1,858–$1,894 | $1,925 | $1,720 |
+| $SOL | 🔴 | Mitigación Bear FVG 4H desde EMA 21 | $73.95–$75.07 | $77.30 | $69.90 |
+| $BTC | 🔴 | Rebote a primer Bear FVG 4H + resistencia $66,132 | $66,190–$66,966 | $67,950 | $62,100 |
+
+> ⚠️ Radar de Riesgo: Invalidación crítica: cierre diario de $BTC sobre $67,950 (rompe cadena de Bear FVG y anula la tesis bajista) | Posicionamiento: funding de $SOL en -0.0131% con L/S 80.8%/19.2% (riesgo de squeeze), y $BTC con funding positivo flipado y OI en descenso (deleveraging). F&G 12 favorece rebotes violentos de alivio | Noticia: headline-risk de $NVDA/China y regulación de cómputo; un giro de narrativa puede disparar un rebote en $NDX contra el sesgo | Volatilidad/Macro: VIX 22.98 y DXY 103.77 al alza; sin calendario económico en el input, verificar publicaciones de hoy antes de ejecutar.
